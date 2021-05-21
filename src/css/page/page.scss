@@ -1,5 +1,575 @@
+@import '../common/_variable.scss';
+
 .imgLiquidFill{
     img {
         display: none;
     }
 }
+
+$spacer: 16px;
+
+$pipe-border: $spacer / 2;
+
+
+
+
+.container {
+    max-width: calc(100% - 50px)!important;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%!important;
+    }
+}
+
+
+.tw-power-info-page{
+    padding-top: $spacer * 5;
+    padding-bottom: $spacer * 4;
+    header{
+        nav.navbar{
+            .container{
+                justify-content: start;
+                .navbar-nav{
+                    flex-direction: row!important;
+
+                    .nav-item{
+                        padding-right: $spacer / 2;
+                        padding-left: $spacer / 2;
+                        a {
+                            display: flex;
+                            align-items: center;
+                            .icon {
+                                margin-right: $spacer / 4;
+                                font-size: $spacer * 1.25;
+                            }
+                        }
+                        &.active{
+                            margin-bottom: -$spacer * 0.75;
+                            border-top-left-radius: $spacer / 4;
+                            border-top-right-radius: $spacer / 4;
+                            background: white;
+                            a {
+                                color: #343a40;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+
+
+                @media screen and (max-width: 576px) {
+                    justify-content: space-between;
+                    .navbar-nav{
+                        .nav-item{
+                            padding-right: $spacer;
+                            padding-left: $spacer;
+                            a {
+                                text-align: center;
+                                .icon{
+                                    margin-right: 0;
+                                }
+                                span {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .unit-page{
+        .pipe-group{
+            display: flex;
+            .pipe-wrapper{
+                position: relative;
+                flex: none;
+                width: $spacer * 1.5;
+                .pipe{
+                    &[rel="horizontal"] {
+                        position: absolute;
+                        top: calc(50% - #{$spacer * 2});
+                        left: $pipe-border * 0.5;
+                        z-index: 1;
+                        z-index: 2;
+                        width: calc(100% - #{$pipe-border * 0.5});
+                        height: $pipe-border;
+                        border-top-left-radius: $pipe-border;
+                        border-bottom-left-radius: $pipe-border;
+                    }
+                    &[rel="vertical"] {
+                        position: absolute;
+                        top: 0%;
+                        left: $pipe-border * 0.5;
+                        z-index: 2;
+                        width: $pipe-border;
+                        height: 100%;
+                        &.pipe-top{
+                            top: 0px;
+                            z-index: 3;
+                            height: calc(50% - #{$spacer * 2} + #{$spacer / 2});
+                            border-bottom-right-radius: $pipe-border;
+                            border-bottom-left-radius: $pipe-border;
+                        }
+                        &.pipe-bottom{
+                            top: calc(50% - #{$spacer * 2});
+                            z-index: 1;
+                            height: calc(50% + #{$spacer * 4});
+                            border-top-left-radius: $pipe-border;
+                            border-top-right-radius: $pipe-border;
+                        }
+                    }
+                }
+            }
+            .pipe-group-content{
+                flex: 1;
+                margin-bottom: $spacer * 4;
+                background: $white;
+            }
+        }
+        .pipe-wrapper{
+            .pipe{
+                background-color: $gray-300;
+                // background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
+                background-size: 35px 35px;
+                // animation: cssProgressActiveRight 2s linear infinite;
+
+                &[rel="horizontal"] {
+                    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
+                }
+                &[rel="vertical"] {
+                    background-image: linear-gradient( 225deg, rgba(255, 255, 255, 0.25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 75%, transparent 75%, transparent);
+                }
+                &.loss{
+                    background-color: #ff4d4d!important;
+                }
+
+                &.progress-active-right{
+                    background-color: #ffb74d;
+                    animation: cssProgressActiveRight 2s linear infinite;
+                }
+
+                &.progress-active-left{
+                    background-color: #ffb74d;
+                    animation: cssProgressActiveLeft 2s linear infinite;
+                }
+
+                &.progress-active-up{
+                    background-color: #ffb74d;
+                    animation: cssProgressActiveUp 2s linear infinite;
+                }
+                &.progress-active-down{
+                    background-color: #ffb74d;
+                    animation: cssProgressActiveBottom 2s linear infinite;
+                }
+
+                &[speed="1"] {
+                    animation-duration: 2s;
+                }
+                &[speed="2"] {
+                    animation-duration: 1.5s;
+                }
+                &[speed="3"] {
+                    animation-duration: 1.0s;
+                }
+                &[speed="4"] {
+                    animation-duration: 0.8s;
+                }
+                &[speed="5"] {
+                    animation-duration: 0.5s;
+                }
+            }
+            .pipe-port{
+                &.progress-active{
+                    // animation: cssPortProgressActive 2s linear infinite;
+                }
+            }
+        }
+
+
+        .summary-box{
+            background: $white;
+            .last-updated-time{
+                margin-bottom: $spacer / 2;
+                text-align: right;
+                font-size: $spacer * 0.75;
+            }
+            .summary-info-area{
+                .summary-info-box{
+                    margin-bottom: $spacer;
+                    padding: $spacer / 2 $spacer;
+                    border-radius: $spacer / 4;
+                    background: $gray-100;
+                    box-shadow:  0px 0px 5px $gray-500;
+                    .summary-info-title{
+                        font-size: $spacer * 0.75;
+                    }
+                    .summary-info-content{
+                        font-size: $spacer * 1.5;
+                    }
+                    &[rel="fix"]{
+                        background: $red-500;
+                        color: $white;
+                    }
+                    &[rel="limit"]{
+                        background: $green-500;
+                        color: $white;
+                    }
+                    &[rel="break"]{
+                        background: $orange-500;
+                        color: $white;
+                    }
+                }
+
+            }
+            .summary-sunburst-area{
+                height: 100%;
+                .summary-sunburst-box{
+                    #sunburst-main{
+                        min-height: 300px;
+                        .sunburst-breadcrumbs{
+                            margin-bottom: $spacer / 2;
+                        }
+                    }
+                }
+            }
+        }
+
+        .unit-group-box{
+            position: relative;
+            // padding: $spacer;
+            // padding-bottom: $spacer * 1.5;
+            border-radius: $spacer / 4;
+            box-shadow:  0px 0px 5px $gray-500;
+            .unit-group-header{
+                position: relative;
+                position: absolute;
+                top: $spacer * -1.75;
+                left: 0px;
+                padding: $spacer / 4 $spacer  * 2;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                background: $white;
+                box-shadow:  0px 0px 5px $gray-500;
+                font-weight: 800;
+                font-size: $spacer * 1;
+                &:after{
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    width: calc(100% + 10px);
+                    height: 10px;
+                    background: $white;
+                    content: '';
+                    transform: translateY(50%);
+                }
+            }
+            .unit-group-content{
+                padding: $spacer;
+                .unit-group-info{
+                    margin-bottom: $spacer;
+                    font-size: $spacer * 0.875;
+                    .label {
+                        display: inline-block;
+                        transform: scale(0.9);
+                    }
+                    .unit-group-label{
+                        display: inline-block;
+                        margin-bottom: $spacer / 4;
+                        padding: $spacer / 4 $spacer / 2;
+                        border-radius: $spacer / 4;
+                        &[rel="fix"]{
+                            background: $red-500;
+                            color: $white;
+                        }
+                        &[rel="limit"]{
+                            background: $green-500;
+                            color: $white;
+                        }
+                        &[rel="break"]{
+                            background: $orange-500;
+                            color: $white;
+                        }
+                        &:not(:first-child) {
+                            margin-left: $spacer / 4;
+                        }
+                    }
+                }
+            }
+        }
+
+        .label{
+            display: inline;
+            padding: $spacer / 4 $spacer / 2;
+            border-radius: .25em;
+            color: $white;
+            vertical-align: baseline;
+            text-align: center;
+            white-space: nowrap;
+            font-weight: 700;
+            font-size: 75%;
+            line-height: 1;
+            &.label-danger{
+                background: $red-500;
+            }
+            &.label-warning{
+                background: $orange-500;
+            }
+            &.label-default{
+                background: $gray-500;
+            }
+            &.label-info{
+                background: $blue-500;
+            }
+            &.label-success{
+                background: $green-500;
+            }
+        }
+
+        .unit-box{
+            margin-bottom: $spacer;
+            .unit-wrapper{
+                position: relative;
+                overflow: hidden;
+                margin: 0 auto;
+                padding: $spacer * 0.75;
+                max-width: 200px;
+                width: 100%;
+                border-radius: $spacer / 2;
+                box-shadow:  0px 0px 5px $gray-500;
+
+
+                .unit-progress-group{
+                    position: relative;
+                    margin-bottom: $spacer * 1;
+                    min-height: 120px;
+                    .circle-progress{
+                        position: relative;
+                        padding: 0px calc(100% * 0.075);
+
+                        @include aspect-ratio(100%);
+                        canvas{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                    .icon{
+                        position: absolute;
+                        top: 40%;
+                        left: 50%;
+                        font-size: $spacer * 4;
+                        transform: translate(-50%, -50%);
+                    }
+                    .percent{
+                        position: absolute;
+                        bottom: 8%;
+                        left: 50%;
+                        font-weight: 600;
+                        font-size: $spacer;
+                        transform: translate(-50%, -50%);
+                        small{
+                            padding-left: $spacer / 6;
+                            font-size: 40%;
+                            transform: scale(0.7);
+                        }
+                    }
+                }
+
+                .unit-name{
+                    margin-bottom: $spacer  * 0.25;
+                    font-weight: 500;
+                    font-size: $spacer * 0.75;
+                }
+
+                .plant-name-area{
+                    margin-bottom: $spacer * 0.25;
+                    .plant-name{
+                        font-weight: 900;
+                        font-size: $spacer;
+                        cursor: pointer;
+                    }
+                }
+
+                .unit-info{
+                    font-size: $spacer * 0.75;
+                }
+
+                &:before{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(255, 255, 255, 0.7);
+                    pointer-events: none;
+                }
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 2;
+                    display: inline-block;
+                    padding: 20px;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                    text-align: center;
+                    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                    font-weight: 900;
+                    font-size: 50px;
+                    line-height: 50px;
+                    transform: translate(-50%, -50%) rotate(25deg);
+                }
+            }
+            .pipe-wrapper{
+                position: relative;
+                width: 100%;
+                height: $spacer * 3.5;
+                .pipe{
+                    position: absolute;
+                    top: initial!important;
+                    bottom: $pipe-border * 0.5 !important;
+                    left: 50%!important;
+                    width: $pipe-border;
+                    height: calc(100% - #{$pipe-border * 2})!important;
+                    border-bottom-right-radius: $pipe-border;
+                    border-bottom-left-radius: $pipe-border;
+                    transform: translateX(-50%);
+                }
+                .pipe-port{
+                    position: absolute;
+                    bottom: 0px;
+                    left: 50%!important;
+                    width: $pipe-border * 1.75;
+                    height: $pipe-border * 1.75;
+                    border: 1px solid $gray-400;
+                    border-radius: 50%;
+                    background: $gray-500;
+                    transform: translateX(-50%);
+                }
+                .pipe-adapter{
+                    position: absolute;
+                    top: 2px;
+                    left: 50%!important;
+                    z-index: 2;
+                    // border: 1px solid $gray-500;
+                    width: 25px;
+                    height: 20px;
+                    border-bottom-right-radius: $spacer / 4;
+                    border-bottom-left-radius: $spacer / 4;
+                    background: $white;
+                    box-shadow:  0px 0px 2px $gray-500;
+                    transition: top 0.5s;
+                    transform: translateX(-50%);
+                    &.unlink{
+                        top: $spacer * 1.25;
+                        &::before{
+                            position: absolute;
+                            top: -8px;
+                            left: 50%!important;
+                            width: 15px;
+                            height: 8px;
+                            border-top-left-radius: $spacer / 8;
+                            border-top-right-radius: $spacer / 8;
+                            background: $gray-300;
+                            content: '';
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+            }
+
+            &.fix{
+                .unit-wrapper{
+                    &:before{
+                        content: '';
+                    }
+                    &:after {
+                        border: 5px solid #C00;
+                        color: #C00;
+                        content: "修";
+                    }
+                }
+            }
+
+            &.limit{
+                .unit-wrapper{
+                    &:before{
+                        content: '';
+                    }
+                    &:after {
+                        border: 5px solid #0A0;
+                        color: #0A0;
+                        content: "限";
+                    }
+                }
+            }
+
+            &.break {
+                .unit-wrapper{
+                    &:before{
+                        content: '';
+                    }
+                    &:after {
+                        border: 5px solid #CC0;
+                        color: #CC0;
+                        content: "障";
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@keyframes cssProgressActiveLeft {
+	0% {
+		background-position: 0 0
+	}
+	100% {
+		background-position: 0px -35px
+	}
+}
+
+@keyframes cssProgressActiveRight {
+	0% {
+		background-position: 0 0
+	}
+	100% {
+		background-position: 0px 35px
+	}
+}
+
+@keyframes cssProgressActiveUp{
+    0% {
+		background-position: 0 0
+	}
+	100% {
+		background-position: 35px 0px
+	}
+}
+
+@keyframes cssProgressActiveBottom{
+    0% {
+		background-position: 0 0
+	}
+	100% {
+		background-position: -35px 0px
+	}
+}
+
+// @keyframes cssPortProgressActive{
+//     0% {
+//         box-shadow:  0px 0px 5px rgba(#ffb74d, 0.5) inset;
+// 	}
+// 	100% {
+//         box-shadow:  0px 0px 20px rgba(#ffb74d, 0.9) inset;
+// 	}
+// }

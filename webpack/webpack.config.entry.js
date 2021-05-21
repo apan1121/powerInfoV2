@@ -83,8 +83,8 @@ if (1) {
     const IMG_DIR = path.resolve(__dirname, '../src/img');
     const IMG_DIR_PUBLIC = path.resolve(__dirname, `${PUBLIC_DIR}/img`);
 
-    // const ICOMOON_FONT_DIR = path.resolve(__dirname, '../src/css/icomoon/');
-    // const ICOMOON_FONT_PUBLIC_DIR = path.resolve(__dirname, `${PUBLIC_DIR}/css/icomoon/`);
+    const ICOMOON_FONT_DIR = path.resolve(__dirname, '../src/css/icomoon/');
+    const ICOMOON_FONT_PUBLIC_DIR = path.resolve(__dirname, `${PUBLIC_DIR}/css/icomoon/`);
 
     // const CSS_VENDOR_DIR = path.resolve(__dirname, '../src/css/vendor/');
     // const CSS_VENDOR_PUBLIC_DIR = path.resolve(__dirname, `${PUBLIC_DIR}/css/vendor/`);
@@ -94,7 +94,7 @@ if (1) {
 
     const copyEntry = {};
     copyEntry[IMG_DIR] = IMG_DIR_PUBLIC;
-    // copyEntry[ICOMOON_FONT_DIR] = ICOMOON_FONT_PUBLIC_DIR;
+    copyEntry[ICOMOON_FONT_DIR] = ICOMOON_FONT_PUBLIC_DIR;
     // copyEntry[CSS_VENDOR_DIR] = CSS_VENDOR_PUBLIC_DIR;
     // copyEntry[JS_VENDOR_DIR] = JS_VENDOR_PUBLIC_DIR;
 
@@ -128,6 +128,7 @@ if (1) {
     const CSS_FOLDER = {
         // layout: `${CSS_DIR}/layout`,
         page: `${CSS_DIR}/page`,
+        adminlte: `${CSS_DIR}/adminlte`,
         // vendor: `${CSS_DIR}/vendor`,
     };
 
@@ -139,7 +140,83 @@ if (1) {
     });
 }
 
+
+
+/* 動態載入 component */
+const splitChunks_dynamic_FOLDER = {
+    dynamicComponents: `${APP_DIR}/components`,
+};
+
+const getDynamicGroupFileList = (objectKey, filePath, approveFileName = [], matchExt = []) => {
+    let storage = {};
+
+    fs.readdirSync(filePath).forEach((fileName) => {
+        if (fs.statSync(path.join(filePath, fileName)).isDirectory()) {
+            storage = Object.assign({},
+                storage,
+                getDynamicGroupFileList(
+                    `${objectKey}_${fileName}`,
+                    `${filePath}/${fileName}`,
+                    approveFileName,
+                    matchExt,
+                ));
+        } else {
+            let matchFlag = false;
+
+            const tmpFile = fileName.split('.').slice(0, -1).join('.');
+            const ext = fileName.split('.').pop();
+
+            if (matchExt.length === 0) {
+                matchFlag = true;
+            } else {
+                if (matchExt.indexOf(ext) !== -1) {
+                    matchFlag = true;
+                }
+            }
+
+            if (matchFlag) {
+                if (approveFileName.indexOf(tmpFile) !== -1) {
+                    matchFlag = true;
+                } else {
+                    matchFlag = false;
+                }
+            }
+
+
+            if (matchFlag) {
+                const new_path = filePath.replace(APP_DIR, '');
+                const regex = new RegExp(`/js${new_path}`.replace(/\//ig, '[\\/]'));
+
+                storage[objectKey] = {
+                    test: regex,
+                    name: `chunk${new_path}`,
+                    chunks: 'all',
+                    minSize: 1,
+                    minChunks: 1,
+                    enforce: true,
+                    priority: 900,
+                };
+            }
+        }
+    });
+
+    return storage;
+};
+
+
+let dynamicGroups_entry = {};
+Object.keys(splitChunks_dynamic_FOLDER).forEach((objectKey) => {
+    const FILE_PATH = splitChunks_dynamic_FOLDER[objectKey];
+
+    dynamicGroups_entry = Object.assign(dynamicGroups_entry, getDynamicGroupFileList(objectKey, FILE_PATH, ['main'], ['vue', 'js', 'jsx']));
+    // JS_Entry = Object.assign(JS_Entry, getFileList(objectKey, FILE_PATH, ['component', 'components', 'baseApp.jsx']));
+});
+
+console.log(CSS_Bundle_Entry);
+
 module.exports = {
     js: JS_Bundle_Entry,
     css: CSS_Bundle_Entry,
+
+    js_dynamic_group: dynamicGroups_entry,
 };

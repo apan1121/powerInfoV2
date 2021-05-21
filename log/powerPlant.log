@@ -1,0 +1,3003 @@
+[
+    {
+        "name": "第一核能發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "金山核能發電廠",
+        "nickName": "核一",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG/300px-Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.291475",
+            "lng": "121.567673"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "1272",
+        "status": "1、2號機除役",
+        "note": "1號機於2014年12月10日停機歲修時，執行核燃料挪移填換作業，發現1束燃料組件把手鬆脫後停機，於2018年12月除役。2號機於2019年7月除役。",
+        "type": [
+            "nuclear"
+        ]
+    },
+    {
+        "name": "第二核能發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "國聖核能發電廠",
+        "nickName": "核二",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Kuosheng_Nuclear_Power_Plant-P1020606.JPG/300px-Kuosheng_Nuclear_Power_Plant-P1020606.JPG",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.202935",
+            "lng": "121.66286"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "1970",
+        "status": "online",
+        "note": "2號機自2016年5月完成大修時發生跳機事件後停機，2018年2月因冬季缺電，政院拍板重啟核二2號機。商轉執照期限為2023/03/14。",
+        "type": [
+            "nuclear"
+        ]
+    },
+    {
+        "name": "第三核能發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "馬鞍山核能發電廠",
+        "nickName": "核三",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/NP3_in_Taiwan.JPG/280px-NP3_in_Taiwan.JPG",
+        "location": "屏東縣",
+        "geo": {
+            "lat": "21.958092",
+            "lng": "120.751612"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "1902",
+        "status": "online",
+        "note": "商轉執照期限為2025/05/17，屆時台灣的核電廠將走入歷史。",
+        "type": [
+            "nuclear"
+        ]
+    },
+    {
+        "name": "第四核能發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "龍門核能發電廠",
+        "nickName": "核四",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg/300px-%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.038328",
+            "lng": "121.924115"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "2700",
+        "status": "stop",
+        "note": "1號機未發電，2號機未完工。",
+        "type": [
+            "nuclear"
+        ]
+    },
+    {
+        "name": "林口發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%A3%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "林口發電廠",
+        "nickName": "林口",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Linkou_Power_Plant.jpg/250px-Linkou_Power_Plant.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.1208",
+            "lng": "121.2983"
+        },
+        "org": "臺灣電力公司",
+        "amount": "3",
+        "capacity": "2400",
+        "status": "online",
+        "note": "。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "台中發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E4%B8%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "台中發電廠",
+        "nickName": "台中",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Taichung_Thermal_Power_Plant.JPG/300px-Taichung_Thermal_Power_Plant.JPG",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.21",
+            "lng": "120.48"
+        },
+        "org": "臺灣電力公司",
+        "amount": "10",
+        "capacity": "5780",
+        "status": "online",
+        "note": "全球發電量第三大的燃煤火力發電廠。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "和平電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%92%8C%E5%B9%B3%E9%9B%BB%E5%BB%A0",
+        "fullName": "和平電廠",
+        "nickName": "和平",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.3067",
+            "lng": "121.7639"
+        },
+        "org": "和平電力公司",
+        "amount": "2",
+        "capacity": "1300",
+        "status": "online",
+        "note": "",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "麥寮發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E5%AF%AE%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "麥寮發電廠",
+        "nickName": "麥寮",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg/300px-%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg",
+        "location": "雲林縣",
+        "geo": {
+            "lat": "23.80322",
+            "lng": "120.1905"
+        },
+        "org": "麥寮汽電股份有限公司 (台塑六輕)",
+        "amount": "3",
+        "capacity": "1800",
+        "status": "online",
+        "note": "",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "海湖發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "長生電廠",
+        "nickName": "海湖",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/%E9%95%B7%E7%94%9F%E9%9B%BB%E5%8A%9B_%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0_20120115.png/300px-%E9%95%B7%E7%94%9F%E9%9B%BB%E5%8A%9B_%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0_20120115.png",
+        "location": "桃園市",
+        "geo": {
+            "lat": "25.1169",
+            "lng": "121.2569"
+        },
+        "org": "長生電力公司",
+        "amount": "2",
+        "capacity": "900",
+        "status": "online",
+        "note": "",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "大潭發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "大潭發電廠",
+        "nickName": "大潭",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "桃園市",
+        "geo": {
+            "lat": "25.03",
+            "lng": "121.05"
+        },
+        "org": "臺灣電力公司",
+        "amount": "6（7）",
+        "capacity": "4984.2",
+        "status": "online",
+        "note": "為世界第四大燃氣電廠，另設有共4.5MW風力發電機組，以及600MW的大潭七號機，第一階段汽渦輪發電機組。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "國光發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "國光發電廠",
+        "nickName": "國光",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "桃園市",
+        "geo": false,
+        "org": "國光電力公司",
+        "amount": "1",
+        "capacity": "480",
+        "status": "online",
+        "note": "國光電力由台灣中油、中鼎工程及美亞電力（Meiya Power）所合資組成。而後中鼎以及美亞將股份出售，分別由關西電力公司以及台灣汽電共生公司接手。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "新桃電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%A1%83%E9%9B%BB%E5%BB%A0",
+        "fullName": "新桃電廠",
+        "nickName": "新桃",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/%E6%96%B0%E6%A1%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%96%B0%E6%A1%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "新竹縣",
+        "geo": false,
+        "org": "新桃電力公司",
+        "amount": "1",
+        "capacity": "600",
+        "status": "online",
+        "note": "新桃電力公司由長榮集團成立，2010年5月，丸紅商事收購長榮持有股份。2010年10月，日本九州電力公司收購該公司三成股份。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "通霄發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "通霄發電廠",
+        "nickName": "通霄",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png/320px-%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "苗栗縣",
+        "geo": {
+            "lat": "24.49",
+            "lng": "120.67"
+        },
+        "org": "臺灣電力公司",
+        "amount": "6",
+        "capacity": "3757",
+        "status": "online",
+        "note": "舊一、二、三號機於2017年10月31日除役，新一號機2017年完成點火試俥中",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "星元電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%83%E9%9B%BB%E5%BB%A0",
+        "fullName": "星元電廠",
+        "nickName": "星元",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%E6%98%9F%E5%85%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%98%9F%E5%85%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "彰化縣",
+        "geo": {
+            "lat": "24.07972",
+            "lng": "120.41250"
+        },
+        "org": "星元電力公司",
+        "amount": "1",
+        "capacity": "490",
+        "status": "online",
+        "note": "台灣汽電共生公司所屬電廠。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "彰濱電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E6%BF%B1%E9%9B%BB%E5%BB%A0",
+        "fullName": "彰濱電廠",
+        "nickName": "彰濱",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "彰化縣",
+        "geo": {
+            "lat": "24.1272",
+            "lng": "120.4336"
+        },
+        "org": "星能電力公司",
+        "amount": "1",
+        "capacity": "490",
+        "status": "online",
+        "note": "台灣汽電共生公司所屬電廠",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "嘉惠電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E6%83%A0%E9%9B%BB%E5%BB%A0",
+        "fullName": "嘉惠電廠",
+        "nickName": "嘉惠",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/7/78/%E5%98%89%E6%83%A0%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "嘉義縣",
+        "geo": {
+            "lat": "23.53389",
+            "lng": "120.47528"
+        },
+        "org": "嘉惠電力公司",
+        "amount": "1",
+        "capacity": "670",
+        "status": "online",
+        "note": "嘉惠電力股份有限公司原由美商及嘉義政界的蕭家班合資成立，後由遠東集團承接股份經營。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "森霸電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E9%9C%B8%E9%9B%BB%E5%BB%A0",
+        "fullName": "森霸電廠",
+        "nickName": "森霸",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%E6%A3%AE%E9%9C%B8%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%A3%AE%E9%9C%B8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "臺南市",
+        "geo": {
+            "lat": "23.082",
+            "lng": "120.3566"
+        },
+        "org": "森霸電力公司",
+        "amount": "2",
+        "capacity": "980",
+        "status": "online",
+        "note": "台灣汽電共生公司所屬電廠。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "南部發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "南部發電廠",
+        "nickName": "南部",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "高雄市",
+        "geo": {
+            "lat": "22.6008",
+            "lng": "120.3006"
+        },
+        "org": "臺灣電力公司",
+        "amount": "4",
+        "capacity": "1117.8",
+        "status": "online",
+        "note": "",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "協和發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "協和發電廠",
+        "nickName": "協和",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg/270px-Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg",
+        "location": "基隆市",
+        "geo": {
+            "lat": "25.157328",
+            "lng": "121.739325"
+        },
+        "org": "臺灣電力公司",
+        "amount": "2",
+        "capacity": "1000",
+        "status": "online",
+        "note": "為臺灣唯一純使用重油作為燃料之火力發電廠。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "尖山發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "尖山發電廠",
+        "nickName": "尖山",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png/275px-%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.5631",
+            "lng": "119.6611"
+        },
+        "org": "臺灣電力公司",
+        "amount": "12",
+        "capacity": "130",
+        "status": "online",
+        "note": "另有10MW的風力發電機組。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "望安發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9C%9B%E5%AE%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "望安發電廠",
+        "nickName": "望安",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%9C%9B%E5%AE%89%E9%9B%BB%E5%BB%A0.jpg/300px-%E6%9C%9B%E5%AE%89%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.3587",
+            "lng": "119.5068"
+        },
+        "org": "臺灣電力公司",
+        "amount": "4",
+        "capacity": "4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "七美發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%83%E7%BE%8E%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "七美發電廠",
+        "nickName": "七美",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg/300px-%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.1938",
+            "lng": "119.4222"
+        },
+        "org": "臺灣電力公司",
+        "amount": "4",
+        "capacity": "4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "塔山發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "塔山發電廠",
+        "nickName": "塔山",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG/275px-Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG",
+        "location": "金門縣",
+        "geo": {
+            "lat": "24.41",
+            "lng": "118.29"
+        },
+        "org": "臺灣電力公司",
+        "amount": "8",
+        "capacity": "64.6",
+        "status": "online",
+        "note": "9、10號機增建工程已於2017年開始推動，預計2019年完工商轉。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "塔山發電廠夏興分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%A4%8F%E8%88%88%E5%88%86%E5%BB%A0",
+        "fullName": "塔山發電廠夏興分廠",
+        "nickName": "",
+        "photo": "",
+        "location": "金門縣",
+        "geo": {
+            "lat": "24.4406",
+            "lng": "118.3989"
+        },
+        "org": "臺灣電力公司",
+        "amount": "6",
+        "capacity": "20.31",
+        "status": "online",
+        "note": "由塔山發電廠統一管轄。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "塔山發電廠麒麟分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E9%BA%92%E9%BA%9F%E5%88%86%E5%BB%A0",
+        "fullName": "塔山發電廠麒麟分廠",
+        "nickName": "",
+        "photo": "",
+        "location": "金門縣",
+        "geo": {
+            "lat": "24.4304",
+            "lng": "118.2509"
+        },
+        "org": "臺灣電力公司",
+        "amount": "5",
+        "capacity": "6.08",
+        "status": "online",
+        "note": "由塔山發電廠統一管轄。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "協和發電廠珠山分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0",
+        "fullName": "協和發電廠珠山分廠",
+        "nickName": "珠山",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0.jpg/300px-%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0.jpg",
+        "location": "連江縣",
+        "geo": {
+            "lat": "26.15",
+            "lng": "119.94"
+        },
+        "org": "臺灣電力公司",
+        "amount": "4",
+        "capacity": "15.4",
+        "status": "online",
+        "note": "由協和發電廠統一管轄。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "綠島發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B6%A0%E5%B3%B6%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "綠島發電廠",
+        "nickName": "綠島",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg/300px-%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.6614",
+            "lng": "121.4742"
+        },
+        "org": "臺灣電力公司",
+        "amount": "8",
+        "capacity": "10",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "東引發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "東引發電廠",
+        "nickName": "東引",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg/300px-%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "連江縣",
+        "geo": {
+            "lat": "26.36861",
+            "lng": "120.49747"
+        },
+        "org": "臺灣電力公司",
+        "amount": "5",
+        "capacity": "6.4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "蘭嶼發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%98%AD%E5%B6%BC%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "蘭嶼發電廠",
+        "nickName": "蘭嶼",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/%E8%98%AD%E5%B6%BC%E9%9B%BB%E5%BB%A0.jpg/300px-%E8%98%AD%E5%B6%BC%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.03",
+            "lng": "121.54"
+        },
+        "org": "臺灣電力公司",
+        "amount": "6",
+        "capacity": "6",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "南竿發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E7%AB%BF%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "南竿發電廠",
+        "nickName": "南竿",
+        "photo": "",
+        "location": "連江縣",
+        "geo": {
+            "lat": "26.1494",
+            "lng": "119.928"
+        },
+        "org": "臺灣電力公司",
+        "amount": "6",
+        "capacity": "10.66",
+        "status": "online",
+        "note": "",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "興達發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%88%E9%81%94%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "興達發電廠",
+        "nickName": "興達",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hsinta_Power_Plant.jpg/280px-Hsinta_Power_Plant.jpg",
+        "location": "高雄市",
+        "geo": {
+            "lat": "22.8564",
+            "lng": "120.1969"
+        },
+        "org": "臺灣電力公司",
+        "amount": "4（燃煤）5（燃氣）",
+        "capacity": "2100（燃煤）\r\n2226（燃氣）",
+        "status": "online",
+        "note": "",
+        "type": [
+            "煤、天然氣\n"
+        ]
+    },
+    {
+        "name": "大林發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%9E%97%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "大林發電廠",
+        "nickName": "大林",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Da-Lin_Poer_Plant.jpg/300px-Da-Lin_Poer_Plant.jpg",
+        "location": "高雄市",
+        "geo": {
+            "lat": "22.54",
+            "lng": "120.34"
+        },
+        "org": "臺灣電力公司",
+        "amount": "2（燃煤）2（燃氣）",
+        "capacity": "1600（燃煤）\r\n1050（燃氣）",
+        "status": "part-online",
+        "note": "燃煤舊1號、2號機2012年8月31日除役，燃油舊3號、4號機2017年11月4日除役，燃煤新1號機已商轉、2號機試俥中，新機組皆為燃煤超臨界發電機組。",
+        "type": [
+            "煤、天然氣\n"
+        ]
+    },
+    {
+        "name": "高原發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%8E%9F%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "高原發電廠",
+        "nickName": "高原",
+        "photo": "",
+        "location": "桃園市",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "1&#91;來源請求&#93;",
+        "capacity": "1200",
+        "status": "plane",
+        "note": "台電所推動之「高原複循環機組發電計畫」。預計利用龍潭超高壓變電所內空地新建燃氣複循環機組發電廠一座。預計於2024年完工商轉。",
+        "type": [
+            "lng"
+        ]
+    },
+    {
+        "name": "海渡發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%B8%A1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "海渡發電廠",
+        "nickName": "海渡",
+        "photo": "",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.3026",
+            "lng": "120.5238"
+        },
+        "org": "海渡電力公司",
+        "amount": "2",
+        "capacity": "850",
+        "status": "cancel",
+        "note": "1999年3月1日動工，因廠商爆發財務危機等多項因素，最終放棄建設。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "彰工發電廠",
+        "url": "",
+        "fullName": "彰工發電廠",
+        "nickName": "彰工",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "臺灣電力公司",
+        "amount": "2",
+        "capacity": "1600",
+        "status": "cancel",
+        "note": "二階環評已確認退回，台電計畫利用原有土地開發太陽能與風力等再生能源。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "深澳發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "深澳發電廠",
+        "nickName": "深澳",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.1272",
+            "lng": "121.8156"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "1200",
+        "status": "cancel",
+        "note": "原計畫除役廠內所有機組後，增建兩部裝置容量600MW超臨界燃煤發電機組，並訂於2013年完工運轉，但因卸煤專用碼頭遭地方反對而無法興建，商轉時程未定。2018年10月12日，行政院長賴清德宣布停建深澳發電廠。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "北部發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "北部發電廠",
+        "nickName": "北部",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/National_Museum_of_Marine_Science_and_Technology_0001.jpg/300px-National_Museum_of_Marine_Science_and_Technology_0001.jpg",
+        "location": "基隆市",
+        "geo": {
+            "lat": "25.1406",
+            "lng": "121.7983"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "3.5",
+        "status": "remove",
+        "note": "1983年後停機，現址改為國立海洋科技博物館。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "松山火力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E5%B1%B1%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E6%89%80",
+        "fullName": "松山火力發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "臺北市",
+        "geo": {
+            "lat": "25.0553",
+            "lng": "121.57"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "",
+        "status": "remove",
+        "note": "1970年後停機並拆除，現址改為松山一次變電所及電力修護處。",
+        "type": [
+            "coal"
+        ]
+    },
+    {
+        "name": "澎湖發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "澎湖發電廠",
+        "nickName": "澎湖",
+        "photo": "//upload.wikimedia.org/wikipedia/zh/thumb/7/7e/%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%88%8A%E5%BB%A0%E6%88%BF%E5%BB%BA%E7%89%A9.jpeg/300px-%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%88%8A%E5%BB%A0%E6%88%BF%E5%BB%BA%E7%89%A9.jpeg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.5675",
+            "lng": "119.5716"
+        },
+        "org": "台灣電力公司",
+        "amount": "26",
+        "capacity": "41",
+        "status": "remove",
+        "note": "2005年後停機並拆除。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "台東火力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%9D%B1%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "台東火力發電廠",
+        "nickName": "台東火力",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.7506",
+            "lng": "121.1546"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "2.52",
+        "status": "remove",
+        "note": "1962年後停機並拆除，現址改為台電臺東營業區總部。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "成功火力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E5%8A%9F%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "成功火力發電廠",
+        "nickName": "成功火力",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "23.0986",
+            "lng": "121.3761"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.511",
+        "status": "remove",
+        "note": "1962年後停機並拆除，現址改為台電臺東區營業處成功服務中心。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "關山火力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%97%9C%E5%B1%B1%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "關山火力發電廠",
+        "nickName": "關山火力",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "23.0502",
+            "lng": "121.1653"
+        },
+        "org": "台灣電力公司",
+        "amount": "",
+        "capacity": "0.17",
+        "status": "remove",
+        "note": "1962年後停機並拆除。。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "旭光發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%97%AD%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "旭光發電廠",
+        "nickName": "旭光",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E7%90%89%E7%90%83%E9%9B%BB%E5%BB%A0.jpg/300px-%E7%90%89%E7%90%83%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "屏東縣",
+        "geo": {
+            "lat": "22.3384",
+            "lng": "120.3774"
+        },
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "4.5",
+        "status": "spare",
+        "note": "2011年5月海底電纜完工啟用後，發電廠停機，保留為備用。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "虎井發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%99%8E%E4%BA%95%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "虎井發電廠",
+        "nickName": "虎井",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/%E8%99%8E%E4%BA%95%E9%9B%BB%E5%BB%A0.jpg/300px-%E8%99%8E%E4%BA%95%E9%9B%BB%E5%BB%A0.jpg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.488999",
+            "lng": "119.520644"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "0.3",
+        "status": "spare",
+        "note": "改由尖山發電廠經海底電纜供電，發電廠停機，保留為備用。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "北竿發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E7%AB%BF%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "北竿發電廠",
+        "nickName": "北竿",
+        "photo": "",
+        "location": "連江縣",
+        "geo": {
+            "lat": "26.2194",
+            "lng": "119.9899"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "3.66",
+        "status": "spare",
+        "note": "2010年12月海底電纜完工啟用後，發電廠停機，保留為備用。",
+        "type": [
+            "oil"
+        ]
+    },
+    {
+        "name": "光明抽蓄計畫",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%89%E6%98%8E%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "光明抽蓄計畫",
+        "nickName": "光明抽蓄計畫",
+        "photo": "",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.2406",
+            "lng": "121.1212"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "705",
+        "status": "plane",
+        "note": "1997年完成規劃但未動工，2016年底計畫重啟評估。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "卓蘭發電廠景山分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E8%98%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%99%AF%E5%B1%B1%E5%88%86%E5%BB%A0",
+        "fullName": "卓蘭發電廠景山分廠",
+        "nickName": "卓蘭",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": {
+            "lat": "24.3393",
+            "lng": "120.7776"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "4",
+        "status": "build",
+        "note": "2017年7月動工，2020年完工商轉。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "南化水庫越域引水出水工小水力發電計畫",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB",
+        "fullName": "南化水庫越域引水出水工小水力發電計畫",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG/285px-%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG",
+        "location": "臺南市",
+        "geo": false,
+        "org": "經濟部水利署南區水資源局",
+        "amount": "1",
+        "capacity": "2.14",
+        "status": "plane",
+        "note": "預計2019年動工，2022年完工商轉。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "牡丹小型水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%89%A1%E4%B8%B9%E5%B0%8F%E5%9E%8B%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "牡丹小型水力發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "屏東縣",
+        "geo": {
+            "lat": "22.1325",
+            "lng": "120.7828"
+        },
+        "org": "經濟部南區水資源局",
+        "amount": "1",
+        "capacity": "0.49",
+        "status": "plane",
+        "note": "2015年9月，南區水資源局開始公開招標牡丹水庫水力發電新建工程設計之招標案。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "萬里發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%90%AC%E9%87%8C%E6%A9%9F%E7%B5%84",
+        "fullName": "萬里發電廠",
+        "nickName": "萬里",
+        "photo": "",
+        "location": "花蓮縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "49",
+        "status": "plane",
+        "note": "2014年5月，台灣電力公司完成「二階環境影響評估報告」，準備送環保署審查。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "關山大圳小水力發電廠",
+        "url": "",
+        "fullName": "關山大圳小水力發電廠",
+        "nickName": "捷祥關山",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": false,
+        "org": "捷祥股份有限公司",
+        "amount": "1",
+        "capacity": "1",
+        "status": "build",
+        "note": "2019年8月動工。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "明湖抽蓄水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A7%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%A4%A7%E8%A7%80%E4%BA%8C%E5%BB%A0",
+        "fullName": "明湖抽蓄水力發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Minhu_Pumped_Storage_Hydro_Power_Station01.jpg/300px-Minhu_Pumped_Storage_Hydro_Power_Station01.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8542",
+            "lng": "120.8708"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "1000",
+        "status": "online",
+        "note": "由大觀發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "明潭抽蓄水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%8A%BD%E8%93%84%E6%A9%9F%E7%B5%84",
+        "fullName": "明潭抽蓄水力發電廠",
+        "nickName": "明潭",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg/300px-Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8361",
+            "lng": "120.8681"
+        },
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "1602",
+        "status": "online",
+        "note": "由明潭發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "烏來發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E4%BE%86%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "烏來發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Wulai_hydroelectric_power_station.JPG/275px-Wulai_hydroelectric_power_station.JPG",
+        "location": "新北市",
+        "geo": {
+            "lat": "24.8592",
+            "lng": "121.5522"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "22.5",
+        "status": "online",
+        "note": "由桂山發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "翡翠發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%BF%A1%E7%BF%A0%E5%88%86%E5%BB%A0",
+        "fullName": "翡翠發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg/300px-Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "24.9094",
+            "lng": "121.5772"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "70",
+        "status": "online",
+        "note": "臺北市政府所有，由台電桂山發電廠承攬營運。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "桂山發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%A1%82%E5%B1%B1%E6%A9%9F%E7%B5%84",
+        "fullName": "桂山發電廠",
+        "nickName": "桂山",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Guei-Shan_Hydropower_Plant08.jpg/300px-Guei-Shan_Hydropower_Plant08.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "24.9033",
+            "lng": "121.5578"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "13",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "小粗坑發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "小粗坑發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/270px-%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
+        "location": "新北市",
+        "geo": {
+            "lat": "24.9378",
+            "lng": "121.5425"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "5",
+        "status": "online",
+        "note": "由桂山發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "石門發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%9F%B3%E9%96%80%E9%9B%BB%E5%BB%A0",
+        "fullName": "石門發電廠",
+        "nickName": "石門",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shihmen_Hydropower_Plant_Power_House.jpg/300px-Shihmen_Hydropower_Plant_Power_House.jpg",
+        "location": "桃園市",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "90",
+        "status": "online",
+        "note": "北區水資源局所有，由台電石門發電廠承攬營運。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "義興發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BE%A9%E8%88%88%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "義興發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yi-Xing_hydraulic_power_plant04.jpg/300px-Yi-Xing_hydraulic_power_plant04.jpg",
+        "location": "桃園市",
+        "geo": {
+            "lat": "24.7773",
+            "lng": "121.363"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "40",
+        "status": "online",
+        "note": "北區水資源局所有，由台電石門發電廠承攬營運。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "軟橋發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%BB%9F%E6%A9%8B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "軟橋發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg/250px-%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg",
+        "location": "新竹縣",
+        "geo": {
+            "lat": "24.6926",
+            "lng": "121.103"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.22",
+        "status": "online",
+        "note": "由桂山發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "卓蘭發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E8%98%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "卓蘭發電廠",
+        "nickName": "卓蘭",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Zhuolan_Hydropower_Plant06.jpg/300px-Zhuolan_Hydropower_Plant06.jpg",
+        "location": "苗栗縣",
+        "geo": {
+            "lat": "24.3497",
+            "lng": "120.8814"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "80",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "大甲溪發電廠德基分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%BE%B7%E5%9F%BA%E5%88%86%E5%BB%A0",
+        "fullName": "大甲溪發電廠德基分廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Techi_Hydropower_Plant08.jpg/300px-Techi_Hydropower_Plant08.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.2542",
+            "lng": "121.1653"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "234",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "大甲溪發電廠青山分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E9%9D%92%E5%B1%B1%E5%88%86%E5%BB%A0",
+        "fullName": "大甲溪發電廠青山分廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinshan_Hydropower_Plant02.jpg/300px-Chinshan_Hydropower_Plant02.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.2494",
+            "lng": "121.1064"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "368",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄，臺灣容量最大之慣常式水力發電廠。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "大甲溪發電廠谷關分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%B0%B7%E9%97%9C%E5%88%86%E5%BB%A0",
+        "fullName": "大甲溪發電廠谷關分廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kukuan_Hydropower_Plant08.jpg/300px-Kukuan_Hydropower_Plant08.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.2133",
+            "lng": "121.0336"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "212.8",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "天輪發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E8%BC%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "天輪發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tienlun_Hydropower_Plant02.jpg/300px-Tienlun_Hydropower_Plant02.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.185",
+            "lng": "120.9219"
+        },
+        "org": "台灣電力公司",
+        "amount": "5",
+        "capacity": "195",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄，5號機為臺灣慣常式水力單一機組容量最大者。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "馬鞍發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%9E%8D%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "馬鞍發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Maan_Hydropower_Plant07.jpg/300px-Maan_Hydropower_Plant07.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.1825",
+            "lng": "120.84"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "133.5",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "社寮發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%A4%BE%E5%AF%AE%E6%A9%9F%E7%B5%84",
+        "fullName": "社寮發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sirliao_Hydropower_Plant06.jpg/300px-Sirliao_Hydropower_Plant06.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.2703",
+            "lng": "120.7914"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.94",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "后里發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%90%8E%E9%87%8C%E6%A9%9F%E7%B5%84",
+        "fullName": "后里發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Houli_Hydropower_Plant_01.jpg/300px-Houli_Hydropower_Plant_01.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.3247",
+            "lng": "120.7275"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "0.95",
+        "status": "online",
+        "note": "由大甲溪發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "后里圳低落差示範電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A0",
+        "fullName": "后里圳低落差示範電廠",
+        "nickName": "后里",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg/300px-%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.3244",
+            "lng": "120.7217"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.11",
+        "status": "online",
+        "note": "臺中農田水利會所有，由台電大甲溪發電廠承攬營運。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "萬大發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E5%A4%A7%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "萬大發電廠",
+        "nickName": "萬大",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wanda_Hydropower_plant01.jpg/300px-Wanda_Hydropower_plant01.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.9761",
+            "lng": "121.1344"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "76.6",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "萬大發電廠松林分廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E5%A4%A7%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%9D%BE%E6%9E%97%E5%88%86%E5%BB%A0",
+        "fullName": "萬大發電廠松林分廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Songlin_Hydropower_plant02.jpg/300px-Songlin_Hydropower_plant02.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.9651",
+            "lng": "121.0875"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "20.9",
+        "status": "online",
+        "note": "由萬大發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "北山發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%8C%97%E5%B1%B1%E6%A9%9F%E7%B5%84",
+        "fullName": "北山發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/BeiShanPowerPlant.jpg/300px-BeiShanPowerPlant.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.9856",
+            "lng": "120.8931"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "4.32",
+        "status": "online",
+        "note": "由明潭發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "水里發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%B0%B4%E9%87%8C%E6%A9%9F%E7%B5%84",
+        "fullName": "水里發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg/300px-Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8356",
+            "lng": "120.8688"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "12.75",
+        "status": "online",
+        "note": "由明潭發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "鉅工發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E9%89%85%E5%B7%A5%E5%88%86%E5%BB%A0",
+        "fullName": "鉅工發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ju-Gong_Power_Plant.jpg/300px-Ju-Gong_Power_Plant.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8192",
+            "lng": "120.8575"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "43.5",
+        "status": "online",
+        "note": "由明潭發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "濁水發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%BF%81%E6%B0%B4%E6%A9%9F%E7%B5%84",
+        "fullName": "濁水發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg/300px-Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg",
+        "location": "雲林縣",
+        "geo": {
+            "lat": "23.7728",
+            "lng": "120.5994"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "3.67",
+        "status": "online",
+        "note": "由明潭發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "大觀發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A7%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%A4%A7%E8%A7%80%E4%B8%80%E5%BB%A0",
+        "fullName": "大觀發電廠",
+        "nickName": "大觀",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Da-Guan_No.1_Hydropower_Plant07.jpg/300px-Da-Guan_No.1_Hydropower_Plant07.jpg",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8542",
+            "lng": "120.8708"
+        },
+        "org": "台灣電力公司",
+        "amount": "5",
+        "capacity": "110",
+        "status": "online",
+        "note": "由大觀發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "名間水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E9%96%93%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "名間水力發電廠",
+        "nickName": "名間",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ming-Jian_Hydro_Power_Plan.JPG/270px-Ming-Jian_Hydro_Power_Plan.JPG",
+        "location": "南投縣",
+        "geo": {
+            "lat": "23.8361",
+            "lng": "120.7114"
+        },
+        "org": "名間電力公司",
+        "amount": "2",
+        "capacity": "16.7",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "曾文發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E6%96%87%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "曾文發電廠",
+        "nickName": "曾文",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Zeng-Wen_Power_Plant01.JPG/300px-Zeng-Wen_Power_Plant01.JPG",
+        "location": "嘉義縣",
+        "geo": {
+            "lat": "23.2475",
+            "lng": "120.5333"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "50",
+        "status": "online",
+        "note": "南區水資源局所有，由台電曾文發電廠承攬營運。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "西口水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8F%A3%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "西口水力發電廠",
+        "nickName": "嘉南西口",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Xi-Co_Hydropower_Plant%28Tainan%2917.jpg/300px-Xi-Co_Hydropower_Plant%28Tainan%2917.jpg",
+        "location": "臺南市",
+        "geo": {
+            "lat": "23.2305",
+            "lng": "120.4473"
+        },
+        "org": "嘉南實業股份有限公司",
+        "amount": "1",
+        "capacity": "11.52",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "烏山頭水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "烏山頭水力發電廠",
+        "nickName": "烏山頭",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/275px-%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
+        "location": "臺南市",
+        "geo": {
+            "lat": "23.2086",
+            "lng": "120.3653"
+        },
+        "org": "嘉南實業股份有限公司",
+        "amount": "1",
+        "capacity": "8.75",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "八田水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B0%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "八田水力發電廠",
+        "nickName": "八田",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pa-Tien_Hydropower_Plant01.jpg/300px-Pa-Tien_Hydropower_Plant01.jpg",
+        "location": "臺南市",
+        "geo": {
+            "lat": "23.2055",
+            "lng": "120.3658"
+        },
+        "org": "嘉南實業股份有限公司",
+        "amount": "1",
+        "capacity": "2.2",
+        "status": "online",
+        "note": "2017年9月取得電業執照開始商轉。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "竹子門發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AB%B9%E5%AD%90%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "竹子門發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chu-Men_Unit01.jpg/300px-Chu-Men_Unit01.jpg",
+        "location": "高雄市",
+        "geo": {
+            "lat": "22.8681",
+            "lng": "120.5894"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "2.67",
+        "status": "online",
+        "note": "由高屏發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "土壟灣發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E5%A3%9F%E7%81%A3%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "土壟灣發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg/300px-Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg",
+        "location": "高雄市",
+        "geo": {
+            "lat": "22.9958",
+            "lng": "120.642"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "4.5",
+        "status": "online",
+        "note": "由高屏發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "天送埤發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%80%81%E5%9F%A4%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "天送埤發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tienpei_Hydropower_Plant_power_house.jpg/300px-Tienpei_Hydropower_Plant_power_house.jpg",
+        "location": "宜蘭縣",
+        "geo": {
+            "lat": "24.6553",
+            "lng": "121.6172"
+        },
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "8.37",
+        "status": "online",
+        "note": "由蘭陽發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "圓山發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%93%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "圓山發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg/300px-%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg",
+        "location": "宜蘭縣",
+        "geo": {
+            "lat": "24.6431",
+            "lng": "121.5964"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "18",
+        "status": "online",
+        "note": "由蘭陽發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "碧海發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A2%A7%E6%B5%B7%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "碧海發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Be-Hi_Hydroelectricity.jpg/300px-Be-Hi_Hydroelectricity.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.34",
+            "lng": "121.68"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "61.2",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "立霧發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E9%9C%A7%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "立霧發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Li-Wu_Hydroelectricity_Gate.jpg/275px-Li-Wu_Hydroelectricity_Gate.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.155",
+            "lng": "121.6261"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "32",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "龍溪發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BE%8D%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "龍溪發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Long-Xi_Power_Plant01.jpg/300px-Long-Xi_Power_Plant01.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.0225",
+            "lng": "121.41"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "4.7",
+        "status": "online",
+        "note": "由東部發電廠統一管轄，臺灣海拔最高之發電廠。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "龍澗發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%BE%8D%E6%BE%97%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "龍澗發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Longjian_Power_Plant.jpg/300px-Longjian_Power_Plant.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.0036",
+            "lng": "121.4264"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "97.2",
+        "status": "online",
+        "note": "由東部發電廠統一管轄，遠東落差最高之發電廠。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "水簾發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E7%B0%BE%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "水簾發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shui-Lien_Hydroelectricity_Gate.jpg/270px-Shui-Lien_Hydroelectricity_Gate.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "24.0025",
+            "lng": "121.43"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "9.5",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "銅門發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%8A%85%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "銅門發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tong-Men_Hydroelectricity_Gate.jpg/270px-Tong-Men_Hydroelectricity_Gate.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9686",
+            "lng": "121.4878"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "21",
+        "status": "online",
+        "note": "由東部發電廠統一管轄，臺灣第一座地下發電廠。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "榕樹發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A6%95%E6%A8%B9%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "榕樹發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yuon-Shu_Power_Plant01.jpg/300px-Yuon-Shu_Power_Plant01.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9578",
+            "lng": "121.5075"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "2.7",
+        "status": "online",
+        "note": "由東部發電廠統一管轄，臺灣第一座無人遙控發電廠。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "初英發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%88%9D%E8%8B%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "初英發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chu-Yin_Hydroelectricity_Gate.jpg/280px-Chu-Yin_Hydroelectricity_Gate.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9494",
+            "lng": "121.5206"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "2",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "清水發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "清水發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ching-Shui_Power_Plant25.jpg/300px-Ching-Shui_Power_Plant25.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9664",
+            "lng": "121.4589"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "7",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "清流發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B5%81%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "清流發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ching-Liu_Power_Plant01.jpg/300px-Ching-Liu_Power_Plant01.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9672",
+            "lng": "121.4819"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "4.2",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "溪口發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%BA%AA%E5%8F%A3%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "溪口發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Xi-Kou_Power_Plant02.jpg/300px-Xi-Kou_Power_Plant02.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.8153",
+            "lng": "121.4697"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "2.7",
+        "status": "online",
+        "note": "由東部發電廠統一管轄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "松浦小水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E6%B5%A6%E5%B0%8F%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "松浦小水力發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Songpu_Hydropower_plant.jpg/300px-Songpu_Hydropower_plant.jpg",
+        "location": "花蓮縣",
+        "geo": false,
+        "org": "同達綠能股份有限公司",
+        "amount": "1",
+        "capacity": "0.08",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "卑南上圳小型發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%91%E5%8D%97%E4%B8%8A%E5%9C%B3%E5%B0%8F%E5%9E%8B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "卑南上圳小型發電廠",
+        "nickName": "卑南上圳小型",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Beinan_Creek18.jpg/250px-Beinan_Creek18.jpg",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.8222",
+            "lng": "121.0844"
+        },
+        "org": "聚電企業開發股份有限公司",
+        "amount": "2",
+        "capacity": "2.2",
+        "status": "online",
+        "note": "台電北山發電廠汰除後機組移置安裝。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "東興發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E8%88%88%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "東興發電廠",
+        "nickName": "東興",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tong-Xin_Hydroelectric_power_plant15.jpg/300px-Tong-Xin_Hydroelectric_power_plant15.jpg",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.7656",
+            "lng": "121.0281"
+        },
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "0.8",
+        "status": "online",
+        "note": "",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "西寶發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#西寶水力發電計劃",
+        "fullName": "西寶發電廠",
+        "nickName": "西寶",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9788",
+            "lng": "121.6043"
+        },
+        "org": "臺灣電力公司",
+        "amount": "2",
+        "capacity": "74.2",
+        "status": "cancel",
+        "note": "原已在2005年動工，然因馬太鞍溪越域引水及萬里溪電廠附近發現溫泉，遭地方民眾反對抗爭，立法院凍結工程預算，台電認為無法趕上2010年之辦理期限而自行撤案。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "溪畔發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#立霧水力發電計劃",
+        "fullName": "溪畔發電廠",
+        "nickName": "溪畔",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9788",
+            "lng": "121.6043"
+        },
+        "org": "臺灣電力公司",
+        "amount": "2",
+        "capacity": "160",
+        "status": "cancel",
+        "note": "為立霧水力發電計劃的一部分，原已在1979年動工，然因各界反對籌建，並且內政部已著手成立太魯閣國家公園，後台電放棄計畫，已完成發電廠跨河橋樑、入口隧道、施工道路等設施。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "谷園發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#立霧水力發電計劃",
+        "fullName": "谷園發電廠",
+        "nickName": "谷園",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9788",
+            "lng": "121.6043"
+        },
+        "org": "臺灣電力公司",
+        "amount": "1",
+        "capacity": "90",
+        "status": "cancel",
+        "note": "為立霧水力發電計劃的一部分，原已在1979年動工，然因各界反對籌建，並且內政部已著手成立太魯閣國家公園，後台電放棄計畫。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "仲岳發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BB%B2%E5%B2%B3%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "仲岳發電廠",
+        "nickName": "仲岳",
+        "photo": "",
+        "location": "宜蘭縣",
+        "geo": {
+            "lat": "24.4252",
+            "lng": "121.7155"
+        },
+        "org": "臺灣電力公司",
+        "amount": "1",
+        "capacity": "27.6",
+        "status": "cancel",
+        "note": "原規劃取水自南澳南溪。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "豐坪溪發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B1%90%E5%9D%AA%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "豐坪溪發電廠",
+        "nickName": "豐坪溪",
+        "photo": "",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.4048",
+            "lng": "121.3154"
+        },
+        "org": "世豐電力股份有限公司",
+        "amount": "2",
+        "capacity": "37.1",
+        "status": "cancel",
+        "note": "因動工時間已超過環評法規定之三年，並且有違法設置混凝土預拌廠與傾倒廢土之事證而遭勒令停工。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "東錦發電廠",
+        "url": "",
+        "fullName": "東錦發電廠",
+        "nickName": "東錦",
+        "photo": "",
+        "location": "花蓮縣",
+        "geo": false,
+        "org": "東錦企業公司",
+        "amount": "1",
+        "capacity": "0.3",
+        "status": "cancel",
+        "note": "當地居民強烈反對。",
+        "type": []
+    },
+    {
+        "name": "關山水力發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E9%97%9C%E5%B1%B1%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "關山水力發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "23.0414",
+            "lng": "121.1649"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.05",
+        "status": "remove",
+        "note": "使用里瓏湧水圳，1939年建造，1962年後裁撤並廢棄，1970年後廠房建築拆毀。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "太平發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "太平發電廠",
+        "nickName": "太平",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.8",
+            "lng": "121.05"
+        },
+        "org": "台灣電力公司",
+        "amount": "1",
+        "capacity": "0.2",
+        "status": "remove",
+        "note": "使用太平溪，1925年建造，1975年遭颱風破壞後廢棄。",
+        "type": [
+            "water"
+        ]
+    },
+    {
+        "name": "石門風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "石門風力發電站",
+        "nickName": "石門",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.29",
+            "lng": "121.58"
+        },
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "4",
+        "status": "online",
+        "note": "所生產之電力併入第一核能發電廠輸出。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "林口風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "林口風力發電站",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "新北市",
+        "geo": {
+            "lat": "25.1255",
+            "lng": "121.309"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "6",
+        "status": "online",
+        "note": "所生產之電力併入林口發電廠輸出。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "觀園風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "觀園風力發電站",
+        "nickName": "觀園",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "桃園市",
+        "geo": {
+            "lat": "25.06",
+            "lng": "121.09"
+        },
+        "org": "台灣電力公司",
+        "amount": "20",
+        "capacity": "30",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "大潭風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "大潭風力發電站",
+        "nickName": "大潭風力",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "桃園市",
+        "geo": {
+            "lat": "25.03",
+            "lng": "121.04"
+        },
+        "org": "台灣電力公司",
+        "amount": "8",
+        "capacity": "15.1",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "蘆竹風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E8%98%86%E7%AB%B9%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "蘆竹風力發電站",
+        "nickName": "蘆竹",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Luzhu_Windpower_Station.jpg/300px-Luzhu_Windpower_Station.jpg",
+        "location": "桃園市",
+        "geo": {
+            "lat": "25.11761",
+            "lng": "121.27658"
+        },
+        "org": "台灣電力公司",
+        "amount": "8",
+        "capacity": "7.2",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "香山風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E5%B1%B1%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "香山風力發電站",
+        "nickName": "香山",
+        "photo": "",
+        "location": "新竹市",
+        "geo": {
+            "lat": "24.74",
+            "lng": "120.88"
+        },
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "12",
+        "status": "online",
+        "note": "曾發生臺灣第一起風力發電機火警意外。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "臺中港風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "臺中港風力發電站",
+        "nickName": "臺中港",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8F%B0%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E5%8F%B0%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.30597",
+            "lng": "120.54164"
+        },
+        "org": "台灣電力公司",
+        "amount": "18",
+        "capacity": "36",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "台中電廠風力發電站",
+        "url": "",
+        "fullName": "台中電廠風力發電站",
+        "nickName": "台中港",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/台中電廠風力發電站.jpg/500px-台中電廠風力發電站.jpg",
+        "location": "臺中市",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "6",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "彰工風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%B7%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "彰工風力發電站",
+        "nickName": "彰工",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": {
+            "lat": "24.16",
+            "lng": "120.44"
+        },
+        "org": "台灣電力公司",
+        "amount": "31",
+        "capacity": "62",
+        "status": "online",
+        "note": "曾發生臺灣第二起風力發電機火警意外。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "王功風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "王功風力發電站",
+        "nickName": "王功",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "彰化縣",
+        "geo": {
+            "lat": "23.98953",
+            "lng": "120.33744"
+        },
+        "org": "台灣電力公司",
+        "amount": "10",
+        "capacity": "23",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "雲麥風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "雲麥風力發電站",
+        "nickName": "雲麥",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "雲林縣",
+        "geo": {
+            "lat": "23.81567",
+            "lng": "120.26314"
+        },
+        "org": "台灣電力公司",
+        "amount": "23",
+        "capacity": "46",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "四湖風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E6%B9%96%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "四湖風力發電站",
+        "nickName": "四湖",
+        "photo": "",
+        "location": "雲林縣",
+        "geo": {
+            "lat": "23.63",
+            "lng": "120.14"
+        },
+        "org": "台灣電力公司",
+        "amount": "14",
+        "capacity": "28",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "恆春風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "恆春風力發電站",
+        "nickName": "恆春",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "屏東縣",
+        "geo": {
+            "lat": "21.95",
+            "lng": "120.74"
+        },
+        "org": "台灣電力公司",
+        "amount": "3",
+        "capacity": "4.5",
+        "status": "online",
+        "note": "所生產之電力併入第三核能發電廠輸出。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "中屯風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "中屯風力發電站",
+        "nickName": "澎湖中屯",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.62",
+            "lng": "119.61"
+        },
+        "org": "台灣電力公司",
+        "amount": "8",
+        "capacity": "4.8",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "湖西風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B9%96%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "湖西風力發電站",
+        "nickName": "湖西",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/300px-Huxi_Windpower_Plant.jpg",
+        "location": "澎湖縣",
+        "geo": {
+            "lat": "23.58408",
+            "lng": "119.67839"
+        },
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "5.4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "金沙風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "金沙風力發電站",
+        "nickName": "金門金沙",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "location": "金門縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "苗栗竹南風力發電站",
+        "url": "",
+        "fullName": "苗栗竹南風力發電站",
+        "nickName": "竹南",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "4",
+        "capacity": "7.8",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "苗栗大鵬風力發電站",
+        "url": "",
+        "fullName": "苗栗大鵬風力發電站",
+        "nickName": "大鵬",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "21",
+        "capacity": "42",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "鹿威彰濱風力發電站",
+        "url": "",
+        "fullName": "鹿威彰濱風力發電站",
+        "nickName": "鹿威彰濱",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "24",
+        "capacity": "55.2",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "鹿威鹿港風力發電站",
+        "url": "",
+        "fullName": "鹿威鹿港風力發電站",
+        "nickName": "鹿威鹿港",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "18",
+        "capacity": "41.4",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "觀威觀音風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E8%A7%80%E5%A8%81%E8%A7%80%E9%9F%B3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "觀威觀音風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "桃園市",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "19",
+        "capacity": "43.7",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "桃威觀屋風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E6%A1%83%E5%A8%81%E8%A7%80%E5%B1%8B%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "桃威觀屋風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "桃園市",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "2",
+        "capacity": "4.6",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "中威大安風力發電站",
+        "url": "",
+        "fullName": "中威大安風力發電站",
+        "nickName": "中威大安",
+        "photo": "",
+        "location": "臺中市",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "36",
+        "capacity": "82.2",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "崎威崎頂風力發電站",
+        "url": "",
+        "fullName": "崎威崎頂風力發電站",
+        "nickName": "崎威崎頂",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "3",
+        "capacity": "6.9",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "豐威風力發電站",
+        "url": "",
+        "fullName": "豐威風力發電站",
+        "nickName": "豐威",
+        "photo": "",
+        "location": "新竹縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "6",
+        "capacity": "13.8",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "龍威後龍風力發電站",
+        "url": "",
+        "fullName": "龍威後龍風力發電站",
+        "nickName": "龍威後龍",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "21",
+        "capacity": "48.3",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "苗栗通苑風力發電站",
+        "url": "",
+        "fullName": "苗栗通苑風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "10",
+        "capacity": "23",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "安威風力發電站",
+        "url": "",
+        "fullName": "安威風力發電站",
+        "nickName": "安威",
+        "photo": "",
+        "location": "臺中市",
+        "geo": false,
+        "org": "達德能源",
+        "amount": "3",
+        "capacity": "6.9",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "清風清水風力發電站",
+        "url": "",
+        "fullName": "清風清水風力發電站",
+        "nickName": "清風清水",
+        "photo": "",
+        "location": "臺中市",
+        "geo": false,
+        "org": "清風風力發電公司",
+        "amount": "1",
+        "capacity": "2.3",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "東鋼龍港風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%8B%BC%E9%BE%8D%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "東鋼龍港風力發電站",
+        "nickName": "東鋼龍港",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": {
+            "lat": "24.59",
+            "lng": "120.72"
+        },
+        "org": "東和鋼鐵企業公司",
+        "amount": "5",
+        "capacity": "11.5",
+        "status": "online",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "海洋竹南風力發電場",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%B4%8B%E7%AB%B9%E5%8D%97%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%A0%B4",
+        "fullName": "海洋竹南風力發電場",
+        "nickName": "",
+        "photo": "",
+        "location": "苗栗縣",
+        "geo": {
+            "lat": "24.736",
+            "lng": "120.842"
+        },
+        "org": "海洋風力發電公司",
+        "amount": "2+20",
+        "capacity": "8+120",
+        "status": "online",
+        "note": "臺灣第一座營運的離岸風力發電場。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "永興風力發電站",
+        "url": "",
+        "fullName": "永興風力發電站",
+        "nickName": "永興",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "8",
+        "status": "plan",
+        "note": "台灣電力公司第五期風力發電開發計畫。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "臺西風力發電站",
+        "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
+        "fullName": "臺西風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "雲林縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "4",
+        "capacity": "8",
+        "status": "plan",
+        "note": "台灣電力公司第五期風力發電開發計畫。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "布袋港風力發電站",
+        "url": "",
+        "fullName": "布袋港風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "嘉義縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "6",
+        "capacity": "12",
+        "status": "plan",
+        "note": "台灣電力公司第五期風力發電開發計畫。",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "台電離岸風力發電場",
+        "url": "",
+        "fullName": "台電離岸風力發電場",
+        "nickName": "",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "21",
+        "capacity": "109.2",
+        "status": "plan",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "福海彰化離岸風力發電場",
+        "url": "",
+        "fullName": "福海彰化離岸風力發電場",
+        "nickName": "",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "福海風力發電公司",
+        "amount": "30",
+        "capacity": "120",
+        "status": "plan",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "大彰化離岸風力發電場",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E9%9B%A2%E5%B2%B8%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB",
+        "fullName": "大彰化離岸風力發電場",
+        "nickName": "",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "沃旭能源",
+        "amount": "111",
+        "capacity": "900",
+        "status": "plan",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "海汕洲風力發電站",
+        "url": "",
+        "fullName": "海汕洲風力發電站",
+        "nickName": "",
+        "photo": "",
+        "location": "臺南市",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "7",
+        "capacity": "2",
+        "status": "cancel",
+        "note": "",
+        "type": [
+            "wind"
+        ]
+    },
+    {
+        "name": "彰濱太陽光電場",
+        "url": "",
+        "fullName": "彰濱太陽光電場",
+        "nickName": "",
+        "photo": "",
+        "location": "彰化縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "30萬片太陽能板",
+        "capacity": "100",
+        "status": "online",
+        "note": "在台電台南將軍七股太陽光電場完工前，為全台最大地面型太陽能廠。",
+        "type": [
+            "solar"
+        ]
+    },
+    {
+        "name": "台灣艾貴義竹發電廠",
+        "url": "",
+        "fullName": "台灣艾貴義竹發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "嘉義縣",
+        "geo": false,
+        "org": "台灣艾貴太陽能源股份有限公司",
+        "amount": "19 萬 5 千片太陽能模板",
+        "capacity": "70.2",
+        "status": "online",
+        "note": "台灣第一個利用廢鹽田改建而成的光電廠。",
+        "type": [
+            "solar"
+        ]
+    },
+    {
+        "name": "台電台南太陽光電場",
+        "url": "",
+        "fullName": "台電台南太陽光電場",
+        "nickName": "",
+        "photo": "",
+        "location": "台南市",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "48萬片太陽能板 ",
+        "capacity": "150",
+        "status": "online",
+        "note": "為全台最大地面型太陽能廠",
+        "type": [
+            "solar"
+        ]
+    },
+    {
+        "name": "知本泓泉溫泉渡假村地熱發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9F%A5%E6%9C%AC%E6%B3%93%E6%B3%89%E6%BA%AB%E6%B3%89%E6%B8%A1%E5%81%87%E6%9D%91%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "知本泓泉溫泉渡假村地熱發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rainbow_Resort_Geothermal_power_plant01.jpg/300px-Rainbow_Resort_Geothermal_power_plant01.jpg",
+        "location": "臺東縣",
+        "geo": {
+            "lat": "22.69",
+            "lng": "121"
+        },
+        "org": "泓泉溫泉渡假村開山安葆能源服務公司",
+        "amount": "1",
+        "capacity": "0.03",
+        "status": "online",
+        "note": "臺灣第一座取得與台灣電力公司地熱購售電合約的民營地熱發電廠。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "宏崙地熱發電廠",
+        "url": "",
+        "fullName": "宏崙地熱發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": false,
+        "org": "宏崙電能股份有限公司",
+        "amount": "1",
+        "capacity": "1",
+        "status": "plan",
+        "note": "2017年8月提出計畫。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "太乙地熱發電廠",
+        "url": "",
+        "fullName": "太乙地熱發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": false,
+        "org": "太乙電能股份有限公司",
+        "amount": "1",
+        "capacity": "1",
+        "status": "plan",
+        "note": "2017年8月提出計畫。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "綠島地熱示範發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B6%A0%E5%B3%B6%E5%9C%B0%E7%86%B1%E7%A4%BA%E7%AF%84%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "綠島地熱示範發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "臺東縣",
+        "geo": false,
+        "org": "台灣電力公司",
+        "amount": "2",
+        "capacity": "2.2",
+        "status": "build",
+        "note": "2016年啟動初期探勘，預計2017年建置200KW試驗機組，四年內建置2MW地熱發電廠。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "金山地熱示範發電廠",
+        "url": "",
+        "fullName": "金山地熱示範發電廠",
+        "nickName": "",
+        "photo": "",
+        "location": "新北市",
+        "geo": false,
+        "org": "工業技術研究院新北市政府",
+        "amount": "1",
+        "capacity": "5",
+        "status": "build",
+        "note": "2015年由新北市政府與工業技術研究院共同推動，預計興建10MW地熱示範電廠，為臺灣最大地熱發電計畫。2017年6月完成第一階段探勘井，預估發電量降至5MW。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "清水地熱發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "清水地熱發電廠",
+        "nickName": "",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg/300px-%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg",
+        "location": "宜蘭縣",
+        "geo": {
+            "lat": "24.6119",
+            "lng": "121.6361"
+        },
+        "org": "宜元股份有限公司",
+        "amount": "1",
+        "capacity": "0.05",
+        "status": "build",
+        "note": "1980年台電、中油以及國科會共同合作興建，初始容量3MW。1993年11月停機廢棄。2015年3月，因噶瑪蘭清水公司嚴重違規及財務問題，被宜蘭縣政府解約。而後重新進行招商，於2016年底由宜元股份有限公司得標，規劃於第一期投資1.7億元，設置1MW裝置容量，計畫於2020年開始商轉。",
+        "type": [
+            "geothermal"
+        ]
+    },
+    {
+        "name": "大甲溪發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "大甲溪發電廠",
+        "nickName": "大甲溪",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Tachiachi_Hydropower_Plant02.jpg/300px-Tachiachi_Hydropower_Plant02.jpg",
+        "location": "臺中市",
+        "geo": {
+            "lat": "24.184",
+            "lng": "120.9231"
+        },
+        "org": "臺灣電力公司",
+        "amount": "21",
+        "capacity": "1356.1",
+        "status": "online",
+        "note": "將大甲溪主流沿線上七座電廠及機組合併而成，自上游至下游依序為德基、青山、谷關、天輪（包括新天輪）、馬鞍、社寮及后里等",
+        "water": [
+            "water"
+        ]
+    },
+    {
+        "name": "東部發電廠",
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
+        "fullName": "東部發電廠",
+        "nickName": "東部",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "location": "花蓮縣",
+        "geo": {
+            "lat": "23.9788",
+            "lng": "121.6043"
+        },
+        "org": "臺灣電力公司",
+        "amount": "16",
+        "capacity": "244.2",
+        "status": "online",
+        "note": "目前管轄分布於花蓮縣境內共11處的發電機組，旗下所管理之發電機組主要集中在花蓮溪支流木瓜溪沿線，僅溪口機組、立霧機組與碧海機組分別位於壽豐溪、立霧溪與和平溪流域。總計旗下共有11個廠、17部機組，總裝置容量到達244.2MW。",
+        "water": [
+            "water"
+        ]
+    }
+]

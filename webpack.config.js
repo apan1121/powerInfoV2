@@ -32,13 +32,17 @@ const jsConfig = {
     output: {
         filename: '[name].bundle.js',
         path: BUILD_DIR,
-        publicPath: ASSETS_PATH,
+
+        publicPath: 'dist/js/',
+        chunkFilename: '[name].bundle.js?v=[chunkhash]',
     },
     resolve: {
         alias: {
             vendor: path.join(__dirname, '/src/js/vendor'),
             lib: path.join(__dirname, '/src/js/lib'),
             vue: 'vue/dist/vue.js',
+            router: path.join(__dirname, '/src/js/router'),
+            components: path.join(__dirname, '/src/js/components'),
         },
         extensions: ['.vue', '.jsx', '.js', '.json'],
     },
@@ -99,6 +103,8 @@ const jsConfig = {
                     minSize: 100,
                     minChunks: 1,
                 },
+
+                ...file_entry.js_dynamic_group,
             },
         },
     },

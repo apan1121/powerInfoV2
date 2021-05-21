@@ -1,0 +1,3155 @@
+{
+    "time": "2021-04-26 12:30",
+    "info": [
+        {
+            "type": "nuclear",
+            "name": "核二#1",
+            "unit_id": "1",
+            "mappingName": [
+                "核二"
+            ],
+            "capacity": 985,
+            "used": 903.5,
+            "percent": 91.73,
+            "gov": "1",
+            "status": "limit",
+            "note": "燃料限制",
+            "noteId": ""
+        },
+        {
+            "type": "nuclear",
+            "name": "核二#2",
+            "unit_id": "2",
+            "mappingName": [
+                "核二"
+            ],
+            "capacity": 985,
+            "used": 982.6,
+            "percent": 99.76,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "nuclear",
+            "name": "核三#1",
+            "unit_id": "1",
+            "mappingName": [
+                "核三"
+            ],
+            "capacity": 951,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "nuclear",
+            "name": "核三#2",
+            "unit_id": "2",
+            "mappingName": [
+                "核三"
+            ],
+            "capacity": 951,
+            "used": 941.5,
+            "percent": 99,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "林口#1",
+            "unit_id": "1",
+            "mappingName": [
+                "林口"
+            ],
+            "capacity": 800,
+            "used": 753.5,
+            "percent": 94.19,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "林口#2",
+            "unit_id": "2",
+            "mappingName": [
+                "林口"
+            ],
+            "capacity": 800,
+            "used": 752.7,
+            "percent": 94.09,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "林口#3",
+            "unit_id": "3",
+            "mappingName": [
+                "林口"
+            ],
+            "capacity": 800,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#1",
+            "unit_id": "1",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "環保停機",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#2",
+            "unit_id": "2",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 460.6,
+            "percent": 83.75,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#3",
+            "unit_id": "3",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 478.9,
+            "percent": 87.07,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#4",
+            "unit_id": "4",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 468.3,
+            "percent": 85.15,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#5",
+            "unit_id": "5",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 482.9,
+            "percent": 87.8,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#6",
+            "unit_id": "6",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 479.8,
+            "percent": 87.24,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#7",
+            "unit_id": "7",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 473.3,
+            "percent": 86.05,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#8",
+            "unit_id": "8",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 486.5,
+            "percent": 88.45,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#9",
+            "unit_id": "9",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "環保停機歲修",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "台中#10",
+            "unit_id": "10",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 550,
+            "used": 474.1,
+            "percent": 86.2,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "興達#1",
+            "unit_id": "1",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 500,
+            "used": 388.5,
+            "percent": 77.7,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": "12"
+        },
+        {
+            "type": "coal",
+            "name": "興達#2",
+            "unit_id": "2",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 500,
+            "used": 369.5,
+            "percent": 73.9,
+            "gov": "1",
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": "12"
+        },
+        {
+            "type": "coal",
+            "name": "興達#3",
+            "unit_id": "3",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 550,
+            "used": 513.7,
+            "percent": 93.4,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "12"
+        },
+        {
+            "type": "coal",
+            "name": "興達#4",
+            "unit_id": "4",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 550,
+            "used": 520.9,
+            "percent": 94.71,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "12"
+        },
+        {
+            "type": "coal",
+            "name": "大林#1",
+            "unit_id": "1",
+            "mappingName": [
+                "大林"
+            ],
+            "capacity": 800,
+            "used": 757,
+            "percent": 94.63,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "大林#2",
+            "unit_id": "2",
+            "mappingName": [
+                "大林"
+            ],
+            "capacity": 800,
+            "used": 757.9,
+            "percent": 94.74,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "co-gen",
+            "name": "汽電共生",
+            "unit_id": "",
+            "mappingName": [
+                "汽電共生"
+            ],
+            "capacity": 618,
+            "used": 1098.7,
+            "percent": 177.78,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "和平#1",
+            "unit_id": "1",
+            "mappingName": [
+                "和平"
+            ],
+            "capacity": 648.6,
+            "used": 603.2,
+            "percent": 93,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "和平#2",
+            "unit_id": "2",
+            "mappingName": [
+                "和平"
+            ],
+            "capacity": 648.6,
+            "used": 604.9,
+            "percent": 93.26,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "麥寮#1",
+            "unit_id": "1",
+            "mappingName": [
+                "麥寮"
+            ],
+            "capacity": 600,
+            "used": 302.8,
+            "percent": 50.47,
+            "gov": false,
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "麥寮#2",
+            "unit_id": "2",
+            "mappingName": [
+                "麥寮"
+            ],
+            "capacity": 600,
+            "used": 519.8,
+            "percent": 86.63,
+            "gov": false,
+            "status": "limit",
+            "note": "友善降載減排",
+            "noteId": ""
+        },
+        {
+            "type": "coal",
+            "name": "麥寮#3",
+            "unit_id": "3",
+            "mappingName": [
+                "麥寮"
+            ],
+            "capacity": 600,
+            "used": 0,
+            "percent": 0,
+            "gov": false,
+            "status": "online",
+            "note": "環保停機歲修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#1",
+            "unit_id": "1",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 742.7,
+            "used": 487.4,
+            "percent": 65.63,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#2",
+            "unit_id": "2",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 742.7,
+            "used": 492.2,
+            "percent": 66.27,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#3",
+            "unit_id": "3",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 724.7,
+            "used": 578.9,
+            "percent": 79.88,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#4",
+            "unit_id": "4",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 724.7,
+            "used": 666.2,
+            "percent": 91.93,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#5",
+            "unit_id": "5",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 724.7,
+            "used": 333.7,
+            "percent": 46.05,
+            "gov": "1",
+            "status": "fix",
+            "note": "部分歲修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#6",
+            "unit_id": "6",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 724.7,
+            "used": 53.5,
+            "percent": 7.38,
+            "gov": "1",
+            "status": "fix",
+            "note": "部分歲修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大潭CC#7",
+            "unit_id": "7",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 600,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#1",
+            "unit_id": "1",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 892.6,
+            "used": 824,
+            "percent": 92.31,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#2",
+            "unit_id": "2",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 892.6,
+            "used": 886.5,
+            "percent": 99.32,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#3",
+            "unit_id": "3",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 892.6,
+            "used": 394.7,
+            "percent": 44.22,
+            "gov": "1",
+            "status": "limit",
+            "note": "EOH限制",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#4",
+            "unit_id": "4",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 386,
+            "used": 371.8,
+            "percent": 96.32,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#5",
+            "unit_id": "5",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 386,
+            "used": 365.9,
+            "percent": 94.79,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "通霄CC#6",
+            "unit_id": "6",
+            "mappingName": [
+                "通霄"
+            ],
+            "capacity": 321.2,
+            "used": 355.1,
+            "percent": 110.55,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "興達CC#1",
+            "unit_id": "1",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 445.2,
+            "used": 325,
+            "percent": 73,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "興達CC#2",
+            "unit_id": "2",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 445.2,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "興達CC#3",
+            "unit_id": "3",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 445.2,
+            "used": 323.5,
+            "percent": 72.66,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "興達CC#4",
+            "unit_id": "4",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 445.2,
+            "used": 322.9,
+            "percent": 72.53,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "興達CC#5",
+            "unit_id": "5",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 445.2,
+            "used": 225.5,
+            "percent": 50.65,
+            "gov": "1",
+            "status": "fix",
+            "note": "部分檢修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "南部CC#1",
+            "unit_id": "1",
+            "mappingName": [
+                "南部"
+            ],
+            "capacity": 288.8,
+            "used": 282.8,
+            "percent": 97.92,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "南部CC#2",
+            "unit_id": "2",
+            "mappingName": [
+                "南部"
+            ],
+            "capacity": 288.8,
+            "used": 193,
+            "percent": 66.83,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "南部CC#3",
+            "unit_id": "3",
+            "mappingName": [
+                "南部"
+            ],
+            "capacity": 288.8,
+            "used": 224.4,
+            "percent": 77.7,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "南部CC#4",
+            "unit_id": "4",
+            "mappingName": [
+                "南部"
+            ],
+            "capacity": 251.4,
+            "used": 218.7,
+            "percent": 86.99,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大林#5",
+            "unit_id": "5",
+            "mappingName": [
+                "大林"
+            ],
+            "capacity": 500,
+            "used": 142.9,
+            "percent": 28.58,
+            "gov": "1",
+            "status": "limit",
+            "note": "運轉限制",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "大林#6",
+            "unit_id": "6",
+            "mappingName": [
+                "大林"
+            ],
+            "capacity": 550,
+            "used": 237.9,
+            "percent": 43.25,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "海湖#1",
+            "unit_id": "1",
+            "mappingName": [
+                "海湖"
+            ],
+            "capacity": 450,
+            "used": 435.8,
+            "percent": 96.84,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "海湖#2",
+            "unit_id": "2",
+            "mappingName": [
+                "海湖"
+            ],
+            "capacity": 450,
+            "used": 0,
+            "percent": 0,
+            "gov": false,
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "新桃#1",
+            "unit_id": "1",
+            "mappingName": [
+                "新桃"
+            ],
+            "capacity": 600,
+            "used": 527,
+            "percent": 87.83,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "國光#1",
+            "unit_id": "1",
+            "mappingName": [
+                "國光"
+            ],
+            "capacity": 480,
+            "used": 391.9,
+            "percent": 81.65,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "星彰#1",
+            "unit_id": "1",
+            "mappingName": [
+                "星彰"
+            ],
+            "capacity": 506.9,
+            "used": 469.4,
+            "percent": 92.6,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "星元#1",
+            "unit_id": "1",
+            "mappingName": [
+                "星元"
+            ],
+            "capacity": 490,
+            "used": 260,
+            "percent": 53.06,
+            "gov": false,
+            "status": "break",
+            "note": "部分故障",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "嘉惠#1",
+            "unit_id": "1",
+            "mappingName": [
+                "嘉惠"
+            ],
+            "capacity": 670,
+            "used": 553.8,
+            "percent": 82.66,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "嘉惠#2",
+            "unit_id": "2",
+            "mappingName": [
+                "嘉惠"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": "10"
+        },
+        {
+            "type": "lng",
+            "name": "豐德#1",
+            "unit_id": "1",
+            "mappingName": [
+                "豐德"
+            ],
+            "capacity": 506.9,
+            "used": 398.3,
+            "percent": 78.58,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "lng",
+            "name": "豐德#2",
+            "unit_id": "2",
+            "mappingName": [
+                "豐德"
+            ],
+            "capacity": 506.9,
+            "used": 396.4,
+            "percent": 78.2,
+            "gov": false,
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "oil",
+            "name": "協和#3",
+            "unit_id": "3",
+            "mappingName": [
+                "協和"
+            ],
+            "capacity": 500,
+            "used": 141.8,
+            "percent": 28.36,
+            "gov": "1",
+            "status": "limit",
+            "note": "環保限制",
+            "noteId": ""
+        },
+        {
+            "type": "oil",
+            "name": "協和#4",
+            "unit_id": "4",
+            "mappingName": [
+                "協和"
+            ],
+            "capacity": 500,
+            "used": 138.5,
+            "percent": 27.7,
+            "gov": "1",
+            "status": "limit",
+            "note": "環保限制",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "核二Gas1",
+            "unit_id": "",
+            "mappingName": [
+                "核二"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "核二Gas2",
+            "unit_id": "",
+            "mappingName": [
+                "核二"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "核三Gas1",
+            "unit_id": "",
+            "mappingName": [
+                "核三"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "核三Gas2",
+            "unit_id": "",
+            "mappingName": [
+                "核三"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "台中Gas1&2",
+            "unit_id": "",
+            "mappingName": [
+                "台中&2"
+            ],
+            "capacity": 140,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "台中Gas3&4",
+            "unit_id": "",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 140,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "diesel",
+            "name": "澎湖尖山",
+            "unit_id": "",
+            "mappingName": [
+                "澎湖尖山"
+            ],
+            "capacity": 129.8,
+            "used": 42.3,
+            "percent": 32.59,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "4"
+        },
+        {
+            "type": "diesel",
+            "name": "金門塔山",
+            "unit_id": "",
+            "mappingName": [
+                "金門塔山"
+            ],
+            "capacity": 113.3,
+            "used": 27.1,
+            "percent": 23.92,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "4"
+        },
+        {
+            "type": "diesel",
+            "name": "馬祖珠山",
+            "unit_id": "",
+            "mappingName": [
+                "馬祖珠山"
+            ],
+            "capacity": 28.6,
+            "used": 7,
+            "percent": 24.48,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "4"
+        },
+        {
+            "type": "diesel",
+            "name": "離島其他",
+            "unit_id": "",
+            "mappingName": [
+                "離島其他"
+            ],
+            "capacity": 42.7,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "4"
+        },
+        {
+            "type": "hydro",
+            "name": "德基#1",
+            "unit_id": "1",
+            "mappingName": [
+                "德基"
+            ],
+            "capacity": 78,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "德基#2",
+            "unit_id": "2",
+            "mappingName": [
+                "德基"
+            ],
+            "capacity": 78,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "德基#3",
+            "unit_id": "3",
+            "mappingName": [
+                "德基"
+            ],
+            "capacity": 78,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "青山#1",
+            "unit_id": "1",
+            "mappingName": [
+                "青山"
+            ],
+            "capacity": 92,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "青山#2",
+            "unit_id": "2",
+            "mappingName": [
+                "青山"
+            ],
+            "capacity": 92,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "青山#3",
+            "unit_id": "3",
+            "mappingName": [
+                "青山"
+            ],
+            "capacity": 92,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "青山#4",
+            "unit_id": "4",
+            "mappingName": [
+                "青山"
+            ],
+            "capacity": 92,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "谷關#1",
+            "unit_id": "1",
+            "mappingName": [
+                "谷關"
+            ],
+            "capacity": 54.4,
+            "used": 18.9,
+            "percent": 34.74,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "谷關#2",
+            "unit_id": "2",
+            "mappingName": [
+                "谷關"
+            ],
+            "capacity": 54.4,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "谷關#3",
+            "unit_id": "3",
+            "mappingName": [
+                "谷關"
+            ],
+            "capacity": 54.4,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "谷關#4",
+            "unit_id": "4",
+            "mappingName": [
+                "谷關"
+            ],
+            "capacity": 54.4,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "天輪#1",
+            "unit_id": "1",
+            "mappingName": [
+                "天輪"
+            ],
+            "capacity": 22.5,
+            "used": 21.7,
+            "percent": 96.44,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "天輪#2",
+            "unit_id": "2",
+            "mappingName": [
+                "天輪"
+            ],
+            "capacity": 22.5,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "天輪#3",
+            "unit_id": "3",
+            "mappingName": [
+                "天輪"
+            ],
+            "capacity": 22.5,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "天輪#4",
+            "unit_id": "4",
+            "mappingName": [
+                "天輪"
+            ],
+            "capacity": 22.5,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "天輪#5",
+            "unit_id": "5",
+            "mappingName": [
+                "天輪"
+            ],
+            "capacity": 105,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "馬鞍#1",
+            "unit_id": "1",
+            "mappingName": [
+                "馬鞍"
+            ],
+            "capacity": 66.7,
+            "used": 9.9,
+            "percent": 14.84,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "馬鞍#2",
+            "unit_id": "2",
+            "mappingName": [
+                "馬鞍"
+            ],
+            "capacity": 66.7,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "卓蘭#1",
+            "unit_id": "1",
+            "mappingName": [
+                "卓蘭"
+            ],
+            "capacity": 40,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "卓蘭#2",
+            "unit_id": "2",
+            "mappingName": [
+                "卓蘭"
+            ],
+            "capacity": 40,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "萬大#1",
+            "unit_id": "1",
+            "mappingName": [
+                "萬大"
+            ],
+            "capacity": 10.4,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "萬大#2",
+            "unit_id": "2",
+            "mappingName": [
+                "萬大"
+            ],
+            "capacity": 10.4,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "萬大#3",
+            "unit_id": "3",
+            "mappingName": [
+                "萬大"
+            ],
+            "capacity": 15.3,
+            "used": 3.6,
+            "percent": 23.53,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "萬大#4",
+            "unit_id": "4",
+            "mappingName": [
+                "萬大"
+            ],
+            "capacity": 19.7,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "松林#1&2",
+            "unit_id": "1",
+            "mappingName": [
+                "松林"
+            ],
+            "capacity": 20.9,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "大觀一#1",
+            "unit_id": "1",
+            "mappingName": [
+                "大觀一"
+            ],
+            "capacity": 22,
+            "used": 7,
+            "percent": 31.82,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "大觀一#2",
+            "unit_id": "2",
+            "mappingName": [
+                "大觀一"
+            ],
+            "capacity": 22,
+            "used": 7.1,
+            "percent": 32.27,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "大觀一#3",
+            "unit_id": "3",
+            "mappingName": [
+                "大觀一"
+            ],
+            "capacity": 22,
+            "used": 7.1,
+            "percent": 32.27,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "大觀一#4",
+            "unit_id": "4",
+            "mappingName": [
+                "大觀一"
+            ],
+            "capacity": 22,
+            "used": 7.4,
+            "percent": 33.64,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "大觀一#5",
+            "unit_id": "5",
+            "mappingName": [
+                "大觀一"
+            ],
+            "capacity": 22,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "鉅工#1",
+            "unit_id": "1",
+            "mappingName": [
+                "鉅工"
+            ],
+            "capacity": 21.8,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "歲修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "鉅工#2",
+            "unit_id": "2",
+            "mappingName": [
+                "鉅工"
+            ],
+            "capacity": 21.8,
+            "used": 11.5,
+            "percent": 52.75,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "水里#1",
+            "unit_id": "1",
+            "mappingName": [
+                "水里"
+            ],
+            "capacity": 12.8,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "立霧#1&#2",
+            "unit_id": "2",
+            "mappingName": [
+                "立霧#1&amp;"
+            ],
+            "capacity": 32,
+            "used": 9,
+            "percent": 28.13,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "龍澗#1",
+            "unit_id": "1",
+            "mappingName": [
+                "龍澗"
+            ],
+            "capacity": 48.6,
+            "used": 15.8,
+            "percent": 32.51,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "龍澗#2",
+            "unit_id": "2",
+            "mappingName": [
+                "龍澗"
+            ],
+            "capacity": 48.6,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "碧海",
+            "unit_id": "",
+            "mappingName": [
+                "碧海"
+            ],
+            "capacity": 61.2,
+            "used": 5.8,
+            "percent": 9.48,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "烏來&桂山&粗坑",
+            "unit_id": "",
+            "mappingName": [
+                "烏來&桂山&粗坑"
+            ],
+            "capacity": 40.5,
+            "used": 9.2,
+            "percent": 22.72,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "北部小水力",
+            "unit_id": "",
+            "mappingName": [
+                "北部小水力"
+            ],
+            "capacity": 26.6,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "6"
+        },
+        {
+            "type": "hydro",
+            "name": "中部小水力",
+            "unit_id": "",
+            "mappingName": [
+                "中部小水力"
+            ],
+            "capacity": 9.8,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "6"
+        },
+        {
+            "type": "hydro",
+            "name": "南部小水力",
+            "unit_id": "",
+            "mappingName": [
+                "南部小水力"
+            ],
+            "capacity": 7.2,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "6"
+        },
+        {
+            "type": "hydro",
+            "name": "東部小水力",
+            "unit_id": "",
+            "mappingName": [
+                "東部小水力"
+            ],
+            "capacity": 54.6,
+            "used": 18,
+            "percent": 32.97,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "6"
+        },
+        {
+            "type": "hydro",
+            "name": "翡翠#1",
+            "unit_id": "1",
+            "mappingName": [
+                "翡翠"
+            ],
+            "capacity": 70,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "石門#1",
+            "unit_id": "1",
+            "mappingName": [
+                "石門"
+            ],
+            "capacity": 45,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "石門#2",
+            "unit_id": "2",
+            "mappingName": [
+                "石門"
+            ],
+            "capacity": 45,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "曾文#1",
+            "unit_id": "1",
+            "mappingName": [
+                "曾文"
+            ],
+            "capacity": 50,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "義興#1",
+            "unit_id": "1",
+            "mappingName": [
+                "義興"
+            ],
+            "capacity": 40,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "名間",
+            "unit_id": "",
+            "mappingName": [
+                "名間"
+            ],
+            "capacity": 16.7,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "嘉南西口、烏山頭和八田",
+            "unit_id": "",
+            "mappingName": [
+                "嘉南西口、烏山頭和八田"
+            ],
+            "capacity": 22.5,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "后里示範",
+            "unit_id": "",
+            "mappingName": [
+                "后里示範"
+            ],
+            "capacity": 0.1,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "卑南",
+            "unit_id": "",
+            "mappingName": [
+                "卑南"
+            ],
+            "capacity": 2,
+            "used": 0.7,
+            "percent": 35,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "hydro",
+            "name": "捷祥關山",
+            "unit_id": "",
+            "mappingName": [
+                "捷祥關山"
+            ],
+            "capacity": 1,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "石門",
+            "unit_id": "",
+            "mappingName": [
+                "石門"
+            ],
+            "capacity": 4,
+            "used": 1.1,
+            "percent": 27.5,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "林口",
+            "unit_id": "",
+            "mappingName": [
+                "林口"
+            ],
+            "capacity": 6,
+            "used": 5.2,
+            "percent": 86.67,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "蘆竹",
+            "unit_id": "",
+            "mappingName": [
+                "蘆竹"
+            ],
+            "capacity": 7.2,
+            "used": 4.9,
+            "percent": 68.06,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "大潭",
+            "unit_id": "",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 15.1,
+            "used": 12.3,
+            "percent": 81.46,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "觀園",
+            "unit_id": "",
+            "mappingName": [
+                "觀園"
+            ],
+            "capacity": 30,
+            "used": 17.9,
+            "percent": 59.67,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "香山",
+            "unit_id": "",
+            "mappingName": [
+                "香山"
+            ],
+            "capacity": 12,
+            "used": 3.5,
+            "percent": 29.17,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "台中",
+            "unit_id": "",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 6,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "台中港",
+            "unit_id": "",
+            "mappingName": [
+                "台中港"
+            ],
+            "capacity": 36,
+            "used": 1.3,
+            "percent": 3.61,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "王功",
+            "unit_id": "",
+            "mappingName": [
+                "王功"
+            ],
+            "capacity": 23,
+            "used": 3.9,
+            "percent": 16.96,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "彰工",
+            "unit_id": "",
+            "mappingName": [
+                "彰工"
+            ],
+            "capacity": 71.2,
+            "used": 10.1,
+            "percent": 14.19,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "永興",
+            "unit_id": "",
+            "mappingName": [
+                "永興"
+            ],
+            "capacity": 9.2,
+            "used": 0.5,
+            "percent": 5.43,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "離岸一期",
+            "unit_id": "",
+            "mappingName": [
+                "離岸一期"
+            ],
+            "capacity": 0,
+            "used": 1.7,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "10"
+        },
+        {
+            "type": "wind",
+            "name": "雲麥",
+            "unit_id": "",
+            "mappingName": [
+                "雲麥"
+            ],
+            "capacity": 46,
+            "used": 0.9,
+            "percent": 1.96,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "四湖",
+            "unit_id": "",
+            "mappingName": [
+                "四湖"
+            ],
+            "capacity": 28,
+            "used": 0.4,
+            "percent": 1.43,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "恆春",
+            "unit_id": "",
+            "mappingName": [
+                "恆春"
+            ],
+            "capacity": 4.5,
+            "used": 4.4,
+            "percent": 97.78,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "澎湖中屯",
+            "unit_id": "",
+            "mappingName": [
+                "澎湖中屯"
+            ],
+            "capacity": 4.8,
+            "used": 0.2,
+            "percent": 4.17,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "金門金沙",
+            "unit_id": "",
+            "mappingName": [
+                "金門金沙"
+            ],
+            "capacity": 4,
+            "used": 2.9,
+            "percent": 72.5,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "澎湖湖西",
+            "unit_id": "",
+            "mappingName": [
+                "澎湖湖西"
+            ],
+            "capacity": 5.4,
+            "used": 0.1,
+            "percent": 1.85,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "苗栗竹南",
+            "unit_id": "",
+            "mappingName": [
+                "苗栗竹南"
+            ],
+            "capacity": 7.8,
+            "used": 2.7,
+            "percent": 34.62,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "苗栗大鵬",
+            "unit_id": "",
+            "mappingName": [
+                "苗栗大鵬"
+            ],
+            "capacity": 42,
+            "used": 17,
+            "percent": 40.48,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "鹿威彰濱",
+            "unit_id": "",
+            "mappingName": [
+                "鹿威彰濱"
+            ],
+            "capacity": 55.2,
+            "used": 6.2,
+            "percent": 11.23,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "鹿威鹿港",
+            "unit_id": "",
+            "mappingName": [
+                "鹿威鹿港"
+            ],
+            "capacity": 41.4,
+            "used": 3.9,
+            "percent": 9.42,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "觀威觀音&桃威新屋",
+            "unit_id": "",
+            "mappingName": [
+                "觀威觀音&桃威新屋"
+            ],
+            "capacity": 48.3,
+            "used": 27.1,
+            "percent": 56.11,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "中威大安",
+            "unit_id": "",
+            "mappingName": [
+                "中威大安"
+            ],
+            "capacity": 75.9,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "崎威崎頂",
+            "unit_id": "",
+            "mappingName": [
+                "崎威崎頂"
+            ],
+            "capacity": 6.9,
+            "used": 1.8,
+            "percent": 26.09,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "豐威",
+            "unit_id": "",
+            "mappingName": [
+                "豐威"
+            ],
+            "capacity": 11.5,
+            "used": 1.7,
+            "percent": 14.78,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "龍威後龍",
+            "unit_id": "",
+            "mappingName": [
+                "龍威後龍"
+            ],
+            "capacity": 44.1,
+            "used": 7.9,
+            "percent": 17.91,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "苗栗通苑",
+            "unit_id": "",
+            "mappingName": [
+                "苗栗通苑"
+            ],
+            "capacity": 39.1,
+            "used": 6.5,
+            "percent": 16.62,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "安威",
+            "unit_id": "",
+            "mappingName": [
+                "安威"
+            ],
+            "capacity": 11.5,
+            "used": 1,
+            "percent": 8.7,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "清風清水",
+            "unit_id": "",
+            "mappingName": [
+                "清風清水"
+            ],
+            "capacity": 2.3,
+            "used": 0.1,
+            "percent": 4.35,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "東鋼龍港",
+            "unit_id": "",
+            "mappingName": [
+                "東鋼龍港"
+            ],
+            "capacity": 11.5,
+            "used": 2.8,
+            "percent": 24.35,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "海洋竹南",
+            "unit_id": "",
+            "mappingName": [
+                "海洋竹南"
+            ],
+            "capacity": 128,
+            "used": 99.3,
+            "percent": 77.58,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "wind",
+            "name": "禾風麥寮",
+            "unit_id": "",
+            "mappingName": [
+                "禾風麥寮"
+            ],
+            "capacity": 2.3,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "金門金沙",
+            "unit_id": "",
+            "mappingName": [
+                "金門金沙"
+            ],
+            "capacity": 0.5,
+            "used": 0.235,
+            "percent": 47,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "台中生水池",
+            "unit_id": "",
+            "mappingName": [
+                "台中"
+            ],
+            "capacity": 2.1,
+            "used": 1.308,
+            "percent": 62.29,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "興達生水池",
+            "unit_id": "",
+            "mappingName": [
+                "興達"
+            ],
+            "capacity": 1.6,
+            "used": 0.165,
+            "percent": 10.31,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "嘉義民雄",
+            "unit_id": "",
+            "mappingName": [
+                "嘉義民雄"
+            ],
+            "capacity": 0.1,
+            "used": 0.009,
+            "percent": 9,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "中部儲運",
+            "unit_id": "",
+            "mappingName": [
+                "中部儲運"
+            ],
+            "capacity": 0.1,
+            "used": 0.037,
+            "percent": 37,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "東勢新伯公",
+            "unit_id": "",
+            "mappingName": [
+                "東勢新伯公"
+            ],
+            "capacity": 0.1,
+            "used": 0.032,
+            "percent": 32,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "永安鹽灘地",
+            "unit_id": "",
+            "mappingName": [
+                "永安鹽灘地"
+            ],
+            "capacity": 4.6,
+            "used": 0.469,
+            "percent": 10.2,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "路北",
+            "unit_id": "",
+            "mappingName": [
+                "路北"
+            ],
+            "capacity": 0.1,
+            "used": 0.005,
+            "percent": 5,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "中原大學",
+            "unit_id": "",
+            "mappingName": [
+                "中原大學"
+            ],
+            "capacity": 0,
+            "used": 0.028,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "大潭生水池",
+            "unit_id": "",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 0.6,
+            "used": 0.413,
+            "percent": 68.83,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "核三生水池",
+            "unit_id": "",
+            "mappingName": [
+                "核三"
+            ],
+            "capacity": 1.5,
+            "used": 0.397,
+            "percent": 26.47,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "七美",
+            "unit_id": "",
+            "mappingName": [
+                "七美"
+            ],
+            "capacity": 0.4,
+            "used": 0.093,
+            "percent": 23.25,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "尖山",
+            "unit_id": "",
+            "mappingName": [
+                "尖山"
+            ],
+            "capacity": 0.1,
+            "used": 0.016,
+            "percent": 16,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "卓蘭",
+            "unit_id": "",
+            "mappingName": [
+                "卓蘭"
+            ],
+            "capacity": 0,
+            "used": 0.016,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "后里",
+            "unit_id": "",
+            "mappingName": [
+                "后里"
+            ],
+            "capacity": 0.1,
+            "used": 0.007,
+            "percent": 7,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "台中龍井",
+            "unit_id": "",
+            "mappingName": [
+                "台中龍井"
+            ],
+            "capacity": 6.5,
+            "used": 3.123,
+            "percent": 48.05,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "七股",
+            "unit_id": "",
+            "mappingName": [
+                "七股"
+            ],
+            "capacity": 1.8,
+            "used": 0.241,
+            "percent": 13.39,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "龍潭E/S",
+            "unit_id": "",
+            "mappingName": [
+                "龍潭E/S"
+            ],
+            "capacity": 0.2,
+            "used": 0.129,
+            "percent": 64.5,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "竹工E/S",
+            "unit_id": "",
+            "mappingName": [
+                "竹工E/S"
+            ],
+            "capacity": 0.2,
+            "used": 0.182,
+            "percent": 91,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "中科E/S",
+            "unit_id": "",
+            "mappingName": [
+                "中科E/S"
+            ],
+            "capacity": 0.2,
+            "used": 0.089,
+            "percent": 44.5,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "彰林E/S",
+            "unit_id": "",
+            "mappingName": [
+                "彰林E/S"
+            ],
+            "capacity": 0.3,
+            "used": 0.085,
+            "percent": 28.33,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "高雄E/S",
+            "unit_id": "",
+            "mappingName": [
+                "高雄E/S"
+            ],
+            "capacity": 0.4,
+            "used": 0.193,
+            "percent": 48.25,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "燕巢倉庫",
+            "unit_id": "",
+            "mappingName": [
+                "燕巢倉庫"
+            ],
+            "capacity": 0.5,
+            "used": 0.054,
+            "percent": 10.8,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "大潭",
+            "unit_id": "",
+            "mappingName": [
+                "大潭"
+            ],
+            "capacity": 0.7,
+            "used": 0.594,
+            "percent": 84.86,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "北儲",
+            "unit_id": "",
+            "mappingName": [
+                "北儲"
+            ],
+            "capacity": 0.9,
+            "used": 0.776,
+            "percent": 86.22,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "彰濱光",
+            "unit_id": "",
+            "mappingName": [
+                "彰濱光"
+            ],
+            "capacity": 100,
+            "used": 60.48,
+            "percent": 60.48,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "solar",
+            "name": "南鹽光",
+            "unit_id": "",
+            "mappingName": [
+                "南鹽光"
+            ],
+            "capacity": 0,
+            "used": 41.65,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "10"
+        },
+        {
+            "type": "solar",
+            "name": "崙尾光",
+            "unit_id": "",
+            "mappingName": [
+                "崙尾光"
+            ],
+            "capacity": 0,
+            "used": 118.16,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "10"
+        },
+        {
+            "type": "solar",
+            "name": "太陽能購電",
+            "unit_id": "",
+            "mappingName": [
+                "太陽能購電"
+            ],
+            "capacity": 5309.6,
+            "used": 2261.277,
+            "percent": 42.59,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": "7"
+        },
+        {
+            "type": "pumping gen",
+            "name": "大觀二#1",
+            "unit_id": "1",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 250,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "大觀二#2",
+            "unit_id": "2",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 250,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "大觀二#3",
+            "unit_id": "3",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 250,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "大觀二#4",
+            "unit_id": "4",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 250,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#1",
+            "unit_id": "1",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#2",
+            "unit_id": "2",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#3",
+            "unit_id": "3",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#4",
+            "unit_id": "4",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#5",
+            "unit_id": "5",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping gen",
+            "name": "明潭#6",
+            "unit_id": "6",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 267,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "大觀二#1",
+            "unit_id": "1",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "大觀二#2",
+            "unit_id": "2",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 0,
+            "used": -248.6,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "大觀二#3",
+            "unit_id": "3",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "大觀二#4",
+            "unit_id": "4",
+            "mappingName": [
+                "大觀二"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#1",
+            "unit_id": "1",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#2",
+            "unit_id": "2",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#3",
+            "unit_id": "3",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": -262.3,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "故障",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#4",
+            "unit_id": "4",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": -262.7,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#5",
+            "unit_id": "5",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": -267.1,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        },
+        {
+            "type": "pumping load",
+            "name": "明潭#6",
+            "unit_id": "6",
+            "mappingName": [
+                "明潭"
+            ],
+            "capacity": 0,
+            "used": 0,
+            "percent": 0,
+            "gov": "1",
+            "status": "online",
+            "note": "檢修",
+            "noteId": ""
+        },
+        {
+            "type": "geothermal",
+            "name": "小型地熱能",
+            "unit_id": "",
+            "mappingName": [
+                "小型地熱能"
+            ],
+            "capacity": 0.3,
+            "used": 0.2,
+            "percent": 66.67,
+            "gov": "1",
+            "status": "online",
+            "note": "",
+            "noteId": ""
+        }
+    ]
+}
