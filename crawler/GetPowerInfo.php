@@ -100,12 +100,14 @@ if (empty($data)) {
 
 } else {
     $powerInfoPath = "../log/powerInfo.log";
-    $powerUnitRecord = "../log/record/{name}_{type}.log";
+    $powerUnitRecord = "../log/record/{unitKey}.log";
+
     $prev_powerInfo = [];
     $prev_record = get($powerInfoPath);
     if (!empty($prev_record['info'])) {
         foreach ($prev_record['info'] AS $unit_info) {
-            $prev_powerInfo[$unit_info['name'] ."_". $unit_info['type']] = $unit_info;
+            $unitKey = formatUnitKey($unit_info);
+            $prev_powerInfo[$unitKey] = $unit_info;
         }
     }
 
@@ -117,6 +119,7 @@ if (empty($data)) {
 
     $powerInfo = [];
 
+    $unitKeys = [];
     foreach ($rawPowerInfo AS $item) {
         $powerData = [
             "type" => "",
@@ -140,7 +143,6 @@ if (empty($data)) {
             continue;
         }
 
-        $powerData['name'] = str_replace("/", "", $powerData['name']);
 
         foreach ($powerData AS $key => $val) {
             if (!empty($val)) {
@@ -160,6 +162,7 @@ if (empty($data)) {
 
         $tryMappingName = str_replace(["CC","Gas1","Gas2","Gas1&2","Gas3&4","&amp;","生水池","#1&#2", "&2"],"",$powerData["name"]);
 
+
         /* 從名字中取出可能的對應電廠 */
         if (preg_match("/(?P<mappingName>.{1,})#(?P<unit_id>[0-9]{1,})/", $tryMappingName, $match)) {
             $tryMappingName = trim($match["mappingName"]);
@@ -175,18 +178,19 @@ if (empty($data)) {
             $tryMappingName = trim($match["mappingName"]);
 
             if (isset($mappingPowerNameStorage[$tryMappingName])) {
-                $powerData["mappingName"] = [$mappingPowerNameStorage[$tryMappingName]];
+                $powerData["mappingName"] = $mappingPowerNameStorage[$tryMappingName];
             } else {
                 $powerData["mappingName"] = [$tryMappingName];
             }
         } else {
             $tryMappingName = trim($tryMappingName);
             if (isset($mappingPowerNameStorage[$tryMappingName])) {
-                $powerData["mappingName"] = [$mappingPowerNameStorage[$tryMappingName]];
+                $powerData["mappingName"] = $mappingPowerNameStorage[$tryMappingName];
             } else {
                 $powerData["mappingName"] = [$tryMappingName];
             }
         }
+
 
         /* 類型正規化成英文 */
         if (preg_match("/\((?P<type>[a-zA-Z-\s]{1,})\)/", $powerData["type"], $match)) {
@@ -259,17 +263,25 @@ if (empty($data)) {
                 break;
         }
 
+        $unitKey = [];
+        $unitKey[] = $powerData['name'];
+        $unitKey[] = $powerData['type'];
+        $unitKey = implode("_", $unitKey);
+        $unitKey = formatUnitKey($powerData);
+        $powerData['key'] = $unitKey;
+
+        $unitKeys[] = $unitKey;
+
         $pre_powerData =  false;
-        if (isset($prev_powerInfo[$powerData['name'] ."_". $powerData['type']])) {
-            $pre_powerData = $prev_powerInfo[$powerData['name'] ."_". $powerData['type']];
+        if (isset($prev_powerInfo[$unitKey])) {
+            $pre_powerData = $prev_powerInfo[$unitKey];
         }
 
 
         $records = [];
         if (!empty($pre_powerData)) {
             $tmpPowerUnitRecord = $powerUnitRecord;
-            $tmpPowerUnitRecord = str_replace("{name}", $powerData['name'], $tmpPowerUnitRecord);
-            $tmpPowerUnitRecord = str_replace("{type}", $powerData['type'], $tmpPowerUnitRecord);
+            $tmpPowerUnitRecord = str_replace("{unitKey}", $unitKey, $tmpPowerUnitRecord);
             if (!empty($pre_powerData['records']) && is_array($pre_powerData['records'])) {
                 $records = $pre_powerData['records'];
             } else {
@@ -374,4 +386,19 @@ if (empty($data)) {
 
         save("../log/summary.log", $totalSummary);
     }
+
+}
+
+
+function formatUnitKey($unitInfo){
+    $unitKey = [];
+    $name = str_replace("/", "", $unitInfo['name']);
+    $name = str_replace("&", "", $name);
+    $unitKey[] = $name;
+
+    $type = str_replace("", "-", $unitInfo['type']);
+    $unitKey[] = $type;
+
+    $unitKey = implode("_", $unitKey);
+    return $unitKey;
 }

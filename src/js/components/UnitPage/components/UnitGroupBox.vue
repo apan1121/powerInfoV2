@@ -42,6 +42,8 @@
                             :plant-full-name="UnitInfo.plantFullName"
                             :used="UnitInfo.used"
                             :capacity="UnitInfo.capacity"
+                            @open-plant="openPlantInfo"
+                            @open-unit="openUnitInfo"
                         ></unit-box>
                     </div>
                 </template>
@@ -52,8 +54,9 @@
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import PipeGroupBox from './PipeGroupBox.vue';
-import UnitBox from './UnitBox.vue';
 
+
+import { module_name } from '../lib/store/index';
 // import $ from 'jquery';
 // import 'bootstrap';
 
@@ -63,7 +66,7 @@ import UnitBox from './UnitBox.vue';
 export default {
     components: {
         PipeGroupBox,
-        UnitBox,
+        UnitBox: () => import('components/UnitBox/main.vue'),
     },
     filters: {
         formatMoney(val){
@@ -147,7 +150,16 @@ export default {
     destroyed(){},
     methods: {
         ...mapActions({}),
-        ...mapMutations({}),
+        ...mapMutations({
+            choosePlantByName: 'choosePlantByName',
+            chooseUnitByKey: 'chooseUnitByKey',
+        }),
+        openPlantInfo(val){
+            this.choosePlantByName(val);
+        },
+        openUnitInfo(val){
+            this.chooseUnitByKey(val);
+        },
     },
 };
 </script>

@@ -39,7 +39,7 @@ import { mapActions, mapMutations, mapGetters } from 'vuex';
 
 import { module_name } from '../lib/store/index';
 
-import Pipe from './pipe.vue';
+// import Pipe from './pipe.vue';
 // import $ from 'jquery';
 // import 'bootstrap';
 
@@ -48,7 +48,7 @@ import Pipe from './pipe.vue';
 
 export default {
     components: {
-        Pipe,
+        Pipe: () => import('components/pipe/main.vue'),
     },
     filters: {},
     props: {

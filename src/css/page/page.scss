@@ -191,9 +191,19 @@ $pipe-border: $spacer / 2;
 
 
         .summary-box{
+            position: relative;
             background: $white;
+            .filter-area{
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                .filter-info{
+                    padding: 0px $spacer / 2;
+                    font-size: $spacer * 0.75;
+                }
+            }
             .last-updated-time{
-                margin-bottom: $spacer / 2;
+                margin-bottom: $spacer;
                 text-align: right;
                 font-size: $spacer * 0.75;
             }
@@ -340,7 +350,20 @@ $pipe-border: $spacer / 2;
                 width: 100%;
                 border-radius: $spacer / 2;
                 box-shadow:  0px 0px 5px $gray-500;
+                text-align: center;
 
+                .unit-info-btn{
+                    position: absolute;
+                    top: $spacer / 4;
+                    right: $spacer / 2;
+                    z-index: 1;
+                    display: inline-block;
+                    color: $gray-600;
+                    cursor: pointer;
+                    &:active{
+                        color: $gray-700;
+                    }
+                }
 
                 .unit-progress-group{
                     position: relative;
@@ -384,6 +407,7 @@ $pipe-border: $spacer / 2;
                     margin-bottom: $spacer  * 0.25;
                     font-weight: 500;
                     font-size: $spacer * 0.75;
+                    cursor: pointer;
                 }
 
                 .plant-name-area{
@@ -437,6 +461,7 @@ $pipe-border: $spacer / 2;
                     top: initial!important;
                     bottom: $pipe-border * 0.5 !important;
                     left: 50%!important;
+                    z-index: 10;
                     width: $pipe-border;
                     height: calc(100% - #{$pipe-border * 2})!important;
                     border-bottom-right-radius: $pipe-border;
@@ -459,6 +484,7 @@ $pipe-border: $spacer / 2;
                     top: 2px;
                     left: 50%!important;
                     z-index: 2;
+                    z-index: 11;
                     // border: 1px solid $gray-500;
                     width: 25px;
                     height: 20px;
@@ -527,6 +553,110 @@ $pipe-border: $spacer / 2;
         }
 
     }
+
+}
+
+#unit-filter-box{
+    fieldset{
+        legend{
+            font-weight: 900;
+            font-size: $spacer;
+        }
+    }
+}
+
+.modal#plant-info-box{
+    .modal-dialog {
+        @media (min-width: 576px){
+            max-width: 600px;
+        }
+        .modal-content{
+            .modal-header{
+                .nav{
+                    display: inline-flex;
+                    font-size: $spacer * 0.75;
+                    .nav-item{
+                        .nav-link{
+                            padding: $spacer / 4 $spacer / 2;
+                        }
+                    }
+                }
+            }
+            .modal-body{
+                .plant-photo{
+                    height: $spacer * 18;
+                    border-radius: $spacer / 4;
+                    background-color: $gray-400;
+                    img {
+                        width: 100%;
+                        border-radius: $spacer /4;
+                    }
+                }
+                .plant-base-content{
+
+                }
+                .plant-units-content{
+                    .unit-group-info{
+                        margin-bottom: $spacer;
+                        font-size: $spacer * 0.875;
+                        .unit-group-label{
+                            display: inline-block;
+                            margin-bottom: $spacer / 4;
+                            padding: $spacer / 4 $spacer / 2;
+                            border-radius: $spacer / 4;
+                            &[rel="fix"]{
+                                background: $red-500;
+                                color: $white;
+                            }
+                            &[rel="limit"]{
+                                background: $green-500;
+                                color: $white;
+                            }
+                            &[rel="break"]{
+                                background: $orange-500;
+                                color: $white;
+                            }
+                            &:not(:first-child) {
+                                margin-left: $spacer / 4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.table-base-info{
+    padding: $spacer / 2 $spacer;
+    font-size: $spacer * 0.75;
+    .item{
+        .key, .value{
+            padding: .75rem;
+            border-top: 1px solid #dee2e6;
+            vertical-align: top;
+        }
+        .key{
+            font-weight: 900;
+        }
+        .value{
+        }
+        @media (max-width: 767px){
+            &:nth-of-type(odd){
+                background-color: rgba(0,0,0,.05);
+            }
+        }
+        @media (min-width: 768px){
+            &:nth-child(4n + 1){
+                background-color: rgba(0,0,0,.05);
+            }
+            &:nth-child(4n + 2){
+                background-color: rgba(0,0,0,.05);
+            }
+        }
+    }
+
 }
 
 @keyframes cssProgressActiveLeft {

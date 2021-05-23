@@ -156,3 +156,10 @@ $orange-a80: rgba($orange-500, 0.8);
         padding-top: $aspect-ratio;
     }
  }
+
+
+ @mixin circle($width, $height: $width) {
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+}

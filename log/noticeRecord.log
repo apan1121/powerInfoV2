@@ -1,9 +1,16 @@
 [
     {
-        "name": "香山",
+        "name": "豐威",
         "record_type": "unit_run",
         "type": "wind",
         "newVal": 0.1,
+        "oldVal": 0
+    },
+    {
+        "name": "東鋼龍港",
+        "record_type": "unit_run",
+        "type": "wind",
+        "newVal": 0.3,
         "oldVal": 0
     }
 ]

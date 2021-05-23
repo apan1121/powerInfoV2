@@ -8,6 +8,17 @@
     >
         <template v-slot:content>
             <div class="summary-box">
+                <div class="filter-area">
+                    <button type="button"
+                        class="btn btn-secondary btn-sm"
+                        @click="openFilter"
+                    >
+                        <i class="fas fa-filter"></i>
+                    </button>
+                    <span class="filter-info">
+                        選取 <b>{{ chooseTypes.length }}</b> 種發電類型，<b>{{ sortGroup.length }}</b> 項排序
+                    </span>
+                </div>
                 <div class="last-updated-time">
                     最後更新時間: {{ RecordTime }}
                 </div>
@@ -107,7 +118,6 @@ import { string } from 'lib/common/util';
 import PipeGroupBox from './PipeGroupBox.vue';
 import SummarySunburstBox from './SummarySunburstBox.vue';
 
-
 import { module_name } from '../lib/store/index';
 // import $ from 'jquery';
 // import 'bootstrap';
@@ -141,11 +151,12 @@ export default {
     },
     computed: {
         ...mapGetters({
-            RecordTime: `${module_name}/RecordTime`,
-            FormatUnits: `${module_name}/FormatUnits`,
+            chooseTypes: 'chooseTypes',
+            RecordTime: 'RecordTime',
+            FormatUnits: 'FormatUnits',
 
-            sortGroup: `${module_name}/sortGroup`,
-            showVal: `${module_name}/showVal`,
+            sortGroup: 'sortGroup',
+            showVal: 'showVal',
         }),
         TotalPercent(){
             let percent = 0;
@@ -162,6 +173,11 @@ export default {
                 this.calc();
             },
         },
+        chooseTypes: {
+            handler(){
+                this.calc();
+            },
+        },
     },
     created(){},
     mounted(){},
@@ -169,61 +185,73 @@ export default {
     destroyed(){},
     methods: {
         ...mapActions({}),
-        ...mapMutations({}),
+        ...mapMutations({
+            openFilterBox: `${module_name}/openFilterBox`,
+        }),
         calc(){
             const that = this;
-            let TotalCapacity = 0;
-            let TotalUsed = 0;
-            let UnitFixed = 0;
-            let UnitLimit = 0;
-            let UnitBreak = 0;
+            clearTimeout(that.calcTimer);
+            that.calcTimer = setTimeout(() => {
+                let TotalCapacity = 0;
+                let TotalUsed = 0;
+                let UnitFixed = 0;
+                let UnitLimit = 0;
+                let UnitBreak = 0;
 
-            const tmpSunburstRecord = {};
-            const FormatUnits = JSON.parse(JSON.stringify(that.FormatUnits));
-            Object.values(FormatUnits).forEach((UnitInfo) => {
-                switch (UnitInfo.orgStatus) {
-                    case 'fix':
-                        UnitFixed += UnitInfo.capacity;
-                        break;
-                    case 'break':
-                        UnitBreak += UnitInfo.capacity;
-                        break;
-                    case 'limit':
-                        UnitLimit += UnitInfo.capacity;
-                        break;
-                    case 'online':
-                        TotalCapacity += UnitInfo.capacity;
-                        TotalUsed += UnitInfo.used;
-                        break;
-                    default:
-                        break;
-                }
+                const tmpSunburstRecord = {};
+                const FormatUnits = JSON.parse(JSON.stringify(that.FormatUnits));
+                Object.values(FormatUnits).forEach((UnitInfo) => {
+                    if (!that.chooseTypes.includes(UnitInfo.orgType)) {
+                        return false;
+                    }
+
+                    switch (UnitInfo.orgStatus) {
+                        case 'fix':
+                            UnitFixed += UnitInfo.capacity;
+                            break;
+                        case 'break':
+                            UnitBreak += UnitInfo.capacity;
+                            break;
+                        case 'limit':
+                            UnitLimit += UnitInfo.capacity;
+                            break;
+                        case 'online':
+                            TotalCapacity += UnitInfo.capacity;
+                            TotalUsed += UnitInfo.used;
+                            break;
+                        default:
+                            break;
+                    }
 
 
-                let SunburstKey = that.sortGroup.map((sortKey) => {
-                    return UnitInfo[sortKey];
+                    let SunburstKey = that.sortGroup.map((sortKey) => {
+                        return UnitInfo[sortKey];
+                    });
+                    SunburstKey = SunburstKey.join('-');
+                    if (!tmpSunburstRecord[SunburstKey]) {
+                        tmpSunburstRecord[SunburstKey] = 0;
+                    }
+                    tmpSunburstRecord[SunburstKey] += UnitInfo[that.showVal];
                 });
-                SunburstKey = SunburstKey.join('-');
-                if (!tmpSunburstRecord[SunburstKey]) {
-                    tmpSunburstRecord[SunburstKey] = 0;
+                // console.log(tmpSunburstRecord);
+
+                that.TotalCapacity = TotalCapacity;
+                that.TotalUsed = TotalUsed;
+
+                that.UnitFixed = UnitFixed;
+                that.UnitBreak = UnitBreak;
+                that.UnitLimit = UnitLimit;
+
+                const SunburstRecord = [];
+                for (const key  in tmpSunburstRecord) {
+                    SunburstRecord.push([key, tmpSunburstRecord[key]]);
                 }
-                tmpSunburstRecord[SunburstKey] += UnitInfo[that.showVal];
-            });
-            // console.log(tmpSunburstRecord);
 
-            that.TotalCapacity = TotalCapacity;
-            that.TotalUsed = TotalUsed;
-
-            that.UnitFixed = UnitFixed;
-            that.UnitBreak = UnitBreak;
-            that.UnitLimit = UnitLimit;
-
-            const SunburstRecord = [];
-            for (const key  in tmpSunburstRecord) {
-                SunburstRecord.push([key, tmpSunburstRecord[key]]);
-            }
-
-            that.SunburstRecord = SunburstRecord;
+                that.SunburstRecord = SunburstRecord;
+            }, 100);
+        },
+        openFilter(){
+            this.openFilterBox(true);
         },
     },
 };

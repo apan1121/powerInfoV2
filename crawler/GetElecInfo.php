@@ -300,14 +300,16 @@ $electInfo[] = [
 save("../log/powerPlant.log", $electInfo);
 
 function getElectMoreInfo($url) {
+    echo "getElectMoreInfo: ".$url. "\n";
     $html = file_get_contents($url);
 
     $html = str_get_html($html);
     $infoBox = $html->find('.infobox', 0);
     $image = '';
     $geo = false;
-    if (!empty($infoBox->find('a.image img', 0))) {
-        $image = $infoBox->find('img', 0)->src;
+    if (!empty($infoBox->find('a.image', 0))) {
+        $img_page_url = $infoBox->find('a.image', 0)->href;
+        $image = getElectPhoto($img_page_url);
     }
 
     if (!empty($infoBox->find('.geo-nondefault .geo-dec', 0))) {
@@ -321,6 +323,21 @@ function getElectMoreInfo($url) {
     }
 
     return [$image, $geo];
+}
+
+function getElectPhoto($url){
+    echo "getElectPhoto: ".$url. "\n";
+    global $base_url;
+    $url = $base_url . $url;
+    $html = file_get_contents($url);
+    $html = str_get_html($html);
+    $infoBox = $html->find('.fullImageLink', 0);
+    $image = '';
+    if (!empty($infoBox->find('img', 0))) {
+        $image = $infoBox->find('img', 0)->src;
+    }
+    echo "getElectPhoto get: ".$image. "\n";
+    return $image;
 }
 
 exit();

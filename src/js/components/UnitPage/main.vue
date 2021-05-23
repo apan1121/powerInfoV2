@@ -16,18 +16,32 @@
             >
             </unit-group-box>
         </template>
+
+        <template v-if="choosePlantInfo">
+            <plant-info-box v-bind="choosePlantInfo" @close="closePlantInfo"></plant-info-box>
+        </template>
+
+        <template v-if="chooseUnitKey">
+            <unit-info-box :unit-key="chooseUnitKey" @close="closeUnitInfo"></unit-info-box>
+        </template>
+
+        <template v-if="openFilterFlag">
+            <unit-filter-box :type="true" :sort="true"></unit-filter-box>
+        </template>
     </div>
 </template>
 <script>
 import { popup, string } from 'lib/common/util';
 import { mapActions, mapMutations, mapGetters } from 'vuex';
+import PlantInfoBox from 'components/PlantInfoBox/main.vue';
+import UnitInfoBox from 'components/UnitInfoBox/main.vue';
 
 import { module_name, module_store } from './lib/store/index';
 
 import SummaryBox from './components/SummaryBox.vue';
 import UnitGroupBox from './components/UnitGroupBox.vue';
 
-
+import UnitFilterBox from './components/UnitFilterBox.vue';
 
 // import $ from 'jquery';
 // import 'bootstrap';
@@ -37,8 +51,11 @@ import UnitGroupBox from './components/UnitGroupBox.vue';
 
 export default {
     components: {
+        PlantInfoBox,
         SummaryBox,
         UnitGroupBox,
+        UnitFilterBox,
+        UnitInfoBox,
     },
     filters: {},
     props: {},
@@ -50,16 +67,27 @@ export default {
     computed: {
         ...mapGetters({
             lang: 'lang',
-            sortGroup: `${module_name}/sortGroup`,
-            FormatUnits: `${module_name}/FormatUnits`,
-            MappingPlantList: `${module_name}/MappingPlantList`,
+            sortGroup: 'sortGroup',
+            FormatUnits: 'FormatUnits',
+            MappingPlantList: 'MappingPlantList',
 
-            // FormatUnitGroup: `${module_name}/FormatUnitGroup`,
-            // MappingPlantList: `${module_name}/MappingPlantList`,
+            choosePlantInfo: 'choosePlantInfo',
+            chooseUnitKey: 'chooseUnitKey',
+            // chooseUnitInfo: 'chooseUnitInfo',
+
+            openFilterFlag: `${module_name}/openFilterFlag`,
+
+            chooseTypes: 'chooseTypes',
         }),
     },
     watch: {
         sortGroup: {
+            immediate: false,
+            handler(){
+                this.calcFormatUnitGroup();
+            },
+        },
+        chooseTypes: {
             immediate: false,
             handler(){
                 this.calcFormatUnitGroup();
@@ -86,16 +114,20 @@ export default {
     destroyed(){},
     methods: {
         ...mapActions({}),
-        ...mapMutations({}),
+        ...mapMutations({
+            choosePlantByName: 'choosePlantByName',
+            chooseUnitByKey: 'chooseUnitByKey',
+        }),
         init(){
             this.loadPlantInfo();
         },
         loadPlantInfo(){
             const that = this;
+
             popup.loading({
                 title: '讀取中',
             });
-            that.$store.dispatch(`${module_name}/getPlantInfo`).then((response) => {
+            that.$store.dispatch('getPlantInfo').then((response) => {
                 that.loadPowerInfo();
             }, () => {
                 popup.close();
@@ -106,7 +138,7 @@ export default {
             popup.loading({
                 title: '讀取中',
             });
-            that.$store.dispatch(`${module_name}/getRealTimePowerInfo`).then((response) => {
+            that.$store.dispatch('getRealTimePowerInfo').then((response) => {
                 popup.close();
             }, () => {
                 popup.close();
@@ -116,7 +148,6 @@ export default {
         calcFormatUnitGroup(){
             const that = this;
             that.calcFormatUnitGroupTimer = setTimeout(() => {
-                const MappingPlantList = JSON.parse(JSON.stringify(that.MappingPlantList));
                 const sortGroup = JSON.parse(JSON.stringify(that.sortGroup));
                 const Units = JSON.parse(JSON.stringify(that.FormatUnits));
                 const lang = JSON.parse(JSON.stringify(that.lang));
@@ -129,6 +160,10 @@ export default {
 
                 let FormatUnitGroupKeySort = {};
                 Object.values(Units).forEach((UnitInfo) => {
+                    if (!that.chooseTypes.includes(UnitInfo.orgType)) {
+                        return true;
+                    }
+
                     let key = [];
                     sortGroup.forEach((sortKey) => {
                         switch (sortKey) {
@@ -179,17 +214,19 @@ export default {
                     }
 
                     const newUnitInfo = {};
-                    ['name', 'gov', 'type', 'orgType', 'orgStatus', 'location', 'plantName', 'used', 'capacity', 'key'].forEach((colKey) => {
+                    ['name', 'gov', 'type', 'orgType', 'orgStatus', 'location', 'plantName', 'plantFullName', 'used', 'capacity', 'key'].forEach((colKey) => {
                         newUnitInfo[colKey] = UnitInfo[colKey];
                     });
 
-                    newUnitInfo.plantFullName = '';
-                    if (!!MappingPlantList[newUnitInfo.plantName] && 1) {
-                        newUnitInfo.plantFullName = MappingPlantList[newUnitInfo.plantName].fullName;
-                    }
+                    // newUnitInfo.plantFullName = '';
+                    // if (!!MappingPlantList[newUnitInfo.plantName] && 1) {
+                    //     newUnitInfo.plantFullName = MappingPlantList[newUnitInfo.plantName].fullName;
+                    // }
+
 
                     FormatUnitGroupKeySort[key].push(newUnitInfo);
                 });
+
                 FormatUnitGroupKeySort = string.sortObject(FormatUnitGroupKeySort);
 
                 const groupKey = sortGroup[0];
@@ -204,7 +241,7 @@ export default {
                     FormatUnitGroupKey[groupName] = FormatUnitGroupKey[groupName].concat(FormatUnitGroupKeySort[key]);
                 }
 
-
+                const unitTypes = {};
                 const FormatUnitGroup = [];
                 for (const key in FormatUnitGroupKey) {
                     const units = FormatUnitGroupKey[key];
@@ -216,6 +253,7 @@ export default {
                     let UnitBreak = 0;
 
                     units.forEach((UnitInfo) => {
+                        unitTypes[UnitInfo.orgType] = 1;
                         switch (UnitInfo.orgStatus) {
                             case 'fix':
                                 UnitFixed += UnitInfo.capacity;
@@ -274,6 +312,13 @@ export default {
             }
 
             return mapping;
+        },
+
+        closePlantInfo(){
+            this.choosePlantByName('');
+        },
+        closeUnitInfo(){
+            this.chooseUnitByKey('');
         },
     },
 };

@@ -48,7 +48,7 @@ export default {
             breadcrumbData: false,
             lang: {
                 used: '已發',
-                capacity: '可發',
+                capacity: '總容量',
             },
         };
     },

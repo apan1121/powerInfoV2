@@ -4,7 +4,7 @@ export default {
 
     lang: {
         type: {
-            all: '全部',
+            // all: '全部',
             nuclear: '核能',
             coal: '燃煤',
             oil: '燃油',
@@ -72,6 +72,49 @@ export default {
 
         unit: {
         },
+
+        sortNames: {
+            plantName: '電廠名稱',
+            type: '發電類型',
+            status: '電廠狀態',
+            name: '機組名稱',
+            location: '所在縣市',
+            gov: '政府/民間',
+        },
+
+        showVal: {
+            capacity: '',
+            used: '',
+        },
     },
 
+    chooseTypes: [
+        'nuclear',
+        'coal',
+        'oil',
+        'diesel',
+        'lng',
+        'co-gen',
+        'solar',
+        'hydro',
+        'wind',
+        'pumping gen',
+        'pumping load',
+        'geothermal',
+    ],
+
+    showVal: 'used',
+    sortGroup: [
+        'plantName',
+        'type',
+        'status',
+        'name',
+    ],
+
+    MappingPlantList: {},
+    Units: {},
+    RecordTime: '',
+
+    choosePlantName: '',
+    chooseUnitKey: '',
 };

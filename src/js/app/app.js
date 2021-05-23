@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import $ from 'jquery';
 import 'vendor/imgLiquid/imgLiquid';
+import { jsVars } from 'lib/common/util';
 
 Vue.config.debug = process.env.NODE_ENV !== 'production';
 Vue.config.devtools = process.env.NODE_ENV !== 'production';
@@ -13,3 +14,8 @@ $('body').on('resizeImg', () => {
         $('.imgLiquidFill').imgLiquid();
     }, 50);
 });
+
+
+const { origin, pathname } = window.location;
+const BASE_API_HOST = `${origin}${pathname}`;
+jsVars.set('API_CONFIG.API_HOST', BASE_API_HOST);

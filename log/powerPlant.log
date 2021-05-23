@@ -4,7 +4,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "金山核能發電廠",
         "nickName": "核一",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG/300px-Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG/450px-Chin-shan_Nuclear_Power_Plant-canal_and_containment_building-P1020609.JPG",
         "location": "新北市",
         "geo": {
             "lat": "25.291475",
@@ -24,7 +24,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "國聖核能發電廠",
         "nickName": "核二",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Kuosheng_Nuclear_Power_Plant-P1020606.JPG/300px-Kuosheng_Nuclear_Power_Plant-P1020606.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Kuosheng_Nuclear_Power_Plant-P1020606.JPG/800px-Kuosheng_Nuclear_Power_Plant-P1020606.JPG",
         "location": "新北市",
         "geo": {
             "lat": "25.202935",
@@ -44,7 +44,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%89%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "馬鞍山核能發電廠",
         "nickName": "核三",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/NP3_in_Taiwan.JPG/280px-NP3_in_Taiwan.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/NP3_in_Taiwan.JPG/800px-NP3_in_Taiwan.JPG",
         "location": "屏東縣",
         "geo": {
             "lat": "21.958092",
@@ -64,7 +64,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E5%9B%9B%E6%A0%B8%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "龍門核能發電廠",
         "nickName": "核四",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg/300px-%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg/800px-%E5%8F%B0%E6%B9%BE%E7%AC%AC%E5%9B%9B%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80.jpg",
         "location": "新北市",
         "geo": {
             "lat": "25.038328",
@@ -84,7 +84,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%A3%E7%81%AB%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "林口發電廠",
         "nickName": "林口",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Linkou_Power_Plant.jpg/250px-Linkou_Power_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Linkou_Power_Plant.jpg/800px-Linkou_Power_Plant.jpg",
         "location": "新北市",
         "geo": {
             "lat": "25.1208",
@@ -104,7 +104,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E4%B8%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "台中發電廠",
         "nickName": "台中",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Taichung_Thermal_Power_Plant.JPG/300px-Taichung_Thermal_Power_Plant.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Taichung_Thermal_Power_Plant.JPG/800px-Taichung_Thermal_Power_Plant.JPG",
         "location": "臺中市",
         "geo": {
             "lat": "24.21",
@@ -124,7 +124,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%92%8C%E5%B9%B3%E9%9B%BB%E5%BB%A0",
         "fullName": "和平電廠",
         "nickName": "和平",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E5%92%8C%E5%B9%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.3067",
@@ -144,7 +144,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E5%AF%AE%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "麥寮發電廠",
         "nickName": "麥寮",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg/300px-%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg/800px-%E5%85%AD%E8%BC%95-%E9%BA%A5%E5%AF%AE_%E9%9A%94%E9%9B%A2%E6%B0%B4%E9%81%93_-_panoramio.jpg",
         "location": "雲林縣",
         "geo": {
             "lat": "23.80322",
@@ -164,7 +164,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "長生電廠",
         "nickName": "海湖",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/%E9%95%B7%E7%94%9F%E9%9B%BB%E5%8A%9B_%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0_20120115.png/300px-%E9%95%B7%E7%94%9F%E9%9B%BB%E5%8A%9B_%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0_20120115.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/0/04/%E9%95%B7%E7%94%9F%E9%9B%BB%E5%8A%9B_%E6%B5%B7%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0_20120115.png",
         "location": "桃園市",
         "geo": {
             "lat": "25.1169",
@@ -184,7 +184,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "大潭發電廠",
         "nickName": "大潭",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/6/66/%E5%A4%A7%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "桃園市",
         "geo": {
             "lat": "25.03",
@@ -204,7 +204,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "國光發電廠",
         "nickName": "國光",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E5%9C%8B%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "桃園市",
         "geo": false,
         "org": "國光電力公司",
@@ -221,7 +221,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%A1%83%E9%9B%BB%E5%BB%A0",
         "fullName": "新桃電廠",
         "nickName": "新桃",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/%E6%96%B0%E6%A1%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%96%B0%E6%A1%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/9/9d/%E6%96%B0%E6%A1%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "新竹縣",
         "geo": false,
         "org": "新桃電力公司",
@@ -238,7 +238,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "通霄發電廠",
         "nickName": "通霄",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png/320px-%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E9%80%9A%E9%9C%84%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "苗栗縣",
         "geo": {
             "lat": "24.49",
@@ -258,7 +258,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%83%E9%9B%BB%E5%BB%A0",
         "fullName": "星元電廠",
         "nickName": "星元",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%E6%98%9F%E5%85%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%98%9F%E5%85%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/d/d9/%E6%98%9F%E5%85%83%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "彰化縣",
         "geo": {
             "lat": "24.07972",
@@ -278,7 +278,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E6%BF%B1%E9%9B%BB%E5%BB%A0",
         "fullName": "彰濱電廠",
         "nickName": "彰濱",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E6%98%9F%E8%83%BD%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "彰化縣",
         "geo": {
             "lat": "24.1272",
@@ -318,7 +318,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%A3%AE%E9%9C%B8%E9%9B%BB%E5%BB%A0",
         "fullName": "森霸電廠",
         "nickName": "森霸",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%E6%A3%AE%E9%9C%B8%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%A3%AE%E9%9C%B8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/1/1e/%E6%A3%AE%E9%9C%B8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "臺南市",
         "geo": {
             "lat": "23.082",
@@ -338,7 +338,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "南部發電廠",
         "nickName": "南部",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/5/50/%E5%8D%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "高雄市",
         "geo": {
             "lat": "22.6008",
@@ -358,7 +358,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "協和發電廠",
         "nickName": "協和",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg/270px-Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg/800px-Huohao_Mountain_in_Zhongshan_District%2C_Keelung_20120526.jpg",
         "location": "基隆市",
         "geo": {
             "lat": "25.157328",
@@ -378,7 +378,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "尖山發電廠",
         "nickName": "尖山",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png/275px-%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E5%B0%96%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.5631",
@@ -398,7 +398,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9C%9B%E5%AE%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "望安發電廠",
         "nickName": "望安",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/%E6%9C%9B%E5%AE%89%E9%9B%BB%E5%BB%A0.jpg/300px-%E6%9C%9B%E5%AE%89%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/4/41/%E6%9C%9B%E5%AE%89%E9%9B%BB%E5%BB%A0.jpg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.3587",
@@ -418,7 +418,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E4%B8%83%E7%BE%8E%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "七美發電廠",
         "nickName": "七美",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg/300px-%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg/800px-%E4%B8%83%E7%BE%8E%E9%9B%BB%E5%BB%A0.jpg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.1938",
@@ -438,7 +438,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A1%94%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "塔山發電廠",
         "nickName": "塔山",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG/275px-Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG/800px-Kinmen_-_Shuitou_Harbor_-_DSCF9374.JPG",
         "location": "金門縣",
         "geo": {
             "lat": "24.41",
@@ -498,7 +498,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0",
         "fullName": "協和發電廠珠山分廠",
         "nickName": "珠山",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0.jpg/300px-%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/4/43/%E5%8D%94%E5%92%8C%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%8F%A0%E5%B1%B1%E5%88%86%E5%BB%A0.jpg",
         "location": "連江縣",
         "geo": {
             "lat": "26.15",
@@ -518,7 +518,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%B6%A0%E5%B3%B6%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "綠島發電廠",
         "nickName": "綠島",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg/300px-%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg/800px-%E7%B6%A0%E5%B3%B6%E9%9B%BB%E5%BB%A0.jpg",
         "location": "臺東縣",
         "geo": {
             "lat": "22.6614",
@@ -538,7 +538,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "東引發電廠",
         "nickName": "東引",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg/300px-%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/5/54/%E6%9D%B1%E5%BC%95%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg",
         "location": "連江縣",
         "geo": {
             "lat": "26.36861",
@@ -558,7 +558,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%98%AD%E5%B6%BC%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "蘭嶼發電廠",
         "nickName": "蘭嶼",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/%E8%98%AD%E5%B6%BC%E9%9B%BB%E5%BB%A0.jpg/300px-%E8%98%AD%E5%B6%BC%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/2/22/%E8%98%AD%E5%B6%BC%E9%9B%BB%E5%BB%A0.jpg",
         "location": "臺東縣",
         "geo": {
             "lat": "22.03",
@@ -598,7 +598,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%88%88%E9%81%94%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "興達發電廠",
         "nickName": "興達",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hsinta_Power_Plant.jpg/280px-Hsinta_Power_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hsinta_Power_Plant.jpg/800px-Hsinta_Power_Plant.jpg",
         "location": "高雄市",
         "geo": {
             "lat": "22.8564",
@@ -618,7 +618,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%9E%97%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "大林發電廠",
         "nickName": "大林",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Da-Lin_Poer_Plant.jpg/300px-Da-Lin_Poer_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Da-Lin_Poer_Plant.jpg/800px-Da-Lin_Poer_Plant.jpg",
         "location": "高雄市",
         "geo": {
             "lat": "22.54",
@@ -692,7 +692,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "深澳發電廠",
         "nickName": "深澳",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/300px-%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png/800px-%E6%B7%B1%E6%BE%B3%E7%99%BC%E9%9B%BB%E5%BB%A0.png",
         "location": "新北市",
         "geo": {
             "lat": "25.1272",
@@ -712,7 +712,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "北部發電廠",
         "nickName": "北部",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/National_Museum_of_Marine_Science_and_Technology_0001.jpg/300px-National_Museum_of_Marine_Science_and_Technology_0001.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/National_Museum_of_Marine_Science_and_Technology_0001.jpg/800px-National_Museum_of_Marine_Science_and_Technology_0001.jpg",
         "location": "基隆市",
         "geo": {
             "lat": "25.1406",
@@ -752,7 +752,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "澎湖發電廠",
         "nickName": "澎湖",
-        "photo": "//upload.wikimedia.org/wikipedia/zh/thumb/7/7e/%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%88%8A%E5%BB%A0%E6%88%BF%E5%BB%BA%E7%89%A9.jpeg/300px-%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%88%8A%E5%BB%A0%E6%88%BF%E5%BB%BA%E7%89%A9.jpeg",
+        "photo": "//upload.wikimedia.org/wikipedia/zh/7/7e/%E6%BE%8E%E6%B9%96%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%88%8A%E5%BB%A0%E6%88%BF%E5%BB%BA%E7%89%A9.jpeg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.5675",
@@ -832,7 +832,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%97%AD%E5%85%89%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "旭光發電廠",
         "nickName": "旭光",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%E7%90%89%E7%90%83%E9%9B%BB%E5%BB%A0.jpg/300px-%E7%90%89%E7%90%83%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/f/f3/%E7%90%89%E7%90%83%E9%9B%BB%E5%BB%A0.jpg",
         "location": "屏東縣",
         "geo": {
             "lat": "22.3384",
@@ -852,7 +852,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%99%8E%E4%BA%95%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "虎井發電廠",
         "nickName": "虎井",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/%E8%99%8E%E4%BA%95%E9%9B%BB%E5%BB%A0.jpg/300px-%E8%99%8E%E4%BA%95%E9%9B%BB%E5%BB%A0.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/f/f7/%E8%99%8E%E4%BA%95%E9%9B%BB%E5%BB%A0.jpg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.488999",
@@ -932,7 +932,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB",
         "fullName": "南化水庫越域引水出水工小水力發電計畫",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG/285px-%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG/800px-%E5%8D%97%E5%8C%96%E6%B0%B4%E5%BA%AB%E5%A4%A7%E5%A3%A9%E5%8D%80%E5%9F%9F.JPG",
         "location": "臺南市",
         "geo": false,
         "org": "經濟部水利署南區水資源局",
@@ -1003,7 +1003,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A7%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%A4%A7%E8%A7%80%E4%BA%8C%E5%BB%A0",
         "fullName": "明湖抽蓄水力發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Minhu_Pumped_Storage_Hydro_Power_Station01.jpg/300px-Minhu_Pumped_Storage_Hydro_Power_Station01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Minhu_Pumped_Storage_Hydro_Power_Station01.jpg/800px-Minhu_Pumped_Storage_Hydro_Power_Station01.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.8542",
@@ -1023,7 +1023,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%8A%BD%E8%93%84%E6%A9%9F%E7%B5%84",
         "fullName": "明潭抽蓄水力發電廠",
         "nickName": "明潭",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg/300px-Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg/800px-Ming-Tan_Power_Station_Pumped_Storage_Power_Plant01.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.8361",
@@ -1043,7 +1043,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E4%BE%86%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "烏來發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Wulai_hydroelectric_power_station.JPG/275px-Wulai_hydroelectric_power_station.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Wulai_hydroelectric_power_station.JPG/800px-Wulai_hydroelectric_power_station.JPG",
         "location": "新北市",
         "geo": {
             "lat": "24.8592",
@@ -1063,7 +1063,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%BF%A1%E7%BF%A0%E5%88%86%E5%BB%A0",
         "fullName": "翡翠發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg/300px-Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg/800px-Fei_Cuei_Reservoir_and_Fei_Cuei_Power_Plant.jpg",
         "location": "新北市",
         "geo": {
             "lat": "24.9094",
@@ -1083,7 +1083,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%A1%82%E5%B1%B1%E6%A9%9F%E7%B5%84",
         "fullName": "桂山發電廠",
         "nickName": "桂山",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Guei-Shan_Hydropower_Plant08.jpg/300px-Guei-Shan_Hydropower_Plant08.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Guei-Shan_Hydropower_Plant08.jpg/800px-Guei-Shan_Hydropower_Plant08.jpg",
         "location": "新北市",
         "geo": {
             "lat": "24.9033",
@@ -1103,7 +1103,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "小粗坑發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/270px-%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/800px-%E5%B0%8F%E7%B2%97%E5%9D%91%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
         "location": "新北市",
         "geo": {
             "lat": "24.9378",
@@ -1123,7 +1123,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%9F%B3%E9%96%80%E9%9B%BB%E5%BB%A0",
         "fullName": "石門發電廠",
         "nickName": "石門",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shihmen_Hydropower_Plant_Power_House.jpg/300px-Shihmen_Hydropower_Plant_Power_House.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shihmen_Hydropower_Plant_Power_House.jpg/800px-Shihmen_Hydropower_Plant_Power_House.jpg",
         "location": "桃園市",
         "geo": false,
         "org": "台灣電力公司",
@@ -1140,7 +1140,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%BE%A9%E8%88%88%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "義興發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yi-Xing_hydraulic_power_plant04.jpg/300px-Yi-Xing_hydraulic_power_plant04.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yi-Xing_hydraulic_power_plant04.jpg/800px-Yi-Xing_hydraulic_power_plant04.jpg",
         "location": "桃園市",
         "geo": {
             "lat": "24.7773",
@@ -1160,7 +1160,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%BB%9F%E6%A9%8B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "軟橋發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg/250px-%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg/800px-%E6%A1%82%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E4%B9%8B%E8%BB%9F%E6%A9%8B%E9%9B%BB%E5%BB%A0%E4%BA%8C.jpg",
         "location": "新竹縣",
         "geo": {
             "lat": "24.6926",
@@ -1180,7 +1180,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E8%98%AD%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "卓蘭發電廠",
         "nickName": "卓蘭",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Zhuolan_Hydropower_Plant06.jpg/300px-Zhuolan_Hydropower_Plant06.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Zhuolan_Hydropower_Plant06.jpg/800px-Zhuolan_Hydropower_Plant06.jpg",
         "location": "苗栗縣",
         "geo": {
             "lat": "24.3497",
@@ -1200,7 +1200,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%BE%B7%E5%9F%BA%E5%88%86%E5%BB%A0",
         "fullName": "大甲溪發電廠德基分廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Techi_Hydropower_Plant08.jpg/300px-Techi_Hydropower_Plant08.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Techi_Hydropower_Plant08.jpg/800px-Techi_Hydropower_Plant08.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.2542",
@@ -1220,7 +1220,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E9%9D%92%E5%B1%B1%E5%88%86%E5%BB%A0",
         "fullName": "大甲溪發電廠青山分廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinshan_Hydropower_Plant02.jpg/300px-Chinshan_Hydropower_Plant02.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chinshan_Hydropower_Plant02.jpg/450px-Chinshan_Hydropower_Plant02.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.2494",
@@ -1240,7 +1240,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E8%B0%B7%E9%97%9C%E5%88%86%E5%BB%A0",
         "fullName": "大甲溪發電廠谷關分廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kukuan_Hydropower_Plant08.jpg/300px-Kukuan_Hydropower_Plant08.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kukuan_Hydropower_Plant08.jpg/800px-Kukuan_Hydropower_Plant08.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.2133",
@@ -1260,7 +1260,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E8%BC%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "天輪發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tienlun_Hydropower_Plant02.jpg/300px-Tienlun_Hydropower_Plant02.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tienlun_Hydropower_Plant02.jpg/800px-Tienlun_Hydropower_Plant02.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.185",
@@ -1280,7 +1280,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%9E%8D%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "馬鞍發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Maan_Hydropower_Plant07.jpg/300px-Maan_Hydropower_Plant07.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Maan_Hydropower_Plant07.jpg/800px-Maan_Hydropower_Plant07.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.1825",
@@ -1300,7 +1300,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E7%A4%BE%E5%AF%AE%E6%A9%9F%E7%B5%84",
         "fullName": "社寮發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sirliao_Hydropower_Plant06.jpg/300px-Sirliao_Hydropower_Plant06.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sirliao_Hydropower_Plant06.jpg/800px-Sirliao_Hydropower_Plant06.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.2703",
@@ -1320,7 +1320,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%94%B2%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%90%8E%E9%87%8C%E6%A9%9F%E7%B5%84",
         "fullName": "后里發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Houli_Hydropower_Plant_01.jpg/300px-Houli_Hydropower_Plant_01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Houli_Hydropower_Plant_01.jpg/800px-Houli_Hydropower_Plant_01.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.3247",
@@ -1340,7 +1340,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A0",
         "fullName": "后里圳低落差示範電廠",
         "nickName": "后里",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg/300px-%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg/800px-%E5%90%8E%E9%87%8C%E5%9C%B3%E4%BD%8E%E8%90%BD%E5%B7%AE%E7%A4%BA%E7%AF%84%E9%9B%BB%E5%BB%A008.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.3244",
@@ -1360,7 +1360,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E5%A4%A7%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "萬大發電廠",
         "nickName": "萬大",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wanda_Hydropower_plant01.jpg/300px-Wanda_Hydropower_plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wanda_Hydropower_plant01.jpg/800px-Wanda_Hydropower_plant01.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.9761",
@@ -1380,7 +1380,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E5%A4%A7%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%9D%BE%E6%9E%97%E5%88%86%E5%BB%A0",
         "fullName": "萬大發電廠松林分廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Songlin_Hydropower_plant02.jpg/300px-Songlin_Hydropower_plant02.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Songlin_Hydropower_plant02.jpg/800px-Songlin_Hydropower_plant02.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.9651",
@@ -1400,7 +1400,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%8C%97%E5%B1%B1%E6%A9%9F%E7%B5%84",
         "fullName": "北山發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/BeiShanPowerPlant.jpg/300px-BeiShanPowerPlant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/BeiShanPowerPlant.jpg/800px-BeiShanPowerPlant.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.9856",
@@ -1420,7 +1420,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%B0%B4%E9%87%8C%E6%A9%9F%E7%B5%84",
         "fullName": "水里發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg/300px-Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg/800px-Ming-Tan_Power_Station_Shuei-Li_Power_Plant01.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.8356",
@@ -1440,7 +1440,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E9%89%85%E5%B7%A5%E5%88%86%E5%BB%A0",
         "fullName": "鉅工發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ju-Gong_Power_Plant.jpg/300px-Ju-Gong_Power_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ju-Gong_Power_Plant.jpg/800px-Ju-Gong_Power_Plant.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.8192",
@@ -1460,7 +1460,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E6%BD%AD%E7%99%BC%E9%9B%BB%E5%BB%A0%E6%BF%81%E6%B0%B4%E6%A9%9F%E7%B5%84",
         "fullName": "濁水發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg/300px-Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg/800px-Ming-Tan_Power_Station_Zhuo-Shui_Hydropower_Plant10.jpg",
         "location": "雲林縣",
         "geo": {
             "lat": "23.7728",
@@ -1480,7 +1480,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A7%80%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%A4%A7%E8%A7%80%E4%B8%80%E5%BB%A0",
         "fullName": "大觀發電廠",
         "nickName": "大觀",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Da-Guan_No.1_Hydropower_Plant07.jpg/300px-Da-Guan_No.1_Hydropower_Plant07.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Da-Guan_No.1_Hydropower_Plant07.jpg/800px-Da-Guan_No.1_Hydropower_Plant07.jpg",
         "location": "南投縣",
         "geo": {
             "lat": "23.8542",
@@ -1500,7 +1500,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E9%96%93%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "名間水力發電廠",
         "nickName": "名間",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ming-Jian_Hydro_Power_Plan.JPG/270px-Ming-Jian_Hydro_Power_Plan.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ming-Jian_Hydro_Power_Plan.JPG/800px-Ming-Jian_Hydro_Power_Plan.JPG",
         "location": "南投縣",
         "geo": {
             "lat": "23.8361",
@@ -1520,7 +1520,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E6%96%87%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "曾文發電廠",
         "nickName": "曾文",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Zeng-Wen_Power_Plant01.JPG/300px-Zeng-Wen_Power_Plant01.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Zeng-Wen_Power_Plant01.JPG/800px-Zeng-Wen_Power_Plant01.JPG",
         "location": "嘉義縣",
         "geo": {
             "lat": "23.2475",
@@ -1540,7 +1540,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%8F%A3%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "西口水力發電廠",
         "nickName": "嘉南西口",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Xi-Co_Hydropower_Plant%28Tainan%2917.jpg/300px-Xi-Co_Hydropower_Plant%28Tainan%2917.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Xi-Co_Hydropower_Plant%28Tainan%2917.jpg/800px-Xi-Co_Hydropower_Plant%28Tainan%2917.jpg",
         "location": "臺南市",
         "geo": {
             "lat": "23.2305",
@@ -1560,7 +1560,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "烏山頭水力發電廠",
         "nickName": "烏山頭",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/275px-%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG/800px-%E7%83%8F%E5%B1%B1%E9%A0%AD%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0.JPG",
         "location": "臺南市",
         "geo": {
             "lat": "23.2086",
@@ -1580,7 +1580,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B0%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "八田水力發電廠",
         "nickName": "八田",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pa-Tien_Hydropower_Plant01.jpg/300px-Pa-Tien_Hydropower_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pa-Tien_Hydropower_Plant01.jpg/450px-Pa-Tien_Hydropower_Plant01.jpg",
         "location": "臺南市",
         "geo": {
             "lat": "23.2055",
@@ -1600,7 +1600,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AB%B9%E5%AD%90%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "竹子門發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chu-Men_Unit01.jpg/300px-Chu-Men_Unit01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chu-Men_Unit01.jpg/450px-Chu-Men_Unit01.jpg",
         "location": "高雄市",
         "geo": {
             "lat": "22.8681",
@@ -1620,7 +1620,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%9C%9F%E5%A3%9F%E7%81%A3%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "土壟灣發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg/300px-Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg/800px-Kao-Ping_Hydropower_Plant_Liouguei_Unit22.jpg",
         "location": "高雄市",
         "geo": {
             "lat": "22.9958",
@@ -1640,7 +1640,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E9%80%81%E5%9F%A4%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "天送埤發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tienpei_Hydropower_Plant_power_house.jpg/300px-Tienpei_Hydropower_Plant_power_house.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tienpei_Hydropower_Plant_power_house.jpg/800px-Tienpei_Hydropower_Plant_power_house.jpg",
         "location": "宜蘭縣",
         "geo": {
             "lat": "24.6553",
@@ -1660,7 +1660,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%9C%93%E5%B1%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "圓山發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg/300px-%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg/800px-%E5%9C%93%E5%B1%B1%E6%A9%9F%E7%B5%84%E5%BB%A0%E6%88%BF.jpg",
         "location": "宜蘭縣",
         "geo": {
             "lat": "24.6431",
@@ -1680,7 +1680,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%A2%A7%E6%B5%B7%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "碧海發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Be-Hi_Hydroelectricity.jpg/300px-Be-Hi_Hydroelectricity.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Be-Hi_Hydroelectricity.jpg/800px-Be-Hi_Hydroelectricity.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.34",
@@ -1700,7 +1700,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E9%9C%A7%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "立霧發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Li-Wu_Hydroelectricity_Gate.jpg/275px-Li-Wu_Hydroelectricity_Gate.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Li-Wu_Hydroelectricity_Gate.jpg/800px-Li-Wu_Hydroelectricity_Gate.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.155",
@@ -1720,7 +1720,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%BE%8D%E6%BA%AA%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "龍溪發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Long-Xi_Power_Plant01.jpg/300px-Long-Xi_Power_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Long-Xi_Power_Plant01.jpg/800px-Long-Xi_Power_Plant01.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.0225",
@@ -1740,7 +1740,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%BE%8D%E6%BE%97%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "龍澗發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Longjian_Power_Plant.jpg/300px-Longjian_Power_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Longjian_Power_Plant.jpg/800px-Longjian_Power_Plant.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.0036",
@@ -1760,7 +1760,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B0%B4%E7%B0%BE%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "水簾發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shui-Lien_Hydroelectricity_Gate.jpg/270px-Shui-Lien_Hydroelectricity_Gate.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shui-Lien_Hydroelectricity_Gate.jpg/800px-Shui-Lien_Hydroelectricity_Gate.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "24.0025",
@@ -1780,7 +1780,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%8A%85%E9%96%80%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "銅門發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tong-Men_Hydroelectricity_Gate.jpg/270px-Tong-Men_Hydroelectricity_Gate.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tong-Men_Hydroelectricity_Gate.jpg/800px-Tong-Men_Hydroelectricity_Gate.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9686",
@@ -1800,7 +1800,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%A6%95%E6%A8%B9%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "榕樹發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yuon-Shu_Power_Plant01.jpg/300px-Yuon-Shu_Power_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Yuon-Shu_Power_Plant01.jpg/800px-Yuon-Shu_Power_Plant01.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9578",
@@ -1820,7 +1820,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%88%9D%E8%8B%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "初英發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chu-Yin_Hydroelectricity_Gate.jpg/280px-Chu-Yin_Hydroelectricity_Gate.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chu-Yin_Hydroelectricity_Gate.jpg/800px-Chu-Yin_Hydroelectricity_Gate.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9494",
@@ -1840,7 +1840,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "清水發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ching-Shui_Power_Plant25.jpg/300px-Ching-Shui_Power_Plant25.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Ching-Shui_Power_Plant25.jpg/800px-Ching-Shui_Power_Plant25.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9664",
@@ -1860,7 +1860,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B5%81%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "清流發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ching-Liu_Power_Plant01.jpg/300px-Ching-Liu_Power_Plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ching-Liu_Power_Plant01.jpg/800px-Ching-Liu_Power_Plant01.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9672",
@@ -1880,7 +1880,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%BA%AA%E5%8F%A3%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "溪口發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Xi-Kou_Power_Plant02.jpg/300px-Xi-Kou_Power_Plant02.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Xi-Kou_Power_Plant02.jpg/800px-Xi-Kou_Power_Plant02.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.8153",
@@ -1900,7 +1900,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%BE%E6%B5%A6%E5%B0%8F%E6%B0%B4%E5%8A%9B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "松浦小水力發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Songpu_Hydropower_plant.jpg/300px-Songpu_Hydropower_plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Songpu_Hydropower_plant.jpg/800px-Songpu_Hydropower_plant.jpg",
         "location": "花蓮縣",
         "geo": false,
         "org": "同達綠能股份有限公司",
@@ -1917,7 +1917,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%8D%91%E5%8D%97%E4%B8%8A%E5%9C%B3%E5%B0%8F%E5%9E%8B%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "卑南上圳小型發電廠",
         "nickName": "卑南上圳小型",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Beinan_Creek18.jpg/250px-Beinan_Creek18.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Beinan_Creek18.jpg/800px-Beinan_Creek18.jpg",
         "location": "臺東縣",
         "geo": {
             "lat": "22.8222",
@@ -1937,7 +1937,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E8%88%88%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "東興發電廠",
         "nickName": "東興",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tong-Xin_Hydroelectric_power_plant15.jpg/300px-Tong-Xin_Hydroelectric_power_plant15.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Tong-Xin_Hydroelectric_power_plant15.jpg/800px-Tong-Xin_Hydroelectric_power_plant15.jpg",
         "location": "臺東縣",
         "geo": {
             "lat": "22.7656",
@@ -1957,7 +1957,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#西寶水力發電計劃",
         "fullName": "西寶發電廠",
         "nickName": "西寶",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/800px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9788",
@@ -1977,7 +1977,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#立霧水力發電計劃",
         "fullName": "溪畔發電廠",
         "nickName": "溪畔",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/800px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9788",
@@ -1997,7 +1997,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%83%A8%E7%99%BC%E9%9B%BB%E5%BB%A0#立霧水力發電計劃",
         "fullName": "谷園發電廠",
         "nickName": "谷園",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/300px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg/800px-Taiwan_power_Company_The_Eastern_Power_plant_HQ.jpg",
         "location": "花蓮縣",
         "geo": {
             "lat": "23.9788",
@@ -2112,7 +2112,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "石門風力發電站",
         "nickName": "石門",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/1/15/%E7%9F%B3%E9%96%80%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "新北市",
         "geo": {
             "lat": "25.29",
@@ -2132,7 +2132,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "林口風力發電站",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/b/b1/%E6%9E%97%E5%8F%A3%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "新北市",
         "geo": {
             "lat": "25.1255",
@@ -2152,7 +2152,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "觀園風力發電站",
         "nickName": "觀園",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/5/5d/%E8%A7%80%E5%9C%92%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "桃園市",
         "geo": {
             "lat": "25.06",
@@ -2172,7 +2172,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "大潭風力發電站",
         "nickName": "大潭風力",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/b/b8/%E5%A4%A7%E6%BD%AD%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "桃園市",
         "geo": {
             "lat": "25.03",
@@ -2192,7 +2192,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%98%86%E7%AB%B9%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "蘆竹風力發電站",
         "nickName": "蘆竹",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Luzhu_Windpower_Station.jpg/300px-Luzhu_Windpower_Station.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Luzhu_Windpower_Station.jpg/800px-Luzhu_Windpower_Station.jpg",
         "location": "桃園市",
         "geo": {
             "lat": "25.11761",
@@ -2232,7 +2232,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "臺中港風力發電站",
         "nickName": "臺中港",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/%E5%8F%B0%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E5%8F%B0%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/6/67/%E5%8F%B0%E4%B8%AD%E6%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "臺中市",
         "geo": {
             "lat": "24.30597",
@@ -2289,7 +2289,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "王功風力發電站",
         "nickName": "王功",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/a/a5/%E7%8E%8B%E5%8A%9F%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "彰化縣",
         "geo": {
             "lat": "23.98953",
@@ -2309,7 +2309,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "雲麥風力發電站",
         "nickName": "雲麥",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/4/45/%E9%9B%B2%E9%BA%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "雲林縣",
         "geo": {
             "lat": "23.81567",
@@ -2349,7 +2349,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "恆春風力發電站",
         "nickName": "恆春",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/3/35/%E6%81%86%E6%98%A5%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "屏東縣",
         "geo": {
             "lat": "21.95",
@@ -2369,7 +2369,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "中屯風力發電站",
         "nickName": "澎湖中屯",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/2/22/%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/2/22/%E4%B8%AD%E5%B1%AF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.62",
@@ -2389,7 +2389,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B9%96%E8%A5%BF%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "湖西風力發電站",
         "nickName": "湖西",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/300px-Huxi_Windpower_Plant.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Huxi_Windpower_Plant.jpg/800px-Huxi_Windpower_Plant.jpg",
         "location": "澎湖縣",
         "geo": {
             "lat": "23.58408",
@@ -2409,7 +2409,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99",
         "fullName": "金沙風力發電站",
         "nickName": "金門金沙",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg/300px-%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/9/9d/%E9%87%91%E6%B2%99%E9%A2%A8%E5%8A%9B%E7%99%BC%E9%9B%BB%E7%AB%99.jpg",
         "location": "金門縣",
         "geo": false,
         "org": "台灣電力公司",
@@ -2857,7 +2857,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%9F%A5%E6%9C%AC%E6%B3%93%E6%B3%89%E6%BA%AB%E6%B3%89%E6%B8%A1%E5%81%87%E6%9D%91%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "知本泓泉溫泉渡假村地熱發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rainbow_Resort_Geothermal_power_plant01.jpg/300px-Rainbow_Resort_Geothermal_power_plant01.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rainbow_Resort_Geothermal_power_plant01.jpg/800px-Rainbow_Resort_Geothermal_power_plant01.jpg",
         "location": "臺東縣",
         "geo": {
             "lat": "22.69",
@@ -2945,7 +2945,7 @@
         "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0",
         "fullName": "清水地熱發電廠",
         "nickName": "",
-        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg/300px-%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg",
+        "photo": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg/800px-%E6%B8%85%E6%B0%B4%E5%9C%B0%E7%86%B1%E7%99%BC%E9%9B%BB%E5%BB%A0%E5%9C%B0%E7%86%B1%E4%BA%95.jpg",
         "location": "宜蘭縣",
         "geo": {
             "lat": "24.6119",
