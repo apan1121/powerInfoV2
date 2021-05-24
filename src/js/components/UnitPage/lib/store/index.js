@@ -3,7 +3,7 @@ import mutations from './mutations';
 import state from './state';
 import getters from './getters';
 
-const module_name = 'UnitPage';
+const module_name = 'Page/UnitPage';
 const module_store = {
     state,
     mutations,

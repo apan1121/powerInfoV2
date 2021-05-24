@@ -29,7 +29,7 @@
                                 :capacity="UnitInfo.capacity"
                             ></unit-box>
                         </div>
-                        <div class="col-12 col-md-8">
+                        <div v-if="UnitInfo" class="col-12 col-md-8">
                             <div class="row  table-base-info">
                                 <div class="col-12 col-md-6 item">
                                     <div class="row">
@@ -204,6 +204,9 @@ export default {
         $(this.$el).modal('show');
         $(this.$el).on('hidden.bs.modal', () => {
             that.$emit('close');
+            if (!!this.$route.query && !!this.$route.query.unit_key) {
+                this.$router.push({ name: 'UnitPage' });
+            }
         });
     },
     updated(){},
@@ -233,7 +236,7 @@ export default {
             const that = this;
             clearTimeout(that.calcformatRecordTimer);
             that.calcformatRecordTimer = setTimeout(() => {
-                let start_time = moment(`${that.RecordTime}:00`).add(-1, 'day');
+                let start_time = moment(`${that.RecordTime}:00`).add(-2, 'day');
                 const YMDH = start_time.format('YYYY-MM-DD HH');
 
                 let mm = start_time.format('mm');
@@ -243,16 +246,17 @@ export default {
                 const end_timestamp = parseInt(moment(`${that.RecordTime}:00`).format('X'));
 
                 const record = {};
-                for (let timestamp = start_timestamp; timestamp < end_timestamp; timestamp += 600) {
+                for (let timestamp = start_timestamp; timestamp <= end_timestamp; timestamp += 600) {
                     const datTime = moment(timestamp * 1000).format('YYYY-MM-DD HH:mm');
                     const datTimeKey = moment(timestamp * 1000).format('MM-DD HH:mm');
                     const data = {};
                     data[that.UnitInfo.name] = that.record[datTime] || 0;
                     record[datTimeKey] = data;
                 }
+                console.log(record);
 
                 that.formatRecord = record;
-            }, 100);
+            }, 200);
         },
     },
 };

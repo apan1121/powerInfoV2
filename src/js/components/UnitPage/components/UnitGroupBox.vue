@@ -158,7 +158,8 @@ export default {
             this.choosePlantByName(val);
         },
         openUnitInfo(val){
-            this.chooseUnitByKey(val);
+            this.$router.push({ name: 'UnitPage', query: { unit_key: this.unitKey } });
+            // this.chooseUnitByKey(val);
         },
     },
 };

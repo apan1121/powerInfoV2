@@ -7,5 +7,5 @@ do
     # Here 300 is 300 seconds i.e. 5 minutes * 60 = 300 sec
     php GetPowerInfo.php
 
-    sleep 600
+    sleep 300
 done

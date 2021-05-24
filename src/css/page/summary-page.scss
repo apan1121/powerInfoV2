@@ -1,0 +1,19 @@
+@import '../common/_variable.scss';
+
+.summary-page{
+    .summary-filter{
+        display: flex;
+        margin-top: $spacer * 2;
+        .summary-item{
+            padding: $spacer * 2 0;
+            &[rel="range"]{
+                flex: 1;
+                padding-right: $spacer * 2;
+                padding-left: $spacer * 3;
+            }
+            &[rel="filter"]{
+                flex: none;
+            }
+        }
+    }
+}

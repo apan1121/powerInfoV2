@@ -6,13 +6,13 @@
                     <a class="navbar-brand" href="#">台灣電廠即時資訊</a>
                     <ul class="navbar-nav">
                         <li class="nav-item" :class="{ active: route.name == 'UnitPage'}">
-                            <router-link class="nav-link" :to="{ path: '/'}">
+                            <router-link class="nav-link" :to="{ name: 'UnitPage'}">
                                 <i class="icon icon-electricity-pole"></i>
                                 <span>機組資訊</span>
                             </router-link>
                         </li>
                         <li class="nav-item" :class="{ active: route.name == 'SummaryPage'}">
-                            <router-link class="nav-link" :to="{ path: '/summary'}">
+                            <router-link class="nav-link" :to="{ name: 'SummaryPage'}">
                                 <i class="icon icon-chart"></i>
                                 <span>分析摘要</span>
                             </router-link>

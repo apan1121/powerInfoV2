@@ -19,3 +19,4 @@ $('body').on('resizeImg', () => {
 const { origin, pathname } = window.location;
 const BASE_API_HOST = `${origin}${pathname}`;
 jsVars.set('API_CONFIG.API_HOST', BASE_API_HOST);
+jsVars.set('ASSETS_HOST', BASE_API_HOST);

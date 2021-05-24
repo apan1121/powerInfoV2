@@ -22,8 +22,8 @@
             ></pipe>
         </div>
         <div class="pipe-group-content">
-            <div class="unit-group-box">
-                <div v-if="hasTitleSlot" class="unit-group-header">
+            <div class="unit-group-box" :class="{ show: collapse }">
+                <div v-if="hasTitleSlot" class="unit-group-header" @click="collapseToggle">
                     <slot name="title"></slot>
                 </div>
 
@@ -74,7 +74,9 @@ export default {
         },
     },
     data(){
-        return {};
+        return {
+            collapse: true,
+        };
     },
     computed: {
         ...mapGetters([]),
@@ -91,6 +93,9 @@ export default {
     methods: {
         ...mapActions({}),
         ...mapMutations({}),
+        collapseToggle(){
+            this.collapse = !this.collapse;
+        },
     },
 };
 </script>

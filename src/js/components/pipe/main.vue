@@ -96,6 +96,7 @@ export default {
                 title.push('MW');
             } else if (this.used < 0) {
                 title.push('消耗');
+                title.push(used);
                 title.push('MW');
             } else {
                 title.push('無電力通過');

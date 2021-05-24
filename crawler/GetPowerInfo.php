@@ -1,15 +1,20 @@
 <?php
 include("func.php");
+require '../vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
 $dir = dirname(__FILE__)."/";
 
 $ch = curl_init();
-$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+// $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+$url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $data = curl_exec($ch);
 if (empty($data)) {
-    $data = file_get_contents("http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt");
+    $data = file_get_contents($url);
 }
 curl_close($ch);
 
@@ -76,6 +81,18 @@ $powerTypes = [
     // "全部" => "all",
 ];
 
+$powerTypesMapping = [];
+foreach ($powerTypes AS $key => $val) {
+    $powerTypesMapping[$val] = $key;
+}
+
+$powerStatusMapping = [
+    "online" => '商轉中',
+    "break" => '故障機組',
+    "limit" => '限轉機組',
+    "fix" => '待修機組',
+];
+
 $powerStatus = [
     "fix" => ["輔機檢修", "環保停機(檢修)", "歲修", "檢修", "機組安檢", "維修"],
     "limit" => ["降載", "減排", "水文限制", "燃料限制", "環保限制", "空污減載", "運轉限制", "EOH限制", "合約限制", "電源線限制", "外溫高限制", "測試運轉", "綠電先行"],
@@ -95,15 +112,18 @@ foreach ($powerTypes AS $powerType) {
 }
 
 $NoticeRecords = [];
+// $data = "";
 if (empty($data)) {
     echo "跳出警告 \n";
-
+    sendErrorMail("[警告] 無法取得電力資訊", "無法取得 電力資訊，請檢查 {$url} 是否正常。", OWNER_MAIL);
 } else {
     $powerInfoPath = "../log/powerInfo.log";
     $powerUnitRecord = "../log/record/{unitKey}.log";
 
     $prev_powerInfo = [];
     $prev_record = get($powerInfoPath);
+
+
     if (!empty($prev_record['info'])) {
         foreach ($prev_record['info'] AS $unit_info) {
             $unitKey = formatUnitKey($unit_info);
@@ -113,6 +133,14 @@ if (empty($data)) {
 
     $recordTime = $data[""];
     $recordTime = date("Y-m-d H:i", strtotime($recordTime));
+
+    if ($recordTime === $prev_record['time']) {
+        echo "{$recordTime} 已經處理過 \n";
+        exit();
+    }
+
+
+
     $UnitRecordLimitTimestamp = strtotime($recordTime) - (86400 * 2);
     echo $recordTime."\n";
     $rawPowerInfo = $data["aaData"];
@@ -291,28 +319,100 @@ if (empty($data)) {
                 }
             }
 
+
+
             foreach (['status', 'note'] AS $diffKey) {
                 if ($powerData[$diffKey] !== $pre_powerData[$diffKey]) {
+                    $mail = true;
+                    switch ($diffKey) {
+                        case 'status':
+                            if ($powerData[$diffKey] === 'online') {
+                                $mail = false;
+                            }
+                            break;
+                        case 'note':
+                            if (empty(trim($powerData[$diffKey]))) {
+                                $mail = false;
+                            }
+                            break;
+                    }
+
                     $NoticeRecords[] = [
                         'name' => $powerData['name'],
-                        'record_type' => 'change',
-                        'type' => $powerData["type"],
+                        'type' => $powerData['type'],
+                        'unitKey' => $unitKey,
+                        'diff_type' => $diffKey,
                         'newVal' => $powerData[$diffKey],
                         'oldVal' => $pre_powerData[$diffKey],
+                        'note' => '',
+                        'recordTime' => $recordTime,
+                        'mail'  => $mail,
                     ];
                 }
             }
 
-            if ($pre_powerData['used'] == 0 && $powerData['used'] > 0) {
 
-                $NoticeRecords[] = [
-                    'name' => $powerData['name'],
-                    'record_type' => 'unit_run',
-                    'type' => $powerData["type"],
-                    'newVal' => $powerData['used'],
-                    'oldVal' => $pre_powerData['used'],
-                ];
+            /* 排除 風力 太陽能 抽蓄負載 */
+            if (!in_array($powerData['type'], ['wind', 'solar', 'pumping gen', 'co-gen', 'hydro'])) {
+                $newUsed = $powerData['used'];
+                $oldUsed = $pre_powerData['used'];
+                $capacity = $powerData['capacity'];
+
+                $limitUsedPercent = 10;
+                switch ($powerData['type']) {
+                    case 'lng':
+                        if ($powerData['gov'] == 1) {
+                            $limitUsedPercent = 40;
+                        } else {
+                            $limitUsedPercent = 60;
+                        }
+                        break;
+                    case 'diesel':
+                        $limitUsedPercent = 40;
+                        break;
+                    case 'oil':
+                        $limitUsedPercent = 20;
+                        break;
+                    case 'coal':
+                        $limitUsedPercent = 20;
+                        break;
+                }
+
+                $diff = $newUsed - $oldUsed;
+                $diffPercent = 0;
+                if ($capacity != 0) {
+                    $diffPercent = round(($diff / $capacity) * 100, 2);
+                }
+
+                if ($diffPercent < 0 && abs($diffPercent) > $limitUsedPercent) {
+                    $NoticeRecords[] = [
+                        'name' => $powerData['name'],
+                        'type' => $powerData['type'],
+                        'unitKey' => $unitKey,
+                        'diff_type' => 'used',
+                        'newVal' => $powerData['used'],
+                        'oldVal' => $pre_powerData['used'],
+                        'note' => "降載超過 {$limitUsedPercent} %，降載 ".abs($diffPercent) ." %",
+                        'recordTime' => $recordTime,
+                        'mail' => true,
+                    ];
+                }
+
+
+                // if ($oldUsed === 0 && $newUsed > 0) {
+                //     $NoticeRecords[] = [
+                //         'name' => $powerData['name'],
+                //         'type' => $powerData['type'],
+                //         'unitKey' => $unitKey,
+                //         'diff_type' => 'used',
+                //         'newVal' => $powerData['used'],
+                //         'oldVal' => $pre_powerData['used'],
+                //         'note' => "機組啟動",
+                //         'recordTime' => $recordTime,
+                //     ];
+                // }
             }
+
         }
 
         foreach (array_keys($records) AS $dateTime) {
@@ -348,7 +448,25 @@ if (empty($data)) {
 
 
         $powerNoticePath = "../log/noticeRecord.log";
-        save($powerNoticePath, $NoticeRecords);
+        $orgNoticeRecords =  get($powerNoticePath);
+        $orgNoticeRecords = array_merge($orgNoticeRecords, $NoticeRecords);
+
+        $orgNoticeRecords = array_filter($orgNoticeRecords, function($recordInfo) use ($UnitRecordLimitTimestamp){
+            $flag = false;
+            $timestamp = strtotime($recordInfo['recordTime'] ?? '2000-01-01');
+            if ($UnitRecordLimitTimestamp < $timestamp) {
+                $flag = true;
+            }
+            return $flag;
+        });
+        $orgNoticeRecords = array_values($orgNoticeRecords);
+        save($powerNoticePath, $orgNoticeRecords);
+
+        $NoticeRecords = array_values(array_filter($NoticeRecords, function($item){
+            return $item['mail'];
+        }));
+
+        sendNoticeRecordMail($NoticeRecords, NOTICE_MAIL);
     }
 
     if (1) {
@@ -375,13 +493,18 @@ if (empty($data)) {
         $totalSummary = [];
         /* 從歷史資料夾中取出倒數 $summaryDays 天的 summary 紀錄並合併資料 */
         $folderNames = array_reverse(scandir("../log/history/"));
-        for ($i = 0; $i < SUMMARY_DAYS; $i++) {
-            if (strpos($folderNames[$i],".") !== false) {
-                break;
-            }
 
-            $summaryData = get("../log/history/{$folderNames[$i]}/summary.log");
-            $totalSummary = array_merge($totalSummary, $summaryData);
+        $end_date_timestamp = strtotime(date("Y-m-d", strtotime("{$recordTime}:00")));
+        $start_date_timestamp = $end_date_timestamp - (86400 * SUMMARY_DAYS);
+
+        for ($i = $start_date_timestamp; $i <= $end_date_timestamp; $i += 86400)  {
+            $getTargetDate = date('Y-m-d', $i);
+            // echo $getTargetDate."\n";
+            $summaryData = get("../log/history/{$getTargetDate}/summary.log");
+            if (!empty($summaryData)) {
+                // echo "get \n";
+                $totalSummary = array_merge($totalSummary, $summaryData);
+            }
         }
 
         save("../log/summary.log", $totalSummary);
@@ -401,4 +524,141 @@ function formatUnitKey($unitInfo){
 
     $unitKey = implode("_", $unitKey);
     return $unitKey;
+}
+
+function getMailer(){
+    $mail = new PHPMailer(true);
+    //Server settings
+    // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = SMTP_Host;                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = SMTP_Username;                     //SMTP username
+    $mail->Password   = SMTP_Password;                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+    $mail->Port       = 587;
+    $mail->CharSet="UTF-8";                                  //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+
+    //Recipients
+    $mail->setFrom(FROM_EMAIL, FROM_NAME);
+
+    //Content
+    $mail->isHTML(true);
+    return $mail;
+}
+
+function sendErrorMail($subject, $content, $recipient){
+    $mail = getMailer();
+    foreach ($recipient AS $_recipient) {
+        $mail->addAddress($_recipient['email'], $_recipient['name']);     //Add a recipient        //Name is optional
+    }
+
+                                 //Set email format to HTML
+    $mail->Subject = $subject;
+    $mail->Body    = $content;
+    $mail->AltBody = $content;
+
+    $mail->send();
+
+}
+
+function sendNoticeRecordMail($noticeRecord, $recipient){
+    global $powerTypesMapping, $powerStatusMapping;
+
+
+    $diffTypeMapping = [
+        'used' => '已發電量',
+        'status' => '機組狀態',
+        'note' => '備註',
+    ];
+
+    if (!empty($noticeRecord)) {
+        /**
+            Array
+            (
+                [0] => Array
+                    (
+                        [name] => 核二#1
+                        [unitKey] => 核二#1_nuclear
+                        [type] => status
+                        [newVal] => online
+                        [oldVal] => fix
+                        ['note'] =>
+                        [recordTime] => 2021-05-25 09:50
+                    )
+
+            )
+         */
+        $mail = getMailer();
+        foreach ($recipient as $_recipient) {
+            $mail->addAddress($_recipient['email'], $_recipient['name']);     //Add a recipient        //Name is optional
+        }
+
+        $AltBody = [];
+
+        $html = [];
+        $html[] = "<table style='width: 100%;' border='1' cellspacing='0' cellpadding='5'>";
+
+        foreach ($noticeRecord as $i => $_noticeRecord) {
+            if ($i % 10 === 0) {
+                $html[] = "
+                    <tr style='background: #666; color: #FFF;'>
+                        <th style='width: 120px;'>時間</th>
+                        <th style='width: 100px;'>機組名稱</th>
+                        <th style='width: 100px;'>發電類型</th>
+                        <th style='width: 80px;'>變動項目</th>
+                        <th>舊值</th>
+                        <th>新值</th>
+                        <th>備註</th>
+                    </tr>
+                ";
+            }
+
+
+
+            $style = ($i % 2) ? 'background:#DDD': '';
+
+            $diff_type = $diffTypeMapping[$_noticeRecord['diff_type']];
+
+
+            $newVal = $_noticeRecord['newVal'];
+            $oldVal = $_noticeRecord['oldVal'];
+
+            switch ($_noticeRecord['diff_type']) {
+                case 'status':
+                    $diff_type = '運轉狀態';
+                    $newVal = $powerStatusMapping[$newVal] ?? $newVal;
+                    $oldVal = $powerStatusMapping[$oldVal] ?? $oldVal;
+                    break;
+                case 'notice':
+                    $diff_type = '備註';
+                    break;
+            }
+
+            $html[] = "
+                <tr style='{$style}'>
+                    <td>{$_noticeRecord['recordTime']}</td>
+                    <td>{$_noticeRecord['name']}</td>
+                    <td>{$powerTypesMapping[$_noticeRecord['type']]}</td>
+                    <td>{$diff_type}</td>
+                    <td>{$oldVal}</td>
+                    <td>{$newVal}</td>
+                    <td>{$_noticeRecord['note']}</td>
+                </tr>
+            ";
+
+            $AltBody[] = "{$_noticeRecord['recordTime']},{$_noticeRecord['name']},{$_noticeRecord['type']},{$_noticeRecord['newVal']},{$_noticeRecord['oldVal']};";
+        }
+        $html[] = "</table>";
+
+        $html = implode("\n", $html);
+        $AltBody = implode("\n", $AltBody);
+
+        //Set email format to HTML
+        $mail->Subject = "電力資料異動警告";
+        $mail->Body    = $html;
+        $mail->AltBody = $AltBody;
+
+        $mail->send();
+    }
 }

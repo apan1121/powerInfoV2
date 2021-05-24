@@ -13198,5 +13198,505 @@
             "fix": "0",
             "break": "0"
         }
+    },
+    "2021-05-23 23:10": {
+        "nuclear": {
+            "cap": "3872",
+            "used": "3708.7",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "coal": {
+            "cap": "13347.2",
+            "used": "11882.2",
+            "limit": "0",
+            "fix": "550",
+            "break": "800"
+        },
+        "co-gen": {
+            "cap": "618",
+            "used": "988.7",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "lng": {
+            "cap": "14061.5",
+            "used": "12119.1",
+            "limit": "506.9",
+            "fix": "3241.3",
+            "break": "0"
+        },
+        "oil": {
+            "cap": "500",
+            "used": "136.7",
+            "limit": "0",
+            "fix": "500",
+            "break": "0"
+        },
+        "diesel": {
+            "cap": "594.4",
+            "used": "122.3",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "hydro": {
+            "cap": "1971.8",
+            "used": "197.9",
+            "limit": "0",
+            "fix": "120.7",
+            "break": "0"
+        },
+        "wind": {
+            "cap": "840.2",
+            "used": "20.5",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "geothermal": {
+            "cap": "0.3",
+            "used": "0.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping gen": {
+            "cap": "2602",
+            "used": "643.6",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping load": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "solar": {
+            "cap": "5558.4",
+            "used": "0",
+            "limit": "0",
+            "fix": "0.4",
+            "break": "0"
+        },
+        "ipp-coal": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "ipp-lng": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        }
+    },
+    "2021-05-23 23:20": {
+        "nuclear": {
+            "cap": "3872",
+            "used": "3702.4",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "coal": {
+            "cap": "13347.2",
+            "used": "11878.6",
+            "limit": "0",
+            "fix": "550",
+            "break": "800"
+        },
+        "co-gen": {
+            "cap": "618",
+            "used": "1022.1",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "lng": {
+            "cap": "14061.5",
+            "used": "12008.4",
+            "limit": "506.9",
+            "fix": "3241.3",
+            "break": "0"
+        },
+        "oil": {
+            "cap": "500",
+            "used": "135.4",
+            "limit": "0",
+            "fix": "500",
+            "break": "0"
+        },
+        "diesel": {
+            "cap": "594.4",
+            "used": "120.5",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "hydro": {
+            "cap": "1971.8",
+            "used": "189",
+            "limit": "0",
+            "fix": "120.7",
+            "break": "0"
+        },
+        "wind": {
+            "cap": "840.2",
+            "used": "20.3",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "geothermal": {
+            "cap": "0.3",
+            "used": "0.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping gen": {
+            "cap": "2602",
+            "used": "676.7",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping load": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "solar": {
+            "cap": "5558.4",
+            "used": "0",
+            "limit": "0",
+            "fix": "0.4",
+            "break": "0"
+        },
+        "ipp-coal": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "ipp-lng": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        }
+    },
+    "2021-05-23 23:30": {
+        "nuclear": {
+            "cap": "3872",
+            "used": "3711.9",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "coal": {
+            "cap": "13347.2",
+            "used": "11904.1",
+            "limit": "0",
+            "fix": "550",
+            "break": "800"
+        },
+        "co-gen": {
+            "cap": "618",
+            "used": "875.9",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "lng": {
+            "cap": "14061.5",
+            "used": "11862.8",
+            "limit": "506.9",
+            "fix": "3241.3",
+            "break": "0"
+        },
+        "oil": {
+            "cap": "500",
+            "used": "136",
+            "limit": "0",
+            "fix": "500",
+            "break": "0"
+        },
+        "diesel": {
+            "cap": "594.4",
+            "used": "121.3",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "hydro": {
+            "cap": "1971.8",
+            "used": "206.7",
+            "limit": "0",
+            "fix": "120.7",
+            "break": "0"
+        },
+        "wind": {
+            "cap": "840.2",
+            "used": "21.5",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "geothermal": {
+            "cap": "0.3",
+            "used": "0.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping gen": {
+            "cap": "2602",
+            "used": "788.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping load": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "solar": {
+            "cap": "5558.4",
+            "used": "0",
+            "limit": "0",
+            "fix": "0.4",
+            "break": "0"
+        },
+        "ipp-coal": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "ipp-lng": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        }
+    },
+    "2021-05-23 23:40": {
+        "nuclear": {
+            "cap": "3872",
+            "used": "3703.1",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "coal": {
+            "cap": "14147.2",
+            "used": "11925.9",
+            "limit": "0",
+            "fix": "550",
+            "break": "0"
+        },
+        "co-gen": {
+            "cap": "618",
+            "used": "946.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "lng": {
+            "cap": "14061.5",
+            "used": "11599.8",
+            "limit": "506.9",
+            "fix": "3241.3",
+            "break": "0"
+        },
+        "oil": {
+            "cap": "500",
+            "used": "135.4",
+            "limit": "0",
+            "fix": "500",
+            "break": "0"
+        },
+        "diesel": {
+            "cap": "594.4",
+            "used": "119.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "hydro": {
+            "cap": "1971.8",
+            "used": "183.2",
+            "limit": "0",
+            "fix": "120.7",
+            "break": "0"
+        },
+        "wind": {
+            "cap": "840.2",
+            "used": "21.5",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "geothermal": {
+            "cap": "0.3",
+            "used": "0.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping gen": {
+            "cap": "2602",
+            "used": "708.1",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping load": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "solar": {
+            "cap": "5558.4",
+            "used": "0",
+            "limit": "0",
+            "fix": "0.4",
+            "break": "0"
+        },
+        "ipp-coal": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "ipp-lng": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        }
+    },
+    "2021-05-23 23:50": {
+        "nuclear": {
+            "cap": "3872",
+            "used": "3708",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "coal": {
+            "cap": "14147.2",
+            "used": "11944",
+            "limit": "0",
+            "fix": "550",
+            "break": "0"
+        },
+        "co-gen": {
+            "cap": "618",
+            "used": "1104.4",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "lng": {
+            "cap": "14061.5",
+            "used": "11426.3",
+            "limit": "506.9",
+            "fix": "3241.3",
+            "break": "0"
+        },
+        "oil": {
+            "cap": "500",
+            "used": "134.8",
+            "limit": "0",
+            "fix": "500",
+            "break": "0"
+        },
+        "diesel": {
+            "cap": "594.4",
+            "used": "118.5",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "hydro": {
+            "cap": "1971.8",
+            "used": "173",
+            "limit": "0",
+            "fix": "120.7",
+            "break": "0"
+        },
+        "wind": {
+            "cap": "840.2",
+            "used": "26.3",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "geothermal": {
+            "cap": "0.3",
+            "used": "0.2",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping gen": {
+            "cap": "2602",
+            "used": "525.9",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "pumping load": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "solar": {
+            "cap": "5558.4",
+            "used": "0",
+            "limit": "0",
+            "fix": "0.4",
+            "break": "0"
+        },
+        "ipp-coal": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        },
+        "ipp-lng": {
+            "cap": "0",
+            "used": "0",
+            "limit": "0",
+            "fix": "0",
+            "break": "0"
+        }
     }
 }

@@ -1,20 +1,41 @@
 <template>
     <div class="unit-page">
+        <news-ticker class="mb-3"></news-ticker>
+
         <summary-box></summary-box>
+
         <template v-for="(UnitGroup, UnitGroupIndex) in FormatUnitGroup">
-            <unit-group-box
-                :key="UnitGroup.group_name"
-                :group-name="UnitGroup.group_name"
-                :total-break="UnitGroup.total_break"
-                :total-fixed="UnitGroup.total_fixed"
-                :total-limit="UnitGroup.total_limit"
-                :total-capacity="UnitGroup.total_capacity"
-                :total-used="UnitGroup.total_used"
-                :acc-total-used="UnitGroup.accTotalUsed"
-                :last-acc-total-used="typeof FormatUnitGroup[UnitGroupIndex + 1] !=='undefined' ? FormatUnitGroup[UnitGroupIndex + 1].accTotalUsed: false"
-                :units="UnitGroup.units"
-            >
-            </unit-group-box>
+            <template v-if="UnitGroup.type === 'unit-group'">
+                <unit-group-box
+                    :key="UnitGroup.group_name"
+                    :group-name="UnitGroup.group_name"
+                    :total-break="UnitGroup.total_break"
+                    :total-fixed="UnitGroup.total_fixed"
+                    :total-limit="UnitGroup.total_limit"
+                    :total-capacity="UnitGroup.total_capacity"
+                    :total-used="UnitGroup.total_used"
+                    :acc-total-used="UnitGroup.accTotalUsed"
+                    :last-acc-total-used="typeof FormatUnitGroup[UnitGroupIndex + 1] !=='undefined' ? FormatUnitGroup[UnitGroupIndex + 1].accTotalUsed: false"
+                    :units="UnitGroup.units"
+                >
+                </unit-group-box>
+            </template>
+            <template v-if="UnitGroup.type === 'unit-ads'">
+                <unit-group-ads-box
+                    :key="`${UnitGroupIndex}_Ads`"
+                    :group-name="'廣告'"
+                    :total-break="UnitGroup.total_break"
+                    :total-fixed="UnitGroup.total_fixed"
+                    :total-limit="UnitGroup.total_limit"
+                    :total-capacity="UnitGroup.total_capacity"
+                    :total-used="UnitGroup.total_used"
+                    :acc-total-used="UnitGroup.accTotalUsed"
+                    :last-acc-total-used="typeof FormatUnitGroup[UnitGroupIndex + 1] !=='undefined' ? FormatUnitGroup[UnitGroupIndex + 1].accTotalUsed: false"
+                ></unit-group-ads-box>
+            </template>
+
+            <!-- <template v-if="UnitGroupIndex % 5 === 4">
+            </template> -->
         </template>
 
         <template v-if="choosePlantInfo">
@@ -26,36 +47,41 @@
         </template>
 
         <template v-if="openFilterFlag">
-            <unit-filter-box :type="true" :sort="true"></unit-filter-box>
+            <unit-filter-box :type="true" :sort="true" @open-filter-box="openFilterBoxAct"></unit-filter-box>
         </template>
     </div>
 </template>
 <script>
-import { popup, string } from 'lib/common/util';
+import { popup, string, linkRegister } from 'lib/common/util';
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import PlantInfoBox from 'components/PlantInfoBox/main.vue';
 import UnitInfoBox from 'components/UnitInfoBox/main.vue';
+
 
 import { module_name, module_store } from './lib/store/index';
 
 import SummaryBox from './components/SummaryBox.vue';
 import UnitGroupBox from './components/UnitGroupBox.vue';
+import UnitGroupAdsBox from './components/UnitGroupAdsBox.vue';
 
-import UnitFilterBox from './components/UnitFilterBox.vue';
+linkRegister.register([
+    {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: '/dist/css/page/unit-page.css',
+    },
 
-// import $ from 'jquery';
-// import 'bootstrap';
-
-// import 'app';
-// import { string, jsVars, popup, trackJS, localStorage, ppPanel } from 'lib/common/util';
+]);
 
 export default {
     components: {
+        NewsTicker: () => import('components/NewsTicker/main.vue'),
+        UnitFilterBox: () => import('components/UnitFilterBox/main.vue'),
         PlantInfoBox,
         SummaryBox,
         UnitGroupBox,
-        UnitFilterBox,
         UnitInfoBox,
+        UnitGroupAdsBox,
     },
     filters: {},
     props: {},
@@ -73,12 +99,14 @@ export default {
 
             choosePlantInfo: 'choosePlantInfo',
             chooseUnitKey: 'chooseUnitKey',
-            // chooseUnitInfo: 'chooseUnitInfo',
 
             openFilterFlag: `${module_name}/openFilterFlag`,
 
             chooseTypes: 'chooseTypes',
         }),
+        route(){
+            return this.$route || false;
+        },
     },
     watch: {
         sortGroup: {
@@ -101,13 +129,15 @@ export default {
         },
     },
     beforeCreate(){
-        const that = this;
         if (!this.$store.state[module_name]) {
             this.$store.registerModule([module_name], module_store);
         }
     },
     created(){},
     mounted(){
+        if (!!this.route && !!this.route.query && !!this.route.query.unit_key) {
+            this.chooseUnitByKey(this.route.query.unit_key);
+        }
         this.init();
     },
     updated(){},
@@ -117,6 +147,7 @@ export default {
         ...mapMutations({
             choosePlantByName: 'choosePlantByName',
             chooseUnitByKey: 'chooseUnitByKey',
+            openFilterBox: `${module_name}/openFilterBox`,
         }),
         init(){
             this.loadPlantInfo();
@@ -275,6 +306,7 @@ export default {
 
                     FormatUnitGroup.push({
                         group_name: key,
+                        type: 'unit-group',
                         units,
                         total_capacity: TotalCapacity,
                         total_used: TotalUsed,
@@ -282,6 +314,18 @@ export default {
                         total_limit: UnitLimit,
                         total_break: UnitBreak,
                     });
+                    if (FormatUnitGroup.length % 5 === 4) {
+                        FormatUnitGroup.push({
+                            group_name: `ads_${key}`,
+                            type: 'unit-ads',
+                            units: [],
+                            total_capacity: 0,
+                            total_used: 0,
+                            total_fixed: 0,
+                            total_limit: 0,
+                            total_break: 0,
+                        });
+                    }
                 }
 
                 // eslint-disable-next-line no-plusplus
@@ -319,6 +363,9 @@ export default {
         },
         closeUnitInfo(){
             this.chooseUnitByKey('');
+        },
+        openFilterBoxAct(val){
+            this.openFilterBox(val);
         },
     },
 };

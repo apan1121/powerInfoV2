@@ -32,6 +32,13 @@ $h6-font-size: rem(16px) !default;
 $body-font-size: rem(14px) !default;
 $footnote-font-size: rem(12px) !default;
 
+$spacer: 16px;
+
+$pipe-border: $spacer / 2;
+
+
+
+
 $font-size-map: (
     'h1': $h1-font-size,
     'h2': $h2-font-size,

@@ -13,8 +13,8 @@ export default {
             'co-gen': '汽電共生',
             solar: '太陽能',
             // water: '水力',
-            hydro: '水力',
             wind: '風力',
+            hydro: '水力',
             'pumping gen': '抽蓄發電',
             'pumping load': '抽蓄負載',
             geothermal: '地熱',
@@ -85,6 +85,14 @@ export default {
         showVal: {
             capacity: '',
             used: '',
+        },
+
+        usedType: {
+            cap: '可發電量',
+            used: '已發電量',
+            fix: '待修機組',
+            break: '故障機組',
+            limit: '限轉機組',
         },
     },
 

@@ -1,5 +1,5 @@
 <?php
-
+require '../config/config.php';
 
 function strposa($haystack, $needles=array(), $offset=0) {
     $chr = array();
