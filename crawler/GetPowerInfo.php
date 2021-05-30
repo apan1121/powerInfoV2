@@ -4,6 +4,23 @@ require '../vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+date_default_timezone_set('Asia/Taipei');
+
+$powerInfoPath = "../log/powerInfo.log";
+$powerUnitRecord = "../log/record/{unitKey}.log";
+
+$target_date = date('Y-m-d H');
+
+$target_minute = floor(date('i') / 10) * 10;
+$target_date = $target_date.":".$target_minute;
+
+$prev_powerInfo = [];
+$prev_record = get($powerInfoPath);
+if ($prev_record['time'] === $target_date) {
+    echo "{$prev_record['time']} <-> {$target_date} 已經處理過\n";
+    exit();
+}
+
 
 $dir = dirname(__FILE__)."/";
 
@@ -117,8 +134,6 @@ if (empty($data)) {
     echo "跳出警告 \n";
     sendErrorMail("[警告] 無法取得電力資訊", "無法取得 電力資訊，請檢查 {$url} 是否正常。", OWNER_MAIL);
 } else {
-    $powerInfoPath = "../log/powerInfo.log";
-    $powerUnitRecord = "../log/record/{unitKey}.log";
 
     $prev_powerInfo = [];
     $prev_record = get($powerInfoPath);
