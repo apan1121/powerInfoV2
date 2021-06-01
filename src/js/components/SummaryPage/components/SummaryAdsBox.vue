@@ -1,6 +1,6 @@
 <template>
     <card-box :title="'廣告'">
-        <div ref="ads">
+        <div ref="ads" class="power-info-promote">
         </div>
         <!-- <in-feed-adsense
             data-ad-format="fluid"

@@ -10,7 +10,7 @@
             {{ groupName }}
         </template>
         <template v-slot:content>
-            <div ref="ads"></div>
+            <div ref="ads" class="power-info-promote"></div>
         </template>
     </pipe-group-box>
 </template>
