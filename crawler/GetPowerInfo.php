@@ -606,7 +606,7 @@ function sendNoticeRecordMail($noticeRecord, $recipient){
          */
         $mail = getMailer();
         foreach ($recipient as $_recipient) {
-            $mail->addAddress($_recipient['email'], $_recipient['name']);     //Add a recipient        //Name is optional
+            $mail->addCC($_recipient['email'], $_recipient['name']);     //Add a recipient        //Name is optional
         }
 
         $AltBody = [];
