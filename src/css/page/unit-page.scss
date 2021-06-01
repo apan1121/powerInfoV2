@@ -252,6 +252,7 @@
         max-height: $spacer * 5;
         overflow: hidden;
         position: relative;
+        width: 100%;
         &::before{
             position: absolute;
             width: 100%;
