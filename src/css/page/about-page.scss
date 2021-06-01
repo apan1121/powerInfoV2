@@ -1,6 +1,9 @@
 @import '../common/_variable.scss';
 
 .about-page{
+    max-width: 1024px;
+    margin: 0 auto;
+
     a:hover{
         text-decoration: none;
     }
@@ -27,59 +30,80 @@
         line-height: $spacer * 2;
     }
 
+    // .soft-link{
+    //     max-width: 250px;
+    //     color: $gray-800;
+    //     padding: $spacer;
+    //     .soft-link-img{
+    //         overflow: hidden;
+    //         margin: 0 auto;
+    //         width: 80%;
+    //         border-radius: 50%;
+    //         box-shadow: 0px 0px 5px $gray-400;
+    //         img{
+    //             width: 100%;
+    //         }
+    //     }
+    //     .soft-link-title{
+    //         margin-top: $spacer;
+    //         text-align: center;
+    //     }
+    // }
+
     .soft-link{
-        max-width: 250px;
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        padding: $spacer / 2;
         color: $gray-800;
-        padding: $spacer;
         .soft-link-img{
-            overflow: hidden;
-            margin: 0 auto;
-            width: 80%;
-            border-radius: 50%;
-            box-shadow: 0px 0px 5px $gray-400;
+            flex: none;
             img{
-                width: 100%;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                overflow: hidden;
+                border: 1px solid $gray-300;
             }
         }
         .soft-link-title{
-            margin-top: $spacer;
-            text-align: center;
+            flex: 1;
+            padding-left: $spacer / 2;
+            font-size: $spacer;
         }
     }
 
     .author-card{
-        max-width: 250px;
-        border-radius: $spacer / 2;
-        box-shadow: 0px 0px 5px $gray-400;
-        .author{
-            width: 100%;
-            color: $gray-800;
-            .avater{
-                overflow: hidden;
-                margin: 0 auto;
-                width: 80%;
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        padding: $spacer / 2;
+        color: $gray-800;
+        .avater{
+            flex: none;
+            img{
+                width: 100px;
+                height: 100px;
                 border-radius: 50%;
-                box-shadow: 0px 0px 5px $gray-400;
-                margin-bottom: $spacer / 2;
-                img{
-                    width: 100%;
-                }
+                overflow: hidden;
+                border: 1px solid $gray-300;
             }
+        }
+        .author-info{
+            flex: 1;
+            padding-left: $spacer / 2;
             .author-title{
                 margin-bottom: $spacer / 2;
-                text-align: center;
                 .name{
-                    color: $gray-800;
+                    font-size: $spacer * 1.25;
                     font-weight: 900;
-                    font-size: 22px;
                 }
                 .title{
-                    color: $gray-800;
-                    font-size: 16px;
+                    font-size: $spacer;
                 }
             }
             .author-desc{
-                text-align: center;
+                font-size: $spacer;
             }
         }
     }

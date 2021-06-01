@@ -56,8 +56,24 @@
                                 <h4>作者資訊</h4>
                             </div>
                             <template v-for="(AuthorInfo, AuthorIndex) in AuthorList">
-                                <div :key="AuthorIndex" class="col-12 col-sm-6 col-md-12 col-lg-6 p-4">
-                                    <div class="card author-card">
+                                <div :key="AuthorIndex" class="col-12">
+                                    <a :href="AuthorInfo.link" target="_blank">
+                                        <div class="author-card">
+                                            <div class="avater">
+                                                <img :src="AuthorInfo.photo">
+                                            </div>
+                                            <div class="author-info">
+                                                <div class="author-title">
+                                                    <span class="name">{{ AuthorInfo.name }}</span> /
+                                                    <span class="title">{{ AuthorInfo.title }}</span>
+                                                </div>
+                                                <div class="author-desc">
+                                                    {{ AuthorInfo.desc }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- <div class="card author-card">
                                         <div class="card-body">
                                             <a :href="AuthorInfo.link" target="_blank">
                                                 <div class="author">
@@ -74,7 +90,7 @@
                                                 </div>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </template>
                         </div>
@@ -85,7 +101,7 @@
                                 <h4>相關網站</h4>
                             </div>
                             <template v-for="(SoftLinkInfo, SoftLinkIndex) in SoftLinkList">
-                                <div :key="SoftLinkIndex" class="col-12 col-sm-6 p-4">
+                                <div :key="SoftLinkIndex" class="col-12">
                                     <a :href="SoftLinkInfo.link" target="_blank">
                                         <div class="soft-link">
                                             <div class="soft-link-img">
