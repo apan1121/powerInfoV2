@@ -104,7 +104,6 @@
                                 </template>
                             </tbody>
                         </table>
-                        {{ NoticeRecord }}
                     </div>
                 </div>
             </div>

@@ -3,7 +3,9 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#">台灣電廠即時資訊</a>
+                    <router-link class="navbar-brand" :to="{ name: 'UnitPage'}">
+                        台灣電廠即時資訊
+                    </router-link>
                     <ul class="navbar-nav">
                         <li class="nav-item" :class="{ active: route.name == 'UnitPage'}">
                             <router-link class="nav-link" :to="{ name: 'UnitPage'}">
@@ -15,6 +17,12 @@
                             <router-link class="nav-link" :to="{ name: 'SummaryPage'}">
                                 <i class="icon icon-chart"></i>
                                 <span>分析摘要</span>
+                            </router-link>
+                        </li>
+                        <li class="nav-item" :class="{ active: route.name == 'AboutPage'}">
+                            <router-link class="nav-link" :to="{ name: 'AboutPage'}">
+                                <i class="icon icon-about"></i>
+                                <span>關於</span>
                             </router-link>
                         </li>
                     </ul>

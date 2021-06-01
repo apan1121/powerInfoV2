@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2q9ibv');
-  src:  url('fonts/icomoon.eot?2q9ibv#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2q9ibv') format('truetype'),
-    url('fonts/icomoon.woff?2q9ibv') format('woff'),
-    url('fonts/icomoon.svg?2q9ibv#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ltb18d');
+  src:  url('fonts/icomoon.eot?ltb18d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ltb18d') format('truetype'),
+    url('fonts/icomoon.woff?ltb18d') format('woff'),
+    url('fonts/icomoon.svg?ltb18d#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-about:before {
+  content: "\e910";
+}
 .icon-electricity-pole:before {
   content: "\e90e";
 }

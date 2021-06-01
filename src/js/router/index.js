@@ -17,6 +17,11 @@ const routes = [
         name: 'SummaryPage',
         component: () => import('components/SummaryPage/main.vue'),
     },
+    {
+        path: '/about',
+        name: 'AboutPage',
+        component: () => import('components/AboutPage/main.vue'),
+    },
 ];
 
 const router = new VueRouter({
