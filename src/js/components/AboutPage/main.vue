@@ -121,7 +121,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-import { linkRegister } from 'lib/common/util';
+import { linkRegister, trackJS } from 'lib/common/util';
 
 linkRegister.register([
     {
@@ -192,7 +192,14 @@ export default {
     watch: {
     },
     created(){},
-    mounted(){},
+    mounted(){
+        trackJS.gtag('event', 'page_view', {
+            page_id: 'AboutPage',
+        });
+        trackJS.mixpanel('page_view', {
+            page_id: 'AboutPage',
+        });
+    },
     updated(){},
     destroyed(){},
     methods: {

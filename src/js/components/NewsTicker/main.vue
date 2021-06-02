@@ -114,7 +114,7 @@
 import moment from 'moment';
 
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-import { localStorage } from 'lib/common/util';
+import { localStorage, trackJS } from 'lib/common/util';
 
 import { module_name, module_store } from './lib/store/index';
 
@@ -214,6 +214,25 @@ export default {
                     }
                 }
                 that.NoticeRecordFormat = NoticeRecordFormat;
+
+
+
+                that.$nextTick(() => {
+                    $(that.$refs.NewsTickerModal).on('shown.bs.modal', () => {
+                        trackJS.gtag('event', 'UnitFilterBox_open', {
+                        });
+                        trackJS.mixpanel('UnitFilterBox_open', {
+                        });
+                    });
+
+                    $(that.$refs.NewsTickerModal).on('hidden.bs.modal', () => {
+                        that.$emit('open-filter-box', false);
+                        trackJS.gtag('event', 'UnitFilterBox_close', {
+                        });
+                        trackJS.mixpanel('UnitFilterBox_close', {
+                        });
+                    });
+                });
             }
         },
         showNewsList(){
@@ -240,6 +259,7 @@ export default {
     mounted(){
         const that = this;
         that.noticeRecordListReadTime = localStorage.get('noticeRecordListReadTime', 0);
+
 
         that.loadNoticeRecord();
     },

@@ -52,7 +52,7 @@
     </div>
 </template>
 <script>
-import { popup, string, linkRegister } from 'lib/common/util';
+import { popup, string, linkRegister, trackJS } from 'lib/common/util';
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import PlantInfoBox from 'components/PlantInfoBox/main.vue';
 import UnitInfoBox from 'components/UnitInfoBox/main.vue';
@@ -139,6 +139,12 @@ export default {
             this.chooseUnitByKey(this.route.query.unit_key);
         }
         this.init();
+        trackJS.gtag('event', 'page_view', {
+            page_id: 'UnitPage',
+        });
+        trackJS.mixpanel('page_view', {
+            page_id: 'UnitPage',
+        });
     },
     updated(){},
     destroyed(){},

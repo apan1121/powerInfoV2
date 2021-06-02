@@ -9,7 +9,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-import { string } from 'lib/common/util';
+import { string, trackJS } from 'lib/common/util';
 import Chart from 'chart.js';
 import IntersectionObserverBox from 'lib/common/mixins/IntersectionObserverBox';
 
@@ -21,6 +21,10 @@ export default {
     filters: {},
     mixins: [IntersectionObserverBox],
     props: {
+        title: {
+            type: String,
+            default: '',
+        },
         records: {
             type: [Object, Boolean],
             default: false,
@@ -302,6 +306,14 @@ export default {
                     const ctx = that.ChartTarget.getContext('2d');
                     that.ChartJS = new Chart(ctx, config);
                     that.drawFlag = false;
+
+
+                    trackJS.gtag('event', 'ChartTrend_draw', {
+                        title: this.title,
+                    });
+                    trackJS.mixpanel('ChartTrend_draw', {
+                        title: this.title,
+                    });
                 }, 500);
             }
         },

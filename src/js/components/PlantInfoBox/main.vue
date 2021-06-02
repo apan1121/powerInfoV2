@@ -202,6 +202,7 @@
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 
+import { trackJS } from 'lib/common/util';
 // import $ from 'jquery';
 // import 'bootstrap';
 
@@ -322,6 +323,11 @@ export default {
         },
     },
     watch: {
+        name: {
+            immediate: true,
+            handler(){
+            },
+        },
         chooseTab: {
             immediate: true,
             handler(){
@@ -340,12 +346,29 @@ export default {
     mounted(){
         const that = this;
         that.chooseTab = 'basicInfo';
+
+        $(that.$el).on('shown.bs.modal', () => {
+            trackJS.gtag('event', 'PlantInfoBox_open', {
+                name: this.name,
+            });
+            trackJS.mixpanel('PlantInfoBox_open', {
+                name: this.name,
+            });
+        });
+
+        $(that.$el).on('hidden.bs.modal', () => {
+            trackJS.gtag('event', 'PlantInfoBox_close', {
+                name: this.name,
+            });
+            trackJS.mixpanel('PlantInfoBox_close', {
+                name: this.name,
+            });
+            that.$emit('close');
+        });
+
         $('.modal').modal('hide');
 
         $(this.$el).modal('show');
-        $(this.$el).on('hidden.bs.modal', () => {
-            that.$emit('close');
-        });
     },
     updated(){},
     destroyed(){},

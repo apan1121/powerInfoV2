@@ -19,7 +19,7 @@
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 
-import { linkRegister } from 'lib/common/util';
+import { linkRegister, trackJS } from 'lib/common/util';
 // import $ from 'jquery';
 // import 'bootstrap';
 
@@ -58,6 +58,14 @@ export default {
     watch: {
         fullscreen(){
             this.$emit('fullscreen', this.fullscreen);
+            trackJS.gtag('event', 'cardBox_click', {
+                title: this.title,
+                fullscreen: this.fullscreen,
+            });
+            trackJS.mixpanel('cardBox_click', {
+                title: this.title,
+                fullscreen: this.fullscreen,
+            });
         },
     },
     created(){},

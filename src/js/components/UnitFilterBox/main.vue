@@ -116,6 +116,8 @@ import draggable from 'vuedraggable';
 
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 
+import { trackJS } from 'lib/common/util';
+
 // import { module_name } from '../lib/store/index';
 
 // import $ from 'jquery';
@@ -220,10 +222,18 @@ export default {
         $(that.$el).modal('show');
 
         $(that.$el).on('shown.bs.modal', () => {
+            trackJS.gtag('event', 'UnitFilterBox_open', {
+            });
+            trackJS.mixpanel('UnitFilterBox_open', {
+            });
         });
 
         $(that.$el).on('hidden.bs.modal', () => {
             that.$emit('open-filter-box', false);
+            trackJS.gtag('event', 'UnitFilterBox_close', {
+            });
+            trackJS.mixpanel('UnitFilterBox_close', {
+            });
         });
     },
     updated(){},
@@ -252,6 +262,7 @@ export default {
         save(){
             const that = this;
 
+            const params = {};
             if (that.type) {
                 const chooseTypes = [];
                 for (const key in that.inputChooseTypes) {
@@ -259,6 +270,8 @@ export default {
                         chooseTypes.push(key);
                     }
                 }
+
+                params.chooseTypes = chooseTypes;
                 that.SetChooseTypes(chooseTypes);
             }
 
@@ -267,7 +280,14 @@ export default {
                 that.SetSortGroup(inputSortGroup);
                 const inputShowVal = JSON.parse(JSON.stringify(that.inputShowVal));
                 that.SetShowVal(inputShowVal);
+
+                params.sortGroup = inputSortGroup;
+                params.showVal = inputShowVal;
             }
+
+
+            trackJS.gtag('event', 'UnitFilterBox_save', params);
+            trackJS.mixpanel('UnitFilterBox_save', params);
 
             $(that.$el).modal('hide');
         },

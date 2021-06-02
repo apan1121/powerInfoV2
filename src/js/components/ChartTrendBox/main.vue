@@ -2,6 +2,7 @@
     <card-box :title="title" @fullscreen="fullscreen">
         <chart-trend
             v-if="records"
+            :title="title"
             :height="chartHeight"
             :tooltip-total="tooltipTotal"
             :icon="icon"

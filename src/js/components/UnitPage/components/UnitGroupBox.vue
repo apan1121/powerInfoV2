@@ -5,6 +5,7 @@
         :pipe-top="accTotalUsed"
         :pipe-bottom="lastAccTotalUsed"
         :pipe-right="totalUsed"
+        :group-name="groupName"
     >
         <template v-slot:title>
             {{ groupName }}

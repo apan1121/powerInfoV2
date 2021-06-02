@@ -52,7 +52,7 @@ import 'vue-range-component/dist/vue-range-slider.css';
 import moment from 'moment';
 
 
-import { popup, linkRegister } from 'lib/common/util';
+import { popup, linkRegister, trackJS } from 'lib/common/util';
 import { module_name, module_store } from './lib/store/index';
 
 import SummaryFilter from './components/SummaryFilter.vue';
@@ -91,6 +91,8 @@ export default {
 
             chooseListType: 'box',
             maxHeight: 100,
+
+            initFlag: true,
         };
     },
     computed: {
@@ -142,7 +144,6 @@ export default {
                 this.$nextTick(() => {
                     this.init();
                     this.calcDiffTrend();
-                    this.calPowerTypeTrend();
                 });
             },
         },
@@ -154,10 +155,19 @@ export default {
             },
         },
         chooseRange: {
-            deep: true,
+            // deep: true,
             handler(){
                 this.$nextTick(() => {
-                    this.calPowerTypeTrend();
+                    if (!this.initFlag) {
+                        this.calPowerTypeTrend();
+                        trackJS.gtag('event', 'chooseSummaryRange', {
+                            range: this.chooseRange,
+                        });
+                        trackJS.mixpanel('chooseSummaryRange', {
+                            range: this.chooseRange,
+                        });
+                    }
+                    this.initFlag = false;
                 });
             },
         },
@@ -165,6 +175,12 @@ export default {
             handler(){
                 this.$nextTick(() => {
                     this.calPowerTypeTrend();
+                    trackJS.gtag('event', 'chooseListType', {
+                        listType: this.chooseListType,
+                    });
+                    trackJS.mixpanel('chooseListType', {
+                        listType: this.chooseListType,
+                    });
                 });
             },
         },
@@ -187,6 +203,12 @@ export default {
         });
     },
     mounted(){
+        trackJS.gtag('event', 'page_view', {
+            page_id: 'SummaryPage',
+        });
+        trackJS.mixpanel('page_view', {
+            page_id: 'SummaryPage',
+        });
     },
     updated(){},
     destroyed(){},
@@ -266,7 +288,7 @@ export default {
                 }
                 that.diffTrend = diffTrend;
                 console.log(mappingShowWeek);
-            }, 500);
+            }, 1000);
         },
 
         calPowerTypeTrend(){
@@ -315,7 +337,7 @@ export default {
 
                 that.chooseTypeTrend = chooseTypeTrend;
                 popup.close();
-            }, 500);
+            }, 1000);
         },
         openFilterBoxAct(val){
             this.openFilterBox(val);

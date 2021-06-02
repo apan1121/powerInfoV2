@@ -36,7 +36,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-
+import { trackJS }  from 'lib/common/util';
 import { module_name } from '../lib/store/index';
 
 // import Pipe from './pipe.vue';
@@ -72,6 +72,10 @@ export default {
             type: Boolean,
             default: true,
         },
+        groupName: {
+            type: String,
+            default: '',
+        },
     },
     data(){
         return {
@@ -85,6 +89,16 @@ export default {
         },
     },
     watch: {
+        collapse(){
+            trackJS.gtag('event', 'PipeGroupBox', {
+                groupName: this.groupName,
+                collapse: this.collapse,
+            });
+            trackJS.mixpanel('PipeGroupBox_collapse', {
+                groupName: this.groupName,
+                collapse: this.collapse,
+            });
+        },
     },
     created(){},
     mounted(){},

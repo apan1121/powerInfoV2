@@ -126,7 +126,11 @@
                     </div>
 
                     <template v-if="formatRecord">
-                        <chart-trend :key="`${unitKey}_records`" :records="formatRecord"></chart-trend>
+                        <chart-trend
+                            :key="`${unitKey}_records`"
+                            :title="unitKey"
+                            :records="formatRecord"
+                        ></chart-trend>
                     </template>
                 </div>
             </div>
@@ -134,6 +138,8 @@
     </div>
 </template>
 <script>
+import { trackJS } from 'lib/common/util';
+
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import moment from 'moment';
 import { module_name, module_store } from './lib/store/index';
@@ -201,15 +207,34 @@ export default {
     created(){},
     mounted(){
         const that = this;
-        $('.modal').modal('hide');
 
-        $(this.$el).modal('show');
+        $(this.$el).on('shown.bs.modal', () => {
+            trackJS.gtag('event', 'UnitInfoBox_open', {
+                unitKey: this.unitKey,
+            });
+            trackJS.mixpanel('UnitInfoBox_open', {
+                unitKey: this.unitKey,
+            });
+        });
+
+
         $(this.$el).on('hidden.bs.modal', () => {
             that.$emit('close');
             if (!!this.$route.query && !!this.$route.query.unit_key) {
                 this.$router.push({ name: 'UnitPage' });
             }
+
+            trackJS.gtag('event', 'UnitInfoBox_close', {
+                unitKey: this.unitKey,
+            });
+            trackJS.mixpanel('UnitInfoBox_close', {
+                unitKey: this.unitKey,
+            });
         });
+
+        $('.modal').modal('hide');
+
+        $(this.$el).modal('show');
     },
     updated(){},
     destroyed(){},
@@ -239,10 +264,8 @@ export default {
             clearTimeout(that.calcformatRecordTimer);
             that.calcformatRecordTimer = setTimeout(() => {
                 const defaultRecord = JSON.parse(JSON.stringify(that.record));
-                console.log(defaultRecord);
                 let start_time = moment(`${that.RecordTime}:00`).add(-2, 'day');
                 const YMDH = start_time.format('YYYY-MM-DD HH');
-                console.log('YMDH', YMDH);
 
                 let mm = start_time.format('mm');
                 mm = parseInt(mm / 10) * 10;
@@ -250,18 +273,14 @@ export default {
                 const start_timestamp = parseInt(moment(`${YMDH}:${mm}:00`).format('X'));
                 const end_timestamp = parseInt(moment(`${that.RecordTime}:00`).format('X'));
 
-                console.log({ start_timestamp, end_timestamp, start_time: `${YMDH}:${mm}:00`, end_time: `${that.RecordTime}:00` });
-
                 const record = {};
                 for (let timestamp = start_timestamp; timestamp <= end_timestamp; timestamp += 600) {
                     const datTime = moment(timestamp * 1000).format('YYYY-MM-DD HH:mm');
                     const datTimeKey = moment(timestamp * 1000).format('MM-DD HH:mm');
                     const data = {};
-                    console.log({ datTime, value: defaultRecord[datTime]});
                     data[that.UnitInfo.name] = defaultRecord[datTime] || 0;
                     record[datTimeKey] = data;
                 }
-                console.log({ record });
 
                 that.formatRecord = record;
             }, 500);
