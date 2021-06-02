@@ -28,7 +28,7 @@ const mixpanel_modul = {
     track(action, inputData){
         const actionFunc = function(){
             const data = { ...mixpanel_modul.data, data: inputData };
-            console.log('mixpanel', action, data);
+            // console.log('mixpanel', action, data);
             window.mixpanel.track(action, data);
         };
 
