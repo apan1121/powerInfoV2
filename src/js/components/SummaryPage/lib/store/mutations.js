@@ -13,6 +13,7 @@ const main = {
     },
     setSummaryInfo(state, params){
         params = string.sortObject(params);
+        console.log('setSummaryInfo');
         state.summaryInfo = params;
     },
 };

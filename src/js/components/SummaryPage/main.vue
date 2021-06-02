@@ -143,6 +143,7 @@ export default {
             handler(){
                 this.$nextTick(() => {
                     this.init();
+                    console.log('summaryInfo calcDiffTrend');
                     this.calcDiffTrend();
                 });
             },
@@ -150,6 +151,7 @@ export default {
         chooseTypes: {
             handler(){
                 this.$nextTick(() => {
+                    console.log('chooseTypes calcDiffTrend');
                     this.calPowerTypeTrend();
                 });
             },
@@ -159,6 +161,7 @@ export default {
             handler(){
                 this.$nextTick(() => {
                     if (!this.initFlag) {
+                        console.log('chooseRange calcDiffTrend');
                         this.calPowerTypeTrend();
                         trackJS.gtag('event', 'chooseSummaryRange', {
                             range: this.chooseRange,
@@ -236,6 +239,7 @@ export default {
         calcDiffTrend(){
             const that = this;
             clearTimeout(that.calcDiffTrendTimer);
+            console.log('calcDiffTrend');
             that.calcDiffTrendTimer = setTimeout(() => {
                 const limitDateNum = 14;
                 const today = parseInt(moment(moment().format('YYYY-MM-DD')).format('x'));
@@ -287,7 +291,7 @@ export default {
                     }
                 }
                 that.diffTrend = diffTrend;
-                console.log(mappingShowWeek);
+                // console.log(mappingShowWeek);
             }, 1000);
         },
 

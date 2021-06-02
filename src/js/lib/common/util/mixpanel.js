@@ -4,7 +4,7 @@ import string from './string';
 const fingerInfo = null;
 new Fingerprint2().get((result, components) => {
     const identify = new Fingerprint2().x64hash128(components.map(pair => pair.value).join(), 31);
-    console.log(identify);
+    // console.log(identify);
     mixpanel_modul.data.identify = identify;
     mixpanel.identify(identify);
     mixpanel_modul.actWaitFunc();
