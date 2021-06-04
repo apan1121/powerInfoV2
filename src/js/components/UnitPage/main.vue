@@ -184,6 +184,7 @@ export default {
 
         calcFormatUnitGroup(){
             const that = this;
+            clearTimeout(that.calcFormatUnitGroupTimer);
             that.calcFormatUnitGroupTimer = setTimeout(() => {
                 const sortGroup = JSON.parse(JSON.stringify(that.sortGroup));
                 const Units = JSON.parse(JSON.stringify(that.FormatUnits));
@@ -255,13 +256,8 @@ export default {
                         newUnitInfo[colKey] = UnitInfo[colKey];
                     });
 
-                    // newUnitInfo.plantFullName = '';
-                    // if (!!MappingPlantList[newUnitInfo.plantName] && 1) {
-                    //     newUnitInfo.plantFullName = MappingPlantList[newUnitInfo.plantName].fullName;
-                    // }
-
-
                     FormatUnitGroupKeySort[key].push(newUnitInfo);
+                    return true;
                 });
 
                 FormatUnitGroupKeySort = string.sortObject(FormatUnitGroupKeySort);

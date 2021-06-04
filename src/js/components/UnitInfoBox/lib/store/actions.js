@@ -8,7 +8,7 @@ export default {
     getUnitRecord({ commit }, params){
         return new Promise((resolve, reject) => {
             api.getUnitRecord(params).success((response) => {
-                console.log('getUnitRecord', response);
+                // console.log('getUnitRecord', response);
                 commit('setRecord', response);
             }).error((response) => {
                 reject(response);

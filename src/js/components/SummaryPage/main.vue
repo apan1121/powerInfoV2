@@ -140,18 +140,20 @@ export default {
     },
     watch: {
         summaryInfo: {
-            handler(){
-                this.$nextTick(() => {
-                    this.init();
-                    console.log('summaryInfo calcDiffTrend');
-                    this.calcDiffTrend();
-                });
+            handler(newVal, oldVal){
+                if (JSON.stringify(newVal) !== JSON.stringify(oldVal)) {
+                    this.$nextTick(() => {
+                        this.init();
+                        console.log('summaryInfo calcDiffTrend');
+                        this.calcDiffTrend();
+                    });
+                }
             },
         },
         chooseTypes: {
             handler(){
                 this.$nextTick(() => {
-                    console.log('chooseTypes calcDiffTrend');
+                    console.log('chooseTypes calPowerTypeTrend');
                     this.calPowerTypeTrend();
                 });
             },
@@ -263,7 +265,7 @@ export default {
                 }
 
                 const diffTrend = {};
-                const nowTimestamp = moment(moment().format('YYYY-MM-DD HH:mm:00')).format('x');
+                const nowTimestamp = moment(moment().format('YYYY-MM-DD HH:mm:00')).format('x') - 600000;
                 for (let i = today; i < tomorraw; i += 600000) {
                     const hourMinute = moment(i).format('HH:mm');
                     diffTrend[hourMinute] = {};
@@ -277,9 +279,10 @@ export default {
                             used = 0;
                             if (that.summaryInfo[dateTime]) {
                                 const info = JSON.parse(JSON.stringify(that.summaryInfo[`${date} ${hourMinute}`]));
-
                                 for (const typeKey in info) {
-                                    used += parseFloat(info[typeKey].used);
+                                    if (!!info[typeKey] && 1) {
+                                        used += parseFloat(info[typeKey].used);
+                                    }
                                 }
                             }
                         }
@@ -292,7 +295,7 @@ export default {
                 }
                 that.diffTrend = diffTrend;
                 // console.log(mappingShowWeek);
-            }, 1000);
+            }, 100);
         },
 
         calPowerTypeTrend(){
@@ -341,7 +344,7 @@ export default {
 
                 that.chooseTypeTrend = chooseTypeTrend;
                 popup.close();
-            }, 1000);
+            }, 100);
         },
         openFilterBoxAct(val){
             this.openFilterBox(val);
