@@ -40,10 +40,10 @@ export default {
     created(){
     },
     mounted(){
-        this.$nextTick(() => {
+        setTimeout(() => {
             const html = $('.adsbygoogle')[0].outerHTML;
             $(this.$refs.ads).html(html);
-        });
+        }, 500);
     },
     updated(){},
     destroyed(){},
