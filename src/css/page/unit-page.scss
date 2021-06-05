@@ -249,7 +249,7 @@
 
     .power-info-promote{
         min-height: $spacer * 5;
-        // max-height: $spacer * 10;
+        max-width: calc(100vw - 100px);
         overflow: hidden;
         position: relative;
         // width: 100%;
