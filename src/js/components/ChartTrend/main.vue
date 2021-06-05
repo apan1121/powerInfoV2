@@ -308,12 +308,12 @@ export default {
                     that.drawFlag = false;
 
 
-                    trackJS.gtag('event', 'ChartTrend_draw', {
-                        title: this.title,
-                    });
-                    trackJS.mixpanel('ChartTrend_draw', {
-                        title: this.title,
-                    });
+                    // trackJS.gtag('event', 'ChartTrend_draw', {
+                    //     title: this.title,
+                    // });
+                    // trackJS.mixpanel('ChartTrend_draw', {
+                    //     title: this.title,
+                    // });
                 }, 500);
             }
         },
