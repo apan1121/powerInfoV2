@@ -650,10 +650,12 @@ function sendNoticeRecordMail($noticeRecord, $recipient){
                     break;
             }
 
+            $link = WEB_DOMAIN."/#/?unit_key=".urlencode($_noticeRecord['unitKey']);
+
             $html[] = "
                 <tr style='{$style}'>
                     <td>{$_noticeRecord['recordTime']}</td>
-                    <td>{$_noticeRecord['name']}</td>
+                    <td><a href='{$link}' target='_blank' style='text-decoration: none;'>{$_noticeRecord['name']}</a></td>
                     <td>{$powerTypesMapping[$_noticeRecord['type']]}</td>
                     <td>{$diff_type}</td>
                     <td>{$oldVal}</td>

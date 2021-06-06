@@ -7,6 +7,8 @@ define('SMTP_Password', '');
 define('FROM_EMAIL', 'powerinfotw@gmail.com');
 define('FROM_NAME', 'PowerInfoTW');
 
+define('WEB_DOMAIN', 'https://apan1121.github.io/powerInfoV2');
+
 $OWNER_MAIL = [];
 $OWNER_MAIL[] = [
 ];
