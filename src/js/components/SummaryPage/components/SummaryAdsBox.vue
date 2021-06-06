@@ -1,6 +1,16 @@
 <template>
     <card-box :title="'廣告'">
-        <div ref="ads" class="power-info-promote">
+        <div
+            ref="ads"
+            class="power-info-promote"
+            :class="{ 'ad-blocked': adBlocked }"
+        >
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-fb+5w+4e-db+86"
+                data-ad-client="ca-pub-3068501078221920"
+                data-ad-slot="1897408904"></ins>
         </div>
         <!-- <in-feed-adsense
             data-ad-format="fluid"
@@ -30,6 +40,7 @@ export default {
     },
     computed: {
         ...mapGetters([
+            'adBlocked',
         ]),
     },
     watch: {
@@ -40,9 +51,12 @@ export default {
     created(){
     },
     mounted(){
+        // setTimeout(() => {
+        //     const html = $('.adsbygoogle')[0].outerHTML;
+        //     $(this.$refs.ads).html(html);
+        // }, 500);
         setTimeout(() => {
-            const html = $('.adsbygoogle')[0].outerHTML;
-            $(this.$refs.ads).html(html);
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
         }, 500);
     },
     updated(){},

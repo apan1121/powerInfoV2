@@ -125,4 +125,6 @@ export default {
 
     choosePlantName: '',
     chooseUnitKey: '',
+
+    adBlocked: false,
 };

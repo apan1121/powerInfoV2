@@ -47,4 +47,6 @@ export default {
 
     //     return choosePlantInfo;
     // },
+
+    adBlocked: state => state.adBlocked,
 };

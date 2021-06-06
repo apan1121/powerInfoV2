@@ -81,4 +81,8 @@ export default {
 
         state.Units = unitMapping;
     },
+
+    CheckAdBlock(state, data){
+        state.adBlocked = data;
+    },
 };

@@ -151,6 +151,7 @@ export default {
             },
         },
         chooseTypes: {
+            immediate: true,
             handler(){
                 this.$nextTick(() => {
                     console.log('chooseTypes calPowerTypeTrend');
@@ -201,11 +202,7 @@ export default {
         popup.loading({
             title: '讀取中',
         });
-        that.$store.dispatch(`${module_name}/getSummaryInfo`).then(() => {
-            popup.close();
-        }, () => {
-            popup.close();
-        });
+
     },
     mounted(){
         trackJS.gtag('event', 'page_view', {
@@ -214,14 +211,29 @@ export default {
         trackJS.mixpanel('page_view', {
             page_id: 'SummaryPage',
         });
+        this.getSummaryInfo();
     },
-    updated(){},
-    destroyed(){},
+    updated(){
+    },
+    destroyed(){
+        this.setSummaryInfo({});
+        this.initFlag = true;
+        this.chooseRange = [0, 0];
+    },
     methods: {
         ...mapActions({}),
         ...mapMutations({
             openFilterBox: `${module_name}/openFilterBox`,
+            setSummaryInfo: `${module_name}/setSummaryInfo`,
         }),
+        getSummaryInfo(){
+            const that = this;
+            that.$store.dispatch(`${module_name}/getSummaryInfo`).then(() => {
+                popup.close();
+            }, () => {
+                popup.close();
+            });
+        },
         formatter(value){
             return moment(parseInt(value)).format('YYYY-MM-DD HH:mm:ss');
         },

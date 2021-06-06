@@ -36,6 +36,8 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
+import { detectAnyAdblocker } from 'just-detect-adblock';
+
 
 const pc_min_size = 567;
 // import $ from 'jquery';
@@ -70,6 +72,7 @@ export default {
         ...mapActions({}),
         ...mapMutations({
             SetPageSetting: 'SetPageSetting',
+            CheckAdBlock: 'CheckAdBlock',
         }),
         init(){
             const that = this;
@@ -84,6 +87,11 @@ export default {
                     that.SetPageSetting({ mode_type, width });
                 }, 100);
             }).trigger('resize');
+
+            /* 偵測 adblocker */
+            detectAnyAdblocker().then((detected) => {
+                that.CheckAdBlock(detected);
+            });
         },
     },
 };
