@@ -1,4 +1,4 @@
 export default () => ({
     // DiscussSortDirection: {},
-    NoticeRecord: [],
+    // NoticeRecord: [],
 });

@@ -127,4 +127,6 @@ export default {
     chooseUnitKey: '',
 
     adBlocked: false,
+
+    NoticeRecord: [],
 };

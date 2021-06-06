@@ -1,4 +1,4 @@
 export default {
     // DiscussSortDirection: state => state.DiscussSortDirection,
-    NoticeRecord: state => state.NoticeRecord,
+    // NoticeRecord: state => state.NoticeRecord,
 };

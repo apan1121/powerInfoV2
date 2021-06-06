@@ -34,19 +34,8 @@ export default {
     },
 
     chooseUnitKey: state => state.chooseUnitKey,
-    // chooseUnitInfo(state, getters, rootState){
-    //     const { chooseUnitKey } = state;
-    //     const Units = JSON.parse(JSON.stringify(rootState.Units));
-    //     let choosePlantInfo = false;
-    //     if (!!chooseUnitKey && Units[chooseUnitKey]) {
-    //         choosePlantInfo = {};
-    //         ['name', 'gov', 'type', 'orgType', 'orgStatus', 'location', 'plantName', 'plantFullName', 'used', 'capacity', 'key'].forEach((colKey) => {
-    //             choosePlantInfo[colKey] = Units[chooseUnitKey][colKey];
-    //         });
-    //     }
 
-    //     return choosePlantInfo;
-    // },
+    NoticeRecord: state => state.NoticeRecord,
 
     adBlocked: state => state.adBlocked,
 };

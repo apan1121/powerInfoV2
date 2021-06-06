@@ -85,4 +85,8 @@ export default {
     CheckAdBlock(state, data){
         state.adBlocked = data;
     },
+
+    setNoticeRecord(state, params){
+        state.NoticeRecord = params.reverse();
+    },
 };

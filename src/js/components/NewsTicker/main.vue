@@ -116,7 +116,7 @@ import moment from 'moment';
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import { localStorage, trackJS } from 'lib/common/util';
 
-import { module_name, module_store } from './lib/store/index';
+// import { module_name, module_store } from './lib/store/index';
 
 
 // import $ from 'jquery';
@@ -152,7 +152,7 @@ export default {
     computed: {
         ...mapGetters({
             lang: 'lang',
-            NoticeRecord: `${module_name}/NoticeRecord`,
+            NoticeRecord: 'NoticeRecord',
         }),
         showNewsList(){
             const that = this;
@@ -216,7 +216,6 @@ export default {
                 that.NoticeRecordFormat = NoticeRecordFormat;
 
 
-
                 that.$nextTick(() => {
                     $(that.$refs.NewsTickerModal).on('shown.bs.modal', () => {
                         trackJS.gtag('event', 'UnitFilterBox_open', {
@@ -251,9 +250,9 @@ export default {
         },
     },
     beforeCreate(){
-        if (!this.$store.state[module_name]) {
-            this.$store.registerModule([module_name], module_store);
-        }
+        // if (!this.$store.state[module_name]) {
+        //     this.$store.registerModule([module_name], module_store);
+        // }
     },
     created(){},
     mounted(){
@@ -272,7 +271,7 @@ export default {
         }),
         loadNoticeRecord(){
             const that = this;
-            that.$store.dispatch(`${module_name}/loadNoticeRecord`).then(() => {
+            that.$store.dispatch('loadNoticeRecord').then(() => {
 
             }, () => {});
         },

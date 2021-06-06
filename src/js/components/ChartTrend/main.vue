@@ -9,8 +9,10 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-import { string, trackJS } from 'lib/common/util';
+import { string, trackJS, popup } from 'lib/common/util';
 import Chart from 'chart.js';
+import ChartAnnotation from 'chartjs-plugin-annotation';
+
 import IntersectionObserverBox from 'lib/common/mixins/IntersectionObserverBox';
 
 import { module_name, module_store } from './lib/store/index';
@@ -40,6 +42,10 @@ export default {
         icon: {
             type: [Boolean, String],
             default: false,
+        },
+        newsTicker: {
+            type: Array,
+            default: () => [],
         },
     },
     data(){
@@ -252,9 +258,44 @@ export default {
                     };
 
 
+                    const annotation = [];
+
+                    if (that.newsTicker.length > 0) {
+                        const newsTickerColor = '#f03434';
+                        that.newsTicker.forEach((info, index) => {
+                            annotation.push({
+                                type: 'line',
+                                id: `vline_${index}`,
+                                mode: 'vertical',
+                                scaleID: 'x-axis-0',
+                                value: labels.indexOf(info.date),
+                                borderColor: color(newsTickerColor).alpha(0.8).rgbString(),
+                                borderWidth: 1,
+                                label: {
+                                    enabled: true,
+                                    position: 'top',
+                                    content: 'ⓘ',
+                                    backgroundColor: color(newsTickerColor).alpha(0.8).rgbString(),
+                                    rotation: 90,
+                                    fontSize: 8,
+                                    cornerRadius: 3,
+                                    xPadding: 3,
+                                    yPadding: 3,
+                                },
+                                onClick(){
+                                    popup.info({
+                                        html: info.data.join('<br>'),
+                                        showConfirmButton: false,
+                                    });
+                                    console.log(info.data);
+                                },
+                            });
+                        });
+                    }
+
                     const config = {
                         type: 'bar',
-                        plugins: [],
+                        plugins: [ChartAnnotation],
                         data: {
                             labels,
                             datasets,
@@ -298,6 +339,11 @@ export default {
                                         },
                                     },
                                 }],
+                            },
+                            annotation: {
+                                events: ['click'],
+                                drawTime: 'afterDatasetsDraw',
+                                annotations: annotation,
                             },
                         },
                     };

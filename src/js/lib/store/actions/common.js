@@ -27,4 +27,15 @@ export default {
             });
         });
     },
+
+    loadNoticeRecord({ commit }, params){
+        return new Promise((resolve, reject) => {
+            api.loadNoticeRecord(params).success((response) => {
+                commit('setNoticeRecord', response);
+                resolve(response);
+            }).error((response) => {
+                reject(response);
+            });
+        });
+    },
 };

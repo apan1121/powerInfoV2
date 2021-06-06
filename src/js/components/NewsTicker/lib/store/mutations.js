@@ -6,9 +6,9 @@ const main = {
     //     DiscussSortDirection[params.discussBoxId] = params.sortDirection;
     //     state.DiscussSortDirection = DiscussSortDirection;
     // },
-    setNoticeRecord(state, params){
-        state.NoticeRecord = params.reverse();
-    },
+    // setNoticeRecord(state, params){
+    //     state.NoticeRecord = params.reverse();
+    // },
 };
 
 export default main;

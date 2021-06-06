@@ -130,6 +130,7 @@
                             :key="`${unitKey}_records`"
                             :title="unitKey"
                             :records="formatRecord"
+                            :news-ticker="filterNoticeRecord"
                         ></chart-trend>
                     </template>
                 </div>
@@ -169,9 +170,11 @@ export default {
     },
     computed: {
         ...mapGetters({
+            lang: 'lang',
             record: `${module_name}/record`,
             RecordTime: 'RecordTime',
             FormatUnits: 'FormatUnits',
+            NoticeRecord: 'NoticeRecord',
         }),
         UnitInfo(){
             const that = this;
@@ -181,6 +184,43 @@ export default {
                 unitInfo = FormatUnits[that.unitKey];
             }
             return unitInfo;
+        },
+        filterNoticeRecord(){
+            const that = this;
+            const { status } = this.lang;
+            let record = {};
+            that.NoticeRecord.forEach((info) => {
+                if (info.unitKey === this.unitKey && info.oldVal !== info.newVal) {
+                    if (!record[info.recordTime]) {
+                        const dateKey = moment(info.recordTime).format('MM-DD HH:mm');
+                        record[info.recordTime] = {
+                            date: dateKey,
+                            data: [],
+                        };
+                    }
+
+                    let notice = '';
+                    const { oldVal, newVal, note } = info;
+                    switch (info.diff_type) {
+                        case 'note':
+                            notice = `備註：<b>${oldVal || '--'}</b> > <b>${newVal || '--'}</b>`;
+                            break;
+                        case 'status':
+                            notice = `狀態：<b>${status[oldVal] || '--'}</b> > <b>${status[newVal] || '--'}</b>`;
+                            break;
+                        case 'used':
+                            notice = `使用量：<b>${note}</b>`;
+                            break;
+                        default:
+                            console.log(info.diff_type);
+                            break;
+                    }
+                    record[info.recordTime].data.push(notice);
+                }
+            });
+
+            record = Object.values(record);
+            return record;
         },
     },
     watch: {
