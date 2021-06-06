@@ -74,7 +74,7 @@
                                     <tr :key="key">
                                         <th scope="row" class="text-center" v-html="record.recordTime.replace(&quot; &quot;, &quot;<br>&quot;)">
                                         </th>
-                                        <td class="text-center cursor-pointer" @click.stop="openUnitInfo(showNewsList[0].unitKey)">
+                                        <td class="text-center cursor-pointer" @click.stop="openUnitInfo(record.unitKey)">
                                             {{ record.name }}
                                         </td>
                                         <td class="text-center">
