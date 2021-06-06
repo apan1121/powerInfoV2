@@ -31,12 +31,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/css/page/page.css" />
-    <link rel="stylesheet" href="./dist/css/icomoon/style.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script src="./dist/js/chunk/node_modules.bundle.js"></script>
-    <script src="./dist/js/chunk/vendor.bundle.js"></script>
+
     <script>
         var jsVars = {};
     </script>
@@ -45,25 +43,35 @@
     <div id="appBox" cz-shortcut-listen="true">
         <main-page></main-page>
     </div>
-    <div style="visibility: hidden; max-width: calc(100vw - 100px); opacity: 0;">
-        <!-- <ins class="adsbygoogle"
-            style="display:block; "
-            data-ad-client="ca-pub-3068501078221920"
-            data-ad-slot="5046316423"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins> -->
-
-        <!-- <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-format="fluid"
-            data-ad-layout-key="-fb+5w+4e-db+86"
-            data-ad-client="ca-pub-3068501078221920"
-            data-ad-slot="1897408904"></ins> -->
-    </div>
     <script>
-        // (adsbygoogle = window.adsbygoogle || []).push({});
+        var v = new Date().getTime();
+        var body = document.querySelector('body');
+
+        var css_links = [
+            "./dist/css/page/page.css",
+            "./dist/css/icomoon/style.css",
+        ];
+
+        for (var cssLinkIndex in css_links) {
+            var link = document.createElement('link');
+            link.rel = "stylesheet";
+            link.href = css_links[cssLinkIndex] + '?v=' + v;
+            body.appendChild(link);
+        }
+
+        var js_links = [
+            "./dist/js/chunk/node_modules.bundle.js",
+            "./dist/js/chunk/vendor.bundle.js",
+            "./dist/js/app/index.bundle.js"
+        ];
+
+        for (var jsLinkIndex in js_links) {
+            var script = document.createElement('script');
+            script.src = js_links[jsLinkIndex] + '?v=' + v;
+            body.appendChild(script);
+        }
     </script>
-    <script src="./dist/js/app/index.bundle.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89978672-3"></script>
