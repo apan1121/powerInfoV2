@@ -6,6 +6,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 date_default_timezone_set('Asia/Taipei');
 
+
 $powerInfoPath = "../log/powerInfo.log";
 $powerUnitRecord = "../log/record/{unitKey}.log";
 
@@ -21,21 +22,41 @@ if ($prev_record['time'] === $target_date) {
     exit();
 }
 
+$twOpenDataError = get("../log/tw_open_data_error.log");
 
 $dir = dirname(__FILE__)."/";
 
-$ch = curl_init();
-// $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
-$url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$data = curl_exec($ch);
-if (empty($data)) {
-    $data = file_get_contents($url);
+$now = time();
+$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+if (!empty($twOpenDataError)) {
+    $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 }
-curl_close($ch);
+$data = getUrl($url);
 
-$data = @json_decode($data, true);
+if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) {
+    echo "TW Open Data 取得失敗，改使用 台電 json\n";
+    print_r([
+        $data[""] ?? '',
+        date('Y-m-d H:i:s'),
+        ($now - strtotime($data[""])),
+    ]);
+    $data = getUrl("https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json");
+    save("../log/tw_open_data_error.log", ['error_date' => date('Y-m-d H:i:s')]);
+}
+
+
+// $ch = curl_init();
+// // $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+// $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+// curl_setopt($ch, CURLOPT_URL, $url);
+// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+// $data = curl_exec($ch);
+// if (empty($data)) {
+//     $data = file_get_contents($url);
+// }
+// curl_close($ch);
+
+// $data = @json_decode($data, true);
 
 $summaryInfo = [];
 define("SUMMARY_DAYS", 15);
@@ -525,6 +546,28 @@ if (empty($data)) {
         save("../log/summary.log", $totalSummary);
     }
 
+}
+
+function getUrl($url){
+    echo "curl: {$url} \n";
+    $ch = curl_init();
+    // $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+    // $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $data = curl_exec($ch);
+    if (empty($data)) {
+        $data = file_get_contents($url);
+    }
+    curl_close($ch);
+
+    $data = @json_decode($data, true);
+    if (empty($data)) {
+        echo "curl 失敗，改 file_get_contents: {$url} \n";
+        $data = file_get_contents($url);
+    }
+
+    return $data;
 }
 
 
