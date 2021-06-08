@@ -89,7 +89,7 @@ export default {
             maxDateTime: 0,
             chooseRange: [0, 0],
 
-            chooseListType: 'box',
+            chooseListType: 'list',
             maxHeight: 100,
 
             initFlag: true,

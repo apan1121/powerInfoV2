@@ -373,6 +373,10 @@ if (empty($data)) {
                             break;
                     }
 
+                    if ($powerData['gov'] == 0) {
+                        $mail = false;
+                    }
+
                     $NoticeRecords[] = [
                         'name' => $powerData['name'],
                         'type' => $powerData['type'],
@@ -420,6 +424,11 @@ if (empty($data)) {
                     $diffPercent = round(($diff / $capacity) * 100, 2);
                 }
 
+                $mail = true;
+                if ($powerData['gov'] == 0) {
+                    $mail = false;
+                }
+
                 if ($diffPercent < 0 && abs($diffPercent) > $limitUsedPercent) {
                     $NoticeRecords[] = [
                         'name' => $powerData['name'],
@@ -430,7 +439,7 @@ if (empty($data)) {
                         'oldVal' => $pre_powerData['used'],
                         'note' => "降載超過 {$limitUsedPercent} %，降載 ".abs($diffPercent) ." %",
                         'recordTime' => $recordTime,
-                        'mail' => true,
+                        'mail' => $mail,
                     ];
                 }
 
