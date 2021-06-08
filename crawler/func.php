@@ -29,7 +29,8 @@ function save($path, $data) {
     }
 
     $file = fopen(implode("/",$path),"w");
-    fwrite($file,json_encode($data, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
+    // fwrite($file,json_encode($data, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
+    fwrite($file,json_encode($data));
 }
 
 function del($path) {
