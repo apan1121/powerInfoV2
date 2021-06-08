@@ -27,7 +27,7 @@ $twOpenDataError = get("../log/tw_open_data_error.log");
 $dir = dirname(__FILE__)."/";
 
 $now = time();
-$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt1";
+$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
 if (!empty($twOpenDataError)) {
     $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 }
