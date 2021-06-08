@@ -27,7 +27,7 @@ $twOpenDataError = get("../log/tw_open_data_error.log");
 $dir = dirname(__FILE__)."/";
 
 $now = time();
-$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+$url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt1";
 if (!empty($twOpenDataError)) {
     $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 }
@@ -38,12 +38,20 @@ if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) 
     print_r([
         $data[""] ?? '',
         date('Y-m-d H:i:s'),
-        ($now - strtotime($data[""])),
+        ($now - strtotime($data[""] || '')),
     ]);
     $data = getUrl("https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json");
-    save("../log/tw_open_data_error.log", ['error_date' => date('Y-m-d H:i:s')]);
+
+    /* 如果 openDataError 為空，寫入錯誤時間 */
+    if (empty($twOpenDataError)) {
+        save("../log/tw_open_data_error.log", ['error_date' => date('Y-m-d H:i:s')]);
+    }
 }
 
+/* 如果 openDataError 不為空，檢查時間有沒有超過一個小時，如果超過，刪除檔案，下一次重新使用 open Data */
+if (!empty($twOpenDataError) && strtotime($twOpenDataError['error_date'])  + 3600  <= time()) {
+    del("../log/tw_open_data_error.log");
+}
 
 // $ch = curl_init();
 // // $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
@@ -559,23 +567,20 @@ if (empty($data)) {
 
 function getUrl($url){
     echo "curl: {$url} \n";
-    $ch = curl_init();
     // $url = "http://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
     // $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+
+    $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $data = curl_exec($ch);
     if (empty($data)) {
-        $data = file_get_contents($url);
+        echo "curl 失敗，改 file_get_contents: {$url} \n";
+        $data = @file_get_contents($url);
     }
     curl_close($ch);
 
     $data = @json_decode($data, true);
-    if (empty($data)) {
-        echo "curl 失敗，改 file_get_contents: {$url} \n";
-        $data = file_get_contents($url);
-    }
-
     return $data;
 }
 
