@@ -1,6 +1,6 @@
 <template>
     <div class="summary-filter">
-        <div class="summary-item" rel="range">
+        <div ref="range" class="summary-item" rel="range">
             <vue-range-slider
                 v-model="chooseRangeVal"
                 :min="minDateTime"
@@ -62,6 +62,7 @@ export default {
             chooseRangeVal: [0, 0],
             chooseListTypeVal: 'box',
 
+            moving: false,
 
             listTypeOption: {
                 list: 'fas fa-list',
@@ -86,13 +87,13 @@ export default {
             deep: true,
             handler(){
                 const that = this;
-                if (JSON.stringify(that.chooseRangeVal) !== JSON.stringify(that.chooseRange)) {
-                    clearTimeout(that.chooseRangeValTimer);
-                    that.chooseRangeValTimer = setTimeout(() => {
-                        const chooseRangeVal = JSON.parse(JSON.stringify(that.chooseRangeVal));
-                        that.$emit('update:choose-range', chooseRangeVal);
-                    }, 300);
-                }
+                that.triggerChooseRangeVal();
+            },
+        },
+        moving: {
+            handler(){
+                const that = this;
+                that.triggerChooseRangeVal();
             },
         },
         chooseListType: {
@@ -113,7 +114,15 @@ export default {
         },
     },
     created(){},
-    mounted(){},
+    mounted(){
+        const that = this;
+        $(that.$refs.range).on('mousedown touchstart', () => {
+            that.moving = true;
+        });
+        $(that.$refs.range).on('mouseup touchend', () => {
+            that.moving = false;
+        });
+    },
     updated(){},
     destroyed(){},
     methods: {
@@ -132,6 +141,17 @@ export default {
             let listTypeIndex = listTypeOption.indexOf(this.chooseListTypeVal);
             listTypeIndex = (listTypeIndex + 1) % listTypeOption.length;
             this.chooseListTypeVal = listTypeOption[listTypeIndex];
+        },
+
+        triggerChooseRangeVal(){
+            const that = this;
+            if (that.moving === false && JSON.stringify(that.chooseRangeVal) !== JSON.stringify(that.chooseRange)) {
+                clearTimeout(that.chooseRangeValTimer);
+                that.chooseRangeValTimer = setTimeout(() => {
+                    const chooseRangeVal = JSON.parse(JSON.stringify(that.chooseRangeVal));
+                    that.$emit('update:choose-range', chooseRangeVal);
+                }, 300);
+            }
         },
     },
 };
