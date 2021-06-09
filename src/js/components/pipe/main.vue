@@ -10,15 +10,12 @@
 </template>
 <script>
 
-// import $ from 'jquery';
-// import 'bootstrap';
-
-// import 'app';
-// import { string, jsVars, popup, trackJS, localStorage, ppPanel } from 'lib/common/util';
+import IntersectionObserverBox from 'lib/common/mixins/IntersectionObserverBox';
 
 export default {
     components: {},
     filters: {},
+    mixins: [IntersectionObserverBox],
     props: {
         vertical: {
             type: Boolean,
@@ -34,14 +31,16 @@ export default {
         },
     },
     data(){
-        return {};
+        return {
+            hover: false,
+        };
     },
     computed: {
         activeClass(){
             const that = this;
             const className = {};
             let direction = '';
-            if (that.used !== 0) {
+            if (that.intersecting && that.used !== 0) {
                 // eslint-disable-next-line prefer-destructuring
                 direction = that.direction;
                 if (that.used < 0) {
@@ -65,6 +64,10 @@ export default {
                 className[`progress-active-${direction}`] = true;
                 if (that.used < 0) {
                     className.loss = true;
+                }
+
+                if (that.hover) {
+                    className.hover = true;
                 }
             }
 
@@ -106,9 +109,27 @@ export default {
         },
     },
     watch: {
+        title: {
+            immediate: true,
+            handler(){
+                const that = this;
+                that.$nextTick(() => {
+                    $(that.$el).tooltip('dispose');
+                    $(that.$el).tooltip();
+                });
+            },
+        },
     },
     created(){},
-    mounted(){},
+    mounted(){
+        const that = this;
+        $(that.$el).off('mouseover').on('mouseover', () => {
+            that.hover = true;
+        });
+        $(that.$el).off('mouseout').on('mouseout', () => {
+            that.hover = false;
+        });
+    },
     updated(){},
     destroyed(){},
     methods: {

@@ -11,6 +11,7 @@ export default {
         return {
             exposureName: 'none',
             exposureCount: 0,
+            intersecting: false,
         };
     },
     computed: {},
@@ -20,6 +21,9 @@ export default {
             BoxIntersectionObserver.observe(that.$el);
             $(that.$el).off('exposure-act').on('exposure-act', () => {
                 that.exposureAct();
+            });
+            $(that.$el).off('intersecting-act').on('intersecting-act', (e, val) => {
+                that.intersecting = val;
             });
         },
         exposureAct(){

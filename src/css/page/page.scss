@@ -198,21 +198,38 @@
 
             &.progress-active-right{
                 background-color: #ffb74d;
-                animation: cssProgressActiveRight 2s linear infinite;
+                @media (hover: hover) {
+                    &.hover{
+                        animation: cssProgressActiveRight 2s linear infinite;
+                    }
+                }
+
             }
 
             &.progress-active-left{
                 background-color: #ffb74d;
-                animation: cssProgressActiveLeft 2s linear infinite;
+                @media (hover: hover) {
+                    &.hover{
+                        animation: cssProgressActiveLeft 2s linear infinite;
+                    }
+                }
             }
 
             &.progress-active-up{
                 background-color: #ffb74d;
-                animation: cssProgressActiveUp 2s linear infinite;
+                @media (hover: hover) {
+                    &.hover{
+                        animation: cssProgressActiveUp 2s linear infinite;
+                    }
+                }
             }
             &.progress-active-down{
                 background-color: #ffb74d;
-                animation: cssProgressActiveBottom 2s linear infinite;
+                @media (hover: hover) {
+                    &.hover{
+                        animation: cssProgressActiveBottom 2s linear infinite;
+                    }
+                }
             }
 
             &[speed="1"] {
@@ -559,7 +576,7 @@
 }
 
 
-/*
+
 @keyframes cssProgressActiveLeft {
 	0% {
 		background-position: 0 0
@@ -595,13 +612,3 @@
 		background-position: -35px 0px
 	}
 }
-*/
-
-// @keyframes cssPortProgressActive{
-//     0% {
-//         box-shadow:  0px 0px 5px rgba(#ffb74d, 0.5) inset;
-// 	}
-// 	100% {
-//         box-shadow:  0px 0px 20px rgba(#ffb74d, 0.9) inset;
-// 	}
-// }

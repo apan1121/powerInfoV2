@@ -16,6 +16,8 @@ const BoxIntersectionObserver = {
                         $(entry.target).trigger('exposure-act');
                     }
                 }
+
+                $(entry.target).trigger('intersecting-act', entry.isIntersecting);
             });
         }, {
             threshold: 0.2,
