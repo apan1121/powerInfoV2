@@ -146,6 +146,7 @@ export default {
                         this.init();
                         console.log('summaryInfo calcDiffTrend');
                         this.calcDiffTrend();
+                        this.calPowerTypeTrend();
                     });
                 }
             },
@@ -254,6 +255,7 @@ export default {
             const that = this;
             console.log('calcDiffTrend');
             const summaryInfoKeys = Object.keys(that.summaryInfo);
+            // console.log('summaryInfoKeys', summaryInfoKeys);
             if (summaryInfoKeys.length > 0) {
                 clearTimeout(that.calcDiffTrendTimer);
                 that.calcDiffTrendTimer = setTimeout(() => {
@@ -315,51 +317,57 @@ export default {
 
         calPowerTypeTrend(){
             const that = this;
-            clearTimeout(that.calPowerTypeTrendTimer);
+            console.log('calPowerTypeTrend');
+
             popup.loading({
                 title: '計算中',
             });
             that.chooseTypeTrend = false;
-            that.calPowerTypeTrendTimer = setTimeout(() => {
-                const summaryInfo = JSON.parse(JSON.stringify(that.summaryInfo));
-                const chooseTypes = JSON.parse(JSON.stringify(that.chooseTypes));
-                const usedType = JSON.parse(JSON.stringify(that.lang.usedType));
-                const usedTypeKey = Object.keys(usedType);
+            const summaryInfoKeys = Object.keys(that.summaryInfo);
+            // console.log('summaryInfoKeys', summaryInfoKeys);
+            if (summaryInfoKeys.length > 0) {
+                clearTimeout(that.calPowerTypeTrendTimer);
+                that.calPowerTypeTrendTimer = setTimeout(() => {
+                    const summaryInfo = JSON.parse(JSON.stringify(that.summaryInfo));
+                    const chooseTypes = JSON.parse(JSON.stringify(that.chooseTypes));
+                    const usedType = JSON.parse(JSON.stringify(that.lang.usedType));
+                    const usedTypeKey = Object.keys(usedType);
 
 
-                const [startDateTime, endDateTime] = that.chooseRange;
+                    const [startDateTime, endDateTime] = that.chooseRange;
 
-                const chooseTypeTrend = [];
+                    const chooseTypeTrend = [];
 
-                chooseTypes.forEach((typeKey) => {
-                    const record = {};
+                    chooseTypes.forEach((typeKey) => {
+                        const record = {};
 
-                    for (let dateTimestamp = startDateTime; dateTimestamp <= endDateTime; dateTimestamp += 600000) {
-                        const dateTime = moment(dateTimestamp).format('YYYY-MM-DD HH:mm');
-                        const dayTime = moment(dateTimestamp).format('MM-DD HH:mm');
+                        for (let dateTimestamp = startDateTime; dateTimestamp <= endDateTime; dateTimestamp += 600000) {
+                            const dateTime = moment(dateTimestamp).format('YYYY-MM-DD HH:mm');
+                            const dayTime = moment(dateTimestamp).format('MM-DD HH:mm');
 
-                        const info = {};
+                            const info = {};
 
 
-                        for (const tmpTypeKey of usedTypeKey) {
-                            const showName = usedType[tmpTypeKey];
-                            info[showName] = 0;
+                            for (const tmpTypeKey of usedTypeKey) {
+                                const showName = usedType[tmpTypeKey];
+                                info[showName] = 0;
+                            }
+
+                            if (!!summaryInfo[dateTime] && summaryInfo[dateTime][typeKey]) {
+                                usedTypeKey.forEach((infoKey) => {
+                                    const showName = usedType[infoKey];
+                                    info[showName] = parseFloat(summaryInfo[dateTime][typeKey][infoKey]);
+                                });
+                            }
+                            record[dayTime] = info;
                         }
+                        chooseTypeTrend.push({ typeKey, record });
+                    });
 
-                        if (!!summaryInfo[dateTime] && summaryInfo[dateTime][typeKey]) {
-                            usedTypeKey.forEach((infoKey) => {
-                                const showName = usedType[infoKey];
-                                info[showName] = parseFloat(summaryInfo[dateTime][typeKey][infoKey]);
-                            });
-                        }
-                        record[dayTime] = info;
-                    }
-                    chooseTypeTrend.push({ typeKey, record });
-                });
-
-                that.chooseTypeTrend = chooseTypeTrend;
-                popup.close();
-            }, 100);
+                    that.chooseTypeTrend = chooseTypeTrend;
+                    popup.close();
+                }, 100);
+            }
         },
         openFilterBoxAct(val){
             this.openFilterBox(val);
