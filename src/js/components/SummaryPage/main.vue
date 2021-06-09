@@ -202,7 +202,6 @@ export default {
         popup.loading({
             title: '讀取中',
         });
-
     },
     mounted(){
         trackJS.gtag('event', 'page_view', {
@@ -228,6 +227,7 @@ export default {
         }),
         getSummaryInfo(){
             const that = this;
+
             that.$store.dispatch(`${module_name}/getSummaryInfo`).then(() => {
                 popup.close();
             }, () => {
@@ -252,62 +252,65 @@ export default {
 
         calcDiffTrend(){
             const that = this;
-            clearTimeout(that.calcDiffTrendTimer);
             console.log('calcDiffTrend');
-            that.calcDiffTrendTimer = setTimeout(() => {
-                const limitDateNum = 14;
-                const today = parseInt(moment(moment().format('YYYY-MM-DD')).format('x'));
-                const tomorraw = parseInt(moment(today).add(1, 'days').format('x'));
-                const startDate = moment(today).add((limitDateNum * -1 + 1), 'days').format('YYYY-MM-DD');
-                const startDateTimestamp = parseInt(moment(startDate).format('x'));
+            const summaryInfoKeys = Object.keys(that.summaryInfo);
+            if (summaryInfoKeys.length > 0) {
+                clearTimeout(that.calcDiffTrendTimer);
+                that.calcDiffTrendTimer = setTimeout(() => {
+                    const limitDateNum = 14;
+                    const today = parseInt(moment(moment().format('YYYY-MM-DD')).format('x'));
+                    const tomorraw = parseInt(moment(today).add(1, 'days').format('x'));
+                    const startDate = moment(today).add((limitDateNum * -1 + 1), 'days').format('YYYY-MM-DD');
+                    const startDateTimestamp = parseInt(moment(startDate).format('x'));
 
-                const mappingShowWeek = {};
-                const thisWeekNum = moment().format('ww');
-
-                for (let dateIndex = 0; dateIndex < limitDateNum; dateIndex += 1) {
-                    const timestamp = startDateTimestamp + (dateIndex) * 86400000;
-                    const dateObj = moment(timestamp);
-                    const date = dateObj.format('YYYY-MM-DD');
-                    let showWeek = dateObj.format('ddd');
-                    const weekNum = dateObj.format('ww');
-                    for (let i = 0; i < (thisWeekNum - weekNum); i += 1) {
-                        showWeek = `上${showWeek}`;
-                    }
-                    mappingShowWeek[date] = showWeek;
-                }
-
-                const diffTrend = {};
-                const nowTimestamp = moment(moment().format('YYYY-MM-DD HH:mm:00')).format('x') - 600000;
-                for (let i = today; i < tomorraw; i += 600000) {
-                    const hourMinute = moment(i).format('HH:mm');
-                    diffTrend[hourMinute] = {};
+                    const mappingShowWeek = {};
+                    const thisWeekNum = moment().format('ww');
 
                     for (let dateIndex = 0; dateIndex < limitDateNum; dateIndex += 1) {
-                        const date = moment(startDateTimestamp + dateIndex * 86400000).format('YYYY-MM-DD');
-                        let used = false;
-                        const dateTime = `${date} ${hourMinute}`;
+                        const timestamp = startDateTimestamp + (dateIndex) * 86400000;
+                        const dateObj = moment(timestamp);
+                        const date = dateObj.format('YYYY-MM-DD');
+                        let showWeek = dateObj.format('ddd');
+                        const weekNum = dateObj.format('ww');
+                        for (let i = 0; i < (thisWeekNum - weekNum); i += 1) {
+                            showWeek = `上${showWeek}`;
+                        }
+                        mappingShowWeek[date] = showWeek;
+                    }
 
-                        if (moment(`${dateTime}:00`).format('x') < nowTimestamp) {
-                            used = 0;
-                            if (that.summaryInfo[dateTime]) {
-                                const info = JSON.parse(JSON.stringify(that.summaryInfo[`${date} ${hourMinute}`]));
-                                for (const typeKey in info) {
-                                    if (!!info[typeKey] && 1) {
-                                        used += parseFloat(info[typeKey].used);
+                    const diffTrend = {};
+                    const nowTimestamp = moment(moment().format('YYYY-MM-DD HH:mm:00')).format('x') - 600000;
+                    for (let i = today; i < tomorraw; i += 600000) {
+                        const hourMinute = moment(i).format('HH:mm');
+                        diffTrend[hourMinute] = {};
+
+                        for (let dateIndex = 0; dateIndex < limitDateNum; dateIndex += 1) {
+                            const date = moment(startDateTimestamp + dateIndex * 86400000).format('YYYY-MM-DD');
+                            let used = false;
+                            const dateTime = `${date} ${hourMinute}`;
+
+                            if (moment(`${dateTime}:00`).format('x') < nowTimestamp) {
+                                used = 0;
+                                if (that.summaryInfo[dateTime]) {
+                                    const info = JSON.parse(JSON.stringify(that.summaryInfo[`${date} ${hourMinute}`]));
+                                    for (const typeKey in info) {
+                                        if (!!info[typeKey] && 1) {
+                                            used += parseFloat(info[typeKey].used);
+                                        }
                                     }
                                 }
                             }
-                        }
 
-                        if (used !== false) {
-                            const showWeek = mappingShowWeek[date];
-                            diffTrend[hourMinute][showWeek] = Math.round(used * 100) / 100;
+                            if (used !== false) {
+                                const showWeek = mappingShowWeek[date];
+                                diffTrend[hourMinute][showWeek] = Math.round(used * 100) / 100;
+                            }
                         }
                     }
-                }
-                that.diffTrend = diffTrend;
+                    that.diffTrend = diffTrend;
                 // console.log(mappingShowWeek);
-            }, 100);
+                }, 500);
+            }
         },
 
         calPowerTypeTrend(){
