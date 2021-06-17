@@ -316,7 +316,8 @@ export default {
                         total_limit: UnitLimit,
                         total_break: UnitBreak,
                     });
-                    if (FormatUnitGroup.length % 5 === 4) {
+
+                    if ((FormatUnitGroup.length % 5) === 3) {
                         FormatUnitGroup.push({
                             group_name: `ads_${key}`,
                             type: 'unit-ads',

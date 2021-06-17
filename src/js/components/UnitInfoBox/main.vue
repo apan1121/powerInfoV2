@@ -135,7 +135,6 @@
                     </template>
 
                     <div
-                        v-if="UnitInfo"
                         ref="ads"
                         class="power-info-promote"
                         :class="{ 'ad-blocked': adBlocked }"
@@ -252,13 +251,6 @@ export default {
                 });
             },
         },
-        unitInfo: {
-            handler(newVal, oldVal){
-                setTimeout(() => {
-                    (window.adsbygoogle = window.adsbygoogle || []).push({});
-                }, 500);
-            },
-        },
     },
     beforeCreate(){
         const that = this;
@@ -297,6 +289,11 @@ export default {
         $('.modal').modal('hide');
 
         $(this.$el).modal('show');
+
+
+        setTimeout(() => {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }, 500);
     },
     updated(){},
     destroyed(){},
