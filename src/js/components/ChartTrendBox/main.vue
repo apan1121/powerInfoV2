@@ -3,10 +3,10 @@
         <chart-trend
             v-if="records"
             :title="title"
-            :height="chartHeight"
             :tooltip-total="tooltipTotal"
             :icon="icon"
             :records="records"
+            :fullscreen-toggle="fullscreenToggle"
         ></chart-trend>
     </card-box>
 </template>
@@ -38,14 +38,6 @@ export default {
             type: Boolean,
             default: true,
         },
-        normalHeight: {
-            type: Number,
-            default: 60,
-        },
-        fullscreenHeight: {
-            type: Number,
-            default: 100,
-        },
         icon: {
             type: [Boolean, String],
             default: false,
@@ -59,23 +51,19 @@ export default {
     computed: {
         ...mapGetters([
         ]),
-        chartHeight(){
-            let height = this.normalHeight;
-            if (this.fullscreenToggle) {
-                height = this.fullscreenHeight;
-            }
-            return height;
-        },
     },
     watch: {
     },
     created(){},
-    mounted(){},
+    mounted(){
+    },
     updated(){},
     destroyed(){},
     methods: {
         ...mapActions({}),
         ...mapMutations({}),
+        init(){
+        },
         fullscreen(val){
             this.fullscreenToggle = val;
         },

@@ -47,6 +47,10 @@ export default {
             type: Array,
             default: () => [],
         },
+        fullscreenToggle: {
+            type: Boolean,
+            default: false,
+        },
     },
     data(){
         return {
@@ -58,9 +62,17 @@ export default {
     computed: {
         ...mapGetters({
             ChartColor: `${module_name}/ChartColor`,
+            PageSetting_width: 'PageSetting_width',
         }),
     },
     watch: {
+        PageSetting_width: {
+            immediate: true,
+            handler(){
+                const that = this;
+                that.draw();
+            },
+        },
         records: {
             immediate: true,
             handler(){
@@ -76,6 +88,12 @@ export default {
             },
         },
         exposured: {
+            handler(){
+                const that = this;
+                that.draw();
+            },
+        },
+        fullscreenToggle: {
             handler(){
                 const that = this;
                 that.draw();
@@ -119,9 +137,9 @@ export default {
                         that.ChartJS.destroy();
                     }
 
-                    if (this.height !== false) {
-                        this.ChartTarget.height = this.height;
-                    }
+
+                    this.ChartTarget.height = this.calHeight();
+
 
                     const labels = [];
                     let datasets = {};
@@ -362,6 +380,44 @@ export default {
                     // });
                 }, 500);
             }
+        },
+        calHeight(){
+            const that = this;
+            clearTimeout(that.initTimer);
+
+            const { PageSetting_mode_type, records } = that;
+            let height = 100;
+
+            if (!!this.$el && !!this.$el.offsetWidth && records) {
+                const { offsetWidth } = this.$el;
+                if (offsetWidth > 1100) {
+                    height = 70;
+                } else if (offsetWidth > 1000) {
+                    height = 80;
+                } else if (offsetWidth > 700) {
+                    height = 100;
+                } else if (offsetWidth > 600) {
+                    height = 150;
+                } else if (offsetWidth > 500) {
+                    height = 170;
+                } else if (offsetWidth > 400) {
+                    height = 200;
+                } else if (offsetWidth > 300) {
+                    height = 400;
+                } else {
+                    height = 500;
+                }
+
+                if (PageSetting_mode_type === 'mobile') {
+                    const labelCount = Object.keys(Object.values(records)[0]).length;
+                    height += parseInt(labelCount / 4) * 15;
+                }
+
+                if (that.fullscreenToggle) {
+                    height += 40;
+                }
+            }
+            return height;
         },
     },
 };

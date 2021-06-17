@@ -6,7 +6,6 @@
                     :title="'日用量比較'"
                     :tooltip-total="false"
                     :records="diffTrend"
-                    :normal-height="PageSetting_mode_type === 'mobile' ? 130 : 60"
                     :icon="'icon-calendar'"
                 ></chart-trend-box>
             </div>
@@ -26,9 +25,8 @@
                     <chart-trend-box v-if="diffTrend"
                         :title="lang.type[trendInfo.typeKey]"
                         :records="trendInfo.record"
-                        :normal-height="normalHeight"
-                        :fullscreen-height="maxHeight"
                         :icon="`icon icon-${trendInfo.typeKey.replace(' ','_')}`"
+                        :row-col="(PageSetting_mode_type === 'pc' && chooseListType === 'box') ? 2: 1"
                     ></chart-trend-box>
                 </div>
                 <template v-if="typeIndex % 6 == 5">
