@@ -59,6 +59,7 @@
 .tw-power-info-page{
     padding-top: $spacer * 5;
     padding-bottom: $spacer * 4;
+    overflow: hidden;
     header{
         nav.navbar{
             .container{

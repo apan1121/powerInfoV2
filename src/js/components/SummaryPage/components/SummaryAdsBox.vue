@@ -12,12 +12,6 @@
                 data-ad-client="ca-pub-3068501078221920"
                 data-ad-slot="1897408904"></ins>
         </div>
-        <!-- <in-feed-adsense
-            data-ad-format="fluid"
-            data-ad-layout-key="-fb+5w+4e-db+86"
-            data-ad-client="ca-pub-3068501078221920"
-            data-ad-slot="1897408904">
-        </in-feed-adsense> -->
     </card-box>
 </template>
 <script>

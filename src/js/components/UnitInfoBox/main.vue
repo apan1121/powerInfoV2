@@ -133,6 +133,20 @@
                             :news-ticker="filterNoticeRecord"
                         ></chart-trend>
                     </template>
+
+                    <div
+                        v-if="UnitInfo"
+                        ref="ads"
+                        class="power-info-promote"
+                        :class="{ 'ad-blocked': adBlocked }"
+                    >
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-format="fluid"
+                            data-ad-layout-key="-fb+5w+4e-db+86"
+                            data-ad-client="ca-pub-3068501078221920"
+                            data-ad-slot="1897408904"></ins>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,6 +189,7 @@ export default {
             RecordTime: 'RecordTime',
             FormatUnits: 'FormatUnits',
             NoticeRecord: 'NoticeRecord',
+            adBlocked: 'adBlocked',
         }),
         UnitInfo(){
             const that = this;
@@ -235,6 +250,13 @@ export default {
                 this.$nextTick(() => {
                     this.calcformatRecord();
                 });
+            },
+        },
+        unitInfo: {
+            handler(newVal, oldVal){
+                setTimeout(() => {
+                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                }, 500);
             },
         },
     },

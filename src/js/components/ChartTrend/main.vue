@@ -416,6 +416,10 @@ export default {
                 if (that.fullscreenToggle) {
                     height += 40;
                 }
+
+                if (height >= window.innerHeight * (1 / 2)) {
+                    height = window.innerHeight * (1 / 2);
+                }
             }
             return height;
         },
