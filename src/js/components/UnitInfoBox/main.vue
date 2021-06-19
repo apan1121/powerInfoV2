@@ -274,6 +274,7 @@ export default {
 
         $(this.$el).on('hidden.bs.modal', () => {
             that.$emit('close');
+            that.formatRecord = false;
             if (!!this.$route.query && !!this.$route.query.unit_key) {
                 this.$router.push({ name: 'UnitPage' });
             }

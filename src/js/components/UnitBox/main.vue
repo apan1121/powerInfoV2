@@ -4,15 +4,23 @@
             <div class="unit-info-btn" @click="openUnitInfo">
                 <i class="fas fa-info-circle"></i>
             </div>
-            <div class="unit-progress-group">
-                <!-- <div ref="circle-progress" class="circle-progress"></div> -->
+            <div class="unit-progress-group-v2">
+                <div ref="circle-progress-v2" class="circle-progress">
+                </div>
+                <div class="percent">
+                    {{ showPercent }}<small>%</small>
+                </div>
+                <div class="icon" :class="`icon-${orgType.replace(' ','_').replace('-', '_')}`"></div>
+            </div>
+
+            <!-- <div class="unit-progress-group">
                 <div ref="circle-progress" class="circle-progress" data-thickness="5">
                 </div>
                 <div class="percent">
                     {{ percent }}<small>%</small>
                 </div>
                 <div class="icon" :class="`icon-${orgType.replace(' ','_').replace('-', '_')}`"></div>
-            </div>
+            </div> -->
             <h5 class="unit-name" @click="openUnitInfo">
                 {{ name }}
             </h5>
@@ -40,9 +48,11 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-import 'jquery-circle-progress';
+// import 'jquery-circle-progress';
 import IntersectionObserverBox from 'lib/common/mixins/IntersectionObserverBox';
 
+import RadialProgressBar from './vendor/d3/d3-radial-progress-bar/radial-progress-bar';
+// import './vendor/d3/d3-radial-progress-bar/radial-progress-bar.css';
 
 // import 'app';
 // import { string, jsVars, popup, trackJS, localStorage, ppPanel } from 'lib/common/util';
@@ -98,6 +108,8 @@ export default {
     data(){
         return {
             exposured: false,
+            showPercent: 0,
+            RadialProgressBar: false,
         };
     },
     computed: {
@@ -130,6 +142,7 @@ export default {
     },
     created(){},
     mounted(){
+        const that = this;
     },
     updated(){},
     destroyed(){},
@@ -147,10 +160,17 @@ export default {
             clearTimeout(that.reDrawTimer);
             if (that.exposured) {
                 that.reDrawTimer = setTimeout(() => {
+
+                    if (!!this.RadialProgressBar && 1) {
+                        this.RadialProgressBar.destroy();
+                    }
+
                     let value = this.percent;
-                    let color = "#dedede";
+                    let color = '#b0b0b0';
                     if (!isNaN(value)) {
-                        if (value > 90) {
+                        if (value === 0) {
+                            color = '#b0b0b0';
+                        } else if (value > 90) {
                             color = '#e74c3c';
                         } else if (value <= 90 && value > 80) {
                             color = '#e67e22';
@@ -160,7 +180,7 @@ export default {
                             color = '#2ecc71';
                         } else if (value < 40 && value >= 10) {
                             color = '#1abc9c';
-                        } else if (value < 10) {
+                        } else if (value > 0 && value < 10) {
                             color = '#3498db';
                         }
                         value /= 100;
@@ -168,19 +188,58 @@ export default {
                         value = 0;
                     }
 
-
-                    $(that.$refs['circle-progress']).circleProgress({
-                        value,
-                        size: $(that.$refs['circle-progress']).width(),
-                        fill: {
-                            color: [color],
+                    this.RadialProgressBar = new RadialProgressBar(this.$refs['circle-progress-v2'], {
+                        progressBar: '#a0a0a0',
+                        callback: (showValue) => {
+                            that.showPercent = showValue;
                         },
-                        startAngle: -190,
-                        thickness: 'auto',
+                    });
+
+                    this.RadialProgressBar.update(this.percent, {
+                        progressBar: color,
                     });
                 }, delay);
             }
         },
+        // reDraw(delay){
+        //     const that = this;
+        //     clearTimeout(that.reDrawTimer);
+        //     if (that.exposured) {
+        //         that.reDrawTimer = setTimeout(() => {
+        //             let value = this.percent;
+        //             let color = "#dedede";
+        //             if (!isNaN(value)) {
+        //                 if (value > 90) {
+        //                     color = '#e74c3c';
+        //                 } else if (value <= 90 && value > 80) {
+        //                     color = '#e67e22';
+        //                 } else if (value < 80 && value >= 60) {
+        //                     color = '#f1c40f';
+        //                 } else if (value < 60 && value >= 40) {
+        //                     color = '#2ecc71';
+        //                 } else if (value < 40 && value >= 10) {
+        //                     color = '#1abc9c';
+        //                 } else if (value < 10) {
+        //                     color = '#3498db';
+        //                 }
+        //                 value /= 100;
+        //             } else {
+        //                 value = 0;
+        //             }
+
+
+        //             $(that.$refs['circle-progress']).circleProgress({
+        //                 value,
+        //                 size: $(that.$refs['circle-progress']).width(),
+        //                 fill: {
+        //                     color: [color],
+        //                 },
+        //                 startAngle: -190,
+        //                 thickness: 'auto',
+        //             });
+        //         }, delay);
+        //     }
+        // },
         openPlantInfo(){
             this.choosePlantByName(this.plantName);
         },
