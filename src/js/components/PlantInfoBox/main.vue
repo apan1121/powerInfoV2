@@ -194,6 +194,20 @@
                             </template>
                         </div>
                     </div>
+
+
+                    <div
+                        ref="ads"
+                        class="power-info-promote"
+                        :class="{ 'ad-blocked': adBlocked }"
+                    >
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-format="fluid"
+                            data-ad-layout-key="-fb+5w+4e-db+86"
+                            data-ad-client="ca-pub-3068501078221920"
+                            data-ad-slot="1897408904"></ins>
+                    </div>
                 </div>
             </div>
         </div>
@@ -296,6 +310,7 @@ export default {
     computed: {
         ...mapGetters([
             'lang',
+            'adBlocked',
         ]),
         usedPercent(){
             let percent = 0;
@@ -369,6 +384,12 @@ export default {
         $('.modal').modal('hide');
 
         $(this.$el).modal('show');
+
+
+
+        setTimeout(() => {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }, 500);
     },
     updated(){},
     destroyed(){},

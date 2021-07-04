@@ -270,6 +270,8 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 content: 'AdBlock 啟用，Google AdSense 無法使用';
+                font-size: $spacer * 0.75;
+                font-weight: 700;
             }
         }
         // width: 100%;

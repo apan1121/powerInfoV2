@@ -5,6 +5,7 @@
                 <chart-trend-box v-if="diffTrend"
                     :title="'日用量比較'"
                     :tooltip-total="false"
+                    :tooltip-used-percent="false"
                     :records="diffTrend"
                     :icon="'icon-calendar'"
                 ></chart-trend-box>
