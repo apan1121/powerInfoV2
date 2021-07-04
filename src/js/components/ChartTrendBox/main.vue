@@ -4,6 +4,7 @@
             v-if="records"
             :title="title"
             :tooltip-total="tooltipTotal"
+            :tooltip-used-percent="tooltipUsedPercent"
             :icon="icon"
             :records="records"
             :fullscreen-toggle="fullscreenToggle"
@@ -35,6 +36,10 @@ export default {
             default: () => {},
         },
         tooltipTotal: {
+            type: Boolean,
+            default: true,
+        },
+        tooltipUsedPercent: {
             type: Boolean,
             default: true,
         },

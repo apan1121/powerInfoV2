@@ -51,6 +51,10 @@ export default {
             type: Boolean,
             default: false,
         },
+        tooltipUsedPercent: {
+            type: Boolean,
+            default: false,
+        },
     },
     data(){
         return {
@@ -195,7 +199,8 @@ export default {
                         }
 
                         // Set Text
-
+                        let cap = 0;
+                        let used = 0;
                         if (tooltip.body) {
                             const titleLines = tooltip.title || [];
                             const bodyLines = tooltip.body.map(getBody);
@@ -221,6 +226,19 @@ export default {
 
                                 const span = `<span class="chartjs-tooltip-key" style="${style}"></span>`;
                                 let [labelName, value] = body[0].split(': ');
+                                if (that.tooltipUsedPercent) {
+                                    switch (labelName) {
+                                        case '可發電量':
+                                            cap += parseFloat(value);
+                                            break;
+                                        case '已發電量':
+                                            used += parseFloat(value);
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                                }
+
                                 total_value += parseInt(value);
                                 value = that.formatMoney(value);
                                 innerHtml += `  <tr>
@@ -247,6 +265,30 @@ export default {
                                     <td>${span}</td><td>總額</td><td style='text-align: right'>${total_value} <small>MW</small></td>
                                 </tr>
                             `;
+                            }
+
+                            if (that.tooltipUsedPercent) {
+                                total_value = 0;
+                                if (cap > 0) {
+                                    total_value = (used / cap) * 100 ;
+                                    total_value = total_value.toFixed(2);
+                                }
+
+                                let style = [];
+                                style.push('background: #EEE');
+                                style.push('border-color: #EEE');
+                                style.push('border-width: 2px');
+                                style.push('width: 16px;');
+                                style.push('height: 16px');
+                                style.push('display: inline-block');
+                                style = style.join(';');
+
+                                const span = `<span class="chartjs-tooltip-key" style="${style}"></span>`;
+                                innerHtml += `
+                                <tr>
+                                    <td>${span}</td><td>發電比</td><td style='text-align: right'>${total_value} <small>%</small></td>
+                                </tr>
+                                `;
                             }
 
 

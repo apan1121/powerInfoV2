@@ -20,6 +20,17 @@
         ></summary-filter>
 
         <div class="row">
+            <div v-if="chooseTypeTotalTrend" :key="'range_total'" class="mb-3" :class="listColClass">
+                <chart-trend-box v-if="diffTrend"
+                    :title="'區間總運轉'"
+                    :records="chooseTypeTotalTrend"
+                    :icon="`icon icon-power`"
+                    :row-col="(PageSetting_mode_type === 'pc' && chooseListType === 'box') ? 2: 1"
+                    :tooltip-total="false"
+                    :tooltip-used-percent="true"
+                ></chart-trend-box>
+            </div>
+
             <template v-for="(trendInfo, typeIndex) in chooseTypeTrend">
                 <div :key="trendInfo.typeKey" class="mb-3" :class="listColClass">
                     <chart-trend-box v-if="diffTrend"
@@ -27,6 +38,8 @@
                         :records="trendInfo.record"
                         :icon="`icon icon-${trendInfo.typeKey.replace(' ','_')}`"
                         :row-col="(PageSetting_mode_type === 'pc' && chooseListType === 'box') ? 2: 1"
+                        :tooltip-total="false"
+                        :tooltip-used-percent="true"
                     ></chart-trend-box>
                 </div>
                 <template v-if="typeIndex % 6 == 5">
@@ -82,6 +95,7 @@ export default {
             diffTrend: false,
             powerTypeTrend: false,
             chooseTypeTrend: false,
+            chooseTypeTotalTrend: false,
 
             minDateTime: 0,
             maxDateTime: 0,
@@ -321,6 +335,7 @@ export default {
                 title: '計算中',
             });
             that.chooseTypeTrend = false;
+            that.chooseTypeTotalTrend = false;
             const summaryInfoKeys = Object.keys(that.summaryInfo);
             // console.log('summaryInfoKeys', summaryInfoKeys);
             if (summaryInfoKeys.length > 0) {
@@ -330,6 +345,9 @@ export default {
                     const chooseTypes = JSON.parse(JSON.stringify(that.chooseTypes));
                     const usedType = JSON.parse(JSON.stringify(that.lang.usedType));
                     const usedTypeKey = Object.keys(usedType);
+
+                    const chooseTypeTotalTrend = {};
+
 
 
                     const [startDateTime, endDateTime] = that.chooseRange;
@@ -343,6 +361,16 @@ export default {
                             const dateTime = moment(dateTimestamp).format('YYYY-MM-DD HH:mm');
                             const dayTime = moment(dateTimestamp).format('MM-DD HH:mm');
 
+                            if (!chooseTypeTotalTrend[dayTime]) {
+                                chooseTypeTotalTrend[dayTime] = {
+                                };
+                                for (const tmpTypeKey of usedTypeKey) {
+                                    const showName = usedType[tmpTypeKey];
+                                    chooseTypeTotalTrend[dayTime][showName] = 0;
+                                }
+                            }
+
+
                             const info = {};
 
 
@@ -355,6 +383,7 @@ export default {
                                 usedTypeKey.forEach((infoKey) => {
                                     const showName = usedType[infoKey];
                                     info[showName] = parseFloat(summaryInfo[dateTime][typeKey][infoKey]);
+                                    chooseTypeTotalTrend[dayTime][showName] += info[showName];
                                 });
                             }
                             record[dayTime] = info;
@@ -362,6 +391,17 @@ export default {
                         chooseTypeTrend.push({ typeKey, record });
                     });
 
+                    if (!!chooseTypeTotalTrend && 1) {
+                        for (const dateTimeKey in chooseTypeTotalTrend) {
+                            for (const tmpTypeKey of usedTypeKey) {
+                                const showName = usedType[tmpTypeKey];
+                                chooseTypeTotalTrend[dateTimeKey][showName] = parseFloat((chooseTypeTotalTrend[dateTimeKey][showName] + 0).toFixed(2));
+                            }
+                        }
+                    }
+
+
+                    that.chooseTypeTotalTrend = chooseTypeTotalTrend;
                     that.chooseTypeTrend = chooseTypeTrend;
                     popup.close();
                 }, 100);
