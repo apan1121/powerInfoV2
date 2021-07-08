@@ -1,13 +1,27 @@
 <template>
     <div class="summary-page">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <chart-trend-box v-if="diffTrend"
                     :title="'日用量比較'"
                     :tooltip-total="false"
                     :tooltip-used-percent="false"
                     :records="diffTrend"
                     :icon="'icon-calendar'"
+                ></chart-trend-box>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 mb-3">
+                <chart-trend-box v-if="maxUsedTrend"
+                    :title="'最大用量趨勢'"
+                    :tooltip-total="false"
+                    :tooltip-used-percent="false"
+                    :records="maxUsedTrend"
+                    :icon="'icon-amount'"
+                    :chart-type="'bar'"
+                    :stacked="true"
                 ></chart-trend-box>
             </div>
         </div>
@@ -95,8 +109,11 @@ export default {
         return {
             diffTrend: false,
             powerTypeTrend: false,
+            maxUsedTrend: false,
             chooseTypeTrend: false,
             chooseTypeTotalTrend: false,
+
+            maxUsedTrendMonth: 6,
 
             minDateTime: 0,
             maxDateTime: 0,
@@ -111,6 +128,7 @@ export default {
     computed: {
         ...mapGetters({
             summaryInfo: `${module_name}/summaryInfo`,
+            maxUsedInfo: `${module_name}/maxUsedInfo`,
             openFilterFlag: `${module_name}/openFilterFlag`,
             chooseTypes: 'chooseTypes',
             lang: 'lang',
@@ -157,9 +175,17 @@ export default {
                 if (JSON.stringify(newVal) !== JSON.stringify(oldVal)) {
                     this.$nextTick(() => {
                         this.init();
-                        console.log('summaryInfo calcDiffTrend');
                         this.calcDiffTrend();
                         this.calPowerTypeTrend();
+                    });
+                }
+            },
+        },
+        maxUsedInfo: {
+            handler(newVal, oldVal){
+                if (JSON.stringify(newVal) !== JSON.stringify(oldVal)) {
+                    this.$nextTick(() => {
+                        this.calcMaxUsedTrend();
                     });
                 }
             },
@@ -225,11 +251,13 @@ export default {
             page_id: 'SummaryPage',
         });
         this.getSummaryInfo();
+        this.getMaxUsedInfo();
     },
     updated(){
     },
     destroyed(){
         this.setSummaryInfo({});
+        this.setMaxUsedInfo({});
         this.initFlag = true;
         this.chooseRange = [0, 0];
     },
@@ -238,11 +266,21 @@ export default {
         ...mapMutations({
             openFilterBox: `${module_name}/openFilterBox`,
             setSummaryInfo: `${module_name}/setSummaryInfo`,
+            setMaxUsedInfo: `${module_name}/setMaxUsedInfo`,
         }),
         getSummaryInfo(){
             const that = this;
 
             that.$store.dispatch(`${module_name}/getSummaryInfo`).then(() => {
+                popup.close();
+            }, () => {
+                popup.close();
+            });
+        },
+        getMaxUsedInfo(){
+            const that = this;
+
+            that.$store.dispatch(`${module_name}/getMaxUsedInfo`).then(() => {
                 popup.close();
             }, () => {
                 popup.close();
@@ -262,6 +300,36 @@ export default {
             that.minDateTime = minDateTime;
             that.maxDateTime = maxDateTime;
             that.chooseRange = chooseRange;
+        },
+
+        calcMaxUsedTrend(){
+            const that = this;
+            that.calcMaxUsedTrendTimer = setTimeout(() => {
+                const maxUsedInfo = JSON.parse(JSON.stringify(that.maxUsedInfo));
+                const dateTimeLabels = Object.keys(maxUsedInfo);
+                const endDate = dateTimeLabels.pop();
+                const startDate = moment(endDate).add(that.maxUsedTrendMonth * -1, 'month').format('YYYY-MM-DD');
+                const startDateTimeStamp = parseInt(moment(startDate).format('X'));
+                const endDateTimeStamp = parseInt(moment(endDate).format('X'));
+
+                const typeKeys = Object.keys(that.lang.type);
+
+                const maxUsedTrend = {};
+                for (let timestamp = startDateTimeStamp; timestamp <= endDateTimeStamp; timestamp += 86400) {
+                    const targetDate = moment(timestamp * 1000).format('YYYY-MM-DD');
+                    if (!!maxUsedInfo[targetDate] && 1) {
+                        const { time, record } = maxUsedInfo[targetDate];
+                        const formatTime = moment(time).format('MM-DD HH:mm');
+                        const formatRecord = {};
+                        typeKeys.forEach((typeKey) => {
+                            formatRecord[that.lang.type[typeKey]] = record[typeKey] || 0;
+                        });
+                        maxUsedTrend[formatTime] = formatRecord;
+                    }
+                }
+
+                that.maxUsedTrend = maxUsedTrend;
+            }, 500);
         },
 
         calcDiffTrend(){

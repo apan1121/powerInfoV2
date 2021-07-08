@@ -10,6 +10,10 @@ const main = {
         const api_url = `${API_HOST}log/summary.log?t=${new Date().getTime()}`;
         return main.run(api_url, 'GET', params);
     },
+    getMaxUsedInfo(params){
+        const api_url = `${API_HOST}log/maxUsed.log?t=${new Date().getTime()}`;
+        return main.run(api_url, 'GET', params);
+    },
 };
 
 export default main;

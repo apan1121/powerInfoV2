@@ -12,5 +12,14 @@ export default {
             });
         });
     },
-
+    getMaxUsedInfo({ commit }, params){
+        return new Promise((resolve, reject) => {
+            api.getMaxUsedInfo(params).success((response) => {
+                commit('setMaxUsedInfo', response);
+                resolve(response);
+            }).error((response) => {
+                reject(response);
+            });
+        });
+    },
 };

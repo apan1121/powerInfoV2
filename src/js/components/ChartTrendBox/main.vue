@@ -8,6 +8,8 @@
             :icon="icon"
             :records="records"
             :fullscreen-toggle="fullscreenToggle"
+            :chart-type="chartType"
+            :stacked="stacked"
         ></chart-trend>
     </card-box>
 </template>
@@ -45,6 +47,14 @@ export default {
         },
         icon: {
             type: [Boolean, String],
+            default: false,
+        },
+        chartType: {
+            type: String,
+            default: 'line',
+        },
+        stacked: {
+            type: Boolean,
             default: false,
         },
     },

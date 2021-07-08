@@ -55,6 +55,14 @@ export default {
             type: Boolean,
             default: false,
         },
+        chartType: {
+            type: String,
+            default: 'line',
+        },
+        stacked: {
+            type: Boolean,
+            default: false,
+        },
     },
     data(){
         return {
@@ -155,7 +163,7 @@ export default {
                         Object.keys(record).forEach((key, index) => {
                             if (!datasets[key]) {
                                 datasets[key] = {
-                                    type: 'line',
+                                    type: that.chartType,
                                     label: key,
                                     backgroundColor: color(that.ChartColor[index]).alpha(0.5).rgbString(),
                                     borderColor: that.ChartColor[index],
@@ -379,6 +387,7 @@ export default {
                             scales: {
                                 xAxes: [{
                                     display: true,
+                                    stacked: (!!that.stacked ? true : false),
                                     scaleLabel: {
                                         display: true,
                                         labelString: '時間',
@@ -387,6 +396,7 @@ export default {
                                 }],
                                 yAxes: [{
                                     display: true,
+                                    stacked: (!!that.stacked ? true : false),
                                     scaleLabel: {
                                         display: true,
                                         labelString: 'MW',
