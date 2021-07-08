@@ -563,6 +563,44 @@ if (empty($data)) {
         save("../log/summary.log", $totalSummary);
     }
 
+    if (1) {
+        $max_used_path = "../log/statistics/max_used/{year}.log";
+        /* 紀錄每日最大使用量 */
+        $dir = str_replace("{year}", date('Y', strtotime($recordTime)), $max_used_path);
+        $max_used_record = get($dir, []);
+        $formatSummaryInfo = [];
+        $max_used_total = 0;
+        foreach ($summaryInfo AS $key => $tmpRecord) {
+            $formatSummaryInfo[$key] = $tmpRecord['used'] + 0;
+            $max_used_total += $formatSummaryInfo[$key];
+        }
+
+        $formatDate = date('Y-m-d', strtotime($recordTime));
+
+        if (empty($max_used_record[$formatDate]) || $max_used_record[$formatDate]["maxUsed"] <= $max_used_total) {
+            $max_used_record[$formatDate] = [
+                "time" => $recordTime,
+                "record" => $formatSummaryInfo,
+                "maxUsed" => round($max_used_total, 2),
+            ];
+        }
+
+        save($dir, $max_used_record);
+
+        $max_used_record = [];
+        $endYear = date('Y', strtotime($recordTime));
+        $limit_date_timestamp = strtotime($recordTime) - 86400 * 360;
+        for ($year = $endYear - 1; $year <= $endYear; $year+=1) {
+            $dir = str_replace("{year}", $year, $max_used_path);
+            $_max_used_record = get($dir, []);
+            foreach ($_max_used_record AS $date => $tmpRecord ) {
+                if ($limit_date_timestamp <= strtotime($date)) {
+                    $max_used_record[$date] = $tmpRecord;
+                }
+            }
+        }
+        save("../log/maxUsed.log", $max_used_record);
+    }
 }
 
 function getUrl($url){

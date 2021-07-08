@@ -1,0 +1,6200 @@
+{
+    "2020-01-01": {
+        "time": "2020-01-01 18:00",
+        "record": {
+            "nuclear": 3854.1,
+            "coal": 7410.3,
+            "co-gen": 804.7,
+            "lng": 10571.1,
+            "oil": 561.3,
+            "diesel": 93,
+            "hydro": 432,
+            "wind": 258.9,
+            "solar": 0.008,
+            "pumping gen": 1245.4,
+            "pumping load": 0
+        },
+        "maxUsed": 25230.81
+    },
+    "2020-01-02": {
+        "time": "2020-01-02 17:40",
+        "record": {
+            "nuclear": 3869.4,
+            "coal": 7854,
+            "co-gen": 1282.9,
+            "lng": 12690.3,
+            "oil": 302.6,
+            "diesel": 93,
+            "hydro": 393,
+            "wind": 120.1,
+            "solar": 5.908,
+            "pumping gen": 1425.9,
+            "pumping load": 0
+        },
+        "maxUsed": 28037.11
+    },
+    "2020-01-03": {
+        "time": "2020-01-03 17:50",
+        "record": {
+            "nuclear": 3869.4,
+            "coal": 7874.6,
+            "co-gen": 1080.7,
+            "lng": 13240.7,
+            "oil": 385.6,
+            "diesel": 98.2,
+            "hydro": 412.9,
+            "wind": 114.4,
+            "solar": 0.012,
+            "pumping gen": 952.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28029.01
+    },
+    "2020-01-04": {
+        "time": "2020-01-04 18:00",
+        "record": {
+            "nuclear": 3863.8,
+            "coal": 7817.1,
+            "co-gen": 711,
+            "lng": 11238.6,
+            "oil": 298.8,
+            "diesel": 94,
+            "hydro": 412.5,
+            "wind": 139.9,
+            "solar": 0.075,
+            "pumping gen": 890.4,
+            "pumping load": 0
+        },
+        "maxUsed": 25466.18
+    },
+    "2020-01-05": {
+        "time": "2020-01-05 20:40",
+        "record": {
+            "nuclear": 3865.4,
+            "coal": 7789.5,
+            "co-gen": 907.4,
+            "lng": 9962.2,
+            "oil": 859.3,
+            "diesel": 97.5,
+            "hydro": 397,
+            "wind": 23.7,
+            "solar": 0,
+            "pumping gen": 762.8,
+            "pumping load": 0
+        },
+        "maxUsed": 24664.8
+    },
+    "2020-01-06": {
+        "time": "2020-01-06 17:50",
+        "record": {
+            "nuclear": 3860.7,
+            "coal": 7837.7,
+            "co-gen": 1337.9,
+            "lng": 13399.4,
+            "oil": 841.5,
+            "diesel": 98.8,
+            "hydro": 399.6,
+            "wind": 19.6,
+            "solar": 2.819,
+            "pumping gen": 742,
+            "pumping load": 0
+        },
+        "maxUsed": 28540.02
+    },
+    "2020-01-07": {
+        "time": "2020-01-07 17:50",
+        "record": {
+            "nuclear": 3869.4,
+            "coal": 7830.1,
+            "co-gen": 1198.3,
+            "lng": 13384.7,
+            "oil": 859.4,
+            "diesel": 183.3,
+            "hydro": 423.8,
+            "wind": 15.3,
+            "solar": 0.027,
+            "pumping gen": 1090.1,
+            "pumping load": 0
+        },
+        "maxUsed": 28854.43
+    },
+    "2020-01-08": {
+        "time": "2020-01-08 18:00",
+        "record": {
+            "nuclear": 3860.7,
+            "coal": 7853,
+            "co-gen": 1279.4,
+            "lng": 13323.7,
+            "oil": 302,
+            "diesel": 90.2,
+            "hydro": 387.5,
+            "wind": 582,
+            "solar": 0.08,
+            "pumping gen": 641.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28319.78
+    },
+    "2020-01-09": {
+        "time": "2020-01-09 17:50",
+        "record": {
+            "nuclear": 3862,
+            "coal": 7825.3,
+            "co-gen": 1362.1,
+            "lng": 13578.7,
+            "oil": 361.3,
+            "diesel": 83,
+            "hydro": 327.8,
+            "wind": 349.7,
+            "solar": 0.028,
+            "pumping gen": 923.3,
+            "pumping load": 0
+        },
+        "maxUsed": 28673.23
+    },
+    "2020-01-10": {
+        "time": "2020-01-10 17:50",
+        "record": {
+            "nuclear": 3870.2,
+            "coal": 7660,
+            "co-gen": 1244.1,
+            "lng": 13728.9,
+            "oil": 506.3,
+            "diesel": 78,
+            "hydro": 343.6,
+            "wind": 120.4,
+            "solar": 0.291,
+            "pumping gen": 759.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28311.59
+    },
+    "2020-01-11": {
+        "time": "2020-01-11 17:50",
+        "record": {
+            "nuclear": 3860.6,
+            "coal": 7862.7,
+            "co-gen": 637.9,
+            "lng": 11130.8,
+            "oil": 301.3,
+            "diesel": 98.3,
+            "hydro": 341,
+            "wind": 227.1,
+            "solar": 0.015,
+            "pumping gen": 735.6,
+            "pumping load": 0
+        },
+        "maxUsed": 25195.32
+    },
+    "2020-01-12": {
+        "time": "2020-01-12 19:50",
+        "record": {
+            "nuclear": 3866.8,
+            "coal": 7799.3,
+            "co-gen": 799.1,
+            "lng": 10181.8,
+            "oil": 155.2,
+            "diesel": 96.3,
+            "hydro": 401.9,
+            "wind": 411.5,
+            "solar": 0.346,
+            "pumping gen": 882.5,
+            "pumping load": 0
+        },
+        "maxUsed": 24594.75
+    },
+    "2020-01-13": {
+        "time": "2020-01-13 17:50",
+        "record": {
+            "nuclear": 3869.1,
+            "coal": 7836.2,
+            "co-gen": 969.3,
+            "lng": 13640.1,
+            "oil": 300,
+            "diesel": 95.1,
+            "hydro": 371.9,
+            "wind": 417.9,
+            "solar": 3.846,
+            "pumping gen": 887.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28390.95
+    },
+    "2020-01-14": {
+        "time": "2020-01-14 18:00",
+        "record": {
+            "nuclear": 3861.8,
+            "coal": 7829,
+            "co-gen": 910.1,
+            "lng": 13657.1,
+            "oil": 298.1,
+            "diesel": 95.7,
+            "hydro": 367,
+            "wind": 441.8,
+            "solar": 7.207,
+            "pumping gen": 1147.7,
+            "pumping load": 0
+        },
+        "maxUsed": 28615.51
+    },
+    "2020-01-15": {
+        "time": "2020-01-15 17:50",
+        "record": {
+            "nuclear": 3865.4,
+            "coal": 7870.8,
+            "co-gen": 887.6,
+            "lng": 13479.3,
+            "oil": 538.8,
+            "diesel": 93.1,
+            "hydro": 367.7,
+            "wind": 356.9,
+            "solar": 0.006,
+            "pumping gen": 841.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28301.11
+    },
+    "2020-01-16": {
+        "time": "2020-01-16 18:00",
+        "record": {
+            "nuclear": 3865.2,
+            "coal": 7795.8,
+            "co-gen": 763,
+            "lng": 13713.7,
+            "oil": 670.3,
+            "diesel": 104.1,
+            "hydro": 380.7,
+            "wind": 113.9,
+            "solar": 0.019,
+            "pumping gen": 1090.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28497.22
+    },
+    "2020-01-17": {
+        "time": "2020-01-17 18:00",
+        "record": {
+            "nuclear": 3859.5,
+            "coal": 7911.6,
+            "co-gen": 764.5,
+            "lng": 13432.5,
+            "oil": 298.8,
+            "diesel": 93,
+            "hydro": 411.9,
+            "wind": 504.1,
+            "solar": 0.013,
+            "pumping gen": 744.6,
+            "pumping load": 0
+        },
+        "maxUsed": 28020.51
+    },
+    "2020-01-18": {
+        "time": "2020-01-18 18:10",
+        "record": {
+            "nuclear": 3863.8,
+            "coal": 7277.4,
+            "co-gen": 611.1,
+            "lng": 12021.6,
+            "oil": 299.5,
+            "diesel": 91.4,
+            "hydro": 440.2,
+            "wind": 221.5,
+            "solar": 0.014,
+            "pumping gen": 1006.7,
+            "pumping load": 0
+        },
+        "maxUsed": 25833.21
+    },
+    "2020-01-19": {
+        "time": "2020-01-19 18:00",
+        "record": {
+            "nuclear": 3859,
+            "coal": 7515.5,
+            "co-gen": 664.7,
+            "lng": 10963.1,
+            "oil": 302,
+            "diesel": 94.4,
+            "hydro": 429.8,
+            "wind": 249.8,
+            "solar": 0.081,
+            "pumping gen": 1121.6,
+            "pumping load": 0
+        },
+        "maxUsed": 25199.98
+    },
+    "2020-01-20": {
+        "time": "2020-01-20 18:00",
+        "record": {
+            "nuclear": 3866.7,
+            "coal": 7833.9,
+            "co-gen": 752.9,
+            "lng": 13089.9,
+            "oil": 300,
+            "diesel": 90,
+            "hydro": 422.1,
+            "wind": 453.2,
+            "solar": 0.092,
+            "pumping gen": 969.6,
+            "pumping load": 0
+        },
+        "maxUsed": 27778.39
+    },
+    "2020-01-21": {
+        "time": "2020-01-21 17:50",
+        "record": {
+            "nuclear": 3867.8,
+            "coal": 7809.9,
+            "co-gen": 892.3,
+            "lng": 13116.8,
+            "oil": 298.8,
+            "diesel": 92.4,
+            "hydro": 503.1,
+            "wind": 157.2,
+            "solar": 0.024,
+            "pumping gen": 621.5,
+            "pumping load": 0
+        },
+        "maxUsed": 27359.82
+    },
+    "2020-01-22": {
+        "time": "2020-01-22 18:10",
+        "record": {
+            "nuclear": 3872.1,
+            "coal": 7810.3,
+            "co-gen": 957.5,
+            "lng": 11478.4,
+            "oil": 289.9,
+            "diesel": 98.2,
+            "hydro": 404.3,
+            "wind": 18,
+            "solar": 0.017,
+            "pumping gen": 737.7,
+            "pumping load": 0
+        },
+        "maxUsed": 25666.42
+    },
+    "2020-01-23": {
+        "time": "2020-01-23 18:20",
+        "record": {
+            "nuclear": 3868,
+            "coal": 6769.2,
+            "co-gen": 950.2,
+            "lng": 9816.5,
+            "oil": 289.2,
+            "diesel": 97.1,
+            "hydro": 429.4,
+            "wind": 100.1,
+            "solar": 49.852,
+            "pumping gen": 991.1,
+            "pumping load": 0
+        },
+        "maxUsed": 23360.65
+    },
+    "2020-01-24": {
+        "time": "2020-01-24 17:40",
+        "record": {
+            "nuclear": 3873.8,
+            "coal": 5260,
+            "co-gen": 698.6,
+            "lng": 8886.4,
+            "oil": 524.2,
+            "diesel": 88,
+            "hydro": 434.8,
+            "wind": 349.3,
+            "solar": 0.087,
+            "pumping gen": 1296.8,
+            "pumping load": 0
+        },
+        "maxUsed": 21411.99
+    },
+    "2020-01-25": {
+        "time": "2020-01-25 00:00",
+        "record": {
+            "nuclear": 3863.6,
+            "coal": 5900.3,
+            "co-gen": 635.8,
+            "lng": 6588.4,
+            "oil": 305.8,
+            "diesel": 74,
+            "hydro": 163,
+            "wind": 352.2,
+            "solar": 0,
+            "pumping gen": 902.4,
+            "pumping load": 0
+        },
+        "maxUsed": 18785.5
+    },
+    "2020-01-26": {
+        "time": "2020-01-26 18:10",
+        "record": {
+            "nuclear": 3868.9,
+            "coal": 7201.8,
+            "co-gen": 606.3,
+            "lng": 5900.7,
+            "oil": 432.2,
+            "diesel": 83.5,
+            "hydro": 422,
+            "wind": 623.6,
+            "solar": 1.356,
+            "pumping gen": 808,
+            "pumping load": 0
+        },
+        "maxUsed": 19948.36
+    },
+    "2020-01-27": {
+        "time": "2020-01-27 00:00",
+        "record": {
+            "nuclear": 3860.3,
+            "coal": 5997.7,
+            "co-gen": 600.1,
+            "lng": 5136.6,
+            "oil": 263.7,
+            "diesel": 82.1,
+            "hydro": 179.3,
+            "wind": 269.8,
+            "solar": 0,
+            "pumping gen": 914.3,
+            "pumping load": 0
+        },
+        "maxUsed": 17303.9
+    },
+    "2020-02-01": {
+        "time": "2020-02-01 20:50",
+        "record": {
+            "nuclear": 3859.5,
+            "coal": 7744.1,
+            "co-gen": 674.5,
+            "lng": 10722.3,
+            "oil": 263.1,
+            "diesel": 96.3,
+            "hydro": 427.6,
+            "wind": 157.5,
+            "solar": 0,
+            "pumping gen": 1197.8,
+            "pumping load": 0
+        },
+        "maxUsed": 25142.7
+    },
+    "2020-02-02": {
+        "time": "2020-02-02 21:00",
+        "record": {
+            "nuclear": 3866.7,
+            "coal": 7685.4,
+            "co-gen": 597.7,
+            "lng": 10418.4,
+            "oil": 303.2,
+            "diesel": 95.2,
+            "hydro": 450.7,
+            "wind": 37.6,
+            "solar": 0,
+            "pumping gen": 1254.5,
+            "pumping load": 0
+        },
+        "maxUsed": 24709.4
+    },
+    "2020-02-03": {
+        "time": "2020-02-03 16:50",
+        "record": {
+            "nuclear": 3863,
+            "coal": 7688.8,
+            "co-gen": 795.6,
+            "lng": 12851.2,
+            "oil": 265,
+            "diesel": 78.9,
+            "hydro": 307.7,
+            "wind": 567.9,
+            "solar": 275.789,
+            "pumping gen": 447.2,
+            "pumping load": 0
+        },
+        "maxUsed": 27141.09
+    },
+    "2020-02-04": {
+        "time": "2020-02-04 18:00",
+        "record": {
+            "nuclear": 3868.9,
+            "coal": 8692.6,
+            "co-gen": 735.6,
+            "lng": 13260.5,
+            "oil": 263.7,
+            "diesel": 94.4,
+            "hydro": 380,
+            "wind": 189.6,
+            "solar": 0.014,
+            "pumping gen": 776.6,
+            "pumping load": 0
+        },
+        "maxUsed": 28261.91
+    },
+    "2020-02-05": {
+        "time": "2020-02-05 18:10",
+        "record": {
+            "nuclear": 3870.8,
+            "coal": 8647.9,
+            "co-gen": 755.6,
+            "lng": 12798.3,
+            "oil": 265.6,
+            "diesel": 92.5,
+            "hydro": 425.9,
+            "wind": 622,
+            "solar": 0.105,
+            "pumping gen": 782.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28261.11
+    },
+    "2020-02-06": {
+        "time": "2020-02-06 18:20",
+        "record": {
+            "nuclear": 3863.3,
+            "coal": 8633.2,
+            "co-gen": 746.9,
+            "lng": 13308.2,
+            "oil": 265.6,
+            "diesel": 93.2,
+            "hydro": 447,
+            "wind": 413.4,
+            "solar": 0.011,
+            "pumping gen": 437.6,
+            "pumping load": 0
+        },
+        "maxUsed": 28208.41
+    },
+    "2020-02-07": {
+        "time": "2020-02-07 18:00",
+        "record": {
+            "nuclear": 3858.2,
+            "coal": 8452.3,
+            "co-gen": 810.8,
+            "lng": 13114,
+            "oil": 268.1,
+            "diesel": 91.4,
+            "hydro": 373.3,
+            "wind": 514.9,
+            "solar": 0.024,
+            "pumping gen": 624,
+            "pumping load": 0
+        },
+        "maxUsed": 28107.02
+    },
+    "2020-02-08": {
+        "time": "2020-02-08 18:40",
+        "record": {
+            "nuclear": 3697.4,
+            "coal": 8104.8,
+            "co-gen": 544.2,
+            "lng": 11028.5,
+            "oil": 266.9,
+            "diesel": 85.4,
+            "hydro": 410.6,
+            "wind": 632.2,
+            "solar": 0.114,
+            "pumping gen": 638,
+            "pumping load": 0
+        },
+        "maxUsed": 25408.11
+    },
+    "2020-02-09": {
+        "time": "2020-02-09 21:00",
+        "record": {
+            "nuclear": 3865.9,
+            "coal": 8279.3,
+            "co-gen": 615.5,
+            "lng": 10168.9,
+            "oil": 269.4,
+            "diesel": 82.8,
+            "hydro": 329.7,
+            "wind": 422.9,
+            "solar": 0,
+            "pumping gen": 899.7,
+            "pumping load": 0
+        },
+        "maxUsed": 24934.1
+    },
+    "2020-02-10": {
+        "time": "2020-02-10 18:30",
+        "record": {
+            "nuclear": 3864.1,
+            "coal": 8081.8,
+            "co-gen": 871.9,
+            "lng": 13486.2,
+            "oil": 269.4,
+            "diesel": 95.4,
+            "hydro": 422.9,
+            "wind": 36.6,
+            "solar": 0.008,
+            "pumping gen": 950.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28078.71
+    },
+    "2020-02-11": {
+        "time": "2020-02-11 18:00",
+        "record": {
+            "nuclear": 3865,
+            "coal": 8514.4,
+            "co-gen": 899.5,
+            "lng": 13668.7,
+            "oil": 271.3,
+            "diesel": 96.5,
+            "hydro": 463.1,
+            "wind": 13.5,
+            "solar": 0.018,
+            "pumping gen": 771.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28563.82
+    },
+    "2020-02-12": {
+        "time": "2020-02-12 18:30",
+        "record": {
+            "nuclear": 3856.7,
+            "coal": 8621.1,
+            "co-gen": 886.7,
+            "lng": 13453.3,
+            "oil": 268.2,
+            "diesel": 98,
+            "hydro": 431,
+            "wind": 36.7,
+            "solar": 0.008,
+            "pumping gen": 727.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28378.91
+    },
+    "2020-02-13": {
+        "time": "2020-02-13 16:20",
+        "record": {
+            "nuclear": 3864.3,
+            "coal": 8524.5,
+            "co-gen": 888.5,
+            "lng": 13711.2,
+            "oil": 416.2,
+            "diesel": 82.8,
+            "hydro": 242.8,
+            "wind": 112.9,
+            "solar": 127.675,
+            "pumping gen": 938.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28909.68
+    },
+    "2020-02-14": {
+        "time": "2020-02-14 16:30",
+        "record": {
+            "nuclear": 3860.5,
+            "coal": 8239.5,
+            "co-gen": 704.5,
+            "lng": 13357.4,
+            "oil": 567,
+            "diesel": 82.5,
+            "hydro": 282.7,
+            "wind": 91.3,
+            "solar": 218.64,
+            "pumping gen": 851.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28255.44
+    },
+    "2020-02-15": {
+        "time": "2020-02-15 18:20",
+        "record": {
+            "nuclear": 3860.8,
+            "coal": 8527.5,
+            "co-gen": 658.8,
+            "lng": 13302.4,
+            "oil": 288.6,
+            "diesel": 96.4,
+            "hydro": 373.3,
+            "wind": 77.5,
+            "solar": 0.01,
+            "pumping gen": 537.4,
+            "pumping load": 0
+        },
+        "maxUsed": 27722.71
+    },
+    "2020-02-16": {
+        "time": "2020-02-16 20:00",
+        "record": {
+            "nuclear": 3858,
+            "coal": 8520.6,
+            "co-gen": 656.4,
+            "lng": 9952,
+            "oil": 290.4,
+            "diesel": 89.6,
+            "hydro": 448.5,
+            "wind": 567.5,
+            "solar": 0,
+            "pumping gen": 476.6,
+            "pumping load": 0
+        },
+        "maxUsed": 24859.6
+    },
+    "2020-02-17": {
+        "time": "2020-02-17 18:20",
+        "record": {
+            "nuclear": 3857.6,
+            "coal": 8422,
+            "co-gen": 812.6,
+            "lng": 12928.2,
+            "oil": 293.7,
+            "diesel": 89.4,
+            "hydro": 528.4,
+            "wind": 553.3,
+            "solar": 0.01,
+            "pumping gen": 633.3,
+            "pumping load": 0
+        },
+        "maxUsed": 28118.51
+    },
+    "2020-02-18": {
+        "time": "2020-02-18 18:30",
+        "record": {
+            "nuclear": 3856.6,
+            "coal": 9360.8,
+            "co-gen": 823.4,
+            "lng": 12314.1,
+            "oil": 294.4,
+            "diesel": 89.3,
+            "hydro": 451.9,
+            "wind": 460.8,
+            "solar": 0.009,
+            "pumping gen": 633.6,
+            "pumping load": 0
+        },
+        "maxUsed": 28284.91
+    },
+    "2020-02-19": {
+        "time": "2020-02-19 18:10",
+        "record": {
+            "nuclear": 3855.6,
+            "coal": 9332.8,
+            "co-gen": 863.1,
+            "lng": 12472.4,
+            "oil": 268.2,
+            "diesel": 94,
+            "hydro": 454.5,
+            "wind": 121.2,
+            "solar": 0.026,
+            "pumping gen": 780.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28242.63
+    },
+    "2020-02-20": {
+        "time": "2020-02-20 18:20",
+        "record": {
+            "nuclear": 2880.6,
+            "coal": 8878.8,
+            "co-gen": 902.4,
+            "lng": 13749.5,
+            "oil": 269.4,
+            "diesel": 91.5,
+            "hydro": 454.8,
+            "wind": 472.2,
+            "solar": 0.013,
+            "pumping gen": 789.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28488.41
+    },
+    "2020-02-21": {
+        "time": "2020-02-21 10:50",
+        "record": {
+            "nuclear": 2876.7,
+            "coal": 8940.7,
+            "co-gen": 936.7,
+            "lng": 11938.4,
+            "oil": 268.1,
+            "diesel": 66.3,
+            "hydro": 290.3,
+            "wind": 321.3,
+            "solar": 1509.466,
+            "pumping gen": 456,
+            "pumping load": 0
+        },
+        "maxUsed": 27603.97
+    },
+    "2020-02-22": {
+        "time": "2020-02-22 18:30",
+        "record": {
+            "nuclear": 2880.3,
+            "coal": 9119.8,
+            "co-gen": 634,
+            "lng": 10938.6,
+            "oil": 268.2,
+            "diesel": 86.6,
+            "hydro": 512.8,
+            "wind": 587.5,
+            "solar": 0.073,
+            "pumping gen": 771.5,
+            "pumping load": 0
+        },
+        "maxUsed": 25799.37
+    },
+    "2020-02-23": {
+        "time": "2020-02-23 18:40",
+        "record": {
+            "nuclear": 2878.6,
+            "coal": 8773.9,
+            "co-gen": 460.5,
+            "lng": 10807.9,
+            "oil": 269.4,
+            "diesel": 85.6,
+            "hydro": 429.8,
+            "wind": 444.5,
+            "solar": 0.089,
+            "pumping gen": 830.4,
+            "pumping load": 0
+        },
+        "maxUsed": 24980.69
+    },
+    "2020-02-24": {
+        "time": "2020-02-24 18:20",
+        "record": {
+            "nuclear": 2879.2,
+            "coal": 9248.3,
+            "co-gen": 776.5,
+            "lng": 14254.5,
+            "oil": 274.5,
+            "diesel": 103.6,
+            "hydro": 443.1,
+            "wind": 9.6,
+            "solar": 0.021,
+            "pumping gen": 650.3,
+            "pumping load": 0
+        },
+        "maxUsed": 28639.62
+    },
+    "2020-02-25": {
+        "time": "2020-02-25 18:40",
+        "record": {
+            "nuclear": 2880.3,
+            "coal": 8862.4,
+            "co-gen": 1002.1,
+            "lng": 14474.7,
+            "oil": 449.5,
+            "diesel": 100,
+            "hydro": 493.7,
+            "wind": 17.9,
+            "solar": 0.08,
+            "pumping gen": 790.1,
+            "pumping load": 0
+        },
+        "maxUsed": 29070.78
+    },
+    "2020-02-26": {
+        "time": "2020-02-26 18:40",
+        "record": {
+            "nuclear": 2871.9,
+            "coal": 8886.2,
+            "co-gen": 837.6,
+            "lng": 14652.2,
+            "oil": 276.4,
+            "diesel": 94.5,
+            "hydro": 488.9,
+            "wind": 295,
+            "solar": 0.008,
+            "pumping gen": 917.1,
+            "pumping load": 0
+        },
+        "maxUsed": 29319.81
+    },
+    "2020-02-27": {
+        "time": "2020-02-27 16:40",
+        "record": {
+            "nuclear": 2871.9,
+            "coal": 8772.7,
+            "co-gen": 883.4,
+            "lng": 13012.4,
+            "oil": 275.8,
+            "diesel": 68,
+            "hydro": 385.5,
+            "wind": 620.4,
+            "solar": 441.437,
+            "pumping gen": 908.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28240.04
+    },
+    "2020-02-28": {
+        "time": "2020-02-28 18:30",
+        "record": {
+            "nuclear": 2877.6,
+            "coal": 8859.5,
+            "co-gen": 728.1,
+            "lng": 11857.8,
+            "oil": 142.9,
+            "diesel": 96.1,
+            "hydro": 448.6,
+            "wind": 9.1,
+            "solar": 0.018,
+            "pumping gen": 1308.5,
+            "pumping load": 0
+        },
+        "maxUsed": 26328.22
+    },
+    "2020-02-29": {
+        "time": "2020-02-29 18:50",
+        "record": {
+            "nuclear": 2876.7,
+            "coal": 9153.1,
+            "co-gen": 773.2,
+            "lng": 10706.8,
+            "oil": 142.3,
+            "diesel": 96.8,
+            "hydro": 532.8,
+            "wind": 3,
+            "solar": 0.009,
+            "pumping gen": 1231.7,
+            "pumping load": 0
+        },
+        "maxUsed": 25516.41
+    },
+    "2020-03-01": {
+        "time": "2020-03-01 18:30",
+        "record": {
+            "nuclear": 2875.2,
+            "coal": 8813.3,
+            "co-gen": 539,
+            "lng": 10915.7,
+            "oil": 141.7,
+            "diesel": 92.9,
+            "hydro": 495.4,
+            "wind": 179.9,
+            "solar": 0.008,
+            "pumping gen": 834.2,
+            "pumping load": 0
+        },
+        "maxUsed": 24887.31
+    },
+    "2020-03-02": {
+        "time": "2020-03-02 18:20",
+        "record": {
+            "nuclear": 2880.3,
+            "coal": 9705.1,
+            "co-gen": 753.1,
+            "lng": 13261.1,
+            "oil": 143.6,
+            "diesel": 85.6,
+            "hydro": 442.3,
+            "wind": 524.8,
+            "solar": 0.029,
+            "pumping gen": 505.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28301.43
+    },
+    "2020-03-03": {
+        "time": "2020-03-03 18:40",
+        "record": {
+            "nuclear": 2884.9,
+            "coal": 9725.5,
+            "co-gen": 882.5,
+            "lng": 13499.9,
+            "oil": 143.6,
+            "diesel": 92.4,
+            "hydro": 495,
+            "wind": 317.6,
+            "solar": 0.009,
+            "pumping gen": 954.7,
+            "pumping load": 0
+        },
+        "maxUsed": 28996.11
+    },
+    "2020-03-04": {
+        "time": "2020-03-04 18:00",
+        "record": {
+            "nuclear": 2877.9,
+            "coal": 9273.4,
+            "co-gen": 774.8,
+            "lng": 13759.4,
+            "oil": 142.9,
+            "diesel": 84,
+            "hydro": 452.3,
+            "wind": 635.6,
+            "solar": 10.648,
+            "pumping gen": 673.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28684.45
+    },
+    "2020-03-05": {
+        "time": "2020-03-05 18:20",
+        "record": {
+            "nuclear": 2880.1,
+            "coal": 9278.3,
+            "co-gen": 815.3,
+            "lng": 13734.5,
+            "oil": 218.2,
+            "diesel": 87.7,
+            "hydro": 458,
+            "wind": 509.4,
+            "solar": 0.019,
+            "pumping gen": 442.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28423.92
+    },
+    "2020-03-06": {
+        "time": "2020-03-06 18:20",
+        "record": {
+            "nuclear": 2879.8,
+            "coal": 9431.7,
+            "co-gen": 709.2,
+            "lng": 13719.3,
+            "oil": 146.8,
+            "diesel": 98,
+            "hydro": 511.2,
+            "wind": 53.7,
+            "solar": 0.021,
+            "pumping gen": 860.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28410.52
+    },
+    "2020-03-07": {
+        "time": "2020-03-07 18:40",
+        "record": {
+            "nuclear": 2875.5,
+            "coal": 9255.4,
+            "co-gen": 709.1,
+            "lng": 11725.1,
+            "oil": 147.4,
+            "diesel": 98.4,
+            "hydro": 474,
+            "wind": 4.2,
+            "solar": 0.009,
+            "pumping gen": 852.3,
+            "pumping load": 0
+        },
+        "maxUsed": 26141.41
+    },
+    "2020-03-08": {
+        "time": "2020-03-08 18:20",
+        "record": {
+            "nuclear": 2879,
+            "coal": 9085.1,
+            "co-gen": 633.8,
+            "lng": 11094.9,
+            "oil": 148,
+            "diesel": 94.8,
+            "hydro": 493,
+            "wind": 128,
+            "solar": 0.036,
+            "pumping gen": 825.2,
+            "pumping load": 0
+        },
+        "maxUsed": 25381.84
+    },
+    "2020-03-09": {
+        "time": "2020-03-09 18:30",
+        "record": {
+            "nuclear": 2880.1,
+            "coal": 9672.2,
+            "co-gen": 1021.4,
+            "lng": 14295.9,
+            "oil": 142.9,
+            "diesel": 97.1,
+            "hydro": 411.9,
+            "wind": 369,
+            "solar": 0.055,
+            "pumping gen": 1114.1,
+            "pumping load": 0
+        },
+        "maxUsed": 30004.66
+    },
+    "2020-03-10": {
+        "time": "2020-03-10 10:50",
+        "record": {
+            "nuclear": 2878.5,
+            "coal": 9480.9,
+            "co-gen": 828.2,
+            "lng": 13500.2,
+            "oil": 141.7,
+            "diesel": 60.9,
+            "hydro": 234.1,
+            "wind": 112.9,
+            "solar": 866.14,
+            "pumping gen": 464.3,
+            "pumping load": 0
+        },
+        "maxUsed": 28567.84
+    },
+    "2020-03-11": {
+        "time": "2020-03-11 18:20",
+        "record": {
+            "nuclear": 2882.4,
+            "coal": 9539.9,
+            "co-gen": 677,
+            "lng": 13832.4,
+            "oil": 144.2,
+            "diesel": 169.8,
+            "hydro": 363.6,
+            "wind": 134.6,
+            "solar": 0.58,
+            "pumping gen": 619.8,
+            "pumping load": 0
+        },
+        "maxUsed": 28364.28
+    },
+    "2020-03-12": {
+        "time": "2020-03-12 18:30",
+        "record": {
+            "nuclear": 2872.9,
+            "coal": 9705.9,
+            "co-gen": 907.8,
+            "lng": 14070.1,
+            "oil": 141.7,
+            "diesel": 100.3,
+            "hydro": 450.2,
+            "wind": 7.4,
+            "solar": 0.078,
+            "pumping gen": 974.3,
+            "pumping load": 0
+        },
+        "maxUsed": 29230.68
+    },
+    "2020-03-13": {
+        "time": "2020-03-13 16:20",
+        "record": {
+            "nuclear": 2877.6,
+            "coal": 9548.6,
+            "co-gen": 645.8,
+            "lng": 14216.9,
+            "oil": 296.9,
+            "diesel": 83.6,
+            "hydro": 232.3,
+            "wind": 69.3,
+            "solar": 510.776,
+            "pumping gen": 520.1,
+            "pumping load": 0
+        },
+        "maxUsed": 29001.88
+    },
+    "2020-03-14": {
+        "time": "2020-03-14 18:40",
+        "record": {
+            "nuclear": 2879,
+            "coal": 9870.7,
+            "co-gen": 438.3,
+            "lng": 10634.1,
+            "oil": 300.7,
+            "diesel": 79.3,
+            "hydro": 412,
+            "wind": 525.9,
+            "solar": 0.636,
+            "pumping gen": 462.7,
+            "pumping load": 0
+        },
+        "maxUsed": 25603.34
+    },
+    "2020-03-15": {
+        "time": "2020-03-15 19:00",
+        "record": {
+            "nuclear": 2876.3,
+            "coal": 8535.2,
+            "co-gen": 760.8,
+            "lng": 10348.1,
+            "oil": 264.9,
+            "diesel": 85.7,
+            "hydro": 479.6,
+            "wind": 236.6,
+            "solar": 0.015,
+            "pumping gen": 1097.4,
+            "pumping load": 0
+        },
+        "maxUsed": 24684.62
+    },
+    "2020-03-16": {
+        "time": "2020-03-16 18:40",
+        "record": {
+            "nuclear": 2877.6,
+            "coal": 9267.1,
+            "co-gen": 785.4,
+            "lng": 13717.4,
+            "oil": 266.9,
+            "diesel": 89.8,
+            "hydro": 332.6,
+            "wind": 34.4,
+            "solar": 0.023,
+            "pumping gen": 460.8,
+            "pumping load": 0
+        },
+        "maxUsed": 27832.02
+    },
+    "2020-03-17": {
+        "time": "2020-03-17 18:10",
+        "record": {
+            "nuclear": 2880.1,
+            "coal": 9196.2,
+            "co-gen": 806.6,
+            "lng": 14234.6,
+            "oil": 268.2,
+            "diesel": 131.6,
+            "hydro": 328.3,
+            "wind": 85.1,
+            "solar": 0.161,
+            "pumping gen": 551.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28482.36
+    },
+    "2020-03-18": {
+        "time": "2020-03-18 18:20",
+        "record": {
+            "nuclear": 2878.7,
+            "coal": 9855.5,
+            "co-gen": 649.2,
+            "lng": 14269.3,
+            "oil": 266.2,
+            "diesel": 138.8,
+            "hydro": 447.2,
+            "wind": 35,
+            "solar": 0.012,
+            "pumping gen": 343.7,
+            "pumping load": 0
+        },
+        "maxUsed": 28883.61
+    },
+    "2020-03-19": {
+        "time": "2020-03-19 16:30",
+        "record": {
+            "nuclear": 2877.6,
+            "coal": 10103.3,
+            "co-gen": 799.4,
+            "lng": 13714.5,
+            "oil": 354.3,
+            "diesel": 84.8,
+            "hydro": 313.1,
+            "wind": 13.2,
+            "solar": 391.042,
+            "pumping gen": 442.2,
+            "pumping load": 0
+        },
+        "maxUsed": 29093.44
+    },
+    "2020-03-20": {
+        "time": "2020-03-20 16:40",
+        "record": {
+            "nuclear": 2870.6,
+            "coal": 9456.5,
+            "co-gen": 626.2,
+            "lng": 13535.7,
+            "oil": 281.5,
+            "diesel": 81.4,
+            "hydro": 302.9,
+            "wind": 339.7,
+            "solar": 504.58,
+            "pumping gen": 630.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28629.48
+    },
+    "2020-03-21": {
+        "time": "2020-03-21 19:10",
+        "record": {
+            "nuclear": 2870.6,
+            "coal": 8376.9,
+            "co-gen": 813.5,
+            "lng": 12297.3,
+            "oil": 282.8,
+            "diesel": 97.5,
+            "hydro": 382.9,
+            "wind": 11.1,
+            "solar": 0.163,
+            "pumping gen": 914.4,
+            "pumping load": 0
+        },
+        "maxUsed": 26047.16
+    },
+    "2020-03-22": {
+        "time": "2020-03-22 18:30",
+        "record": {
+            "nuclear": 2882.6,
+            "coal": 8840.7,
+            "co-gen": 408.7,
+            "lng": 11296.1,
+            "oil": 287.3,
+            "diesel": 96.2,
+            "hydro": 398.5,
+            "wind": 191.5,
+            "solar": 0.395,
+            "pumping gen": 1197.2,
+            "pumping load": 0
+        },
+        "maxUsed": 25599.2
+    },
+    "2020-03-23": {
+        "time": "2020-03-23 16:40",
+        "record": {
+            "nuclear": 2876.3,
+            "coal": 9479.6,
+            "co-gen": 942.7,
+            "lng": 13745,
+            "oil": 287.2,
+            "diesel": 76,
+            "hydro": 258.3,
+            "wind": 565.6,
+            "solar": 553.259,
+            "pumping gen": 467.9,
+            "pumping load": 0
+        },
+        "maxUsed": 29251.86
+    },
+    "2020-03-24": {
+        "time": "2020-03-24 16:30",
+        "record": {
+            "nuclear": 2874.1,
+            "coal": 9245.1,
+            "co-gen": 956.3,
+            "lng": 14045.3,
+            "oil": 286,
+            "diesel": 72.9,
+            "hydro": 344.7,
+            "wind": 426.7,
+            "solar": 425.984,
+            "pumping gen": 712.9,
+            "pumping load": 0
+        },
+        "maxUsed": 29389.98
+    },
+    "2020-03-25": {
+        "time": "2020-03-25 16:10",
+        "record": {
+            "nuclear": 2880.1,
+            "coal": 9204.3,
+            "co-gen": 858.2,
+            "lng": 14605.8,
+            "oil": 287.3,
+            "diesel": 75.7,
+            "hydro": 349.3,
+            "wind": 29.6,
+            "solar": 887.627,
+            "pumping gen": 762.6,
+            "pumping load": 0
+        },
+        "maxUsed": 29940.53
+    },
+    "2020-03-26": {
+        "time": "2020-03-26 16:30",
+        "record": {
+            "nuclear": 2872.8,
+            "coal": 9456.7,
+            "co-gen": 974.6,
+            "lng": 14497.4,
+            "oil": 365.2,
+            "diesel": 163,
+            "hydro": 374.3,
+            "wind": 37.6,
+            "solar": 815.939,
+            "pumping gen": 1201.8,
+            "pumping load": 0
+        },
+        "maxUsed": 30759.34
+    },
+    "2020-03-27": {
+        "time": "2020-03-27 13:50",
+        "record": {
+            "nuclear": 2866,
+            "coal": 9436.6,
+            "co-gen": 884,
+            "lng": 14560.4,
+            "oil": 300.7,
+            "diesel": 75.4,
+            "hydro": 231.4,
+            "wind": 127.6,
+            "solar": 1854.509,
+            "pumping gen": 593.2,
+            "pumping load": 0
+        },
+        "maxUsed": 30929.81
+    },
+    "2020-03-28": {
+        "time": "2020-03-28 18:50",
+        "record": {
+            "nuclear": 2865.8,
+            "coal": 8449.9,
+            "co-gen": 694.4,
+            "lng": 11526.6,
+            "oil": 265.6,
+            "diesel": 87.6,
+            "hydro": 371.4,
+            "wind": 643.8,
+            "solar": 0.272,
+            "pumping gen": 828.3,
+            "pumping load": 0
+        },
+        "maxUsed": 25733.67
+    },
+    "2020-03-29": {
+        "time": "2020-03-29 18:30",
+        "record": {
+            "nuclear": 2883.5,
+            "coal": 8375.1,
+            "co-gen": 642.2,
+            "lng": 10769.2,
+            "oil": 267.5,
+            "diesel": 89.4,
+            "hydro": 389.2,
+            "wind": 295.4,
+            "solar": 0,
+            "pumping gen": 1209.1,
+            "pumping load": 0
+        },
+        "maxUsed": 24920.6
+    },
+    "2020-03-30": {
+        "time": "2020-03-30 16:30",
+        "record": {
+            "nuclear": 2864.3,
+            "coal": 8573.6,
+            "co-gen": 1102,
+            "lng": 14073.4,
+            "oil": 268.1,
+            "diesel": 81.9,
+            "hydro": 300.5,
+            "wind": 213.4,
+            "solar": 311.381,
+            "pumping gen": 828.9,
+            "pumping load": 0
+        },
+        "maxUsed": 28617.48
+    },
+    "2020-03-31": {
+        "time": "2020-03-31 16:30",
+        "record": {
+            "nuclear": 3066.1,
+            "coal": 8845.6,
+            "co-gen": 1195.4,
+            "lng": 13957.8,
+            "oil": 270,
+            "diesel": 124.8,
+            "hydro": 330.5,
+            "wind": 32.7,
+            "solar": 489.69,
+            "pumping gen": 740,
+            "pumping load": 0
+        },
+        "maxUsed": 29052.59
+    },
+    "2020-04-01": {
+        "time": "2020-04-01 11:20",
+        "record": {
+            "nuclear": 3426.2,
+            "coal": 9482.7,
+            "co-gen": 708.2,
+            "lng": 11310.6,
+            "oil": 136.7,
+            "diesel": 62.2,
+            "hydro": 237.2,
+            "wind": 598.6,
+            "solar": 1777.593,
+            "pumping gen": 421.5,
+            "pumping load": 0
+        },
+        "maxUsed": 28161.49
+    },
+    "2020-04-02": {
+        "time": "2020-04-02 18:50",
+        "record": {
+            "nuclear": 3664.5,
+            "coal": 9247.5,
+            "co-gen": 777.1,
+            "lng": 9886.2,
+            "oil": 139.9,
+            "diesel": 87.1,
+            "hydro": 392.6,
+            "wind": 220,
+            "solar": 0.008,
+            "pumping gen": 970.6,
+            "pumping load": 0
+        },
+        "maxUsed": 25385.51
+    },
+    "2020-04-03": {
+        "time": "2020-04-03 18:40",
+        "record": {
+            "nuclear": 3728.6,
+            "coal": 9035.8,
+            "co-gen": 490.5,
+            "lng": 9685.6,
+            "oil": 138.6,
+            "diesel": 89,
+            "hydro": 349.5,
+            "wind": 487.5,
+            "solar": 0.021,
+            "pumping gen": 821.6,
+            "pumping load": 0
+        },
+        "maxUsed": 24826.72
+    },
+    "2020-04-04": {
+        "time": "2020-04-04 18:40",
+        "record": {
+            "nuclear": 3857.9,
+            "coal": 8351.2,
+            "co-gen": 256.9,
+            "lng": 9299.4,
+            "oil": 139.9,
+            "diesel": 85.1,
+            "hydro": 414.3,
+            "wind": 624.9,
+            "solar": 0.042,
+            "pumping gen": 959.9,
+            "pumping load": 0
+        },
+        "maxUsed": 23989.54
+    },
+    "2020-04-05": {
+        "time": "2020-04-05 20:20",
+        "record": {
+            "nuclear": 3864.2,
+            "coal": 7981.5,
+            "co-gen": 827.8,
+            "lng": 9244.1,
+            "oil": 138,
+            "diesel": 89.3,
+            "hydro": 356.7,
+            "wind": 375.8,
+            "solar": 0,
+            "pumping gen": 1380.5,
+            "pumping load": 0
+        },
+        "maxUsed": 24257.9
+    },
+    "2020-04-06": {
+        "time": "2020-04-06 18:20",
+        "record": {
+            "nuclear": 3722.5,
+            "coal": 9707.2,
+            "co-gen": 727.9,
+            "lng": 12754.3,
+            "oil": 140.5,
+            "diesel": 133.1,
+            "hydro": 391.4,
+            "wind": 153.4,
+            "solar": 0.22,
+            "pumping gen": 440.1,
+            "pumping load": 0
+        },
+        "maxUsed": 28170.62
+    },
+    "2020-04-07": {
+        "time": "2020-04-07 18:50",
+        "record": {
+            "nuclear": 2922.2,
+            "coal": 9751.1,
+            "co-gen": 685.8,
+            "lng": 12874.9,
+            "oil": 141.2,
+            "diesel": 125.9,
+            "hydro": 398.1,
+            "wind": 400.5,
+            "solar": 0.023,
+            "pumping gen": 647.2,
+            "pumping load": 0
+        },
+        "maxUsed": 27946.92
+    },
+    "2020-04-08": {
+        "time": "2020-04-08 18:50",
+        "record": {
+            "nuclear": 2924.7,
+            "coal": 9370.8,
+            "co-gen": 744,
+            "lng": 13829.8,
+            "oil": 142.4,
+            "diesel": 128.3,
+            "hydro": 375.9,
+            "wind": 220,
+            "solar": 0.097,
+            "pumping gen": 421.7,
+            "pumping load": 0
+        },
+        "maxUsed": 28157.7
+    },
+    "2020-04-09": {
+        "time": "2020-04-09 18:40",
+        "record": {
+            "nuclear": 2917,
+            "coal": 9409,
+            "co-gen": 767.1,
+            "lng": 13644,
+            "oil": 141.8,
+            "diesel": 86.9,
+            "hydro": 344.5,
+            "wind": 508.2,
+            "solar": 0.018,
+            "pumping gen": 422.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28240.72
+    },
+    "2020-04-10": {
+        "time": "2020-04-10 15:50",
+        "record": {
+            "nuclear": 2918.1,
+            "coal": 9437.6,
+            "co-gen": 903.5,
+            "lng": 12866.6,
+            "oil": 141.8,
+            "diesel": 70.5,
+            "hydro": 283.5,
+            "wind": 171.8,
+            "solar": 1180.173,
+            "pumping gen": 423.4,
+            "pumping load": 0
+        },
+        "maxUsed": 28396.97
+    },
+    "2020-04-11": {
+        "time": "2020-04-11 20:00",
+        "record": {
+            "nuclear": 2917.4,
+            "coal": 8994.6,
+            "co-gen": 650.7,
+            "lng": 11846.6,
+            "oil": 142.4,
+            "diesel": 95.8,
+            "hydro": 340.3,
+            "wind": 2.8,
+            "solar": 0,
+            "pumping gen": 625.4,
+            "pumping load": 0
+        },
+        "maxUsed": 25616
+    },
+    "2020-04-12": {
+        "time": "2020-04-12 19:40",
+        "record": {
+            "nuclear": 2920.8,
+            "coal": 8992.6,
+            "co-gen": 578.4,
+            "lng": 10312.3,
+            "oil": 139.9,
+            "diesel": 86.4,
+            "hydro": 286.1,
+            "wind": 249.9,
+            "solar": 12.88,
+            "pumping gen": 882.6,
+            "pumping load": 0
+        },
+        "maxUsed": 24461.88
+    },
+    "2020-04-13": {
+        "time": "2020-04-13 18:50",
+        "record": {
+            "nuclear": 2919.4,
+            "coal": 8817.8,
+            "co-gen": 741.1,
+            "lng": 13095.5,
+            "oil": 143.1,
+            "diesel": 88.8,
+            "hydro": 327.2,
+            "wind": 392.6,
+            "solar": 0.015,
+            "pumping gen": 939.4,
+            "pumping load": 0
+        },
+        "maxUsed": 27464.92
+    },
+    "2020-04-14": {
+        "time": "2020-04-14 16:30",
+        "record": {
+            "nuclear": 2916.9,
+            "coal": 9533.7,
+            "co-gen": 683.4,
+            "lng": 13093,
+            "oil": 143.1,
+            "diesel": 77.8,
+            "hydro": 241.4,
+            "wind": 5.3,
+            "solar": 493.689,
+            "pumping gen": 636.8,
+            "pumping load": 0
+        },
+        "maxUsed": 27825.09
+    },
+    "2020-04-15": {
+        "time": "2020-04-15 18:40",
+        "record": {
+            "nuclear": 2918.1,
+            "coal": 9537,
+            "co-gen": 693.8,
+            "lng": 13367.9,
+            "oil": 141.8,
+            "diesel": 96.9,
+            "hydro": 396.6,
+            "wind": 2.9,
+            "solar": 14.339,
+            "pumping gen": 797.1,
+            "pumping load": 0
+        },
+        "maxUsed": 27966.44
+    },
+    "2020-04-16": {
+        "time": "2020-04-16 18:40",
+        "record": {
+            "nuclear": 2455.8,
+            "coal": 9549,
+            "co-gen": 680.9,
+            "lng": 14161.7,
+            "oil": 143.1,
+            "diesel": 136,
+            "hydro": 396,
+            "wind": 1.7,
+            "solar": 0.017,
+            "pumping gen": 748,
+            "pumping load": 0
+        },
+        "maxUsed": 28272.22
+    },
+    "2020-04-17": {
+        "time": "2020-04-17 16:10",
+        "record": {
+            "nuclear": 2465.4,
+            "coal": 10035.1,
+            "co-gen": 783.6,
+            "lng": 13477.6,
+            "oil": 142.4,
+            "diesel": 80.5,
+            "hydro": 291.6,
+            "wind": 21.2,
+            "solar": 1129.061,
+            "pumping gen": 423.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28849.66
+    },
+    "2020-04-18": {
+        "time": "2020-04-18 19:00",
+        "record": {
+            "nuclear": 2768.4,
+            "coal": 10017.6,
+            "co-gen": 492.1,
+            "lng": 11739.3,
+            "oil": 143.7,
+            "diesel": 101.8,
+            "hydro": 382.4,
+            "wind": 15.8,
+            "solar": 0.016,
+            "pumping gen": 901.1,
+            "pumping load": 0
+        },
+        "maxUsed": 26562.22
+    },
+    "2020-04-19": {
+        "time": "2020-04-19 20:30",
+        "record": {
+            "nuclear": 2912.1,
+            "coal": 10039.1,
+            "co-gen": 735.8,
+            "lng": 10913.7,
+            "oil": 146.9,
+            "diesel": 101.6,
+            "hydro": 391.3,
+            "wind": 215.4,
+            "solar": 0,
+            "pumping gen": 888.8,
+            "pumping load": 0
+        },
+        "maxUsed": 26344.7
+    },
+    "2020-04-20": {
+        "time": "2020-04-20 15:50",
+        "record": {
+            "nuclear": 2915.7,
+            "coal": 10717,
+            "co-gen": 783.5,
+            "lng": 13255.7,
+            "oil": 144.3,
+            "diesel": 81.5,
+            "hydro": 296.7,
+            "wind": 53.8,
+            "solar": 1190.669,
+            "pumping gen": 466.9,
+            "pumping load": 0
+        },
+        "maxUsed": 29905.77
+    },
+    "2020-04-21": {
+        "time": "2020-04-21 11:10",
+        "record": {
+            "nuclear": 2909.2,
+            "coal": 10839.4,
+            "co-gen": 781.5,
+            "lng": 12391.4,
+            "oil": 141.8,
+            "diesel": 86.1,
+            "hydro": 284.9,
+            "wind": 74,
+            "solar": 1672.144,
+            "pumping gen": 519,
+            "pumping load": 0
+        },
+        "maxUsed": 29699.44
+    },
+    "2020-04-22": {
+        "time": "2020-04-22 16:20",
+        "record": {
+            "nuclear": 2911.9,
+            "coal": 9982.7,
+            "co-gen": 747.5,
+            "lng": 12604,
+            "oil": 144.3,
+            "diesel": 70.1,
+            "hydro": 199.5,
+            "wind": 656.7,
+            "solar": 495.141,
+            "pumping gen": 626.9,
+            "pumping load": 0
+        },
+        "maxUsed": 28438.74
+    },
+    "2020-04-23": {
+        "time": "2020-04-23 16:40",
+        "record": {
+            "nuclear": 2911.8,
+            "coal": 9451.4,
+            "co-gen": 652.3,
+            "lng": 13013.6,
+            "oil": 145,
+            "diesel": 68.5,
+            "hydro": 324.3,
+            "wind": 523.3,
+            "solar": 352.604,
+            "pumping gen": 524.7,
+            "pumping load": 0
+        },
+        "maxUsed": 27967.5
+    },
+    "2020-04-24": {
+        "time": "2020-04-24 18:40",
+        "record": {
+            "nuclear": 2918.4,
+            "coal": 9678.6,
+            "co-gen": 699.3,
+            "lng": 12664.9,
+            "oil": 148.2,
+            "diesel": 75,
+            "hydro": 284.1,
+            "wind": 215,
+            "solar": 0.019,
+            "pumping gen": 618.9,
+            "pumping load": 0
+        },
+        "maxUsed": 27302.42
+    },
+    "2020-04-25": {
+        "time": "2020-04-25 18:30",
+        "record": {
+            "nuclear": 2920.8,
+            "coal": 9805.5,
+            "co-gen": 565.2,
+            "lng": 10694.8,
+            "oil": 146.9,
+            "diesel": 74.7,
+            "hydro": 309.3,
+            "wind": 7.8,
+            "solar": 0.03,
+            "pumping gen": 973.9,
+            "pumping load": 0
+        },
+        "maxUsed": 25498.93
+    },
+    "2020-04-26": {
+        "time": "2020-04-26 20:10",
+        "record": {
+            "nuclear": 2680,
+            "coal": 9885.6,
+            "co-gen": 562.7,
+            "lng": 10023,
+            "oil": 132.7,
+            "diesel": 76.8,
+            "hydro": 406,
+            "wind": 154.4,
+            "solar": 0,
+            "pumping gen": 1107.9,
+            "pumping load": 0
+        },
+        "maxUsed": 25029.1
+    },
+    "2020-04-27": {
+        "time": "2020-04-27 16:40",
+        "record": {
+            "nuclear": 2909.2,
+            "coal": 10022.7,
+            "co-gen": 794.5,
+            "lng": 13241.4,
+            "oil": 132.1,
+            "diesel": 71,
+            "hydro": 336.9,
+            "wind": 102,
+            "solar": 531.974,
+            "pumping gen": 442.2,
+            "pumping load": 0
+        },
+        "maxUsed": 28583.97
+    },
+    "2020-04-28": {
+        "time": "2020-04-28 16:30",
+        "record": {
+            "nuclear": 2907.7,
+            "coal": 9986.7,
+            "co-gen": 787.9,
+            "lng": 12965.1,
+            "oil": 133.4,
+            "diesel": 58.7,
+            "hydro": 257.6,
+            "wind": 611.8,
+            "solar": 663.368,
+            "pumping gen": 450,
+            "pumping load": 0
+        },
+        "maxUsed": 28822.27
+    },
+    "2020-04-29": {
+        "time": "2020-04-29 16:10",
+        "record": {
+            "nuclear": 2910.5,
+            "coal": 9846.7,
+            "co-gen": 752.3,
+            "lng": 13608.4,
+            "oil": 133.4,
+            "diesel": 117.1,
+            "hydro": 263.3,
+            "wind": 150.8,
+            "solar": 1146.409,
+            "pumping gen": 495.7,
+            "pumping load": 0
+        },
+        "maxUsed": 29424.61
+    },
+    "2020-04-30": {
+        "time": "2020-04-30 14:20",
+        "record": {
+            "nuclear": 2911.8,
+            "coal": 9313.9,
+            "co-gen": 690.5,
+            "lng": 13579,
+            "oil": 134,
+            "diesel": 74,
+            "hydro": 327.3,
+            "wind": 70.5,
+            "solar": 1977.835,
+            "pumping gen": 468.4,
+            "pumping load": 0
+        },
+        "maxUsed": 29547.24
+    },
+    "2020-05-01": {
+        "time": "2020-05-01 18:40",
+        "record": {
+            "nuclear": 1921.2,
+            "coal": 10130.5,
+            "co-gen": 525.7,
+            "lng": 12094.2,
+            "oil": 134.6,
+            "diesel": 99.3,
+            "hydro": 489.5,
+            "wind": 15,
+            "solar": 0.087,
+            "pumping gen": 1185.3,
+            "pumping load": 0
+        },
+        "maxUsed": 26595.39
+    },
+    "2020-05-02": {
+        "time": "2020-05-02 19:10",
+        "record": {
+            "nuclear": 1917.8,
+            "coal": 9542.8,
+            "co-gen": 529.3,
+            "lng": 12832.8,
+            "oil": 132.1,
+            "diesel": 105.6,
+            "hydro": 450,
+            "wind": 8.6,
+            "solar": 0.014,
+            "pumping gen": 823.5,
+            "pumping load": 0
+        },
+        "maxUsed": 26342.51
+    },
+    "2020-05-03": {
+        "time": "2020-05-03 20:50",
+        "record": {
+            "nuclear": 2301.9,
+            "coal": 9762.5,
+            "co-gen": 584,
+            "lng": 12499.3,
+            "oil": 134,
+            "diesel": 98.1,
+            "hydro": 453.7,
+            "wind": 40.6,
+            "solar": 0,
+            "pumping gen": 737.3,
+            "pumping load": 0
+        },
+        "maxUsed": 26611.4
+    },
+    "2020-05-04": {
+        "time": "2020-05-04 15:00",
+        "record": {
+            "nuclear": 2618.2,
+            "coal": 10649,
+            "co-gen": 921.5,
+            "lng": 15016.4,
+            "oil": 135.3,
+            "diesel": 144.9,
+            "hydro": 272.6,
+            "wind": 103.6,
+            "solar": 1702.448,
+            "pumping gen": 618.1,
+            "pumping load": 0
+        },
+        "maxUsed": 32182.05
+    },
+    "2020-05-05": {
+        "time": "2020-05-05 13:50",
+        "record": {
+            "nuclear": 2890.6,
+            "coal": 10623.8,
+            "co-gen": 807.9,
+            "lng": 15471.8,
+            "oil": 134.6,
+            "diesel": 82.1,
+            "hydro": 131.8,
+            "wind": 501.1,
+            "solar": 2087.581,
+            "pumping gen": 461.4,
+            "pumping load": 0
+        },
+        "maxUsed": 33192.68
+    },
+    "2020-05-06": {
+        "time": "2020-05-06 13:50",
+        "record": {
+            "nuclear": 2911.1,
+            "coal": 10705.6,
+            "co-gen": 819.1,
+            "lng": 15391.2,
+            "oil": 134.6,
+            "diesel": 88.4,
+            "hydro": 167.2,
+            "wind": 291.4,
+            "solar": 1844.87,
+            "pumping gen": 429.7,
+            "pumping load": 0
+        },
+        "maxUsed": 32783.17
+    },
+    "2020-05-07": {
+        "time": "2020-05-07 14:00",
+        "record": {
+            "nuclear": 2911.2,
+            "coal": 10714.5,
+            "co-gen": 755.5,
+            "lng": 15361.6,
+            "oil": 135.3,
+            "diesel": 87.3,
+            "hydro": 157.4,
+            "wind": 27.5,
+            "solar": 1767.092,
+            "pumping gen": 443.3,
+            "pumping load": 0
+        },
+        "maxUsed": 32360.69
+    },
+    "2020-05-08": {
+        "time": "2020-05-08 14:00",
+        "record": {
+            "nuclear": 2912.4,
+            "coal": 10717.7,
+            "co-gen": 759.3,
+            "lng": 15889.7,
+            "oil": 133.4,
+            "diesel": 88.9,
+            "hydro": 270.2,
+            "wind": 266,
+            "solar": 1968.197,
+            "pumping gen": 665.7,
+            "pumping load": 0
+        },
+        "maxUsed": 33671.5
+    },
+    "2020-05-09": {
+        "time": "2020-05-09 14:00",
+        "record": {
+            "nuclear": 2911.1,
+            "coal": 10547.1,
+            "co-gen": 545,
+            "lng": 12225.4,
+            "oil": 133.4,
+            "diesel": 87.5,
+            "hydro": 207.6,
+            "wind": 317.2,
+            "solar": 2033.656,
+            "pumping gen": 471.2,
+            "pumping load": 0
+        },
+        "maxUsed": 29479.16
+    },
+    "2020-05-10": {
+        "time": "2020-05-10 21:20",
+        "record": {
+            "nuclear": 2600.1,
+            "coal": 10748.6,
+            "co-gen": 491.6,
+            "lng": 13802.4,
+            "oil": 0,
+            "diesel": 175.6,
+            "hydro": 391.1,
+            "wind": 23.3,
+            "solar": 0,
+            "pumping gen": 900.3,
+            "pumping load": 0
+        },
+        "maxUsed": 29133
+    },
+    "2020-05-11": {
+        "time": "2020-05-11 13:30",
+        "record": {
+            "nuclear": 2863.9,
+            "coal": 10646.3,
+            "co-gen": 783.2,
+            "lng": 15385.2,
+            "oil": 146.8,
+            "diesel": 84.4,
+            "hydro": 236.6,
+            "wind": 239.1,
+            "solar": 1982.678,
+            "pumping gen": 630.9,
+            "pumping load": 0
+        },
+        "maxUsed": 32999.08
+    },
+    "2020-05-12": {
+        "time": "2020-05-12 11:10",
+        "record": {
+            "nuclear": 2910.1,
+            "coal": 10733.1,
+            "co-gen": 655.3,
+            "lng": 15301.4,
+            "oil": 206.1,
+            "diesel": 86.8,
+            "hydro": 282.7,
+            "wind": 95.9,
+            "solar": 1122.373,
+            "pumping gen": 462.3,
+            "pumping load": 0
+        },
+        "maxUsed": 31856.07
+    },
+    "2020-05-13": {
+        "time": "2020-05-13 14:00",
+        "record": {
+            "nuclear": 2911.2,
+            "coal": 10693.1,
+            "co-gen": 864.9,
+            "lng": 14238.9,
+            "oil": 132.7,
+            "diesel": 74.7,
+            "hydro": 237.9,
+            "wind": 521,
+            "solar": 1957.773,
+            "pumping gen": 501.8,
+            "pumping load": 0
+        },
+        "maxUsed": 32133.97
+    },
+    "2020-05-14": {
+        "time": "2020-05-14 14:10",
+        "record": {
+            "nuclear": 2911.8,
+            "coal": 11365.7,
+            "co-gen": 686.7,
+            "lng": 15363.7,
+            "oil": 134.6,
+            "diesel": 87.6,
+            "hydro": 284.1,
+            "wind": 28.6,
+            "solar": 2038.002,
+            "pumping gen": 443.3,
+            "pumping load": 0
+        },
+        "maxUsed": 33344.1
+    },
+    "2020-05-15": {
+        "time": "2020-05-15 14:00",
+        "record": {
+            "nuclear": 2905.1,
+            "coal": 11461.6,
+            "co-gen": 522.3,
+            "lng": 15369.4,
+            "oil": 134.6,
+            "diesel": 93,
+            "hydro": 285.4,
+            "wind": 20.3,
+            "solar": 2247.772,
+            "pumping gen": 608.4,
+            "pumping load": 0
+        },
+        "maxUsed": 33647.87
+    },
+    "2020-05-16": {
+        "time": "2020-05-16 13:50",
+        "record": {
+            "nuclear": 2892,
+            "coal": 11438.8,
+            "co-gen": 622.7,
+            "lng": 11787.2,
+            "oil": 134,
+            "diesel": 95.3,
+            "hydro": 368.2,
+            "wind": 37.5,
+            "solar": 1806.105,
+            "pumping gen": 737.4,
+            "pumping load": 0
+        },
+        "maxUsed": 29919.21
+    },
+    "2020-05-17": {
+        "time": "2020-05-17 13:50",
+        "record": {
+            "nuclear": 2894.4,
+            "coal": 11290.2,
+            "co-gen": 580.3,
+            "lng": 9245.4,
+            "oil": 134,
+            "diesel": 95.7,
+            "hydro": 240.8,
+            "wind": 29.5,
+            "solar": 2038.954,
+            "pumping gen": 633.2,
+            "pumping load": 0
+        },
+        "maxUsed": 27182.45
+    },
+    "2020-05-18": {
+        "time": "2020-05-18 14:10",
+        "record": {
+            "nuclear": 2900.9,
+            "coal": 11360,
+            "co-gen": 574.8,
+            "lng": 15012.8,
+            "oil": 133.4,
+            "diesel": 106.5,
+            "hydro": 331.6,
+            "wind": 153.2,
+            "solar": 1265.921,
+            "pumping gen": 735,
+            "pumping load": 0
+        },
+        "maxUsed": 32574.12
+    },
+    "2020-05-20": {
+        "time": "2020-05-20 16:40",
+        "record": {
+            "nuclear": 2895.8,
+            "coal": 11434.3,
+            "co-gen": 932.9,
+            "lng": 14031.5,
+            "oil": 133.4,
+            "diesel": 100.9,
+            "hydro": 187.1,
+            "wind": 43.9,
+            "solar": 512.663,
+            "pumping gen": 450.1,
+            "pumping load": 0
+        },
+        "maxUsed": 30722.56
+    },
+    "2020-05-21": {
+        "time": "2020-05-21 11:20",
+        "record": {
+            "nuclear": 2890.9,
+            "coal": 11414.1,
+            "co-gen": 824,
+            "lng": 14622.9,
+            "oil": 134.6,
+            "diesel": 98,
+            "hydro": 197,
+            "wind": 17.6,
+            "solar": 651.685,
+            "pumping gen": 585.5,
+            "pumping load": 0
+        },
+        "maxUsed": 31436.29
+    },
+    "2020-05-22": {
+        "time": "2020-05-22 11:40",
+        "record": {
+            "nuclear": 2891.7,
+            "coal": 11376,
+            "co-gen": 757.1,
+            "lng": 13655.3,
+            "oil": 134,
+            "diesel": 98.6,
+            "hydro": 955.8,
+            "wind": 48.5,
+            "solar": 179.432,
+            "pumping gen": 629.7,
+            "pumping load": 0
+        },
+        "maxUsed": 30726.13
+    },
+    "2020-05-23": {
+        "time": "2020-05-23 19:10",
+        "record": {
+            "nuclear": 2904.8,
+            "coal": 10679,
+            "co-gen": 567,
+            "lng": 10750,
+            "oil": 133.4,
+            "diesel": 104.4,
+            "hydro": 714.4,
+            "wind": 89.1,
+            "solar": 0.39,
+            "pumping gen": 776.8,
+            "pumping load": 0
+        },
+        "maxUsed": 26719.29
+    },
+    "2020-05-24": {
+        "time": "2020-05-24 20:40",
+        "record": {
+            "nuclear": 2893.2,
+            "coal": 11253.1,
+            "co-gen": 530.6,
+            "lng": 10253.6,
+            "oil": 134,
+            "diesel": 109.7,
+            "hydro": 581.1,
+            "wind": 34.3,
+            "solar": 0,
+            "pumping gen": 954.5,
+            "pumping load": 0
+        },
+        "maxUsed": 26744.1
+    },
+    "2020-05-25": {
+        "time": "2020-05-25 14:10",
+        "record": {
+            "nuclear": 2883.8,
+            "coal": 11441,
+            "co-gen": 624.2,
+            "lng": 14094.1,
+            "oil": 134,
+            "diesel": 130.8,
+            "hydro": 444.3,
+            "wind": 40.8,
+            "solar": 2073.988,
+            "pumping gen": 435.1,
+            "pumping load": 0
+        },
+        "maxUsed": 32302.09
+    },
+    "2020-05-26": {
+        "time": "2020-05-26 11:10",
+        "record": {
+            "nuclear": 3303.2,
+            "coal": 10959.1,
+            "co-gen": 816.6,
+            "lng": 15072.6,
+            "oil": 183.8,
+            "diesel": 99.7,
+            "hydro": 380.4,
+            "wind": 283.7,
+            "solar": 1062.634,
+            "pumping gen": 612.9,
+            "pumping load": 0
+        },
+        "maxUsed": 32774.63
+    },
+    "2020-05-27": {
+        "time": "2020-05-27 15:40",
+        "record": {
+            "nuclear": 3679.9,
+            "coal": 10955.4,
+            "co-gen": 1204.9,
+            "lng": 13325.6,
+            "oil": 134,
+            "diesel": 97,
+            "hydro": 560.2,
+            "wind": 71.7,
+            "solar": 833.307,
+            "pumping gen": 446.7,
+            "pumping load": 0
+        },
+        "maxUsed": 31308.71
+    },
+    "2020-05-28": {
+        "time": "2020-05-28 14:20",
+        "record": {
+            "nuclear": 3836.5,
+            "coal": 10936.8,
+            "co-gen": 1201.6,
+            "lng": 12717.1,
+            "oil": 133.4,
+            "diesel": 95,
+            "hydro": 592.8,
+            "wind": 71.1,
+            "solar": 1384.784,
+            "pumping gen": 491.5,
+            "pumping load": 0
+        },
+        "maxUsed": 31460.58
+    },
+    "2020-06-03": {
+        "time": "2020-06-03 23:30",
+        "record": {
+            "nuclear": 3829.8,
+            "coal": 11345.2,
+            "co-gen": 736.2,
+            "lng": 12628.3,
+            "oil": 145.5,
+            "diesel": 114.7,
+            "hydro": 517,
+            "wind": 236.6,
+            "solar": 0,
+            "pumping gen": 451.9,
+            "pumping load": 0
+        },
+        "maxUsed": 30005.2
+    },
+    "2020-06-04": {
+        "time": "2020-06-04 13:40",
+        "record": {
+            "nuclear": 3825.5,
+            "coal": 11484.8,
+            "co-gen": 1363.9,
+            "lng": 14307.3,
+            "oil": 149.3,
+            "diesel": 107.5,
+            "hydro": 445.8,
+            "wind": 350.7,
+            "solar": 2205.831,
+            "pumping gen": 619.7,
+            "pumping load": 0
+        },
+        "maxUsed": 34860.33
+    },
+    "2020-06-05": {
+        "time": "2020-06-05 15:10",
+        "record": {
+            "nuclear": 3833.3,
+            "coal": 11387.7,
+            "co-gen": 1232.2,
+            "lng": 14370.9,
+            "oil": 134.6,
+            "diesel": 170.8,
+            "hydro": 625.7,
+            "wind": 392.2,
+            "solar": 1742.021,
+            "pumping gen": 661.8,
+            "pumping load": 0
+        },
+        "maxUsed": 34551.22
+    },
+    "2020-06-06": {
+        "time": "2020-06-06 13:30",
+        "record": {
+            "nuclear": 3838,
+            "coal": 11265.3,
+            "co-gen": 602,
+            "lng": 11298,
+            "oil": 133.4,
+            "diesel": 107,
+            "hydro": 659.3,
+            "wind": 458.8,
+            "solar": 1670.393,
+            "pumping gen": 581.5,
+            "pumping load": 0
+        },
+        "maxUsed": 30613.69
+    },
+    "2020-06-07": {
+        "time": "2020-06-07 20:10",
+        "record": {
+            "nuclear": 3840.6,
+            "coal": 11178.7,
+            "co-gen": 564,
+            "lng": 10156.6,
+            "oil": 134,
+            "diesel": 118.3,
+            "hydro": 747,
+            "wind": 161.7,
+            "solar": 0,
+            "pumping gen": 1055.5,
+            "pumping load": 0
+        },
+        "maxUsed": 27956.4
+    },
+    "2020-06-08": {
+        "time": "2020-06-08 13:50",
+        "record": {
+            "nuclear": 3827.2,
+            "coal": 11473,
+            "co-gen": 1503.7,
+            "lng": 13637.4,
+            "oil": 131.4,
+            "diesel": 103.9,
+            "hydro": 546.5,
+            "wind": 120,
+            "solar": 445.367,
+            "pumping gen": 471,
+            "pumping load": 0
+        },
+        "maxUsed": 32259.47
+    },
+    "2020-06-09": {
+        "time": "2020-06-09 13:40",
+        "record": {
+            "nuclear": 3829.8,
+            "coal": 11377.4,
+            "co-gen": 1477.7,
+            "lng": 13253.1,
+            "oil": 135.3,
+            "diesel": 104.6,
+            "hydro": 583.7,
+            "wind": 135.8,
+            "solar": 972.96,
+            "pumping gen": 431.2,
+            "pumping load": 0
+        },
+        "maxUsed": 32301.56
+    },
+    "2020-06-10": {
+        "time": "2020-06-10 14:30",
+        "record": {
+            "nuclear": 3822.7,
+            "coal": 11457,
+            "co-gen": 1379.4,
+            "lng": 13531.7,
+            "oil": 133.4,
+            "diesel": 110,
+            "hydro": 641.5,
+            "wind": 196.5,
+            "solar": 1922.854,
+            "pumping gen": 456.7,
+            "pumping load": 0
+        },
+        "maxUsed": 33651.75
+    },
+    "2020-06-11": {
+        "time": "2020-06-11 13:40",
+        "record": {
+            "nuclear": 3833,
+            "coal": 11481.4,
+            "co-gen": 1234.2,
+            "lng": 14088.4,
+            "oil": 134.6,
+            "diesel": 109.8,
+            "hydro": 680.8,
+            "wind": 97.8,
+            "solar": 1760.021,
+            "pumping gen": 605.4,
+            "pumping load": 0
+        },
+        "maxUsed": 34025.42
+    },
+    "2020-06-12": {
+        "time": "2020-06-12 13:40",
+        "record": {
+            "nuclear": 3830.4,
+            "coal": 11450,
+            "co-gen": 1413.1,
+            "lng": 14614.2,
+            "oil": 135.3,
+            "diesel": 114.5,
+            "hydro": 737.9,
+            "wind": 35.4,
+            "solar": 1988.474,
+            "pumping gen": 602,
+            "pumping load": 0
+        },
+        "maxUsed": 34921.27
+    },
+    "2020-06-13": {
+        "time": "2020-06-13 13:50",
+        "record": {
+            "nuclear": 3833.9,
+            "coal": 10891.5,
+            "co-gen": 714.7,
+            "lng": 12381.4,
+            "oil": 134,
+            "diesel": 113.9,
+            "hydro": 338,
+            "wind": 43.9,
+            "solar": 1700.804,
+            "pumping gen": 1077.6,
+            "pumping load": 0
+        },
+        "maxUsed": 31229.7
+    },
+    "2020-06-14": {
+        "time": "2020-06-14 20:40",
+        "record": {
+            "nuclear": 3822.1,
+            "coal": 12235.9,
+            "co-gen": 723.3,
+            "lng": 10643.8,
+            "oil": 133.4,
+            "diesel": 135.8,
+            "hydro": 721.1,
+            "wind": 52.4,
+            "solar": 0,
+            "pumping gen": 1225.5,
+            "pumping load": 0
+        },
+        "maxUsed": 29693.3
+    },
+    "2020-06-15": {
+        "time": "2020-06-15 14:20",
+        "record": {
+            "nuclear": 3824.1,
+            "coal": 12240,
+            "co-gen": 1456.9,
+            "lng": 13830.4,
+            "oil": 136.6,
+            "diesel": 115.5,
+            "hydro": 368.4,
+            "wind": 333.4,
+            "solar": 2197.053,
+            "pumping gen": 478.6,
+            "pumping load": 0
+        },
+        "maxUsed": 34980.95
+    },
+    "2020-06-16": {
+        "time": "2020-06-16 13:50",
+        "record": {
+            "nuclear": 3817.6,
+            "coal": 12246.2,
+            "co-gen": 1362.5,
+            "lng": 14336.9,
+            "oil": 134,
+            "diesel": 119.5,
+            "hydro": 322.9,
+            "wind": 305.2,
+            "solar": 2301.784,
+            "pumping gen": 613.5,
+            "pumping load": 0
+        },
+        "maxUsed": 35560.08
+    },
+    "2020-06-17": {
+        "time": "2020-06-17 13:40",
+        "record": {
+            "nuclear": 3818.7,
+            "coal": 12253.2,
+            "co-gen": 1612.9,
+            "lng": 14500.4,
+            "oil": 137.2,
+            "diesel": 118.9,
+            "hydro": 319.1,
+            "wind": 336.2,
+            "solar": 2429.629,
+            "pumping gen": 448.3,
+            "pumping load": 0
+        },
+        "maxUsed": 35974.53
+    },
+    "2020-06-18": {
+        "time": "2020-06-18 14:10",
+        "record": {
+            "nuclear": 3831.6,
+            "coal": 12248.9,
+            "co-gen": 1492.2,
+            "lng": 14441.7,
+            "oil": 134,
+            "diesel": 113.6,
+            "hydro": 416.7,
+            "wind": 321.2,
+            "solar": 2247.548,
+            "pumping gen": 634.5,
+            "pumping load": 0
+        },
+        "maxUsed": 35881.95
+    },
+    "2020-06-19": {
+        "time": "2020-06-19 13:50",
+        "record": {
+            "nuclear": 3826,
+            "coal": 12124.2,
+            "co-gen": 1408.4,
+            "lng": 15044.5,
+            "oil": 133.4,
+            "diesel": 117.8,
+            "hydro": 356.8,
+            "wind": 323.8,
+            "solar": 2311.543,
+            "pumping gen": 640.2,
+            "pumping load": 0
+        },
+        "maxUsed": 36286.64
+    },
+    "2020-06-20": {
+        "time": "2020-06-20 13:40",
+        "record": {
+            "nuclear": 3826.2,
+            "coal": 12297.4,
+            "co-gen": 641.2,
+            "lng": 13763.6,
+            "oil": 134,
+            "diesel": 122.2,
+            "hydro": 775.3,
+            "wind": 290.8,
+            "solar": 2278.299,
+            "pumping gen": 1047,
+            "pumping load": 0
+        },
+        "maxUsed": 35176
+    },
+    "2020-06-21": {
+        "time": "2020-06-21 20:50",
+        "record": {
+            "nuclear": 3833.6,
+            "coal": 11890.8,
+            "co-gen": 707.2,
+            "lng": 12935.8,
+            "oil": 132.7,
+            "diesel": 132.1,
+            "hydro": 725.6,
+            "wind": 295.8,
+            "solar": 0,
+            "pumping gen": 832.7,
+            "pumping load": 0
+        },
+        "maxUsed": 31486.3
+    },
+    "2020-06-22": {
+        "time": "2020-06-22 14:00",
+        "record": {
+            "nuclear": 3820.5,
+            "coal": 12289.9,
+            "co-gen": 1529.4,
+            "lng": 15177.2,
+            "oil": 136.6,
+            "diesel": 120.9,
+            "hydro": 429.4,
+            "wind": 372.3,
+            "solar": 2190.089,
+            "pumping gen": 474.1,
+            "pumping load": 0
+        },
+        "maxUsed": 36540.39
+    },
+    "2020-06-23": {
+        "time": "2020-06-23 13:40",
+        "record": {
+            "nuclear": 3814.2,
+            "coal": 12264.1,
+            "co-gen": 1378.9,
+            "lng": 15343.7,
+            "oil": 160.2,
+            "diesel": 127.7,
+            "hydro": 541.1,
+            "wind": 383.6,
+            "solar": 2094.548,
+            "pumping gen": 575.8,
+            "pumping load": 0
+        },
+        "maxUsed": 36683.85
+    },
+    "2020-06-24": {
+        "time": "2020-06-24 13:40",
+        "record": {
+            "nuclear": 3826.4,
+            "coal": 12573.7,
+            "co-gen": 1476,
+            "lng": 15271,
+            "oil": 135.9,
+            "diesel": 124.8,
+            "hydro": 363.5,
+            "wind": 389.2,
+            "solar": 2228.882,
+            "pumping gen": 602.5,
+            "pumping load": 0
+        },
+        "maxUsed": 36991.88
+    },
+    "2020-06-25": {
+        "time": "2020-06-25 20:40",
+        "record": {
+            "nuclear": 3837.5,
+            "coal": 11406.9,
+            "co-gen": 886.7,
+            "lng": 13083.3,
+            "oil": 183.2,
+            "diesel": 132.8,
+            "hydro": 775.5,
+            "wind": 159.4,
+            "solar": 0,
+            "pumping gen": 1259.6,
+            "pumping load": 0
+        },
+        "maxUsed": 31724.9
+    },
+    "2020-06-26": {
+        "time": "2020-06-26 13:20",
+        "record": {
+            "nuclear": 3827.8,
+            "coal": 12107.2,
+            "co-gen": 1498.5,
+            "lng": 9616.5,
+            "oil": 134,
+            "diesel": 113.8,
+            "hydro": 268.4,
+            "wind": 331.9,
+            "solar": 1860.933,
+            "pumping gen": 459.5,
+            "pumping load": 0
+        },
+        "maxUsed": 30218.53
+    },
+    "2020-06-27": {
+        "time": "2020-06-27 20:40",
+        "record": {
+            "nuclear": 3818.4,
+            "coal": 11714.1,
+            "co-gen": 739.1,
+            "lng": 12217,
+            "oil": 134,
+            "diesel": 138.7,
+            "hydro": 737.4,
+            "wind": 74.5,
+            "solar": 0,
+            "pumping gen": 757.5,
+            "pumping load": 0
+        },
+        "maxUsed": 30330.7
+    },
+    "2020-06-28": {
+        "time": "2020-06-28 21:10",
+        "record": {
+            "nuclear": 3539.4,
+            "coal": 11684.1,
+            "co-gen": 567.8,
+            "lng": 13138.7,
+            "oil": 133.4,
+            "diesel": 140.2,
+            "hydro": 867.6,
+            "wind": 11,
+            "solar": 0,
+            "pumping gen": 923.1,
+            "pumping load": 0
+        },
+        "maxUsed": 31005.3
+    },
+    "2020-06-29": {
+        "time": "2020-06-29 13:50",
+        "record": {
+            "nuclear": 3704.7,
+            "coal": 12657.8,
+            "co-gen": 1580.3,
+            "lng": 14441,
+            "oil": 244.5,
+            "diesel": 125.7,
+            "hydro": 270,
+            "wind": 389.1,
+            "solar": 2291.953,
+            "pumping gen": 468.6,
+            "pumping load": 0
+        },
+        "maxUsed": 36173.65
+    },
+    "2020-06-30": {
+        "time": "2020-06-30 14:00",
+        "record": {
+            "nuclear": 3824.1,
+            "coal": 12840.4,
+            "co-gen": 1433.5,
+            "lng": 14659.9,
+            "oil": 272.6,
+            "diesel": 121.2,
+            "hydro": 349.4,
+            "wind": 419.7,
+            "solar": 1991.69,
+            "pumping gen": 639.4,
+            "pumping load": 0
+        },
+        "maxUsed": 36551.89
+    },
+    "2020-07-01": {
+        "time": "2020-07-01 13:40",
+        "record": {
+            "nuclear": 3823.2,
+            "coal": 12770,
+            "co-gen": 1322.7,
+            "lng": 15291.6,
+            "oil": 266.2,
+            "diesel": 124.6,
+            "hydro": 354.1,
+            "wind": 274,
+            "solar": 1357.272,
+            "pumping gen": 607.8,
+            "pumping load": 0
+        },
+        "maxUsed": 36191.47
+    },
+    "2020-07-02": {
+        "time": "2020-07-02 13:30",
+        "record": {
+            "nuclear": 3830.1,
+            "coal": 12814,
+            "co-gen": 1420.5,
+            "lng": 14407.4,
+            "oil": 266.3,
+            "diesel": 208.4,
+            "hydro": 292.2,
+            "wind": 343.2,
+            "solar": 1452.494,
+            "pumping gen": 654.3,
+            "pumping load": 0
+        },
+        "maxUsed": 35688.89
+    },
+    "2020-07-03": {
+        "time": "2020-07-03 14:00",
+        "record": {
+            "nuclear": 3710,
+            "coal": 12794.5,
+            "co-gen": 1430.6,
+            "lng": 13436.7,
+            "oil": 472.5,
+            "diesel": 125.6,
+            "hydro": 378.2,
+            "wind": 242.1,
+            "solar": 1851.681,
+            "pumping gen": 1200.6,
+            "pumping load": 0
+        },
+        "maxUsed": 35642.48
+    },
+    "2020-07-04": {
+        "time": "2020-07-04 13:50",
+        "record": {
+            "nuclear": 3818.7,
+            "coal": 12740.4,
+            "co-gen": 749.7,
+            "lng": 10646.6,
+            "oil": 266.8,
+            "diesel": 120.6,
+            "hydro": 303.3,
+            "wind": 144.5,
+            "solar": 2205.108,
+            "pumping gen": 772.1,
+            "pumping load": 0
+        },
+        "maxUsed": 31767.81
+    },
+    "2020-07-05": {
+        "time": "2020-07-05 20:40",
+        "record": {
+            "nuclear": 3820.5,
+            "coal": 12655,
+            "co-gen": 590.3,
+            "lng": 11072.2,
+            "oil": 265.6,
+            "diesel": 135,
+            "hydro": 788.7,
+            "wind": 101.9,
+            "solar": 0,
+            "pumping gen": 1581.7,
+            "pumping load": 0
+        },
+        "maxUsed": 31010.9
+    },
+    "2020-07-06": {
+        "time": "2020-07-06 14:10",
+        "record": {
+            "nuclear": 3809.6,
+            "coal": 12768.8,
+            "co-gen": 1559.8,
+            "lng": 14084.9,
+            "oil": 266.2,
+            "diesel": 126.5,
+            "hydro": 299.6,
+            "wind": 342.4,
+            "solar": 1987.787,
+            "pumping gen": 500.8,
+            "pumping load": 0
+        },
+        "maxUsed": 35746.39
+    },
+    "2020-07-07": {
+        "time": "2020-07-07 13:40",
+        "record": {
+            "nuclear": 3812.1,
+            "coal": 12737.3,
+            "co-gen": 1529.5,
+            "lng": 14378.5,
+            "oil": 267.5,
+            "diesel": 214,
+            "hydro": 294.1,
+            "wind": 363.8,
+            "solar": 2137.29,
+            "pumping gen": 430.2,
+            "pumping load": 0
+        },
+        "maxUsed": 36164.29
+    },
+    "2020-07-08": {
+        "time": "2020-07-08 14:00",
+        "record": {
+            "nuclear": 3822.5,
+            "coal": 12729.3,
+            "co-gen": 1455.5,
+            "lng": 15021,
+            "oil": 266.2,
+            "diesel": 167,
+            "hydro": 229.8,
+            "wind": 517.7,
+            "solar": 2338.725,
+            "pumping gen": 450.1,
+            "pumping load": 0
+        },
+        "maxUsed": 36997.83
+    },
+    "2020-07-09": {
+        "time": "2020-07-09 13:50",
+        "record": {
+            "nuclear": 3821.7,
+            "coal": 12759.7,
+            "co-gen": 1576.7,
+            "lng": 14548,
+            "oil": 273.9,
+            "diesel": 209.9,
+            "hydro": 244.1,
+            "wind": 471.3,
+            "solar": 2045.484,
+            "pumping gen": 569.7,
+            "pumping load": 0
+        },
+        "maxUsed": 36520.48
+    },
+    "2020-07-10": {
+        "time": "2020-07-10 14:00",
+        "record": {
+            "nuclear": 3821.4,
+            "coal": 12732.1,
+            "co-gen": 1572.8,
+            "lng": 14952.1,
+            "oil": 266.2,
+            "diesel": 127.6,
+            "hydro": 346.6,
+            "wind": 359.7,
+            "solar": 1884.024,
+            "pumping gen": 658.5,
+            "pumping load": 0
+        },
+        "maxUsed": 36721.02
+    },
+    "2020-07-11": {
+        "time": "2020-07-11 14:00",
+        "record": {
+            "nuclear": 3830.1,
+            "coal": 11709.4,
+            "co-gen": 735.4,
+            "lng": 12292.4,
+            "oil": 265.6,
+            "diesel": 116.5,
+            "hydro": 234.1,
+            "wind": 202.1,
+            "solar": 2490.407,
+            "pumping gen": 976.8,
+            "pumping load": 0
+        },
+        "maxUsed": 32852.81
+    },
+    "2020-07-12": {
+        "time": "2020-07-12 20:40",
+        "record": {
+            "nuclear": 3706.2,
+            "coal": 12432,
+            "co-gen": 556.6,
+            "lng": 13117.7,
+            "oil": 263.7,
+            "diesel": 141.4,
+            "hydro": 431.8,
+            "wind": 14.7,
+            "solar": 0,
+            "pumping gen": 1365.3,
+            "pumping load": 0
+        },
+        "maxUsed": 32029.4
+    },
+    "2020-07-13": {
+        "time": "2020-07-13 14:00",
+        "record": {
+            "nuclear": 3818.3,
+            "coal": 12828.6,
+            "co-gen": 1624.1,
+            "lng": 15532.9,
+            "oil": 328.8,
+            "diesel": 122.9,
+            "hydro": 237.3,
+            "wind": 83,
+            "solar": 2406.311,
+            "pumping gen": 459.1,
+            "pumping load": 0
+        },
+        "maxUsed": 37441.31
+    },
+    "2020-07-14": {
+        "time": "2020-07-14 13:50",
+        "record": {
+            "nuclear": 3750.3,
+            "coal": 12807,
+            "co-gen": 1600.1,
+            "lng": 15998.1,
+            "oil": 264.9,
+            "diesel": 213.2,
+            "hydro": 327,
+            "wind": 30,
+            "solar": 2117.28,
+            "pumping gen": 621.6,
+            "pumping load": 0
+        },
+        "maxUsed": 37729.48
+    },
+    "2020-07-15": {
+        "time": "2020-07-15 13:40",
+        "record": {
+            "nuclear": 3653.8,
+            "coal": 13105.3,
+            "co-gen": 1496.5,
+            "lng": 15121.4,
+            "oil": 549.2,
+            "diesel": 207.7,
+            "hydro": 356.9,
+            "wind": 238.8,
+            "solar": 1466.279,
+            "pumping gen": 475.9,
+            "pumping load": 0
+        },
+        "maxUsed": 36671.78
+    },
+    "2020-07-16": {
+        "time": "2020-07-16 13:50",
+        "record": {
+            "nuclear": 3762.2,
+            "coal": 13262.9,
+            "co-gen": 1392.3,
+            "lng": 14430.8,
+            "oil": 346,
+            "diesel": 214.3,
+            "hydro": 428.4,
+            "wind": 241.2,
+            "solar": 1264.76,
+            "pumping gen": 443.7,
+            "pumping load": 0
+        },
+        "maxUsed": 35786.56
+    },
+    "2020-07-17": {
+        "time": "2020-07-17 13:50",
+        "record": {
+            "nuclear": 3658.8,
+            "coal": 13053.2,
+            "co-gen": 1643.1,
+            "lng": 14339.6,
+            "oil": 328.1,
+            "diesel": 130.7,
+            "hydro": 393.1,
+            "wind": 331.3,
+            "solar": 2423.504,
+            "pumping gen": 458.5,
+            "pumping load": 0
+        },
+        "maxUsed": 36759.9
+    },
+    "2020-07-18": {
+        "time": "2020-07-18 13:40",
+        "record": {
+            "nuclear": 3463.3,
+            "coal": 12574.9,
+            "co-gen": 850.4,
+            "lng": 11594.4,
+            "oil": 268.1,
+            "diesel": 121.7,
+            "hydro": 370.1,
+            "wind": 317,
+            "solar": 2737.215,
+            "pumping gen": 774.3,
+            "pumping load": 0
+        },
+        "maxUsed": 33071.42
+    },
+    "2020-07-19": {
+        "time": "2020-07-19 21:10",
+        "record": {
+            "nuclear": 3814.5,
+            "coal": 12250.8,
+            "co-gen": 776.5,
+            "lng": 12660.6,
+            "oil": 266.2,
+            "diesel": 144.2,
+            "hydro": 462.5,
+            "wind": 91.5,
+            "solar": 0,
+            "pumping gen": 1089.1,
+            "pumping load": 0
+        },
+        "maxUsed": 31555.9
+    },
+    "2020-07-20": {
+        "time": "2020-07-20 13:50",
+        "record": {
+            "nuclear": 3662.9,
+            "coal": 13294.5,
+            "co-gen": 1677.7,
+            "lng": 14891,
+            "oil": 268.8,
+            "diesel": 126.4,
+            "hydro": 422.5,
+            "wind": 206.1,
+            "solar": 2186.315,
+            "pumping gen": 608.6,
+            "pumping load": 0
+        },
+        "maxUsed": 37344.82
+    },
+    "2020-07-21": {
+        "time": "2020-07-21 14:00",
+        "record": {
+            "nuclear": 3621.2,
+            "coal": 13270,
+            "co-gen": 1437.5,
+            "lng": 14564.5,
+            "oil": 268.1,
+            "diesel": 131.7,
+            "hydro": 327.7,
+            "wind": 51.3,
+            "solar": 2357.142,
+            "pumping gen": 497.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36527.14
+    },
+    "2020-07-22": {
+        "time": "2020-07-22 14:30",
+        "record": {
+            "nuclear": 3676.1,
+            "coal": 12779.3,
+            "co-gen": 1436.7,
+            "lng": 15509.4,
+            "oil": 271.3,
+            "diesel": 217.6,
+            "hydro": 448.7,
+            "wind": 66.3,
+            "solar": 2137.397,
+            "pumping gen": 728.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 37271.4
+    },
+    "2020-07-23": {
+        "time": "2020-07-23 13:50",
+        "record": {
+            "nuclear": 3684,
+            "coal": 12614.3,
+            "co-gen": 1451.8,
+            "lng": 16104.9,
+            "oil": 270.1,
+            "diesel": 219.3,
+            "hydro": 349,
+            "wind": 71.8,
+            "solar": 2411.158,
+            "pumping gen": 764.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 37941.46
+    },
+    "2020-07-24": {
+        "time": "2020-07-24 14:20",
+        "record": {
+            "nuclear": 3583.1,
+            "coal": 12918,
+            "co-gen": 1558.8,
+            "lng": 15407.7,
+            "oil": 268.1,
+            "diesel": 133.9,
+            "hydro": 415.6,
+            "wind": 158.6,
+            "solar": 2404.374,
+            "pumping gen": 599.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 37448.07
+    },
+    "2020-07-25": {
+        "time": "2020-07-25 13:20",
+        "record": {
+            "nuclear": 3646.2,
+            "coal": 12936.2,
+            "co-gen": 811.8,
+            "lng": 11942.1,
+            "oil": 268.1,
+            "diesel": 128.2,
+            "hydro": 406.5,
+            "wind": 126.2,
+            "solar": 1824.157,
+            "pumping gen": 543.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32633.26
+    },
+    "2020-07-26": {
+        "time": "2020-07-26 20:50",
+        "record": {
+            "nuclear": 3809.3,
+            "coal": 13088.9,
+            "co-gen": 884,
+            "lng": 10596.4,
+            "oil": 265,
+            "diesel": 143.4,
+            "hydro": 480.1,
+            "wind": 44.1,
+            "solar": 0,
+            "pumping gen": 1070.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30381.8
+    },
+    "2020-07-27": {
+        "time": "2020-07-27 13:50",
+        "record": {
+            "nuclear": 3809.2,
+            "coal": 12728.3,
+            "co-gen": 1603.6,
+            "lng": 14976.2,
+            "oil": 266.9,
+            "diesel": 132,
+            "hydro": 355.5,
+            "wind": 140.4,
+            "solar": 2287.429,
+            "pumping gen": 421.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36721.63
+    },
+    "2020-07-28": {
+        "time": "2020-07-28 13:50",
+        "record": {
+            "nuclear": 3820.1,
+            "coal": 12747.5,
+            "co-gen": 1415.6,
+            "lng": 15435.4,
+            "oil": 268.8,
+            "diesel": 125,
+            "hydro": 366.3,
+            "wind": 26.6,
+            "solar": 1296.719,
+            "pumping gen": 683,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36185.22
+    },
+    "2020-07-29": {
+        "time": "2020-07-29 14:20",
+        "record": {
+            "nuclear": 3825.4,
+            "coal": 13075.9,
+            "co-gen": 1430.9,
+            "lng": 14462,
+            "oil": 269.4,
+            "diesel": 132.5,
+            "hydro": 293.8,
+            "wind": 72.3,
+            "solar": 1994.315,
+            "pumping gen": 642.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36199.32
+    },
+    "2020-07-30": {
+        "time": "2020-07-30 13:40",
+        "record": {
+            "nuclear": 3828.1,
+            "coal": 13246.9,
+            "co-gen": 1405.1,
+            "lng": 14627.4,
+            "oil": 263.7,
+            "diesel": 132.5,
+            "hydro": 275.7,
+            "wind": 41.9,
+            "solar": 1032.522,
+            "pumping gen": 643.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35497.62
+    },
+    "2020-07-31": {
+        "time": "2020-07-31 13:50",
+        "record": {
+            "nuclear": 3818.3,
+            "coal": 13183.7,
+            "co-gen": 1532.4,
+            "lng": 14064.5,
+            "oil": 266.2,
+            "diesel": 132.5,
+            "hydro": 279.5,
+            "wind": 45.2,
+            "solar": 1955.042,
+            "pumping gen": 894.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36172.14
+    },
+    "2020-08-01": {
+        "time": "2020-08-01 13:50",
+        "record": {
+            "nuclear": 3821.9,
+            "coal": 12628.2,
+            "co-gen": 775.9,
+            "lng": 11672.4,
+            "oil": 268.1,
+            "diesel": 132.5,
+            "hydro": 353.5,
+            "wind": 63.2,
+            "solar": 2207.81,
+            "pumping gen": 644.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32568.31
+    },
+    "2020-08-02": {
+        "time": "2020-08-02 21:10",
+        "record": {
+            "nuclear": 3625.6,
+            "coal": 12833.5,
+            "co-gen": 820.7,
+            "lng": 11147.6,
+            "oil": 264.9,
+            "diesel": 132.5,
+            "hydro": 372.8,
+            "wind": 24.5,
+            "solar": 0,
+            "pumping gen": 1331.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30553.4
+    },
+    "2020-08-03": {
+        "time": "2020-08-03 11:30",
+        "record": {
+            "nuclear": 3695.3,
+            "coal": 13016.3,
+            "co-gen": 1431.1,
+            "lng": 13150.8,
+            "oil": 266.9,
+            "diesel": 193.2,
+            "hydro": 249.5,
+            "wind": 99.9,
+            "solar": 970.476,
+            "pumping gen": 509.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 33582.78
+    },
+    "2020-08-04": {
+        "time": "2020-08-04 13:50",
+        "record": {
+            "nuclear": 3684.8,
+            "coal": 12444.4,
+            "co-gen": 1388.1,
+            "lng": 13858.9,
+            "oil": 134,
+            "diesel": 272.9,
+            "hydro": 193,
+            "wind": 223.9,
+            "solar": 1166.025,
+            "pumping gen": 608.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 33974.53
+    },
+    "2020-08-05": {
+        "time": "2020-08-05 13:50",
+        "record": {
+            "nuclear": 3636.5,
+            "coal": 12776.5,
+            "co-gen": 1451,
+            "lng": 14211.2,
+            "oil": 134,
+            "diesel": 81.1,
+            "hydro": 196.3,
+            "wind": 36.4,
+            "solar": 2262.578,
+            "pumping gen": 468.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35254.18
+    },
+    "2020-08-06": {
+        "time": "2020-08-06 14:30",
+        "record": {
+            "nuclear": 3705.8,
+            "coal": 12526,
+            "co-gen": 1638.2,
+            "lng": 14690.8,
+            "oil": 134,
+            "diesel": 81.6,
+            "hydro": 232.6,
+            "wind": 203,
+            "solar": 2420.71,
+            "pumping gen": 770.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36403.71
+    },
+    "2020-08-07": {
+        "time": "2020-08-07 14:20",
+        "record": {
+            "nuclear": 3682.1,
+            "coal": 12629.6,
+            "co-gen": 1408.4,
+            "lng": 15411.9,
+            "oil": 135.3,
+            "diesel": 0,
+            "hydro": 263,
+            "wind": 30,
+            "solar": 2159.415,
+            "pumping gen": 817.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36537.62
+    },
+    "2020-08-08": {
+        "time": "2020-08-08 14:00",
+        "record": {
+            "nuclear": 3695.7,
+            "coal": 12703.5,
+            "co-gen": 798.9,
+            "lng": 11546.5,
+            "oil": 134.6,
+            "diesel": 0,
+            "hydro": 226.7,
+            "wind": 44.4,
+            "solar": 2454.382,
+            "pumping gen": 440,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32044.88
+    },
+    "2020-08-09": {
+        "time": "2020-08-09 21:00",
+        "record": {
+            "nuclear": 3820,
+            "coal": 12439.4,
+            "co-gen": 766.7,
+            "lng": 12086.2,
+            "oil": 131.4,
+            "diesel": 0,
+            "hydro": 412.6,
+            "wind": 28,
+            "solar": 0,
+            "pumping gen": 1305.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30990.4
+    },
+    "2020-08-10": {
+        "time": "2020-08-10 13:40",
+        "record": {
+            "nuclear": 3814,
+            "coal": 12585,
+            "co-gen": 1532.8,
+            "lng": 15756,
+            "oil": 194.6,
+            "diesel": 0,
+            "hydro": 362.1,
+            "wind": 28.3,
+            "solar": 1104.637,
+            "pumping gen": 893.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36271.14
+    },
+    "2020-08-11": {
+        "time": "2020-08-11 11:30",
+        "record": {
+            "nuclear": 3819,
+            "coal": 12573.2,
+            "co-gen": 1406.2,
+            "lng": 15015.5,
+            "oil": 518.3,
+            "diesel": 0,
+            "hydro": 202.6,
+            "wind": 179.2,
+            "solar": 702.836,
+            "pumping gen": 645.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35062.34
+    },
+    "2020-08-12": {
+        "time": "2020-08-12 14:00",
+        "record": {
+            "nuclear": 3756.1,
+            "coal": 12363.7,
+            "co-gen": 1243.6,
+            "lng": 15467.2,
+            "oil": 516.4,
+            "diesel": 0,
+            "hydro": 295.7,
+            "wind": 42.1,
+            "solar": 2112.237,
+            "pumping gen": 623.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36420.84
+    },
+    "2020-08-13": {
+        "time": "2020-08-13 14:00",
+        "record": {
+            "nuclear": 3677.2,
+            "coal": 12738.1,
+            "co-gen": 1238.7,
+            "lng": 14862.7,
+            "oil": 517,
+            "diesel": 40.1,
+            "hydro": 272.9,
+            "wind": 32,
+            "solar": 2286.524,
+            "pumping gen": 463.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36128.92
+    },
+    "2020-08-14": {
+        "time": "2020-08-14 13:30",
+        "record": {
+            "nuclear": 3573.5,
+            "coal": 12706.1,
+            "co-gen": 1314.7,
+            "lng": 15043.3,
+            "oil": 265.5,
+            "diesel": 0,
+            "hydro": 273,
+            "wind": 36.5,
+            "solar": 2199.854,
+            "pumping gen": 454.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35867.15
+    },
+    "2020-08-15": {
+        "time": "2020-08-15 13:50",
+        "record": {
+            "nuclear": 3496.1,
+            "coal": 12566.2,
+            "co-gen": 716.3,
+            "lng": 11397,
+            "oil": 263.7,
+            "diesel": 0,
+            "hydro": 317.2,
+            "wind": 29.1,
+            "solar": 1627.61,
+            "pumping gen": 654.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31067.61
+    },
+    "2020-08-16": {
+        "time": "2020-08-16 20:40",
+        "record": {
+            "nuclear": 3816.3,
+            "coal": 12605.3,
+            "co-gen": 890.6,
+            "lng": 10552.9,
+            "oil": 264.3,
+            "diesel": 0,
+            "hydro": 236.7,
+            "wind": 19.3,
+            "solar": 0,
+            "pumping gen": 1133.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29519
+    },
+    "2020-08-17": {
+        "time": "2020-08-17 14:00",
+        "record": {
+            "nuclear": 3812.1,
+            "coal": 12635.4,
+            "co-gen": 1634.8,
+            "lng": 14445.6,
+            "oil": 265.6,
+            "diesel": 0,
+            "hydro": 349.1,
+            "wind": 44.1,
+            "solar": 1787.56,
+            "pumping gen": 498.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35473.26
+    },
+    "2020-08-18": {
+        "time": "2020-08-18 14:40",
+        "record": {
+            "nuclear": 3818.3,
+            "coal": 12897.1,
+            "co-gen": 1722.5,
+            "lng": 14450.4,
+            "oil": 266.9,
+            "diesel": 0,
+            "hydro": 261.2,
+            "wind": 49.1,
+            "solar": 1812.257,
+            "pumping gen": 891.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36169.66
+    },
+    "2020-08-19": {
+        "time": "2020-08-19 14:10",
+        "record": {
+            "nuclear": 3810.6,
+            "coal": 12464.3,
+            "co-gen": 1711.8,
+            "lng": 15083.7,
+            "oil": 268.1,
+            "diesel": 0,
+            "hydro": 390.7,
+            "wind": 75.2,
+            "solar": 2254.8,
+            "pumping gen": 821.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36881.1
+    },
+    "2020-08-20": {
+        "time": "2020-08-20 13:40",
+        "record": {
+            "nuclear": 3816.7,
+            "coal": 12529,
+            "co-gen": 1962.2,
+            "lng": 14600,
+            "oil": 266.2,
+            "diesel": 82.8,
+            "hydro": 405,
+            "wind": 47.2,
+            "solar": 2384.587,
+            "pumping gen": 619,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36712.89
+    },
+    "2020-08-21": {
+        "time": "2020-08-21 13:40",
+        "record": {
+            "nuclear": 3824.3,
+            "coal": 12201.9,
+            "co-gen": 1439.2,
+            "lng": 15468.3,
+            "oil": 268.2,
+            "diesel": 0,
+            "hydro": 389.8,
+            "wind": 97.4,
+            "solar": 2255.432,
+            "pumping gen": 752.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36697.03
+    },
+    "2020-08-22": {
+        "time": "2020-08-22 13:40",
+        "record": {
+            "nuclear": 3829.1,
+            "coal": 11731.6,
+            "co-gen": 1195.9,
+            "lng": 10902.1,
+            "oil": 265.6,
+            "diesel": 0,
+            "hydro": 310.9,
+            "wind": 374.3,
+            "solar": 1744.891,
+            "pumping gen": 466,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30820.59
+    },
+    "2020-08-23": {
+        "time": "2020-08-23 20:30",
+        "record": {
+            "nuclear": 3821.1,
+            "coal": 11964.2,
+            "co-gen": 1421.8,
+            "lng": 10618.6,
+            "oil": 265.6,
+            "diesel": 0,
+            "hydro": 347.5,
+            "wind": 66,
+            "solar": 0,
+            "pumping gen": 1488.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29993.7
+    },
+    "2020-08-24": {
+        "time": "2020-08-24 13:50",
+        "record": {
+            "nuclear": 3826.1,
+            "coal": 12225.2,
+            "co-gen": 2157.2,
+            "lng": 13918.2,
+            "oil": 295.6,
+            "diesel": 0,
+            "hydro": 371.8,
+            "wind": 186.8,
+            "solar": 2267.082,
+            "pumping gen": 1063.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36311.58
+    },
+    "2020-08-25": {
+        "time": "2020-08-25 14:00",
+        "record": {
+            "nuclear": 3831.3,
+            "coal": 12794.1,
+            "co-gen": 2186.9,
+            "lng": 14159.7,
+            "oil": 520.3,
+            "diesel": 32.4,
+            "hydro": 386.5,
+            "wind": 340.3,
+            "solar": 2154.463,
+            "pumping gen": 620.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 37026.96
+    },
+    "2020-08-26": {
+        "time": "2020-08-26 13:40",
+        "record": {
+            "nuclear": 3827.7,
+            "coal": 13161.9,
+            "co-gen": 2012.5,
+            "lng": 14578.3,
+            "oil": 263.6,
+            "diesel": 0,
+            "hydro": 289.7,
+            "wind": 345.3,
+            "solar": 678.186,
+            "pumping gen": 606.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35763.59
+    },
+    "2020-08-27": {
+        "time": "2020-08-27 11:40",
+        "record": {
+            "nuclear": 3820.7,
+            "coal": 13073.8,
+            "co-gen": 2021.9,
+            "lng": 13731.6,
+            "oil": 135.9,
+            "diesel": 0,
+            "hydro": 237.6,
+            "wind": 262.7,
+            "solar": 1024.973,
+            "pumping gen": 629.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 34939.17
+    },
+    "2020-08-28": {
+        "time": "2020-08-28 14:00",
+        "record": {
+            "nuclear": 3819.5,
+            "coal": 12672.8,
+            "co-gen": 1983.2,
+            "lng": 13638.9,
+            "oil": 136.6,
+            "diesel": 0,
+            "hydro": 275.5,
+            "wind": 165.8,
+            "solar": 1794.973,
+            "pumping gen": 518.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35006.27
+    },
+    "2020-08-29": {
+        "time": "2020-08-29 18:50",
+        "record": {
+            "nuclear": 3827.8,
+            "coal": 12037.6,
+            "co-gen": 1513.9,
+            "lng": 11976,
+            "oil": 132.7,
+            "diesel": 0,
+            "hydro": 385,
+            "wind": 74.1,
+            "solar": 4.034,
+            "pumping gen": 939.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30891.13
+    },
+    "2020-08-30": {
+        "time": "2020-08-30 21:00",
+        "record": {
+            "nuclear": 3734.8,
+            "coal": 12467.2,
+            "co-gen": 1500.1,
+            "lng": 11299.5,
+            "oil": 134,
+            "diesel": 0,
+            "hydro": 397.9,
+            "wind": 138.1,
+            "solar": 0,
+            "pumping gen": 887.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30559.6
+    },
+    "2020-08-31": {
+        "time": "2020-08-31 14:10",
+        "record": {
+            "nuclear": 3531.4,
+            "coal": 12292.7,
+            "co-gen": 2125.1,
+            "lng": 13946.1,
+            "oil": 267.5,
+            "diesel": 0,
+            "hydro": 259.4,
+            "wind": 287.7,
+            "solar": 1841.132,
+            "pumping gen": 447.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 34998.73
+    },
+    "2020-09-01": {
+        "time": "2020-09-01 14:30",
+        "record": {
+            "nuclear": 3688.7,
+            "coal": 12327.2,
+            "co-gen": 2059.4,
+            "lng": 13910.3,
+            "oil": 263,
+            "diesel": 32,
+            "hydro": 284.6,
+            "wind": 27.7,
+            "solar": 2253.93,
+            "pumping gen": 467.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35314.13
+    },
+    "2020-09-02": {
+        "time": "2020-09-02 14:20",
+        "record": {
+            "nuclear": 3723.8,
+            "coal": 12423.8,
+            "co-gen": 1993.8,
+            "lng": 14556.2,
+            "oil": 266.9,
+            "diesel": 0,
+            "hydro": 272.6,
+            "wind": 303.8,
+            "solar": 2179.609,
+            "pumping gen": 629.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36350.51
+    },
+    "2020-09-03": {
+        "time": "2020-09-03 14:10",
+        "record": {
+            "nuclear": 3819.7,
+            "coal": 12865.4,
+            "co-gen": 2146.7,
+            "lng": 13628.5,
+            "oil": 270.1,
+            "diesel": 0,
+            "hydro": 242.1,
+            "wind": 28.2,
+            "solar": 1928.104,
+            "pumping gen": 435,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35364
+    },
+    "2020-09-04": {
+        "time": "2020-09-04 14:30",
+        "record": {
+            "nuclear": 3813.3,
+            "coal": 12941.4,
+            "co-gen": 2019.9,
+            "lng": 13551.5,
+            "oil": 266.2,
+            "diesel": 0,
+            "hydro": 192.8,
+            "wind": 399.2,
+            "solar": 2193.034,
+            "pumping gen": 506.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35883.63
+    },
+    "2020-09-05": {
+        "time": "2020-09-05 14:00",
+        "record": {
+            "nuclear": 3816.2,
+            "coal": 12860.8,
+            "co-gen": 1452.7,
+            "lng": 8858.8,
+            "oil": 262.4,
+            "diesel": 0,
+            "hydro": 159.3,
+            "wind": 363.1,
+            "solar": 2207.217,
+            "pumping gen": 638.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30619.02
+    },
+    "2020-09-06": {
+        "time": "2020-09-06 20:30",
+        "record": {
+            "nuclear": 3823.6,
+            "coal": 12258.3,
+            "co-gen": 1380.1,
+            "lng": 8712.6,
+            "oil": 269.4,
+            "diesel": 0,
+            "hydro": 345.7,
+            "wind": 50.1,
+            "solar": 0,
+            "pumping gen": 890.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27730.2
+    },
+    "2020-09-07": {
+        "time": "2020-09-07 14:50",
+        "record": {
+            "nuclear": 3816.4,
+            "coal": 12626.7,
+            "co-gen": 2097,
+            "lng": 11877.5,
+            "oil": 268.1,
+            "diesel": 0,
+            "hydro": 249.3,
+            "wind": 40.8,
+            "solar": 1984.115,
+            "pumping gen": 825.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 33785.62
+    },
+    "2020-09-08": {
+        "time": "2020-09-08 13:50",
+        "record": {
+            "nuclear": 3812.7,
+            "coal": 11925.9,
+            "co-gen": 2012.9,
+            "lng": 13934.9,
+            "oil": 267.5,
+            "diesel": 0,
+            "hydro": 239.9,
+            "wind": 13.5,
+            "solar": 2215.732,
+            "pumping gen": 660,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35083.23
+    },
+    "2020-09-09": {
+        "time": "2020-09-09 14:30",
+        "record": {
+            "nuclear": 3824,
+            "coal": 11905.3,
+            "co-gen": 1849.3,
+            "lng": 14598.5,
+            "oil": 264.9,
+            "diesel": 0,
+            "hydro": 285.5,
+            "wind": 18.6,
+            "solar": 1860.173,
+            "pumping gen": 628.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35234.87
+    },
+    "2020-09-10": {
+        "time": "2020-09-10 13:50",
+        "record": {
+            "nuclear": 3816.9,
+            "coal": 12120.7,
+            "co-gen": 1859.9,
+            "lng": 14207.6,
+            "oil": 266.3,
+            "diesel": 0,
+            "hydro": 296.9,
+            "wind": 12.7,
+            "solar": 2143.638,
+            "pumping gen": 638.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35362.94
+    },
+    "2020-09-11": {
+        "time": "2020-09-11 13:50",
+        "record": {
+            "nuclear": 3809.6,
+            "coal": 12310.4,
+            "co-gen": 1795.6,
+            "lng": 14664,
+            "oil": 267.5,
+            "diesel": 0,
+            "hydro": 279,
+            "wind": 133.7,
+            "solar": 1622.565,
+            "pumping gen": 660.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35542.67
+    },
+    "2020-09-12": {
+        "time": "2020-09-12 13:50",
+        "record": {
+            "nuclear": 2838.7,
+            "coal": 11515.5,
+            "co-gen": 1214.5,
+            "lng": 12475.1,
+            "oil": 262.4,
+            "diesel": 0,
+            "hydro": 298.9,
+            "wind": 25.6,
+            "solar": 1899.399,
+            "pumping gen": 486.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31016.9
+    },
+    "2020-09-13": {
+        "time": "2020-09-13 20:40",
+        "record": {
+            "nuclear": 2874.1,
+            "coal": 11309.3,
+            "co-gen": 890.5,
+            "lng": 11864,
+            "oil": 834.5,
+            "diesel": 0,
+            "hydro": 231.5,
+            "wind": 265,
+            "solar": 0,
+            "pumping gen": 1539.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29808.6
+    },
+    "2020-09-14": {
+        "time": "2020-09-14 13:40",
+        "record": {
+            "nuclear": 3098.6,
+            "coal": 12355.1,
+            "co-gen": 1719.9,
+            "lng": 14523.4,
+            "oil": 404.8,
+            "diesel": 0,
+            "hydro": 195.5,
+            "wind": 269,
+            "solar": 2303.314,
+            "pumping gen": 621.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 35491.11
+    },
+    "2020-09-15": {
+        "time": "2020-09-15 14:10",
+        "record": {
+            "nuclear": 3598.9,
+            "coal": 12342.3,
+            "co-gen": 1806.9,
+            "lng": 14732.1,
+            "oil": 649.3,
+            "diesel": 0,
+            "hydro": 266.2,
+            "wind": 97.2,
+            "solar": 2017.284,
+            "pumping gen": 618.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36129.28
+    },
+    "2020-09-16": {
+        "time": "2020-09-16 14:00",
+        "record": {
+            "nuclear": 3713.6,
+            "coal": 12397.5,
+            "co-gen": 1690.5,
+            "lng": 14698.3,
+            "oil": 532.4,
+            "diesel": 82,
+            "hydro": 328.7,
+            "wind": 54.5,
+            "solar": 2198.564,
+            "pumping gen": 709.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36405.56
+    },
+    "2020-09-17": {
+        "time": "2020-09-17 13:40",
+        "record": {
+            "nuclear": 3799.2,
+            "coal": 12384.7,
+            "co-gen": 1594.6,
+            "lng": 14716.2,
+            "oil": 609.6,
+            "diesel": 0,
+            "hydro": 310,
+            "wind": 21.1,
+            "solar": 1971.118,
+            "pumping gen": 1225.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36632.62
+    },
+    "2020-09-18": {
+        "time": "2020-09-18 14:00",
+        "record": {
+            "nuclear": 3806.5,
+            "coal": 12324.2,
+            "co-gen": 1697.4,
+            "lng": 15044.2,
+            "oil": 632.7,
+            "diesel": 0,
+            "hydro": 303.2,
+            "wind": 180,
+            "solar": 1949.805,
+            "pumping gen": 792.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 36731.01
+    },
+    "2020-09-19": {
+        "time": "2020-09-19 13:40",
+        "record": {
+            "nuclear": 3356.7,
+            "coal": 12097.1,
+            "co-gen": 1147.8,
+            "lng": 12001.5,
+            "oil": 282.1,
+            "diesel": 0,
+            "hydro": 432,
+            "wind": 102.9,
+            "solar": 2218.262,
+            "pumping gen": 775.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32413.66
+    },
+    "2020-09-20": {
+        "time": "2020-09-20 21:00",
+        "record": {
+            "nuclear": 3771.8,
+            "coal": 11549.4,
+            "co-gen": 980.3,
+            "lng": 11218.6,
+            "oil": 132.1,
+            "diesel": 0,
+            "hydro": 354,
+            "wind": 489.6,
+            "solar": 0,
+            "pumping gen": 845.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29341.1
+    },
+    "2020-09-21": {
+        "time": "2020-09-21 14:00",
+        "record": {
+            "nuclear": 3814.3,
+            "coal": 12364.1,
+            "co-gen": 1769.7,
+            "lng": 12474.8,
+            "oil": 268.8,
+            "diesel": 0,
+            "hydro": 343.4,
+            "wind": 574.4,
+            "solar": 2106.898,
+            "pumping gen": 531.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 34248.4
+    },
+    "2020-09-22": {
+        "time": "2020-09-22 13:50",
+        "record": {
+            "nuclear": 3817.1,
+            "coal": 12355,
+            "co-gen": 1286.2,
+            "lng": 12539.8,
+            "oil": 267.5,
+            "diesel": 105.5,
+            "hydro": 344.1,
+            "wind": 513.2,
+            "solar": 2390.021,
+            "pumping gen": 453.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 34072.52
+    },
+    "2020-09-23": {
+        "time": "2020-09-23 14:00",
+        "record": {
+            "nuclear": 3828.7,
+            "coal": 12377.7,
+            "co-gen": 1103.2,
+            "lng": 12989.4,
+            "oil": 269.4,
+            "diesel": 111.2,
+            "hydro": 382.5,
+            "wind": 219.4,
+            "solar": 2316.388,
+            "pumping gen": 942,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 34540.09
+    },
+    "2020-09-24": {
+        "time": "2020-09-24 11:40",
+        "record": {
+            "nuclear": 3831.1,
+            "coal": 12246,
+            "co-gen": 1162.4,
+            "lng": 12464.9,
+            "oil": 269.4,
+            "diesel": 113,
+            "hydro": 325.9,
+            "wind": 293.1,
+            "solar": 2122.443,
+            "pumping gen": 442.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 33271.14
+    },
+    "2020-09-25": {
+        "time": "2020-09-25 13:50",
+        "record": {
+            "nuclear": 3823.2,
+            "coal": 11820,
+            "co-gen": 1678.1,
+            "lng": 11353.1,
+            "oil": 268.8,
+            "diesel": 97.1,
+            "hydro": 391.4,
+            "wind": 525.3,
+            "solar": 1528.228,
+            "pumping gen": 462.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31948.23
+    },
+    "2020-09-26": {
+        "time": "2020-09-26 13:50",
+        "record": {
+            "nuclear": 3821.5,
+            "coal": 11808.4,
+            "co-gen": 1085.5,
+            "lng": 10987.4,
+            "oil": 270.7,
+            "diesel": 93.7,
+            "hydro": 340.1,
+            "wind": 443.4,
+            "solar": 1733.139,
+            "pumping gen": 444.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31028.14
+    },
+    "2020-09-27": {
+        "time": "2020-09-27 18:30",
+        "record": {
+            "nuclear": 3812.6,
+            "coal": 12167.8,
+            "co-gen": 891.7,
+            "lng": 7947.3,
+            "oil": 269.4,
+            "diesel": 105.8,
+            "hydro": 459.6,
+            "wind": 232.7,
+            "solar": 3,
+            "pumping gen": 788.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26678.8
+    },
+    "2020-09-28": {
+        "time": "2020-09-28 14:00",
+        "record": {
+            "nuclear": 3820.8,
+            "coal": 12355.2,
+            "co-gen": 1615.6,
+            "lng": 10629.6,
+            "oil": 269.4,
+            "diesel": 96.8,
+            "hydro": 268.6,
+            "wind": 121.7,
+            "solar": 1342.143,
+            "pumping gen": 511.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31031.94
+    },
+    "2020-09-29": {
+        "time": "2020-09-29 14:00",
+        "record": {
+            "nuclear": 3817.2,
+            "coal": 11788.7,
+            "co-gen": 1636,
+            "lng": 10894.3,
+            "oil": 270,
+            "diesel": 95.4,
+            "hydro": 302,
+            "wind": 313.8,
+            "solar": 2078.645,
+            "pumping gen": 430.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31626.95
+    },
+    "2020-09-30": {
+        "time": "2020-09-30 14:10",
+        "record": {
+            "nuclear": 3817.7,
+            "coal": 11420.1,
+            "co-gen": 1711.2,
+            "lng": 10502.6,
+            "oil": 268.1,
+            "diesel": 85.3,
+            "hydro": 392,
+            "wind": 456.7,
+            "solar": 1422.727,
+            "pumping gen": 517.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30594.43
+    },
+    "2020-10-01": {
+        "time": "2020-10-01 18:10",
+        "record": {
+            "nuclear": 3829.3,
+            "coal": 9296.1,
+            "co-gen": 812.3,
+            "lng": 10141.1,
+            "oil": 268.2,
+            "diesel": 100.8,
+            "hydro": 517.7,
+            "wind": 495.4,
+            "solar": 20.042,
+            "pumping gen": 786.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26267.64
+    },
+    "2020-10-02": {
+        "time": "2020-10-02 14:50",
+        "record": {
+            "nuclear": 3837.8,
+            "coal": 9343.3,
+            "co-gen": 857.7,
+            "lng": 8674.4,
+            "oil": 162.1,
+            "diesel": 88.9,
+            "hydro": 394.1,
+            "wind": 444.8,
+            "solar": 2706.122,
+            "pumping gen": 609.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27119.02
+    },
+    "2020-10-03": {
+        "time": "2020-10-03 18:10",
+        "record": {
+            "nuclear": 3839.1,
+            "coal": 9249.1,
+            "co-gen": 948.5,
+            "lng": 11251.7,
+            "oil": 266.2,
+            "diesel": 117.1,
+            "hydro": 603.2,
+            "wind": 43.5,
+            "solar": 21.716,
+            "pumping gen": 1086.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27426.62
+    },
+    "2020-10-04": {
+        "time": "2020-10-04 21:00",
+        "record": {
+            "nuclear": 3840,
+            "coal": 9961.8,
+            "co-gen": 750.5,
+            "lng": 11852.5,
+            "oil": 265.6,
+            "diesel": 120.9,
+            "hydro": 498,
+            "wind": 60.6,
+            "solar": 0,
+            "pumping gen": 768.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 28118.6
+    },
+    "2020-10-05": {
+        "time": "2020-10-05 15:40",
+        "record": {
+            "nuclear": 3833.8,
+            "coal": 10070.5,
+            "co-gen": 938.9,
+            "lng": 14700.4,
+            "oil": 266.3,
+            "diesel": 95,
+            "hydro": 367.6,
+            "wind": 599.5,
+            "solar": 948.872,
+            "pumping gen": 525.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32346.27
+    },
+    "2020-10-06": {
+        "time": "2020-10-06 15:30",
+        "record": {
+            "nuclear": 3821.3,
+            "coal": 10072.7,
+            "co-gen": 1056.4,
+            "lng": 13497.7,
+            "oil": 134,
+            "diesel": 85.4,
+            "hydro": 451.4,
+            "wind": 612.5,
+            "solar": 1320.687,
+            "pumping gen": 612.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31665.09
+    },
+    "2020-10-07": {
+        "time": "2020-10-07 13:50",
+        "record": {
+            "nuclear": 3825.1,
+            "coal": 9749.7,
+            "co-gen": 794.9,
+            "lng": 13021.9,
+            "oil": 134,
+            "diesel": 80.9,
+            "hydro": 392.1,
+            "wind": 623.4,
+            "solar": 1750.467,
+            "pumping gen": 671.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31043.87
+    },
+    "2020-10-08": {
+        "time": "2020-10-08 16:20",
+        "record": {
+            "nuclear": 3832,
+            "coal": 9613.7,
+            "co-gen": 893.2,
+            "lng": 13916.2,
+            "oil": 132.7,
+            "diesel": 89.5,
+            "hydro": 362.4,
+            "wind": 609,
+            "solar": 425.986,
+            "pumping gen": 801.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30676.09
+    },
+    "2020-10-09": {
+        "time": "2020-10-09 18:20",
+        "record": {
+            "nuclear": 3834,
+            "coal": 8397.4,
+            "co-gen": 884.2,
+            "lng": 12139.7,
+            "oil": 132.7,
+            "diesel": 97.3,
+            "hydro": 527.3,
+            "wind": 576.8,
+            "solar": 0.012,
+            "pumping gen": 739.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27328.81
+    },
+    "2020-10-10": {
+        "time": "2020-10-10 18:10",
+        "record": {
+            "nuclear": 3826.3,
+            "coal": 8298.6,
+            "co-gen": 916.9,
+            "lng": 11717.4,
+            "oil": 134,
+            "diesel": 91.8,
+            "hydro": 520.1,
+            "wind": 571.6,
+            "solar": 0.011,
+            "pumping gen": 1148.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27225.31
+    },
+    "2020-10-11": {
+        "time": "2020-10-11 18:10",
+        "record": {
+            "nuclear": 3825,
+            "coal": 8251.7,
+            "co-gen": 725,
+            "lng": 11949.6,
+            "oil": 130.2,
+            "diesel": 93.7,
+            "hydro": 583.1,
+            "wind": 523.9,
+            "solar": 0.011,
+            "pumping gen": 1226.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27309.31
+    },
+    "2020-10-12": {
+        "time": "2020-10-12 14:40",
+        "record": {
+            "nuclear": 3835,
+            "coal": 9454.9,
+            "co-gen": 959.4,
+            "lng": 14912.3,
+            "oil": 588,
+            "diesel": 82.5,
+            "hydro": 341,
+            "wind": 549,
+            "solar": 1520.048,
+            "pumping gen": 646,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32888.35
+    },
+    "2020-10-13": {
+        "time": "2020-10-13 15:00",
+        "record": {
+            "nuclear": 3841.6,
+            "coal": 9490.7,
+            "co-gen": 1072.6,
+            "lng": 14939.4,
+            "oil": 649.3,
+            "diesel": 81.8,
+            "hydro": 343.7,
+            "wind": 547.1,
+            "solar": 1424.535,
+            "pumping gen": 694.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 33085.44
+    },
+    "2020-10-14": {
+        "time": "2020-10-14 14:10",
+        "record": {
+            "nuclear": 3841.2,
+            "coal": 9484.1,
+            "co-gen": 856.4,
+            "lng": 14871.3,
+            "oil": 268.2,
+            "diesel": 80.6,
+            "hydro": 332.2,
+            "wind": 599.3,
+            "solar": 1818.166,
+            "pumping gen": 486.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32637.87
+    },
+    "2020-10-15": {
+        "time": "2020-10-15 15:20",
+        "record": {
+            "nuclear": 3848.5,
+            "coal": 9405.3,
+            "co-gen": 982.3,
+            "lng": 15145.2,
+            "oil": 268.2,
+            "diesel": 82.7,
+            "hydro": 414.5,
+            "wind": 563.9,
+            "solar": 1312.493,
+            "pumping gen": 484.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32507.99
+    },
+    "2020-10-16": {
+        "time": "2020-10-16 11:40",
+        "record": {
+            "nuclear": 3844.4,
+            "coal": 9391.8,
+            "co-gen": 1004.3,
+            "lng": 14802.2,
+            "oil": 270,
+            "diesel": 82.4,
+            "hydro": 405.1,
+            "wind": 281.6,
+            "solar": 2159.947,
+            "pumping gen": 424,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32665.95
+    },
+    "2020-10-17": {
+        "time": "2020-10-17 17:50",
+        "record": {
+            "nuclear": 3850,
+            "coal": 8464.4,
+            "co-gen": 667.7,
+            "lng": 12354,
+            "oil": 270.6,
+            "diesel": 85.8,
+            "hydro": 600.9,
+            "wind": 633.8,
+            "solar": 0.02,
+            "pumping gen": 996.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 27924.32
+    },
+    "2020-10-18": {
+        "time": "2020-10-18 18:10",
+        "record": {
+            "nuclear": 3659.9,
+            "coal": 8693.4,
+            "co-gen": 513.1,
+            "lng": 10601.9,
+            "oil": 266.9,
+            "diesel": 86.4,
+            "hydro": 592.3,
+            "wind": 648.1,
+            "solar": 0.009,
+            "pumping gen": 1188.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26250.91
+    },
+    "2020-10-19": {
+        "time": "2020-10-19 16:20",
+        "record": {
+            "nuclear": 3849.9,
+            "coal": 9356.4,
+            "co-gen": 787.6,
+            "lng": 14200.7,
+            "oil": 268.1,
+            "diesel": 91,
+            "hydro": 573.9,
+            "wind": 620.4,
+            "solar": 493.982,
+            "pumping gen": 635.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30877.58
+    },
+    "2020-10-20": {
+        "time": "2020-10-20 15:40",
+        "record": {
+            "nuclear": 3843.9,
+            "coal": 9388.4,
+            "co-gen": 946.9,
+            "lng": 14485.3,
+            "oil": 136,
+            "diesel": 87.2,
+            "hydro": 412.4,
+            "wind": 641.3,
+            "solar": 861.611,
+            "pumping gen": 624.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31428.01
+    },
+    "2020-10-21": {
+        "time": "2020-10-21 13:40",
+        "record": {
+            "nuclear": 3842.6,
+            "coal": 9805.2,
+            "co-gen": 802.5,
+            "lng": 14535.7,
+            "oil": 133.5,
+            "diesel": 87.5,
+            "hydro": 560.9,
+            "wind": 594,
+            "solar": 1272.952,
+            "pumping gen": 518.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 32153.85
+    },
+    "2020-10-22": {
+        "time": "2020-10-22 11:10",
+        "record": {
+            "nuclear": 3850.1,
+            "coal": 9871.2,
+            "co-gen": 673.4,
+            "lng": 13143.8,
+            "oil": 130.3,
+            "diesel": 83.3,
+            "hydro": 558.8,
+            "wind": 616.3,
+            "solar": 1555.283,
+            "pumping gen": 497.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30980.08
+    },
+    "2020-10-23": {
+        "time": "2020-10-23 11:10",
+        "record": {
+            "nuclear": 3854.9,
+            "coal": 8814.2,
+            "co-gen": 870,
+            "lng": 12730.5,
+            "oil": 133.5,
+            "diesel": 82.2,
+            "hydro": 551.3,
+            "wind": 559.7,
+            "solar": 1315.654,
+            "pumping gen": 500.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29412.85
+    },
+    "2020-10-24": {
+        "time": "2020-10-24 18:00",
+        "record": {
+            "nuclear": 3834.9,
+            "coal": 8767,
+            "co-gen": 691.1,
+            "lng": 10871.4,
+            "oil": 133.5,
+            "diesel": 100.8,
+            "hydro": 592.6,
+            "wind": 474.8,
+            "solar": 0.009,
+            "pumping gen": 912.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26378.41
+    },
+    "2020-10-25": {
+        "time": "2020-10-25 18:20",
+        "record": {
+            "nuclear": 3715.1,
+            "coal": 8626.7,
+            "co-gen": 665.6,
+            "lng": 10642,
+            "oil": 134.8,
+            "diesel": 104.4,
+            "hydro": 494.9,
+            "wind": 502.8,
+            "solar": 0.009,
+            "pumping gen": 1056.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25942.91
+    },
+    "2020-10-26": {
+        "time": "2020-10-26 16:20",
+        "record": {
+            "nuclear": 3824.8,
+            "coal": 9053.7,
+            "co-gen": 655.2,
+            "lng": 14593.3,
+            "oil": 388.4,
+            "diesel": 92.3,
+            "hydro": 314.4,
+            "wind": 418.2,
+            "solar": 512.933,
+            "pumping gen": 1066.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30920.23
+    },
+    "2020-10-27": {
+        "time": "2020-10-27 16:10",
+        "record": {
+            "nuclear": 3753.2,
+            "coal": 9085.4,
+            "co-gen": 879.2,
+            "lng": 14980.4,
+            "oil": 134.8,
+            "diesel": 91.6,
+            "hydro": 403.4,
+            "wind": 366.7,
+            "solar": 595.131,
+            "pumping gen": 1219.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31509.13
+    },
+    "2020-10-28": {
+        "time": "2020-10-28 14:50",
+        "record": {
+            "nuclear": 3858.7,
+            "coal": 8944.8,
+            "co-gen": 777.1,
+            "lng": 14827.8,
+            "oil": 389.6,
+            "diesel": 86.1,
+            "hydro": 328.5,
+            "wind": 578.3,
+            "solar": 1404.053,
+            "pumping gen": 624.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31819.45
+    },
+    "2020-10-29": {
+        "time": "2020-10-29 14:50",
+        "record": {
+            "nuclear": 3848.7,
+            "coal": 8956.3,
+            "co-gen": 832.2,
+            "lng": 14359.3,
+            "oil": 135.4,
+            "diesel": 78.2,
+            "hydro": 369.9,
+            "wind": 614.2,
+            "solar": 1245.838,
+            "pumping gen": 666.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31106.84
+    },
+    "2020-10-30": {
+        "time": "2020-10-30 11:20",
+        "record": {
+            "nuclear": 3848.5,
+            "coal": 9242,
+            "co-gen": 813.3,
+            "lng": 12378.3,
+            "oil": 134.1,
+            "diesel": 71,
+            "hydro": 431.3,
+            "wind": 597.9,
+            "solar": 2059.481,
+            "pumping gen": 456.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30032.88
+    },
+    "2020-10-31": {
+        "time": "2020-10-31 18:10",
+        "record": {
+            "nuclear": 3851.7,
+            "coal": 8043.9,
+            "co-gen": 694.4,
+            "lng": 11572.4,
+            "oil": 134.8,
+            "diesel": 93.2,
+            "hydro": 500,
+            "wind": 575.1,
+            "solar": 0,
+            "pumping gen": 1089.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26555
+    },
+    "2020-11-01": {
+        "time": "2020-11-01 18:00",
+        "record": {
+            "nuclear": 3857.6,
+            "coal": 7726.7,
+            "co-gen": 607.2,
+            "lng": 12022.1,
+            "oil": 134.8,
+            "diesel": 102.1,
+            "hydro": 443.5,
+            "wind": 118.4,
+            "solar": 0.01,
+            "pumping gen": 954.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25967.41
+    },
+    "2020-11-02": {
+        "time": "2020-11-02 16:50",
+        "record": {
+            "nuclear": 3851.5,
+            "coal": 8938.2,
+            "co-gen": 864.8,
+            "lng": 14582.2,
+            "oil": 134.1,
+            "diesel": 88.4,
+            "hydro": 312,
+            "wind": 614.6,
+            "solar": 232.362,
+            "pumping gen": 607.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30225.86
+    },
+    "2020-11-03": {
+        "time": "2020-11-03 16:40",
+        "record": {
+            "nuclear": 3849.6,
+            "coal": 8649.4,
+            "co-gen": 707.2,
+            "lng": 14659,
+            "oil": 136,
+            "diesel": 80.9,
+            "hydro": 264.8,
+            "wind": 622.4,
+            "solar": 218.507,
+            "pumping gen": 600.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29788.51
+    },
+    "2020-11-04": {
+        "time": "2020-11-04 16:10",
+        "record": {
+            "nuclear": 3847.2,
+            "coal": 8433.1,
+            "co-gen": 735,
+            "lng": 14221.5,
+            "oil": 400.5,
+            "diesel": 73.6,
+            "hydro": 298.4,
+            "wind": 594.9,
+            "solar": 512.413,
+            "pumping gen": 448.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29565.31
+    },
+    "2020-11-05": {
+        "time": "2020-11-05 16:40",
+        "record": {
+            "nuclear": 3852.3,
+            "coal": 8460.4,
+            "co-gen": 803,
+            "lng": 14825.5,
+            "oil": 133.5,
+            "diesel": 78,
+            "hydro": 325.4,
+            "wind": 567.5,
+            "solar": 248.714,
+            "pumping gen": 811.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30106.21
+    },
+    "2020-11-06": {
+        "time": "2020-11-06 16:40",
+        "record": {
+            "nuclear": 3849.9,
+            "coal": 9766.7,
+            "co-gen": 961.2,
+            "lng": 15022.5,
+            "oil": 134.1,
+            "diesel": 83.1,
+            "hydro": 343.4,
+            "wind": 301.9,
+            "solar": 71.746,
+            "pumping gen": 1022,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31556.75
+    },
+    "2020-11-07": {
+        "time": "2020-11-07 17:40",
+        "record": {
+            "nuclear": 3805.7,
+            "coal": 9269.3,
+            "co-gen": 907.1,
+            "lng": 12045.2,
+            "oil": 132.9,
+            "diesel": 96,
+            "hydro": 287.8,
+            "wind": 549.1,
+            "solar": 40.232,
+            "pumping gen": 908.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 28042.23
+    },
+    "2020-11-08": {
+        "time": "2020-11-08 18:10",
+        "record": {
+            "nuclear": 3843.4,
+            "coal": 8301.7,
+            "co-gen": 783.2,
+            "lng": 10243.4,
+            "oil": 131.6,
+            "diesel": 92.5,
+            "hydro": 337.8,
+            "wind": 607.2,
+            "solar": 0.017,
+            "pumping gen": 1139.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25480.22
+    },
+    "2020-11-09": {
+        "time": "2020-11-09 17:40",
+        "record": {
+            "nuclear": 3862.2,
+            "coal": 9535.1,
+            "co-gen": 829,
+            "lng": 13189.2,
+            "oil": 133.5,
+            "diesel": 91.7,
+            "hydro": 339.1,
+            "wind": 609.2,
+            "solar": 5.586,
+            "pumping gen": 586.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29181.39
+    },
+    "2020-11-10": {
+        "time": "2020-11-10 17:50",
+        "record": {
+            "nuclear": 3861.4,
+            "coal": 9365.6,
+            "co-gen": 967.3,
+            "lng": 13543.8,
+            "oil": 139.9,
+            "diesel": 102.1,
+            "hydro": 357.3,
+            "wind": 614.3,
+            "solar": 0.074,
+            "pumping gen": 630.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29582.37
+    },
+    "2020-11-11": {
+        "time": "2020-11-11 16:40",
+        "record": {
+            "nuclear": 3855.4,
+            "coal": 8946.4,
+            "co-gen": 896,
+            "lng": 13682.5,
+            "oil": 132.7,
+            "diesel": 78.7,
+            "hydro": 340.7,
+            "wind": 632.3,
+            "solar": 241.274,
+            "pumping gen": 557.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29363.47
+    },
+    "2020-11-12": {
+        "time": "2020-11-12 17:50",
+        "record": {
+            "nuclear": 3861.6,
+            "coal": 9358.8,
+            "co-gen": 767.7,
+            "lng": 13855.1,
+            "oil": 132.7,
+            "diesel": 94.2,
+            "hydro": 366.1,
+            "wind": 588.8,
+            "solar": 0.075,
+            "pumping gen": 903,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29928.28
+    },
+    "2020-11-13": {
+        "time": "2020-11-13 17:50",
+        "record": {
+            "nuclear": 3870.4,
+            "coal": 8886.3,
+            "co-gen": 768.4,
+            "lng": 14708.1,
+            "oil": 134,
+            "diesel": 94.4,
+            "hydro": 364.6,
+            "wind": 591.9,
+            "solar": 0.076,
+            "pumping gen": 609.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30028.28
+    },
+    "2020-11-14": {
+        "time": "2020-11-14 11:50",
+        "record": {
+            "nuclear": 3686.1,
+            "coal": 7839.6,
+            "co-gen": 958.2,
+            "lng": 11323.3,
+            "oil": 134,
+            "diesel": 74.2,
+            "hydro": 346.7,
+            "wind": 518.6,
+            "solar": 1250.747,
+            "pumping gen": 192.4,
+            "pumping load": -207.4,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26116.65
+    },
+    "2020-11-15": {
+        "time": "2020-11-15 18:00",
+        "record": {
+            "nuclear": 3855.1,
+            "coal": 7808.2,
+            "co-gen": 602.3,
+            "lng": 11843.9,
+            "oil": 133.4,
+            "diesel": 93.5,
+            "hydro": 341.8,
+            "wind": 359.3,
+            "solar": 0.011,
+            "pumping gen": 882,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25919.71
+    },
+    "2020-11-16": {
+        "time": "2020-11-16 17:50",
+        "record": {
+            "nuclear": 3857.3,
+            "coal": 9050.1,
+            "co-gen": 1028.1,
+            "lng": 15101.1,
+            "oil": 187.6,
+            "diesel": 101.9,
+            "hydro": 351.1,
+            "wind": 221.6,
+            "solar": 0.009,
+            "pumping gen": 909,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30808.01
+    },
+    "2020-11-17": {
+        "time": "2020-11-17 15:40",
+        "record": {
+            "nuclear": 3861.2,
+            "coal": 9322.2,
+            "co-gen": 627.9,
+            "lng": 14964.7,
+            "oil": 480.7,
+            "diesel": 85.9,
+            "hydro": 341.2,
+            "wind": 21.9,
+            "solar": 897.335,
+            "pumping gen": 627.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31230.64
+    },
+    "2020-11-18": {
+        "time": "2020-11-18 15:40",
+        "record": {
+            "nuclear": 3854,
+            "coal": 9536.6,
+            "co-gen": 729.1,
+            "lng": 14827.3,
+            "oil": 494.1,
+            "diesel": 90.9,
+            "hydro": 263.9,
+            "wind": 5.7,
+            "solar": 889.601,
+            "pumping gen": 926.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31617.9
+    },
+    "2020-11-19": {
+        "time": "2020-11-19 16:10",
+        "record": {
+            "nuclear": 3850.8,
+            "coal": 9464.4,
+            "co-gen": 779.1,
+            "lng": 15115.1,
+            "oil": 604.6,
+            "diesel": 99.5,
+            "hydro": 336.1,
+            "wind": 7.2,
+            "solar": 447.482,
+            "pumping gen": 1219.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31923.98
+    },
+    "2020-11-20": {
+        "time": "2020-11-20 14:40",
+        "record": {
+            "nuclear": 3827.7,
+            "coal": 9242,
+            "co-gen": 916,
+            "lng": 15226.9,
+            "oil": 268.1,
+            "diesel": 90.2,
+            "hydro": 201.7,
+            "wind": 214.3,
+            "solar": 1474.357,
+            "pumping gen": 420.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31882.06
+    },
+    "2020-11-21": {
+        "time": "2020-11-21 00:00",
+        "record": {
+            "nuclear": 2955.6,
+            "coal": 7720.2,
+            "co-gen": 576.5,
+            "lng": 12605.4,
+            "oil": 262.4,
+            "diesel": 77.8,
+            "hydro": 236.7,
+            "wind": 305.6,
+            "solar": 0,
+            "pumping gen": 434.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25174.5
+    },
+    "2020-11-22": {
+        "time": "2020-11-22 17:30",
+        "record": {
+            "nuclear": 2865.2,
+            "coal": 8692.3,
+            "co-gen": 669.7,
+            "lng": 12199.7,
+            "oil": 676.8,
+            "diesel": 99.2,
+            "hydro": 363.3,
+            "wind": 426.7,
+            "solar": 12.053,
+            "pumping gen": 698.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26703.95
+    },
+    "2020-11-23": {
+        "time": "2020-11-23 17:50",
+        "record": {
+            "nuclear": 2866.6,
+            "coal": 9034.4,
+            "co-gen": 990.4,
+            "lng": 15230.9,
+            "oil": 723.3,
+            "diesel": 97.6,
+            "hydro": 305.9,
+            "wind": 510.5,
+            "solar": 0.02,
+            "pumping gen": 1045.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30805.02
+    },
+    "2020-11-24": {
+        "time": "2020-11-24 17:40",
+        "record": {
+            "nuclear": 2869,
+            "coal": 9461.1,
+            "co-gen": 807.5,
+            "lng": 15012,
+            "oil": 718.2,
+            "diesel": 98.1,
+            "hydro": 373.5,
+            "wind": 492.4,
+            "solar": 47.235,
+            "pumping gen": 897.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30776.74
+    },
+    "2020-11-25": {
+        "time": "2020-11-25 15:20",
+        "record": {
+            "nuclear": 2871.3,
+            "coal": 9230.2,
+            "co-gen": 683.6,
+            "lng": 14994.9,
+            "oil": 672.9,
+            "diesel": 79.1,
+            "hydro": 312,
+            "wind": 582.2,
+            "solar": 1072.473,
+            "pumping gen": 826.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31324.97
+    },
+    "2020-11-26": {
+        "time": "2020-11-26 16:10",
+        "record": {
+            "nuclear": 2869,
+            "coal": 9459.7,
+            "co-gen": 717.8,
+            "lng": 15146.3,
+            "oil": 329.6,
+            "diesel": 373.4,
+            "hydro": 332.4,
+            "wind": 504,
+            "solar": 431.506,
+            "pumping gen": 1099.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 31263.61
+    },
+    "2020-11-27": {
+        "time": "2020-11-27 11:10",
+        "record": {
+            "nuclear": 2871.3,
+            "coal": 8584.4,
+            "co-gen": 633.8,
+            "lng": 14356.7,
+            "oil": 138,
+            "diesel": 77,
+            "hydro": 170.5,
+            "wind": 676.4,
+            "solar": 1922.68,
+            "pumping gen": 596.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30027.48
+    },
+    "2020-11-28": {
+        "time": "2020-11-28 10:30",
+        "record": {
+            "nuclear": 2876.3,
+            "coal": 8612.9,
+            "co-gen": 474.9,
+            "lng": 10582,
+            "oil": 137.3,
+            "diesel": 75.6,
+            "hydro": 217.4,
+            "wind": 674.5,
+            "solar": 2059.932,
+            "pumping gen": 0,
+            "pumping load": -516.3,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25194.73
+    },
+    "2020-11-29": {
+        "time": "2020-11-29 17:50",
+        "record": {
+            "nuclear": 2872.7,
+            "coal": 8389.7,
+            "co-gen": 624.2,
+            "lng": 10712.2,
+            "oil": 271.3,
+            "diesel": 90.5,
+            "hydro": 425.2,
+            "wind": 623,
+            "solar": 0.014,
+            "pumping gen": 1121.1,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25130.11
+    },
+    "2020-11-30": {
+        "time": "2020-11-30 17:50",
+        "record": {
+            "nuclear": 2875,
+            "coal": 9039.3,
+            "co-gen": 652.3,
+            "lng": 14382.1,
+            "oil": 275.2,
+            "diesel": 94.1,
+            "hydro": 310.4,
+            "wind": 562.4,
+            "solar": 0.012,
+            "pumping gen": 742.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 28933.91
+    },
+    "2020-12-01": {
+        "time": "2020-12-01 17:50",
+        "record": {
+            "nuclear": 2877.8,
+            "coal": 8655.7,
+            "co-gen": 712.7,
+            "lng": 14884.3,
+            "oil": 276.5,
+            "diesel": 93.2,
+            "hydro": 393.7,
+            "wind": 560.7,
+            "solar": 0.014,
+            "pumping gen": 898.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29353.41
+    },
+    "2020-12-02": {
+        "time": "2020-12-02 16:40",
+        "record": {
+            "nuclear": 2873.9,
+            "coal": 8613,
+            "co-gen": 983.1,
+            "lng": 14699,
+            "oil": 417.6,
+            "diesel": 77.9,
+            "hydro": 321.5,
+            "wind": 552.4,
+            "solar": 157.449,
+            "pumping gen": 726.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29422.85
+    },
+    "2020-12-04": {
+        "time": "2020-12-04 17:50",
+        "record": {
+            "nuclear": 2876.4,
+            "coal": 8630,
+            "co-gen": 1061.9,
+            "lng": 14096.2,
+            "oil": 767.4,
+            "diesel": 89.5,
+            "hydro": 371.4,
+            "wind": 552.1,
+            "solar": 0.024,
+            "pumping gen": 875.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29320.72
+    },
+    "2020-12-05": {
+        "time": "2020-12-05 17:50",
+        "record": {
+            "nuclear": 2875.3,
+            "coal": 8606.3,
+            "co-gen": 822.9,
+            "lng": 11888.6,
+            "oil": 404.6,
+            "diesel": 85.7,
+            "hydro": 404.6,
+            "wind": 574.2,
+            "solar": 0.093,
+            "pumping gen": 784.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26447.39
+    },
+    "2020-12-06": {
+        "time": "2020-12-06 17:50",
+        "record": {
+            "nuclear": 2876.5,
+            "coal": 8544.4,
+            "co-gen": 829.7,
+            "lng": 10538.8,
+            "oil": 403.3,
+            "diesel": 71.2,
+            "hydro": 451.5,
+            "wind": 520.2,
+            "solar": 0.013,
+            "pumping gen": 1302.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25538.41
+    },
+    "2020-12-07": {
+        "time": "2020-12-07 17:40",
+        "record": {
+            "nuclear": 2878.7,
+            "coal": 8650.5,
+            "co-gen": 1117.6,
+            "lng": 14046.1,
+            "oil": 600.1,
+            "diesel": 73.2,
+            "hydro": 457.6,
+            "wind": 566.5,
+            "solar": 5.495,
+            "pumping gen": 1164.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29560.6
+    },
+    "2020-12-08": {
+        "time": "2020-12-08 17:50",
+        "record": {
+            "nuclear": 2877.3,
+            "coal": 8821.9,
+            "co-gen": 1177.3,
+            "lng": 14126.7,
+            "oil": 598.1,
+            "diesel": 76,
+            "hydro": 428.4,
+            "wind": 572,
+            "solar": 0.012,
+            "pumping gen": 1061.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29739.51
+    },
+    "2020-12-09": {
+        "time": "2020-12-09 17:40",
+        "record": {
+            "nuclear": 2882,
+            "coal": 8645.1,
+            "co-gen": 871.9,
+            "lng": 15217.8,
+            "oil": 594.9,
+            "diesel": 77.2,
+            "hydro": 395.9,
+            "wind": 243.7,
+            "solar": 4.739,
+            "pumping gen": 1096.6,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30030.04
+    },
+    "2020-12-10": {
+        "time": "2020-12-10 17:50",
+        "record": {
+            "nuclear": 2874.4,
+            "coal": 8612.6,
+            "co-gen": 933.3,
+            "lng": 15054.4,
+            "oil": 621.7,
+            "diesel": 76.2,
+            "hydro": 361.1,
+            "wind": 568.2,
+            "solar": 0.079,
+            "pumping gen": 924.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30027.08
+    },
+    "2020-12-11": {
+        "time": "2020-12-11 17:50",
+        "record": {
+            "nuclear": 2870.7,
+            "coal": 8427.5,
+            "co-gen": 944.4,
+            "lng": 14976.2,
+            "oil": 821.1,
+            "diesel": 76.2,
+            "hydro": 415.2,
+            "wind": 327.7,
+            "solar": 0.074,
+            "pumping gen": 924.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29784.17
+    },
+    "2020-12-12": {
+        "time": "2020-12-12 17:40",
+        "record": {
+            "nuclear": 2874,
+            "coal": 7485.2,
+            "co-gen": 868.4,
+            "lng": 13191.2,
+            "oil": 401.6,
+            "diesel": 71.7,
+            "hydro": 346.9,
+            "wind": 519.3,
+            "solar": 5.268,
+            "pumping gen": 754,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26517.77
+    },
+    "2020-12-13": {
+        "time": "2020-12-13 18:30",
+        "record": {
+            "nuclear": 2873.6,
+            "coal": 7233,
+            "co-gen": 791.3,
+            "lng": 12165,
+            "oil": 588,
+            "diesel": 71.5,
+            "hydro": 354.9,
+            "wind": 248,
+            "solar": 0.014,
+            "pumping gen": 1072.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25398.41
+    },
+    "2020-12-14": {
+        "time": "2020-12-14 17:50",
+        "record": {
+            "nuclear": 1893.3,
+            "coal": 8539.4,
+            "co-gen": 827.5,
+            "lng": 15363.3,
+            "oil": 834.5,
+            "diesel": 77.1,
+            "hydro": 405.9,
+            "wind": 625.3,
+            "solar": 0.009,
+            "pumping gen": 895.7,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29462.21
+    },
+    "2020-12-15": {
+        "time": "2020-12-15 17:50",
+        "record": {
+            "nuclear": 1892.2,
+            "coal": 8626.9,
+            "co-gen": 718,
+            "lng": 15372.2,
+            "oil": 855.6,
+            "diesel": 75.9,
+            "hydro": 402,
+            "wind": 624.4,
+            "solar": 0.014,
+            "pumping gen": 1032.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29600.31
+    },
+    "2020-12-16": {
+        "time": "2020-12-16 17:50",
+        "record": {
+            "nuclear": 1892.1,
+            "coal": 8671.1,
+            "co-gen": 888.9,
+            "lng": 15287.1,
+            "oil": 846.6,
+            "diesel": 75.4,
+            "hydro": 472.4,
+            "wind": 592,
+            "solar": 0.016,
+            "pumping gen": 746.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29472.72
+    },
+    "2020-12-17": {
+        "time": "2020-12-17 18:00",
+        "record": {
+            "nuclear": 1894.4,
+            "coal": 8659,
+            "co-gen": 1041.6,
+            "lng": 15229.7,
+            "oil": 847.2,
+            "diesel": 70.2,
+            "hydro": 440.8,
+            "wind": 422.4,
+            "solar": 0.009,
+            "pumping gen": 1181.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29786.81
+    },
+    "2020-12-18": {
+        "time": "2020-12-18 17:50",
+        "record": {
+            "nuclear": 1980.3,
+            "coal": 8375.3,
+            "co-gen": 1138.5,
+            "lng": 15115.8,
+            "oil": 850.4,
+            "diesel": 77.8,
+            "hydro": 440.7,
+            "wind": 583.1,
+            "solar": 0.009,
+            "pumping gen": 940.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29502.41
+    },
+    "2020-12-19": {
+        "time": "2020-12-19 17:40",
+        "record": {
+            "nuclear": 2550.9,
+            "coal": 9134.9,
+            "co-gen": 518.4,
+            "lng": 11699.9,
+            "oil": 436.3,
+            "diesel": 74.2,
+            "hydro": 361.8,
+            "wind": 596.7,
+            "solar": 8.055,
+            "pumping gen": 1089.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26470.66
+    },
+    "2020-12-20": {
+        "time": "2020-12-20 18:00",
+        "record": {
+            "nuclear": 2807.9,
+            "coal": 9171.3,
+            "co-gen": 788.8,
+            "lng": 10402.1,
+            "oil": 430.5,
+            "diesel": 73.9,
+            "hydro": 376.5,
+            "wind": 616.9,
+            "solar": 0.022,
+            "pumping gen": 711.9,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25380.02
+    },
+    "2020-12-21": {
+        "time": "2020-12-21 17:40",
+        "record": {
+            "nuclear": 2853.7,
+            "coal": 9152.7,
+            "co-gen": 969.8,
+            "lng": 14434.5,
+            "oil": 441.4,
+            "diesel": 73.9,
+            "hydro": 378.8,
+            "wind": 437.3,
+            "solar": 6.439,
+            "pumping gen": 764.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29513.54
+    },
+    "2020-12-22": {
+        "time": "2020-12-22 17:50",
+        "record": {
+            "nuclear": 2870.4,
+            "coal": 8929.5,
+            "co-gen": 926.7,
+            "lng": 14933,
+            "oil": 284.2,
+            "diesel": 117.7,
+            "hydro": 392.5,
+            "wind": 478.4,
+            "solar": 0.079,
+            "pumping gen": 858.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29790.98
+    },
+    "2020-12-23": {
+        "time": "2020-12-23 17:50",
+        "record": {
+            "nuclear": 2877.6,
+            "coal": 9062.9,
+            "co-gen": 996.3,
+            "lng": 15188,
+            "oil": 337.9,
+            "diesel": 119.6,
+            "hydro": 404,
+            "wind": 171.1,
+            "solar": 0.009,
+            "pumping gen": 968.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 30125.91
+    },
+    "2020-12-24": {
+        "time": "2020-12-24 17:40",
+        "record": {
+            "nuclear": 2882.4,
+            "coal": 8835,
+            "co-gen": 1013.7,
+            "lng": 14870.3,
+            "oil": 258.1,
+            "diesel": 99.3,
+            "hydro": 382.5,
+            "wind": 593.8,
+            "solar": 7.265,
+            "pumping gen": 754.2,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29696.77
+    },
+    "2020-12-25": {
+        "time": "2020-12-25 17:40",
+        "record": {
+            "nuclear": 2875.3,
+            "coal": 8138,
+            "co-gen": 941.6,
+            "lng": 14988.3,
+            "oil": 304,
+            "diesel": 93.7,
+            "hydro": 429.8,
+            "wind": 477.8,
+            "solar": 8.632,
+            "pumping gen": 877.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29134.63
+    },
+    "2020-12-26": {
+        "time": "2020-12-26 17:50",
+        "record": {
+            "nuclear": 2874,
+            "coal": 7688.2,
+            "co-gen": 966.4,
+            "lng": 13441.8,
+            "oil": 136,
+            "diesel": 97.2,
+            "hydro": 319,
+            "wind": 232.8,
+            "solar": 0.149,
+            "pumping gen": 935.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 26691.15
+    },
+    "2020-12-27": {
+        "time": "2020-12-27 18:00",
+        "record": {
+            "nuclear": 2871.3,
+            "coal": 7720.9,
+            "co-gen": 817.8,
+            "lng": 12413.1,
+            "oil": 422.9,
+            "diesel": 100.9,
+            "hydro": 365.2,
+            "wind": 125.7,
+            "solar": 0.436,
+            "pumping gen": 935.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 25773.94
+    },
+    "2020-12-28": {
+        "time": "2020-12-28 17:40",
+        "record": {
+            "nuclear": 2875,
+            "coal": 8230.4,
+            "co-gen": 898.2,
+            "lng": 14706.3,
+            "oil": 433.1,
+            "diesel": 82.6,
+            "hydro": 397,
+            "wind": 601.6,
+            "solar": 19.823,
+            "pumping gen": 872.8,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29117.02
+    },
+    "2020-12-29": {
+        "time": "2020-12-29 17:50",
+        "record": {
+            "nuclear": 2873.4,
+            "coal": 8674.9,
+            "co-gen": 1176.3,
+            "lng": 15209.5,
+            "oil": 432.4,
+            "diesel": 98.2,
+            "hydro": 450,
+            "wind": 155.4,
+            "solar": 1.219,
+            "pumping gen": 858.4,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 29929.92
+    },
+    "2020-12-30": {
+        "time": "2020-12-30 18:10",
+        "record": {
+            "nuclear": 2879.9,
+            "coal": 8519.7,
+            "co-gen": 1231.3,
+            "lng": 14119.4,
+            "oil": 434.4,
+            "diesel": 93.4,
+            "hydro": 361.7,
+            "wind": 548.7,
+            "solar": 1.681,
+            "pumping gen": 753.3,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 28943.68
+    },
+    "2020-12-31": {
+        "time": "2020-12-31 17:50",
+        "record": {
+            "nuclear": 2879.1,
+            "coal": 8274.9,
+            "co-gen": 1145,
+            "lng": 13771.6,
+            "oil": 715.1,
+            "diesel": 84.7,
+            "hydro": 268.7,
+            "wind": 619,
+            "solar": 0.572,
+            "pumping gen": 569.5,
+            "pumping load": 0,
+            "geothermal": 0.2
+        },
+        "maxUsed": 28328.37
+    }
+}
