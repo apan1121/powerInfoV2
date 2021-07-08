@@ -250,7 +250,7 @@ export default {
                                 total_value += parseInt(value);
                                 value = that.formatMoney(value);
                                 innerHtml += `  <tr>
-                                                <td>${span}</td><td>${labelName}</td><td style='text-align: right'>${value} <small>MW</small></td>
+                                                <td>${span}</td><td style="white-space:nowrap;">${labelName}</td><td style='text-align: right; white-space:nowrap;'>${value} <small>MW</small></td>
                                             </tr>`;
                             });
 
@@ -270,7 +270,7 @@ export default {
                                 const span = `<span class="chartjs-tooltip-key" style="${style}"></span>`;
                                 innerHtml += `
                                 <tr>
-                                    <td>${span}</td><td>總額</td><td style='text-align: right'>${total_value} <small>MW</small></td>
+                                    <td>${span}</td><td>總額</td><td style='text-align: right;white-space:nowrap;'>${total_value} <small>MW</small></td>
                                 </tr>
                             `;
                             }
@@ -294,7 +294,7 @@ export default {
                                 const span = `<span class="chartjs-tooltip-key" style="${style}"></span>`;
                                 innerHtml += `
                                 <tr>
-                                    <td>${span}</td><td>發電比</td><td style='text-align: right'>${total_value} <small>%</small></td>
+                                    <td>${span}</td><td style="white-space:nowrap;">發電比</td><td style='text-align: right;white-space:nowrap;'>${total_value} <small>%</small></td>
                                 </tr>
                                 `;
                             }
