@@ -17,6 +17,21 @@
             :chart-type="chartType"
             :stacked="stacked"
         ></chart-trend>
+
+        <template v-if="fullscreenToggle">
+            <div
+                ref="ads"
+                class="power-info-promote"
+                :class="{ 'ad-blocked': adBlocked }"
+            >
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-format="fluid"
+                    data-ad-layout-key="-fb+5w+4e-db+86"
+                    data-ad-client="ca-pub-3068501078221920"
+                    data-ad-slot="1897408904"></ins>
+            </div>
+        </template>
     </card-box>
 </template>
 <script>
@@ -71,9 +86,15 @@ export default {
     },
     computed: {
         ...mapGetters([
+            'adBlocked',
         ]),
     },
     watch: {
+        fullscreenToggle(){
+            setTimeout(() => {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }, 500);
+        },
     },
     created(){},
     mounted(){
