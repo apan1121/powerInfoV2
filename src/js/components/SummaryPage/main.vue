@@ -57,7 +57,7 @@
                         :tooltip-used-percent="true"
                     ></chart-trend-box>
                 </div>
-                <template v-if="typeIndex % 6 == 5">
+                <template v-if="typeIndex % 6 == 3">
                     <div :id="`Summary_Ads_${typeIndex}`"
                         :key="`Summary_Ads_${typeIndex}`"
                         class="col-12 mb-3"
