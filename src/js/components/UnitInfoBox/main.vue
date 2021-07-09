@@ -131,6 +131,7 @@
                             :title="unitKey"
                             :records="formatRecord"
                             :news-ticker="filterNoticeRecord"
+                            :download="true"
                         ></chart-trend>
                     </template>
 

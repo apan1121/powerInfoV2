@@ -3,6 +3,12 @@
         class="chart-trend"
         :class="{ wait: !exposured || drawFlag }"
     >
+        <div v-if="download && Object.keys(records).length > 0"
+            class="trend-download-btn"
+            @click="downloadFile"
+        >
+            <i class="icon-download"></i>
+        </div>
         <canvas ref="canvas"></canvas>
         <i v-if="icon" class="icon" :class="icon"></i>
     </div>
@@ -60,6 +66,10 @@ export default {
             default: 'line',
         },
         stacked: {
+            type: Boolean,
+            default: false,
+        },
+        download: {
             type: Boolean,
             default: false,
         },
@@ -278,7 +288,7 @@ export default {
                             if (that.tooltipUsedPercent) {
                                 total_value = 0;
                                 if (cap > 0) {
-                                    total_value = (used / cap) * 100 ;
+                                    total_value = (used / cap) * 100;
                                     total_value = total_value.toFixed(2);
                                 }
 
@@ -387,7 +397,7 @@ export default {
                             scales: {
                                 xAxes: [{
                                     display: true,
-                                    stacked: (!!that.stacked ? true : false),
+                                    stacked: (!!that.stacked),
                                     scaleLabel: {
                                         display: true,
                                         labelString: '時間',
@@ -396,7 +406,7 @@ export default {
                                 }],
                                 yAxes: [{
                                     display: true,
-                                    stacked: (!!that.stacked ? true : false),
+                                    stacked: (!!that.stacked),
                                     scaleLabel: {
                                         display: true,
                                         labelString: 'MW',
@@ -474,6 +484,49 @@ export default {
                 }
             }
             return height;
+        },
+        downloadFile(){
+            const that = this;
+            const csvName = `台灣電廠即時資訊_${that.title}_${new Date().getTime()}.csv`;
+            const records = [];
+
+            const dateLabels = Object.keys(that.records);
+            if (dateLabels.length > 0) {
+                const header = ['日期'];
+                const columns = [];
+                Object.keys(that.records[dateLabels[0]]).forEach((key) => {
+                    header.push(key.replace(/\#/ig, '＃'));
+                    columns.push(key);
+                });
+                records.push(header);
+
+                dateLabels.forEach((dateLabel) => {
+                    const record = [dateLabel];
+                    columns.forEach((key) => {
+                        record.push(that.records[dateLabel][key]);
+                    });
+                    records.push(record);
+                });
+            }
+
+            const csvContent = `data:text/csv;charset=utf-8,${records.map(e => e.join(',')).join('\n')}`;
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', csvName);
+            document.body.appendChild(link);
+            link.click();
+            trackJS.gtag('event', 'chart_trend_download', {
+                title: that.title,
+                type: 'csv',
+            });
+            trackJS.mixpanel('chart_trend_download', {
+                title: that.title,
+                type: 'csv',
+            });
+            setTimeout(() => {
+                document.body.removeChild(link);
+            }, 60000);
         },
     },
 };

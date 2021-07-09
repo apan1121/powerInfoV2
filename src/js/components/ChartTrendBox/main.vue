@@ -1,7 +1,13 @@
 <template>
-    <card-box :title="title" @fullscreen="fullscreen">
+    <card-box
+        :title="title"
+        :download="Object.keys(records).length > 0"
+        @download="downloadFile"
+        @fullscreen="fullscreen"
+    >
         <chart-trend
             v-if="records"
+            ref="chartTrend"
             :title="title"
             :tooltip-total="tooltipTotal"
             :tooltip-used-percent="tooltipUsedPercent"
@@ -81,6 +87,9 @@ export default {
         },
         fullscreen(val){
             this.fullscreenToggle = val;
+        },
+        downloadFile(){
+            this.$refs.chartTrend.downloadFile();
         },
     },
 };

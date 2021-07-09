@@ -2,6 +2,9 @@
     <div class="card" :class="{ fullscreen }">
         <div class="card-header">
             <div class="card-title" v-text="title"></div>
+            <div v-if="download" class="tool-button" @click="downloadFile">
+                <i class="icon-download"></i>
+            </div>
             <template v-if="showFullscreenBtn">
                 <div v-if="fullscreen == false" class="tool-button" @click="fullscreen = true">
                     <i class="fas fa-expand"></i>
@@ -42,6 +45,10 @@ export default {
             type: String,
             default: '未定名',
         },
+        download: {
+            type: Boolean,
+            default: false,
+        },
     },
     data(){
         return {
@@ -75,6 +82,9 @@ export default {
     methods: {
         ...mapActions({}),
         ...mapMutations({}),
+        downloadFile(){
+            this.$emit('download');
+        },
     },
 };
 </script>

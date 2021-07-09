@@ -23,6 +23,19 @@
 .chart-trend{
     position: relative;
     padding: $spacer / 2;
+    .trend-download-btn{
+        position: absolute;
+        top: $spacer / 2;
+        right: $spacer;
+        font-size: $spacer;
+        cursor: pointer;
+        color: $gray-600;
+        @media (hover: hover) {
+            &:hover{
+                color: $gray-900;
+            }
+        }
+    }
     .icon{
         position: absolute;
         right: 0px;
