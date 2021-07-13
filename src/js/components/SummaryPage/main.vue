@@ -16,7 +16,7 @@
             <div class="col-12 mb-3">
                 <chart-trend-box v-if="maxUsedTrend"
                     :title="'最大用量趨勢'"
-                    :tooltip-total="false"
+                    :tooltip-total="true"
                     :tooltip-used-percent="false"
                     :records="maxUsedTrend"
                     :icon="'icon-amount'"
