@@ -36,7 +36,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-
+import PageMixin from 'lib/common/mixins/PageMixin';
 // import $ from 'jquery';
 // import 'bootstrap';
 
@@ -49,6 +49,7 @@ export default {
         ChartTrend: () => import('components/ChartTrend/main.vue'),
     },
     filters: {},
+    mixins: [PageMixin],
     props: {
         title: {
             type: String,
@@ -100,7 +101,8 @@ export default {
     mounted(){
     },
     updated(){},
-    destroyed(){},
+    destroyed(){
+    },
     methods: {
         ...mapActions({}),
         ...mapMutations({}),

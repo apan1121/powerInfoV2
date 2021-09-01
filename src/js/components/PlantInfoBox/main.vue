@@ -215,7 +215,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-
+import PageMixin from 'lib/common/mixins/PageMixin';
 import { trackJS } from 'lib/common/util';
 // import $ from 'jquery';
 // import 'bootstrap';
@@ -233,6 +233,7 @@ export default {
             return val.toLocaleString();
         },
     },
+    mixins: [PageMixin],
     props: {
         name: {
             type: String,
@@ -360,6 +361,8 @@ export default {
     created(){},
     mounted(){
         const that = this;
+        that.setPageTitle(`${that.name}`);
+
         that.chooseTab = 'basicInfo';
 
         $(that.$el).on('shown.bs.modal', () => {
@@ -392,7 +395,9 @@ export default {
         }, 500);
     },
     updated(){},
-    destroyed(){},
+    destroyed(){
+        this.undoPageTitle();
+    },
     methods: {
         ...mapActions({}),
         ...mapMutations({}),

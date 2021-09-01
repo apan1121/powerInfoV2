@@ -56,6 +56,7 @@ import { popup, string, linkRegister, trackJS } from 'lib/common/util';
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import PlantInfoBox from 'components/PlantInfoBox/main.vue';
 import UnitInfoBox from 'components/UnitInfoBox/main.vue';
+import PageMixin from 'lib/common/mixins/PageMixin';
 
 
 import { module_name, module_store } from './lib/store/index';
@@ -84,6 +85,7 @@ export default {
         UnitGroupAdsBox,
     },
     filters: {},
+    mixins: [PageMixin],
     props: {},
     data(){
         return {
@@ -135,6 +137,8 @@ export default {
     },
     created(){},
     mounted(){
+        this.setPageTitle('機組資訊');
+
         if (!!this.route && !!this.route.query && !!this.route.query.unit_key) {
             this.chooseUnitByKey(this.route.query.unit_key);
         }

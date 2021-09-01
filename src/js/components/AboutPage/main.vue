@@ -125,6 +125,7 @@
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import { linkRegister, trackJS } from 'lib/common/util';
+import PageMixin from 'lib/common/mixins/PageMixin';
 
 linkRegister.register([
     {
@@ -144,6 +145,7 @@ linkRegister.register([
 export default {
     components: {},
     filters: {},
+    mixins: [PageMixin],
     props: {},
     data(){
         return {
@@ -196,6 +198,8 @@ export default {
     },
     created(){},
     mounted(){
+        this.setPageTitle('關於');
+
         trackJS.gtag('event', 'page_view', {
             page_id: 'AboutPage',
         });

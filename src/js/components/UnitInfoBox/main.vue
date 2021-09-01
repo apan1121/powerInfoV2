@@ -154,9 +154,10 @@
 </template>
 <script>
 import { trackJS } from 'lib/common/util';
-
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import moment from 'moment';
+import PageMixin from 'lib/common/mixins/PageMixin';
+
 import { module_name, module_store } from './lib/store/index';
 
 // import $ from 'jquery';
@@ -171,6 +172,7 @@ export default {
         ChartTrend: () => import('components/ChartTrend/main.vue'),
     },
     filters: {},
+    mixins: [PageMixin],
     props: {
         unitKey: {
             type: String,
@@ -262,6 +264,7 @@ export default {
     created(){},
     mounted(){
         const that = this;
+        that.setPageTitle(`${that.UnitInfo.name} 機組`);
 
         $(this.$el).on('shown.bs.modal', () => {
             trackJS.gtag('event', 'UnitInfoBox_open', {
@@ -298,7 +301,9 @@ export default {
         }, 500);
     },
     updated(){},
-    destroyed(){},
+    destroyed(){
+        this.undoPageTitle();
+    },
     methods: {
         ...mapActions({}),
         ...mapMutations({

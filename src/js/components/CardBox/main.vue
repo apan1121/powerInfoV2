@@ -21,7 +21,7 @@
 </template>
 <script>
 import { mapActions, mapMutations, mapGetters } from 'vuex';
-
+import PageMixin from 'lib/common/mixins/PageMixin';
 import { linkRegister, trackJS } from 'lib/common/util';
 // import $ from 'jquery';
 // import 'bootstrap';
@@ -40,6 +40,7 @@ linkRegister.register([
 export default {
     components: {},
     filters: {},
+    mixins: [PageMixin],
     props: {
         title: {
             type: String,
@@ -63,7 +64,7 @@ export default {
         },
     },
     watch: {
-        fullscreen(){
+        fullscreen(newVal){
             this.$emit('fullscreen', this.fullscreen);
             trackJS.gtag('event', 'cardBox_click', {
                 title: this.title,
@@ -73,6 +74,12 @@ export default {
                 title: this.title,
                 fullscreen: this.fullscreen,
             });
+
+            if (newVal) {
+                this.setPageTitle(`${this.title}`);
+            } else {
+                this.undoPageTitle();
+            }
         },
     },
     created(){},

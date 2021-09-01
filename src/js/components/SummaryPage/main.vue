@@ -76,7 +76,7 @@
 import { mapActions, mapMutations, mapGetters } from 'vuex';
 import 'vue-range-component/dist/vue-range-slider.css';
 import moment from 'moment';
-
+import PageMixin from 'lib/common/mixins/PageMixin';
 
 import { popup, linkRegister, trackJS } from 'lib/common/util';
 import { module_name, module_store } from './lib/store/index';
@@ -104,6 +104,7 @@ export default {
         SummaryAdsBox,
     },
     filters: {},
+    mixins: [PageMixin],
     props: {},
     data(){
         return {
@@ -244,6 +245,7 @@ export default {
         });
     },
     mounted(){
+        this.setPageTitle('分析摘要');
         trackJS.gtag('event', 'page_view', {
             page_id: 'SummaryPage',
         });
