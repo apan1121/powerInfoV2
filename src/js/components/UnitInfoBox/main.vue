@@ -259,7 +259,7 @@ export default {
             deep: true,
             handler(newVal, oldVal){
                 const that = this;
-                if (newVal.name !== oldVal.name) {
+                if ((!oldVal && !!newVal) || newVal.name !== oldVal.name) {
                     setTimeout(() => {
                         that.setPageTitle(`${that.UnitInfo.name} 機組`);
                     }, 100);
