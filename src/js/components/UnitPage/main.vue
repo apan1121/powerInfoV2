@@ -142,6 +142,11 @@ export default {
         if (!!this.route && !!this.route.query && !!this.route.query.unit_key) {
             this.chooseUnitByKey(this.route.query.unit_key);
         }
+
+        if (!!this.route && !!this.route.query && !!this.route.query.plant_name) {
+            this.choosePlantByName(this.route.query.plant_name);
+        }
+
         this.init();
         trackJS.gtag('event', 'page_view', {
             page_id: 'UnitPage',

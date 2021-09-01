@@ -361,7 +361,6 @@ export default {
     created(){},
     mounted(){
         const that = this;
-        that.setPageTitle(`${that.name}`);
 
         that.chooseTab = 'basicInfo';
 
@@ -372,9 +371,14 @@ export default {
             trackJS.mixpanel('PlantInfoBox_open', {
                 name: this.name,
             });
+            that.setPageTitle(`${that.name}`);
         });
 
         $(that.$el).on('hidden.bs.modal', () => {
+            if (!!this.$route.query && !!this.$route.query.plant_name) {
+                this.$router.push({ name: 'UnitPage' });
+            }
+
             trackJS.gtag('event', 'PlantInfoBox_close', {
                 name: this.name,
             });
@@ -382,13 +386,12 @@ export default {
                 name: this.name,
             });
             that.$emit('close');
+            that.undoPageTitle();
         });
 
         $('.modal').modal('hide');
 
         $(this.$el).modal('show');
-
-
 
         setTimeout(() => {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -396,7 +399,6 @@ export default {
     },
     updated(){},
     destroyed(){
-        this.undoPageTitle();
     },
     methods: {
         ...mapActions({}),

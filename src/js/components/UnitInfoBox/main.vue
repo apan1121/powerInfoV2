@@ -254,6 +254,18 @@ export default {
                 });
             },
         },
+        UnitInfo: {
+            immediate: true,
+            deep: true,
+            handler(newVal, oldVal){
+                const that = this;
+                if (newVal.name !== oldVal.name) {
+                    setTimeout(() => {
+                        that.setPageTitle(`${that.UnitInfo.name} 機組`);
+                    }, 100);
+                }
+            },
+        },
     },
     beforeCreate(){
         const that = this;
@@ -264,7 +276,6 @@ export default {
     created(){},
     mounted(){
         const that = this;
-        that.setPageTitle(`${that.UnitInfo.name} 機組`);
 
         $(this.$el).on('shown.bs.modal', () => {
             trackJS.gtag('event', 'UnitInfoBox_open', {
@@ -289,6 +300,8 @@ export default {
             trackJS.mixpanel('UnitInfoBox_close', {
                 unitKey: this.unitKey,
             });
+
+            this.undoPageTitle();
         });
 
         $('.modal').modal('hide');
@@ -298,11 +311,11 @@ export default {
 
         setTimeout(() => {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
-        }, 500);
+        }, 1000);
     },
     updated(){},
     destroyed(){
-        this.undoPageTitle();
+
     },
     methods: {
         ...mapActions({}),
