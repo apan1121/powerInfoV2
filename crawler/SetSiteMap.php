@@ -43,7 +43,7 @@ foreach ($log['info'] AS $info) {
     <url>
         <loc>{$url}</loc>
         <changefreq>hourly</changefreq>
-        <priority>1</priority>
+        <priority>1.0</priority>
     </url>
     ";
 }
@@ -54,7 +54,7 @@ foreach ($plantList AS $_plantList) {
     <url>
         <loc>{$url}</loc>
         <changefreq>monthly</changefreq>
-        <priority>1</priority>
+        <priority>1.0</priority>
     </url>
     ";
 }
