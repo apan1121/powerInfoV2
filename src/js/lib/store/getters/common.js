@@ -16,6 +16,8 @@ export default {
 
     RecordTime: state => state.RecordTime,
 
+    choosePlantName: state => state.choosePlantName,
+
     choosePlantInfo(state, getters, rootState){
         const MappingPlantList = JSON.parse(JSON.stringify(rootState.MappingPlantList));
         let Units = JSON.parse(JSON.stringify(rootState.Units));

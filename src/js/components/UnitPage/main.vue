@@ -38,8 +38,8 @@
             </template> -->
         </template>
 
-        <template v-if="choosePlantInfo">
-            <plant-info-box v-bind="choosePlantInfo" @close="closePlantInfo"></plant-info-box>
+        <template v-if="choosePlantName">
+            <plant-info-box :plant-name="choosePlantName" @close="closePlantInfo"></plant-info-box>
         </template>
 
         <template v-if="chooseUnitKey">
@@ -99,7 +99,9 @@ export default {
             FormatUnits: 'FormatUnits',
             MappingPlantList: 'MappingPlantList',
 
+            choosePlantName: 'choosePlantName',
             choosePlantInfo: 'choosePlantInfo',
+
             chooseUnitKey: 'chooseUnitKey',
 
             openFilterFlag: `${module_name}/openFilterFlag`,
