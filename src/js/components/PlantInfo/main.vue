@@ -299,6 +299,7 @@ export default {
         name: {
             immediate: true,
             handler(){
+                this.setPageTitle(this.name);
             },
         },
         chooseTab: {
@@ -325,6 +326,7 @@ export default {
     },
     updated(){},
     destroyed(){
+        this.undoPageTitle();
     },
     methods: {
         ...mapActions({}),

@@ -148,8 +148,6 @@ export default {
             trackJS.mixpanel('UnitInfoBox_close', {
                 unitKey: this.unitKey,
             });
-
-            this.undoPageTitle();
         });
 
         $('.modal').modal('hide');

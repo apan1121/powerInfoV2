@@ -124,7 +124,7 @@ export default {
             handler(newVal){
                 const that = this;
                 if (!!newVal && 1) {
-                    that.setPageTitle(`${that.plantInfo.name}`);
+                    // that.setPageTitle(`${that.plantInfo.name}`);
                 }
             },
         },
@@ -149,7 +149,7 @@ export default {
             trackJS.mixpanel('PlantInfoBox_open', {
                 name: this.name,
             });
-            that.setPageTitle(`${that.name}`);
+            // that.setPageTitle(`${that.name}`);
         });
 
         $(that.$el).on('hidden.bs.modal', () => {
@@ -164,7 +164,7 @@ export default {
                 name: this.name,
             });
             that.$emit('close');
-            that.undoPageTitle();
+            // that.undoPageTitle();
         });
 
         $('.modal').modal('hide');

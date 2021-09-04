@@ -265,7 +265,7 @@ export default {
     },
     updated(){},
     destroyed(){
-
+        this.undoPageTitle();
     },
     methods: {
         ...mapActions({}),
