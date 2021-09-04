@@ -43,6 +43,8 @@ foreach ($log['info'] AS $info) {
         "path" => "unit/".$info['key'],
     ];
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
+    $url = str_replace('+', '%20', $url);
+
     $xml[] = "
     <url>
         <loc>{$url}</loc>
@@ -58,6 +60,7 @@ foreach ($plantList AS $_plantList) {
         "path" => "plant/".$_plantList['nickName'],
     ];
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
+    $url = str_replace('+', '%20', $url);
 
     $xml[] = "
     <url>
