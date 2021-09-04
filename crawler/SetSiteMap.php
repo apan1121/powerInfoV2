@@ -23,7 +23,7 @@ $xml[] = "
 
 $xml[] = "
     <url>
-        <loc>{$WEB_DOMAIN}?path=/summary</loc>
+        <loc>{$WEB_DOMAIN}/?path=/summary</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -31,7 +31,7 @@ $xml[] = "
 
 $xml[] = "
     <url>
-        <loc>{$WEB_DOMAIN}?path=/about</loc>
+        <loc>{$WEB_DOMAIN}/?path=/about</loc>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
