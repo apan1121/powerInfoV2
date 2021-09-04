@@ -56,6 +56,9 @@ foreach ($log['info'] AS $info) {
 
 foreach ($plantList AS $_plantList) {
     // $url = "{$WEB_DOMAIN}/#/?".http_build_query(['plant_name' => $_plantList['nickName']]);
+    if (empty($_plantList['nickName'])) {
+        continue;
+    }
     $params = [
         "path" => "plant/".$_plantList['nickName'],
     ];
