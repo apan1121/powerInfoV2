@@ -9,14 +9,14 @@
 
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=/summary</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=summary</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=/about</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=about</loc>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
@@ -1353,140 +1353,140 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%231_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%231_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%232_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%232_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%233_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%233_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%234_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%234_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%231_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%231_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%232_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%232_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%233_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%233_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%234_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%234_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%235_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%235_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%236_pumping+gen</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%236_pumping%20gen</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%231_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%231_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%232_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%232_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%233_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%233_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%234_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E5%A4%A7%E8%A7%80%E4%BA%8C%234_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%231_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%231_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%232_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%232_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%233_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%233_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%234_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%234_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%235_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%235_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%236_pumping+load</loc>
+        <loc>https://apan1121.github.io/powerInfoV2/?path=unit%2F%E6%98%8E%E6%BD%AD%236_pumping%20load</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1661,20 +1661,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E7%8F%A0%E5%B1%B1</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -1759,13 +1745,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E6%BE%8E%E6%B9%96</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -1829,20 +1808,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E8%90%AC%E9%87%8C</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -1857,28 +1822,7 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E6%98%8E%E6%BD%AD</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1892,13 +1836,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E7%9F%B3%E9%96%80</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -1906,70 +1843,7 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E5%8D%93%E8%98%AD</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1984,41 +1858,6 @@
 
     <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E8%90%AC%E5%A4%A7</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2061,118 +1900,6 @@
 
     <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E5%85%AB%E7%94%B0</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2235,13 +1962,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E5%A4%AA%E5%B9%B3</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -2250,13 +1970,6 @@
 
     <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E7%9F%B3%E9%96%80</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2389,20 +2102,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E4%B8%AD%E5%A8%81%E5%A4%A7%E5%AE%89</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -2431,13 +2130,6 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E5%AE%89%E5%A8%81</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -2459,119 +2151,7 @@
     
 
     <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
         <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F%E6%B0%B8%E8%88%88</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
-
-    <url>
-        <loc>https://apan1121.github.io/powerInfoV2/?path=plant%2F</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
