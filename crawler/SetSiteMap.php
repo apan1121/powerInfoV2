@@ -40,7 +40,7 @@ $xml[] = "
 foreach ($log['info'] AS $info) {
     // $url = "{$WEB_DOMAIN}/#/?".http_build_query(['unit_key' => $info['key']]);
     $params = [
-        "path" => "unit/".urlencode($info['key']),
+        "path" => "unit/".$info['key'],
     ];
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
     $xml[] = "
@@ -55,7 +55,7 @@ foreach ($log['info'] AS $info) {
 foreach ($plantList AS $_plantList) {
     // $url = "{$WEB_DOMAIN}/#/?".http_build_query(['plant_name' => $_plantList['nickName']]);
     $params = [
-        "path" => "plant/".urlencode($_plantList['nickName']),
+        "path" => "plant/".$_plantList['nickName'],
     ];
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
 
