@@ -18,6 +18,7 @@ export default {
             'pumping gen': '抽蓄發電',
             'pumping load': '抽蓄負載',
             geothermal: '地熱',
+            'other renewable energy': '其他再生能源',
         },
 
         status: {
@@ -109,6 +110,7 @@ export default {
         'pumping gen',
         'pumping load',
         'geothermal',
+        'other renewable energy',
     ],
 
     showVal: 'used',
