@@ -28,11 +28,11 @@ $dir = dirname(__FILE__)."/";
 
 $now = time();
 $url = "https://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+// $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 if (!empty($twOpenDataError)) {
     $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 }
 $data = getUrl($url);
-
 if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) {
     echo "TW Open Data 取得失敗，改使用 台電 json\n";
     print_r([
@@ -40,13 +40,23 @@ if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) 
         date('Y-m-d H:i:s'),
         ($now - strtotime($data[""] || '')),
     ]);
-    $data = getUrl("https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json");
+    $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+    $data = getUrl($url);
 
     /* 如果 openDataError 為空，寫入錯誤時間 */
     if (empty($twOpenDataError)) {
         save("../log/tw_open_data_error.log", ['error_date' => date('Y-m-d H:i:s')]);
     }
 }
+// print_r($data);exit();
+
+$format_type = "open_data";
+if (strpos($url, 'data.taipower.com.tw') !== false) {
+    $format_type = "open_data";
+} elseif(strpos($url, 'www.taipower.com.tw') !== false) {
+    $format_type = "taipower";
+}
+
 
 /* 如果 openDataError 不為空，檢查時間有沒有超過一個小時，如果超過，刪除檔案，下一次重新使用 open Data */
 if (!empty($twOpenDataError) && strtotime($twOpenDataError['error_date'])  + 3600  <= time()) {
@@ -124,6 +134,7 @@ $powerTypes = [
     "太陽能" => "solar",
     "民營電廠-燃煤" => "ipp-coal",
     "民營電廠-燃氣" => "ipp-lng",
+    "其它再生能源" => "other renewable energy",
     // "全部" => "all",
 ];
 
@@ -208,13 +219,22 @@ if (empty($data)) {
             "records" => [],
         ];
 
-        list($powerData["type"], $powerData["name"], $powerData["capacity"], $powerData["used"], $powerData["percent"], $powerData["note"] ) = $item;
+        switch ($format_type) {
+            case 'taipower':
+                list($powerData["type"], $__, $powerData["name"], $powerData["capacity"], $powerData["used"], $powerData["percent"], $powerData["note"] ) = $item;
+                $powerData["type"] = $powerData["type"];
+                break;
+            default:
+            case 'open_data':
+                list($powerData["type"], $powerData["name"], $powerData["capacity"], $powerData["used"], $powerData["percent"], $powerData["note"] ) = $item;
+                break;
+        }
+
 
         /* 小計資料不處理 */
         if (strpos(trim($powerData["name"]),"小計")!==false) {
             continue;
         }
-
 
         foreach ($powerData AS $key => $val) {
             if (!empty($val)) {
@@ -265,6 +285,7 @@ if (empty($data)) {
 
 
         /* 類型正規化成英文 */
+        $powerData["type"] = strip_tags($powerData["type"]);
         if (preg_match("/\((?P<type>[a-zA-Z-\s]{1,})\)/", $powerData["type"], $match)) {
             $powerData["type"] = strtolower($match["type"]);
         } else if (isset($powerTypes[$powerData["type"]])){
@@ -334,6 +355,7 @@ if (empty($data)) {
                 $summaryInfo[$powerData["type"]]["used"] += round($powerData["used"],4);
                 break;
         }
+
 
         $unitKey = [];
         $unitKey[] = $powerData['name'];
@@ -481,7 +503,7 @@ if (empty($data)) {
 
         $powerInfo[] = $powerData;
     }
-
+    // print_r($powerInfo);exit();
 
     /* 儲存當前資料與歷史資料 */
     if (1) {
