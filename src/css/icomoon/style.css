@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?7dzy0v');
-  src:  url('fonts/icomoon.eot?7dzy0v#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?7dzy0v') format('truetype'),
-    url('fonts/icomoon.woff?7dzy0v') format('woff'),
-    url('fonts/icomoon.svg?7dzy0v#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?go0mgp');
+  src:  url('fonts/icomoon.eot?go0mgp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?go0mgp') format('truetype'),
+    url('fonts/icomoon.woff?go0mgp') format('woff'),
+    url('fonts/icomoon.svg?go0mgp#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,20 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-download:before {
-  content: "\e912";
-}
-.icon-amount:before {
-  content: "\e911";
-}
-.icon-about:before {
-  content: "\e910";
-}
-.icon-electricity-pole:before {
-  content: "\e90e";
-}
-.icon-chart:before {
-  content: "\e90f";
+.icon-other_renewable_energy:before {
+  content: "\e913";
 }
 .icon-geothermal:before {
   content: "\e90d";
@@ -84,4 +72,19 @@
 }
 .icon-calendar:before {
   content: "\e953";
+}
+.icon-download:before {
+  content: "\e912";
+}
+.icon-amount:before {
+  content: "\e911";
+}
+.icon-about:before {
+  content: "\e910";
+}
+.icon-electricity-pole:before {
+  content: "\e90e";
+}
+.icon-chart:before {
+  content: "\e90f";
 }

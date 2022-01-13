@@ -51,7 +51,7 @@
                     <chart-trend-box v-if="diffTrend"
                         :title="lang.type[trendInfo.typeKey]"
                         :records="trendInfo.record"
-                        :icon="`icon icon-${trendInfo.typeKey.replace(' ','_')}`"
+                        :icon="`icon icon-${trendInfo.typeKey.replace(/\s/ig,'_')}`"
                         :row-col="(PageSetting_mode_type === 'pc' && chooseListType === 'box') ? 2: 1"
                         :tooltip-total="false"
                         :tooltip-used-percent="true"

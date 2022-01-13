@@ -10,7 +10,7 @@
                 <div class="percent">
                     {{ showPercent }}<small>%</small>
                 </div>
-                <div class="icon" :class="`icon-${orgType.replace(' ','_').replace('-', '_')}`"></div>
+                <div class="icon" :class="`icon-${orgType.replace(/\s/ig,'_').replace('-', '_')}`"></div>
             </div>
 
             <!-- <div class="unit-progress-group">
