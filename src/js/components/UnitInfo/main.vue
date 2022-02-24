@@ -242,9 +242,11 @@ export default {
             handler(newVal, oldVal){
                 const that = this;
                 if ((!oldVal && !!newVal) || newVal.name !== oldVal.name) {
-                    setTimeout(() => {
-                        that.setPageTitle(`${that.UnitInfo.name} 機組`);
-                    }, 100);
+                    this.setSEO();
+                    // setTimeout(() => {
+
+                    //     // that.setPageTitle(`${that.UnitInfo.name} 機組`);
+                    // }, 100);
                 }
             },
         },
@@ -271,6 +273,33 @@ export default {
         ...mapActions({}),
         ...mapMutations({
         }),
+        setSEO(){
+            const that = this;
+            clearTimeout(that.setSEOTimer);
+            that.setSEOTimer = setTimeout(() => {
+                const {
+                    name,
+                    gov,
+                    plantFullName,
+                    type,
+                    location,
+                    status,
+                    percent,
+                } = that.UnitInfo;
+
+                let {
+                    capacity,
+                    used,
+                } = that.UnitInfo;
+                capacity = capacity.toLocaleString();
+                used = used.toLocaleString();
+
+                that.setPageSEO({
+                    title: `${that.UnitInfo.name} 機組`,
+                    description: `${name}機組是一組${gov}擁有${status}${type}發電機組，位於${location}${plantFullName}，裝置容量為${capacity}MW，目前發電量為${used}MW運轉率為${percent}%。`,
+                });
+            }, 200);
+        },
         formatMoney(val){
             return val.toLocaleString();
         },

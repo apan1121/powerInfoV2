@@ -231,6 +231,13 @@ export default {
                 });
             },
         },
+        maxUsedTrend: {
+            handler(){
+                if (this.maxUsedTrend) {
+                    this.setSEO();
+                }
+            },
+        },
     },
     beforeCreate(){
         const that = this;
@@ -245,7 +252,7 @@ export default {
         });
     },
     mounted(){
-        this.setPageTitle('分析摘要');
+        this.setSEO();
         trackJS.gtag('event', 'page_view', {
             page_id: 'SummaryPage',
         });
@@ -270,6 +277,43 @@ export default {
             setSummaryInfo: `${module_name}/setSummaryInfo`,
             setMaxUsedInfo: `${module_name}/setMaxUsedInfo`,
         }),
+        setSEO(){
+            const that = this;
+            clearTimeout(that.setSEOTimer);
+            that.setSEOTimer = setTimeout(() => {
+                const today = Object.keys(that.maxUsedInfo).pop();
+                let { maxUsed, time, record } = JSON.parse(JSON.stringify(that.maxUsedInfo[today]));
+                time = moment(time).format('HH:mm');
+                let recordArr = [];
+                for (const key in record) {
+                    recordArr.push({
+                        name: that.lang.type[key],
+                        used: record[key],
+                    });
+                }
+
+                recordArr = recordArr.sort((a, b) => {
+                    if (a.used < b.used) {
+                        return 1;
+                    } else if (a.used === b.used) {
+                        return 0;
+                    } else {
+                        return -1;
+                    }
+                });
+
+                const top5 = recordArr.splice(0, 5).map((info, index) => {
+                    const val = info.used.toLocaleString();
+                    return `第${index + 1}名為${info.name}產生 ${val} MW`;
+                }).join('，');
+
+                maxUsed = maxUsed.toLocaleString();
+                that.setPageSEO({
+                    title: '分析摘要',
+                    description: `本日 ${today} 在 ${time} 台灣電廠產生了本日最大電量 ${maxUsed} MW，此時段產生的電力前五名分別是${top5}。`,
+                });
+            }, 200);
+        },
         getSummaryInfo(){
             const that = this;
 

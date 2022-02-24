@@ -3,6 +3,14 @@ export default {
     PageSetting_mode_type: 'pc',
 
     lang: {
+        summaryBox: {
+            TotalUsed: '已發電量',
+            TotalCapacity: '可發電量',
+            TotalPercent: '運轉率',
+            UnitFixed: '待修機組',
+            UnitLimit: '限轉機組',
+            UnitBreak: '故障機組',
+        },
         type: {
             // all: '全部',
             nuclear: '核能',

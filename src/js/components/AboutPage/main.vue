@@ -187,6 +187,10 @@ export default {
                     title: '2021 年度資訊 1月 ～ 6 月',
                     link: 'https://github.com/apan1121/powerInfo/tree/gh-pages/log/history',
                 },
+                {
+                    title: '2021 年度資訊 7月 ～ 12 月',
+                    link: 'https://github.com/apan1121/powerInfoV2/tree/power_log_2021/log/history',
+                },
             ],
         };
     },
@@ -198,7 +202,7 @@ export default {
     },
     created(){},
     mounted(){
-        this.setPageTitle('關於');
+        this.setSEO();
 
         trackJS.gtag('event', 'page_view', {
             page_id: 'AboutPage',
@@ -212,6 +216,13 @@ export default {
     methods: {
         ...mapActions({}),
         ...mapMutations({}),
+        setSEO(){
+            const that = this;
+            that.setPageSEO({
+                title: '關於',
+                description: `在這裡您可以知道本站的開發理念與資料來源，您還在找台灣發電的歷史資訊嗎？這邊有最詳盡各個機組的發電紀錄，希望能幫助到你的研究需要`,
+            });
+        },
     },
 };
 </script>

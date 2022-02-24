@@ -2,7 +2,7 @@
     <div class="unit-page">
         <news-ticker class="mb-3"></news-ticker>
 
-        <summary-box></summary-box>
+        <summary-box @set-total-summary="setTotalSummary"></summary-box>
 
         <template v-for="(UnitGroup, UnitGroupIndex) in FormatUnitGroup">
             <template v-if="UnitGroup.type === 'unit-group'">
@@ -90,11 +90,13 @@ export default {
     data(){
         return {
             FormatUnitGroup: [],
+            TotalSummary: false,
         };
     },
     computed: {
         ...mapGetters({
             lang: 'lang',
+            RecordTime: 'RecordTime',
             sortGroup: 'sortGroup',
             FormatUnits: 'FormatUnits',
             MappingPlantList: 'MappingPlantList',
@@ -131,6 +133,13 @@ export default {
                 this.calcFormatUnitGroup();
             },
         },
+        TotalSummary: {
+            immediate: true,
+            deep: true,
+            handler(){
+                this.setSEO();
+            },
+        },
     },
     beforeCreate(){
         if (!this.$store.state[module_name]) {
@@ -139,7 +148,7 @@ export default {
     },
     created(){},
     mounted(){
-        this.setPageTitle('機組資訊');
+        this.setSEO();
 
         if (!!this.route && !!this.route.query && !!this.route.query.unit_key) {
             this.chooseUnitByKey(this.route.query.unit_key);
@@ -166,6 +175,50 @@ export default {
             chooseUnitByKey: 'chooseUnitByKey',
             openFilterBox: `${module_name}/openFilterBox`,
         }),
+        setSEO(){
+            const that = this;
+            clearTimeout(that.setSEOTimer);
+            that.setSEOTimer = setTimeout(() => {
+                let summaryInfo = [];
+                if (!!that.TotalSummary) {
+                    for (const key in that.TotalSummary) {
+                        if (that.TotalSummary[key] > 0) {
+                            const val = that.TotalSummary[key].toLocaleString();
+                            if (key === 'TotalPercent') {
+                                summaryInfo.push(`${that.lang.summaryBox[key]} ${val} %`);
+                            } else {
+                                summaryInfo.push(`${that.lang.summaryBox[key]} ${val} MW`);
+                            }
+
+                        }
+                    }
+                }
+                summaryInfo = summaryInfo.join('，');
+                let groupNames = []
+                for (const item of that.FormatUnitGroup) {
+                    if (!item.group_name.includes('ads') ) {
+                        groupNames.push(item.group_name);
+                    }
+                }
+                groupNames = groupNames.join('、');
+
+                that.setPageSEO({
+                    title: '機組資訊',
+                    description: `最後更新時間為 ${that.RecordTime}，${summaryInfo}，發電機組包含了${groupNames}。`,
+                });
+            }, 200);
+        },
+        setTotalSummary(data){
+            this.TotalSummary = {
+                TotalCapacity: 0,
+                TotalUsed: 0,
+                TotalPercent: 0,
+                UnitBreak: 0,
+                UnitFixed: 0,
+                UnitLimit: 0,
+                ...data,
+            };
+        },
         init(){
             this.loadPlantInfo();
         },

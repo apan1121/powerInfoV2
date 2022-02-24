@@ -50,7 +50,7 @@
                         </div>
                         <div class="col-8 value">
                             {{ location }}
-                            <small>
+                            <small v-if="geo">
                                 <a :href="`https://www.google.com/maps/?q=${geo.lat},${geo.lng}`" target="_blank">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </a>
@@ -218,8 +218,8 @@ export default {
             default: '',
         },
         geo: {
-            type: Object,
-            default: () => {},
+            type: [Object, Boolean],
+            default: false,
         },
         org: {
             type: String,
@@ -299,7 +299,7 @@ export default {
         name: {
             immediate: true,
             handler(){
-                this.setPageTitle(this.name);
+                this.setSEO();
             },
         },
         chooseTab: {
@@ -331,6 +331,34 @@ export default {
     methods: {
         ...mapActions({}),
         ...mapMutations({}),
+        setSEO(){
+            const that = this;
+            clearTimeout(that.setSEOTimer);
+            that.setSEOTimer = setTimeout(() => {
+                const {
+                    fullName,
+                    org,
+                    amount,
+                } = that;
+
+                let {
+                    capacity,
+                    status,
+                } = that;
+
+                const types = that.type.map((_type_) => {
+                    return that.lang.type[_type_];
+                }).join('、');
+
+                capacity = capacity.toLocaleString();
+                status = that.lang.status[status];
+
+                that.setPageSEO({
+                    title: `${that.fullName}`,
+                    description: `${fullName}為${org}的${types}電廠，擁有${amount}台發電機組，目前狀態${status}總發電量為${capacity}MW。`,
+                });
+            }, 200);
+        },
         calc(){
             const that = this;
 

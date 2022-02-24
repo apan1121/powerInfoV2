@@ -31,7 +31,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box">
                                                 <div class="summary-info-title">
-                                                    已發電量
+                                                    {{ lang.summaryBox.TotalUsed }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ TotalUsed | formatMoney }} <small>MW</small>
@@ -41,7 +41,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box">
                                                 <div class="summary-info-title">
-                                                    可發電量
+                                                    {{ lang.summaryBox.TotalCapacity }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ TotalCapacity | formatMoney }} <small>MW</small>
@@ -51,7 +51,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box">
                                                 <div class="summary-info-title">
-                                                    運轉率
+                                                    {{ lang.summaryBox.TotalPercent }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ TotalPercent }} <small>%</small>
@@ -67,7 +67,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box" rel="fix">
                                                 <div class="summary-info-title">
-                                                    待修機組
+                                                    {{ lang.summaryBox.UnitFixed }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ UnitFixed | formatMoney }} <small>MW</small>
@@ -77,7 +77,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box" rel="limit">
                                                 <div class="summary-info-title">
-                                                    限轉機組
+                                                    {{ lang.summaryBox.UnitLimit }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ UnitLimit | formatMoney }} <small>MW</small>
@@ -87,7 +87,7 @@
                                         <div class="col-12">
                                             <div class="summary-info-box" rel="break">
                                                 <div class="summary-info-title">
-                                                    故障機組
+                                                    {{ lang.summaryBox.UnitBreak }}
                                                 </div>
                                                 <div class="summary-info-content">
                                                     {{ UnitBreak | formatMoney }} <small>MW</small>
@@ -151,6 +151,7 @@ export default {
     },
     computed: {
         ...mapGetters({
+            lang: 'lang',
             chooseTypes: 'chooseTypes',
             RecordTime: 'RecordTime',
             FormatUnits: 'FormatUnits',
@@ -248,6 +249,15 @@ export default {
                 }
 
                 that.SunburstRecord = SunburstRecord;
+
+                that.$emit('set-total-summary', {
+                    TotalCapacity,
+                    TotalUsed,
+                    TotalPercent: that.TotalPercent,
+                    UnitFixed,
+                    UnitBreak,
+                    UnitLimit,
+                });
             }, 100);
         },
         openFilter(){
