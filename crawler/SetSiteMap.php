@@ -12,30 +12,24 @@ $WEB_DOMAIN = WEB_DOMAIN;
 
 $xml = [];
 $xml[] = '<?xml version="1.0" encoding="UTF-8"?>';
-$xml[] = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">';
-$xml[] = "
-    <url>
+$xml[] = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+$xml[] = "    <url>
         <loc>{$WEB_DOMAIN}/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
-    </url>
-";
+    </url>";
 
-$xml[] = "
-    <url>
+$xml[] = "    <url>
         <loc>{$WEB_DOMAIN}/?path=summary</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
-    </url>
-";
+    </url>";
 
-$xml[] = "
-    <url>
+$xml[] = "    <url>
         <loc>{$WEB_DOMAIN}/?path=about</loc>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
-    </url>
-";
+    </url>";
 
 foreach ($log['info'] AS $info) {
     // $url = "{$WEB_DOMAIN}/#/?".http_build_query(['unit_key' => $info['key']]);
@@ -45,13 +39,11 @@ foreach ($log['info'] AS $info) {
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
     $url = str_replace('+', '%20', $url);
 
-    $xml[] = "
-    <url>
+    $xml[] = "    <url>
         <loc>{$url}</loc>
         <changefreq>hourly</changefreq>
         <priority>1.0</priority>
-    </url>
-    ";
+    </url>";
 }
 
 foreach ($plantList AS $_plantList) {
@@ -65,13 +57,11 @@ foreach ($plantList AS $_plantList) {
     $url = "{$WEB_DOMAIN}/?".http_build_query($params);
     $url = str_replace('+', '%20', $url);
 
-    $xml[] = "
-    <url>
+    $xml[] = "    <url>
         <loc>{$url}</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-    </url>
-    ";
+    </url>";
 }
 
 
