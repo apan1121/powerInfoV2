@@ -1,6 +1,14 @@
 <?php
+// $records = @json_decode(file_get_contents('https://apan1121.github.io/powerInfoV2/log/summary.log'),true);
+$start_time = strtotime('2022-01-01');
+$end_time = time();
 
-$records = @json_decode(file_get_contents('https://apan1121.github.io/powerInfoV2/log/summary.log'),true);
+$records = [];
+for ($target_time = $start_time; $target_time <=$end_time; $target_time += 86400) {
+    $tmpTime = date('Y-m-d', $target_time);
+    $tmpRecords = @json_decode(file_get_contents("https://apan1121.github.io/powerInfoV2/log/history/{$tmpTime}/summary.log"),true);
+    $records = $records + $tmpRecords;
+}
 
 $diffGroup = [
     '2500' => 0,
