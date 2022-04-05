@@ -1,9 +1,9 @@
 <template>
     <div class="unit-box" :class="orgStatus">
         <div class="unit-wrapper">
-            <div class="unit-info-btn" @click="openUnitInfo">
+            <a :href="unitInfoPath" class="unit-info-btn" @click.stop.prevent="openUnitInfo">
                 <i class="fas fa-info-circle"></i>
-            </div>
+            </a>
             <div class="unit-progress-group-v2">
                 <div ref="circle-progress-v2" class="circle-progress">
                 </div>
@@ -26,10 +26,12 @@
             </h5>
             <div v-if="showPlantFullName" class="plant-name-area">
                 <template v-if="plantFullName">
-                    <span class="plant-name"
-                        @click="openPlantInfo"
+                    <a :href="plantInfoPath"
+                        class="plant-name"
+                        target="_blank"
+                        @click.prevent="openPlantInfo"
                         v-text="plantFullName"
-                    ></span>
+                    ></a>
                 </template>
                 <template v-else>
                     --
@@ -130,6 +132,22 @@ export default {
         },
         AbsUsed(){
             return Math.abs(this.used);
+        },
+        unitInfoPath(){
+            const a = document.createElement('a');
+            a.href = window.location.href;
+            a.hash = '';
+            a.query = '';
+            a.href = a.href + '?path=' + encodeURIComponent(`unit/${this.unitKey}`);
+            return a.href;
+        },
+        plantInfoPath(){
+            const a = document.createElement('a');
+            a.href = window.location.href;
+            a.hash = '';
+            a.query = '';
+            a.href = a.href + '?path=' + encodeURIComponent(`plant/${this.plantName}`);
+            return a.href;
         },
     },
     watch: {
