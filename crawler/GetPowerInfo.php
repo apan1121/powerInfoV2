@@ -78,6 +78,7 @@ if (!empty($twOpenDataError) && strtotime($twOpenDataError['error_date'])  + 360
 
 $summaryInfo = [];
 define("SUMMARY_DAYS", 15);
+define("DIFF_TOTAL_USED_LIMIT", -250);
 
 $mappingPowerNameStorage = [
     "大潭CC" => ["大潭"],
@@ -583,6 +584,53 @@ if (empty($data)) {
         }
 
         save("../log/summary.log", $totalSummary);
+
+        // 警示檢查，前後資料差距多少
+        if (1) {
+            $dateKeys = array_keys($totalSummary);
+            if (count($dateKeys) >= 2) {
+                $dateKeys = array_splice($dateKeys, -2, 2);
+                $dateKeysValue = [];
+                foreach ($dateKeys AS $index => $dateKey) {
+                    $tmpData = $totalSummary[$dateKey];
+                    $_used = 0;
+                    foreach ($tmpData AS $_tmpData) {
+                        $_used += $_tmpData['used'];
+                    }
+                    $dateKeysValue[$index] = $_used;
+                }
+                $diff = $dateKeysValue[1] - $dateKeysValue[0];
+                if ($diff < DIFF_TOTAL_USED_LIMIT) {
+                    $dateAlarmFile = "../log/alarm.log";
+                    $alarmData = get($dateAlarmFile);
+                    if (empty($alarmData)) {
+                        $summaryData = [];
+                    }
+                    $diff_records = [];
+                    foreach($dateKeys AS $dateKey) {
+                        $diff_records[$dateKey] = $totalSummary[$dateKey] ?? [];
+                    }
+                    $alarmData[] = [
+                        'time' => $recordTime,
+                        'diff_used' => $diff,
+                        'diff_records'=> $diff_records,
+                        'notice_records' => $NoticeRecords,
+                    ];
+                    usort($alarmData, function($a, $b){
+                        if ($a['time'] > $b['time']) {
+                            return 1;
+                        } else if ($a['time'] === $b['time']) {
+                            return 0;
+                        } else {
+                            return -1;
+                        }
+                    });
+
+                    save($dateAlarmFile, $alarmData);
+                }
+
+            }
+        }
     }
 
     if (1) {
