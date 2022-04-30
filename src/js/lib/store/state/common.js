@@ -139,4 +139,5 @@ export default {
     adBlocked: false,
 
     NoticeRecord: [],
+    AlarmRecord: [],
 };

@@ -170,6 +170,7 @@ foreach ($powerTypes AS $powerType) {
 }
 
 $NoticeRecords = [];
+$AlarmReduceRecords = [];
 // $data = "";
 if (empty($data)) {
     echo "跳出警告 \n";
@@ -474,6 +475,19 @@ if (empty($data)) {
                     ];
                 }
 
+                if ($diffPercent < 0) {
+                    $AlarmReduceRecords = [
+                        'name' => $powerData['name'],
+                        'type' => $powerData['type'],
+                        'unitKey' => $unitKey,
+                        'diff_type' => 'used',
+                        'newVal' => $powerData['used'],
+                        'oldVal' => $pre_powerData['used'],
+                        'note' => "降載超過 {$limitUsedPercent} %，降載 ".abs($diffPercent) ." %",
+                    ];
+                }
+
+
 
                 // if ($oldUsed === 0 && $newUsed > 0) {
                 //     $NoticeRecords[] = [
@@ -614,7 +628,7 @@ if (empty($data)) {
                         'time' => $recordTime,
                         'diff_used' => $diff,
                         'diff_records'=> $diff_records,
-                        'notice_records' => $NoticeRecords,
+                        'reduce_records' => $AlarmReduceRecords,
                     ];
                     usort($alarmData, function($a, $b){
                         if ($a['time'] > $b['time']) {

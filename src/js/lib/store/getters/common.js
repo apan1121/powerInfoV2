@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 export default {
     config: state => state.config,
 
@@ -40,4 +42,18 @@ export default {
     NoticeRecord: state => state.NoticeRecord,
 
     adBlocked: state => state.adBlocked,
+
+
+    LastAlarmRecord: (state) => {
+        const AlarmRecord = JSON.parse(JSON.stringify(state.AlarmRecord));
+        let LastAlarmRecord = false;
+
+        if (AlarmRecord.length > 0) {
+            console.log(AlarmRecord[0]);
+            console.log(moment().diff(moment(AlarmRecord[0].time), 'day'));
+        }
+
+
+        return LastAlarmRecord;
+    },
 };

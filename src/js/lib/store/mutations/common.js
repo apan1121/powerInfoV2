@@ -89,4 +89,8 @@ export default {
     setNoticeRecord(state, params){
         state.NoticeRecord = params.reverse();
     },
+
+    setAlarmRecord(state, params){
+        state.AlarmRecord = params.reverse();
+    },
 };

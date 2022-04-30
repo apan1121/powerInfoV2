@@ -55,6 +55,7 @@ export default {
     },
     computed: {
         ...mapGetters([
+            'LastAlarmRecord',
         ]),
         route(){
             return this.$route;
@@ -76,6 +77,8 @@ export default {
         }),
         init(){
             const that = this;
+            that.getAlarmRecord();
+
             $(window).bind('resize', () => {
                 clearTimeout(that.windowResizeTimer);
                 that.windowResizeTimer = setTimeout(() => {
@@ -91,6 +94,12 @@ export default {
             /* 偵測 adblocker */
             detectAnyAdblocker().then((detected) => {
                 that.CheckAdBlock(detected);
+            });
+        },
+        getAlarmRecord(){
+            const that = this;
+            that.$store.dispatch('loadAlarmRecord').then(() => {
+            }, () => {
             });
         },
     },

@@ -38,4 +38,15 @@ export default {
             });
         });
     },
+
+    loadAlarmRecord({ commit }, params){
+        return new Promise((resolve, reject) => {
+            api.loadAlarmRecord(params).success((response) => {
+                commit('setAlarmRecord', response);
+                resolve(response);
+            }).error((response) => {
+                reject(response);
+            });
+        });
+    },
 };
