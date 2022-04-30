@@ -626,6 +626,7 @@ if (empty($data)) {
                     }
                     $alarmData[] = [
                         'time' => $recordTime,
+                        'DIFF_TOTAL_USED_LIMIT' => DIFF_TOTAL_USED_LIMIT,
                         'diff_used' => $diff,
                         'diff_records'=> $diff_records,
                         'reduce_records' => $AlarmReduceRecords,
