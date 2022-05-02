@@ -1,7 +1,7 @@
 <template>
     <div class="card" :class="{ fullscreen }">
         <div class="card-header">
-            <div class="card-title" v-text="title"></div>
+            <div class="card-title" v-html="title"></div>
             <div v-if="download" class="tool-button" @click="downloadFile">
                 <i class="icon-download"></i>
             </div>

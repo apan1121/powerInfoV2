@@ -20,6 +20,14 @@
     }
 }
 
+body {
+    &.lock-scroll{
+        position: relative;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
 .chart-trend{
     position: relative;
     padding: $spacer / 2;

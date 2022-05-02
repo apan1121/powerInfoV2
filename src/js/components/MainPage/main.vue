@@ -7,24 +7,14 @@
                         台灣電廠即時資訊
                     </router-link>
                     <ul class="navbar-nav">
-                        <li class="nav-item" :class="{ active: route.name == 'UnitPage'}">
-                            <router-link class="nav-link" :to="{ name: 'UnitPage'}">
-                                <i class="icon icon-electricity-pole"></i>
-                                <span>機組資訊</span>
-                            </router-link>
-                        </li>
-                        <li class="nav-item" :class="{ active: route.name == 'SummaryPage'}">
-                            <router-link class="nav-link" :to="{ name: 'SummaryPage'}">
-                                <i class="icon icon-chart"></i>
-                                <span>分析摘要</span>
-                            </router-link>
-                        </li>
-                        <li class="nav-item" :class="{ active: route.name == 'AboutPage'}">
-                            <router-link class="nav-link" :to="{ name: 'AboutPage'}">
-                                <i class="icon icon-about"></i>
-                                <span>關於</span>
-                            </router-link>
-                        </li>
+                        <template v-for="navInfo in navList">
+                            <li :key="navInfo.route_name" class="nav-item" :class="{ active: route.name == navInfo.route_name}">
+                                <router-link class="nav-link" :to="{ name: navInfo.route_name }">
+                                    <i :class="navInfo.icon"></i>
+                                    <span>{{ navInfo.title }}</span>
+                                </router-link>
+                            </li>
+                        </template>
                     </ul>
                 </div>
             </nav>
@@ -55,10 +45,47 @@ export default {
     },
     computed: {
         ...mapGetters([
-            'LastAlarmRecord',
+            'AlarmRecord',
         ]),
         route(){
             return this.$route;
+        },
+        navList(){
+            const that = this;
+            const navList = [];
+            navList.push({
+                route_name: 'UnitPage',
+                icon: 'icon icon-electricity-pole',
+                title: '機組資訊',
+            });
+
+            navList.push({
+                route_name: 'SummaryPage',
+                icon: 'icon icon-chart',
+                title: '分析摘要',
+            });
+
+            if (that.AlarmRecord.length > 0) {
+                const r_t = moment(that.AlarmRecord[0].time).format('X');
+                const now_t = moment().format('X');
+                let icon = 'icon icon-alarm';
+                if ((now_t - r_t) < 86400) {
+                    icon = 'icon icon-alarm-notice';
+                }
+                navList.push({
+                    route_name: 'AlarmPage',
+                    icon,
+                    title: '電力警報',
+                });
+            }
+
+            navList.push({
+                route_name: 'AboutPage',
+                icon: 'icon icon-about',
+                title: '關於',
+            });
+
+            return navList;
         },
     },
     watch: {

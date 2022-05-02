@@ -10,7 +10,11 @@
                 <div class="percent">
                     {{ showPercent }}<small>%</small>
                 </div>
-                <div class="icon" :class="`icon-${orgType.replace(/\s/ig,'_').replace('-', '_')}`"></div>
+                <div class="icon"
+                    :class="`icon-${orgType.replace(/\s/ig,'_').replace('-', '_')}`"
+                    :title="lang.type[orgType]"
+                >
+                </div>
             </div>
 
             <!-- <div class="unit-progress-group">
@@ -117,6 +121,7 @@ export default {
     computed: {
         ...mapGetters([
             'PageSetting_width',
+            'lang',
         ]),
         percent(){
             let percent = 0;

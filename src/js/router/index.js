@@ -30,6 +30,11 @@ const routes = [
         component: () => import('components/SummaryPage/main.vue'),
     },
     {
+        path: '/alarm',
+        name: 'AlarmPage',
+        component: () => import('components/AlarmPage/main.vue'),
+    },
+    {
         path: '/about',
         name: 'AboutPage',
         component: () => import('components/AboutPage/main.vue'),

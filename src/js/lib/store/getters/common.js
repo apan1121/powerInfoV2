@@ -40,20 +40,7 @@ export default {
     chooseUnitKey: state => state.chooseUnitKey,
 
     NoticeRecord: state => state.NoticeRecord,
+    AlarmRecord: state => state.AlarmRecord,
 
     adBlocked: state => state.adBlocked,
-
-
-    LastAlarmRecord: (state) => {
-        const AlarmRecord = JSON.parse(JSON.stringify(state.AlarmRecord));
-        let LastAlarmRecord = false;
-
-        if (AlarmRecord.length > 0) {
-            console.log(AlarmRecord[0]);
-            console.log(moment().diff(moment(AlarmRecord[0].time), 'day'));
-        }
-
-
-        return LastAlarmRecord;
-    },
 };

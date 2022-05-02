@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import moment from 'moment';
 
 export default {
     initSystem(state, params){
@@ -91,6 +92,22 @@ export default {
     },
 
     setAlarmRecord(state, params){
-        state.AlarmRecord = params.reverse();
+        const records = params.sort((a, b) => {
+            const t1 = moment(a.time).format('x');
+            const t2 = moment(b.time).format('x');
+            if (t1 < t2) {
+                return 1;
+            }
+
+            if (t1 === t2) {
+                return 0;
+            }
+
+            return -1;
+        });
+
+
+
+        state.AlarmRecord = records;
     },
 };

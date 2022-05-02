@@ -1,0 +1,128 @@
+@import '../common/_variable.scss';
+
+.alarm-page{
+    .alert{
+        font-size: $spacer * 0.75;
+        line-height: $spacer * 0.75 * 2;
+        .label-beta{
+            background: $red-600;
+            color: $white;
+            padding: $spacer * 0.25 $spacer * 0.5;
+            border-radius: $spacer * 0.25;
+        }
+    }
+
+    .card{
+        .card-body{
+            .scroll-area{
+                width: 100%;
+                padding: $spacer;
+                max-height: $spacer * 30;
+                overflow: auto;
+            }
+        }
+        &.fullscreen{
+            .card-body{
+                .scroll-area{
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+
+    .diff-type-list{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        .diff-type-wrapper{
+            display: inline-flex;
+            flex-wrap: wrap;
+            .diff-type-item{
+                flex: none;
+                padding: $spacer * 0.5 ;
+
+            }
+        }
+    }
+    .diff-type-box{
+        display: flex;
+        flex-direction: column;
+        background: $white;
+        justify-content: center;
+        padding: $spacer * 0.75 $spacer * 0.75;
+        border: 1px solid $gray-400;
+        border-radius: $spacer * 0.5;
+        max-width: $spacer * 12;
+        margin: $spacer * 0.5 auto;
+        box-shadow:  0px 0px 5px $gray-500;
+        .diff-type-icon{
+            text-align: center;
+            .icon{
+                font-size: $spacer * 4;
+            }
+        }
+        .diff-power{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: $spacer;
+            overflow:hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            .icon{
+                font-size: $spacer * 0.75;
+                margin-right: $spacer * 0.25;
+            }
+            .info{
+                font-size: $spacer;
+            }
+            &[rel="up"] {
+                color: $green-600;
+            }
+            &[rel="down"] {
+                color: $red-600;
+            }
+            &[type="percent"] {
+                font-size: $spacer * 0.75;
+            }
+        }
+        .diff-date{
+            padding: $spacer * 0.25;
+            .date-item{
+                display: flex;
+                font-size: $spacer * 0.75;
+                .date-title{
+                    flex: none;
+                }
+                .date-value{
+                    flex: 1;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .abnormal-box{
+        display: block;
+        color: $gray-800;
+        padding: $spacer * 0.25 $spacer * 0.75;
+        box-shadow:  0px 0px 2px $gray-500;
+        border: 1px solid $gray-400;
+        border-radius: $spacer * 0.25;
+        margin-bottom: $spacer * 0.75;
+        cursor: pointer;
+        background-color: $white;
+        user-select: none;
+        &:active{
+            background-color: $gray-100;
+        }
+        .name{
+            font-weight: 700;
+        }
+        .now-unit-info{
+            font-size: $spacer * 0.75;
+            text-decoration: none;
+        }
+    }
+}
