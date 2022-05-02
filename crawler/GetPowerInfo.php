@@ -78,7 +78,6 @@ if (!empty($twOpenDataError) && strtotime($twOpenDataError['error_date'])  + 360
 
 $summaryInfo = [];
 define("SUMMARY_DAYS", 15);
-define("DIFF_TOTAL_USED_LIMIT", -250);
 
 $mappingPowerNameStorage = [
     "大潭CC" => ["大潭"],
