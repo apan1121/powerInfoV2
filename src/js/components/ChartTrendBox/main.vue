@@ -91,10 +91,16 @@ export default {
         ]),
     },
     watch: {
-        fullscreenToggle(){
-            setTimeout(() => {
-                (window.adsbygoogle = window.adsbygoogle || []).push({});
-            }, 500);
+        fullscreenToggle(newVal){
+            if (newVal) {
+                setTimeout(() => {
+                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                }, 500);
+
+                $('body').addClass('lock-scroll');
+            } else {
+                $('body').removeClass('lock-scroll');
+            }
         },
     },
     created(){},

@@ -2,18 +2,23 @@
     <card-box
         :title="`${time} 減少 ${ formatMoney(diff_used * -1) } <small>MW</small>`"
         :class="{
-            fullscreen: fullscreenFlag,
+            fullscreen: fullscreenToggle,
         }"
         @fullscreen="fullscreen"
     >
         <vue-perfect-scrollbar class="scroll-area">
             <div class="row mb-4">
+                <div class="col-12 mb-2">
+                    <h4>發電狀態</h4>
+                </div>
                 <template v-for="(diffInfo, typeIndex) in diffTypes">
                     <div :key="typeIndex"  class="col-6 col-md-4 col-lg-3 col-xl-2 text-center">
                         <div class="diff-type-box">
                             <div class="diff-type-icon">
                                 <div class="icon" :class="`icon-${diffInfo.type.replace(/\s/ig,'_').replace('-', '_')}`"></div>
                             </div>
+                            <h5 class="diff-type-title" v-text="lang.type[diffInfo.type]">
+                            </h5>
                             <div class="diff-power" :rel="diffInfo.diff > 0 ? 'up': 'down'">
                                 <span class="icon" v-text="diffInfo.diff > 0 ? '▲': '▼'"></span>
                                 <span class="info">{{ formatMoney(Math.abs(diffInfo.diff)) }}
@@ -45,9 +50,24 @@
                 </template>
             </div>
 
+            <template v-if="fullscreenToggle">
+                <div
+                    ref="ads"
+                    class="power-info-promote"
+                    :class="{ 'ad-blocked': adBlocked }"
+                >
+                    <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-format="fluid"
+                        data-ad-layout-key="-fb+5w+4e-db+86"
+                        data-ad-client="ca-pub-3068501078221920"
+                        data-ad-slot="1897408904"></ins>
+                </div>
+            </template>
+
             <div class="row">
                 <div class="col-12 mb-2">
-                    <h4>異常裝置</h4>
+                    <h4>可能異常裝置</h4>
                 </div>
                 <template v-for="(reduceInfo, reduceIndex) in reduceRecords">
                     <div :key="reduceIndex"  class="col-12 col-md-6">
@@ -104,12 +124,13 @@ export default {
     },
     data(){
         return {
-            fullscreenFlag: false,
+            fullscreenToggle: false,
         };
     },
     computed: {
         ...mapGetters({
             lang: 'lang',
+            adBlocked: 'adBlocked',
         }),
         reduceRecords(){
             const that = this;
@@ -187,8 +208,12 @@ export default {
         },
     },
     watch: {
-        fullscreenFlag(newVal){
+        fullscreenToggle(newVal){
             if (newVal) {
+                setTimeout(() => {
+                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                }, 500);
+
                 $('body').addClass('lock-scroll');
             } else {
                 $('body').removeClass('lock-scroll');
@@ -219,7 +244,7 @@ export default {
             return a.href;
         },
         fullscreen(){
-            this.fullscreenFlag = !this.fullscreenFlag;
+            this.fullscreenToggle = !this.fullscreenToggle;
         },
     },
 };

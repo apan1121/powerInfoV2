@@ -24,6 +24,7 @@
         &.fullscreen{
             .card-body{
                 .scroll-area{
+                    padding: $spacer $spacer * 1.5;
                     max-height: 100%;
                 }
             }
@@ -60,6 +61,12 @@
             .icon{
                 font-size: $spacer * 4;
             }
+        }
+        .diff-type-title{
+            padding: $spacer * 0.25 0;
+            margin-bottom: 0px;
+            text-align: center;
+            font-size: $spacer;
         }
         .diff-power{
             display: flex;
