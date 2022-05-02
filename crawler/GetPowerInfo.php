@@ -483,7 +483,7 @@ if (empty($data)) {
                         'diff_type' => 'used',
                         'newVal' => $powerData['used'],
                         'oldVal' => $pre_powerData['used'],
-                        'note' => "降載超過 {$limitUsedPercent} %，降載 ".abs($diffPercent) ." %",
+                        'note' => "降載 ".abs($diffPercent) ." %",
                     ];
                 }
 
