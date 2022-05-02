@@ -578,6 +578,14 @@ body {
     }
 }
 
+.modal{
+    z-index: 3000;
+    background: rgba($gray-500, 0.2);
+    .modal-content{
+        box-shadow:  0px 0px 5px $gray-600;
+    }
+}
+
 .modal#plant-info-box{
     .modal-dialog {
         @media (min-width: 576px){
