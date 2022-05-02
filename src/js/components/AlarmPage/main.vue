@@ -87,6 +87,12 @@ export default {
     },
     created(){},
     mounted(){
+        trackJS.gtag('event', 'page_view', {
+            page_id: 'AlarmPage',
+        });
+        trackJS.mixpanel('page_view', {
+            page_id: 'AlarmPage',
+        });
         this.setSEO();
         this.loadPlantInfo();
     },
