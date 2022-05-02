@@ -2,7 +2,7 @@
     <div class="alarm-page">
         <div class="alert alert-success" role="alert">
             <span class="label-beta">BETA</span>
-            本功能目前為 Beta 版，當系統十分鐘的電力減少超過 {{ DIFF_TOTAL_USED_LIMIT }} MW，會即時紀錄當時狀況並嘗試列出可能的問題。
+            本功能目前為 Beta 版，當系統十分鐘的電力減少超過 {{ Math.abs(DIFF_TOTAL_USED_LIMIT) }} MW，會即時紀錄當時狀況並嘗試列出可能的問題。
             在 Beta 版期間的警報資訊為低門檻觸發事件，請勿恐慌。
         </div>
 
