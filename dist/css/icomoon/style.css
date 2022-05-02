@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?go0mgp');
-  src:  url('fonts/icomoon.eot?go0mgp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?go0mgp') format('truetype'),
-    url('fonts/icomoon.woff?go0mgp') format('woff'),
-    url('fonts/icomoon.svg?go0mgp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4wsipj');
+  src:  url('fonts/icomoon.eot?4wsipj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4wsipj') format('truetype'),
+    url('fonts/icomoon.woff?4wsipj') format('woff'),
+    url('fonts/icomoon.svg?4wsipj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-alarm-notice:before {
+  content: "\e914";
+}
+.icon-alarm:before {
+  content: "\e915";
+}
 .icon-other_renewable_energy:before {
   content: "\e913";
 }
