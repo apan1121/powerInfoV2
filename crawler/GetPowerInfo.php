@@ -476,7 +476,7 @@ if (empty($data)) {
                 }
 
                 if ($diffPercent < 0) {
-                    $AlarmReduceRecords = [
+                    $AlarmReduceRecords[] = [
                         'name' => $powerData['name'],
                         'type' => $powerData['type'],
                         'unitKey' => $unitKey,
