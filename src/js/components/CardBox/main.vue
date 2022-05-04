@@ -96,6 +96,7 @@ export default {
 
             if (newVal) {
                 this.setPageTitle(`${this.title}`);
+                this.boxToggle = true;
             } else {
                 this.undoPageTitle();
             }

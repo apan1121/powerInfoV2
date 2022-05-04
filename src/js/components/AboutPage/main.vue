@@ -53,7 +53,7 @@
                                 <h4>贊助一杯咖啡</h4>
                             </div>
                             <div class="col-12">
-                                <a href="https://www.buymeacoffee.com/apan1121" target="_blank">
+                                <a href="https://www.buymeacoffee.com/apan1121" target="_blank" @click="donateAct">
                                     <div class="donate-image">
                                         <img :src="'./dist/img/buymeacoffee.jpeg'">
                                     </div>
@@ -234,6 +234,12 @@ export default {
             that.setPageSEO({
                 title: '關於',
                 description: `在這裡您可以知道本站的開發理念與資料來源，您還在找台灣發電的歷史資訊嗎？這邊有最詳盡各個機組的發電紀錄，希望能幫助到你的研究需要`,
+            });
+        },
+        donateAct(){
+            trackJS.gtag('event', 'donate_click', {
+            });
+            trackJS.mixpanel('donate_click', {
             });
         },
     },
