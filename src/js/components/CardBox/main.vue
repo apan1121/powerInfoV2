@@ -2,24 +2,24 @@
     <div class="card" :class="{ fullscreen, 'card-close': !boxToggle }">
         <div class="card-header">
             <div class="card-title" v-html="title"></div>
-            <div v-if="download" class="tool-button" @click="downloadFile">
+            <div v-if="download" class="tool-button" rel="download" @click="downloadFile">
                 <i class="icon-download"></i>
             </div>
 
             <template v-if="showToggleButton">
-                <div v-if="boxToggle == false" class="tool-button" @click="boxToggle = true">
+                <div v-if="boxToggle == false" class="tool-button" rel="toggle" @click="boxToggle = true">
                     <i class="fas fa-plus"></i>
                 </div>
-                <div v-if="boxToggle == true" class="tool-button" @click="boxToggle = false">
+                <div v-if="boxToggle == true" class="tool-button" rel="toggle" @click="boxToggle = false">
                     <i class="fas fa-minus"></i>
                 </div>
             </template>
 
             <template v-if="showFullscreenBtn">
-                <div v-if="fullscreen == false" class="tool-button" @click="fullscreen = true">
+                <div v-if="fullscreen == false" class="tool-button" rel="fullscreen" @click="fullscreen = true">
                     <i class="fas fa-expand"></i>
                 </div>
-                <div v-if="fullscreen == true" class="tool-button" @click="fullscreen = false">
+                <div v-if="fullscreen == true" class="tool-button" rel="fullscreen" @click="fullscreen = false">
                     <i class="fas fa-compress"></i>
                 </div>
             </template>

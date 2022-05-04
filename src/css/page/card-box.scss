@@ -27,7 +27,6 @@
     .card-body{
         transition: all 0.2s;
         padding: 0px;
-        overflow: hidden;
         // overflow: hidden;
         // display: flex;
         // align-items: center;
@@ -43,6 +42,13 @@
         animation-name: cardAnimation;
         animation-duration: 0.05s;
         transform: translate(-50%, -50%);
+        .card-header{
+            .tool-button{
+                &[rel="toggle"] {
+                    display: none;
+                }
+            }
+        }
         .card-body{
             height: calc(100% - 55.1px);
             overflow: auto;
