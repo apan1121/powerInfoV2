@@ -14,6 +14,13 @@
         border: 1px solid $gray-600;
         border-radius: $spacer / 2;
         background: rgba($gray-100, 0.3);
+        .donate-image{
+            overflow: hidden;
+            border-radius: $spacer * 0.5;
+            img{
+                width: 100%;
+            }
+        }
     }
 
 

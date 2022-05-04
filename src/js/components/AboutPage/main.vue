@@ -47,6 +47,19 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <div class="row mb-4 about-area">
+                            <div class="col-12">
+                                <h4>贊助一杯咖啡</h4>
+                            </div>
+                            <div class="col-12">
+                                <a href="https://www.buymeacoffee.com/apan1121" target="_blank">
+                                    <div class="donate-image">
+                                        <img :src="'./dist/img/buymeacoffee.jpeg'">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
