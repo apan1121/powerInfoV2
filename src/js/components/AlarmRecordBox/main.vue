@@ -4,6 +4,7 @@
         :class="{
             fullscreen: fullscreenToggle,
         }"
+        :default-open="defaultOpen"
         @fullscreen="fullscreen"
     >
         <vue-perfect-scrollbar class="scroll-area">
@@ -120,6 +121,10 @@ export default {
         reduce_records: {
             type: Array,
             default: () => [],
+        },
+        defaultOpen: {
+            type: [Boolean, null],
+            default: null,
         },
     },
     data(){

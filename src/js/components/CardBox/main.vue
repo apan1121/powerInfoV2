@@ -1,10 +1,20 @@
 <template>
-    <div class="card" :class="{ fullscreen }">
+    <div class="card" :class="{ fullscreen, 'card-close': !boxToggle }">
         <div class="card-header">
             <div class="card-title" v-html="title"></div>
             <div v-if="download" class="tool-button" @click="downloadFile">
                 <i class="icon-download"></i>
             </div>
+
+            <template v-if="showToggleButton">
+                <div v-if="boxToggle == false" class="tool-button" @click="boxToggle = true">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div v-if="boxToggle == true" class="tool-button" @click="boxToggle = false">
+                    <i class="fas fa-minus"></i>
+                </div>
+            </template>
+
             <template v-if="showFullscreenBtn">
                 <div v-if="fullscreen == false" class="tool-button" @click="fullscreen = true">
                     <i class="fas fa-expand"></i>
@@ -50,15 +60,24 @@ export default {
             type: Boolean,
             default: false,
         },
+        defaultOpen: {
+            type: [Boolean, null],
+            default: null,
+        },
     },
     data(){
         return {
             fullscreen: false,
+            boxToggle: true,
         };
     },
     computed: {
         ...mapGetters([
         ]),
+        showToggleButton(){
+            const that = this;
+            return typeof that.defaultOpen === "boolean";
+        },
         showFullscreenBtn(){
             return !!this.$listeners.fullscreen;
         },
@@ -83,7 +102,12 @@ export default {
         },
     },
     created(){},
-    mounted(){},
+    mounted(){
+        const that = this;
+        if (typeof that.defaultOpen === "boolean"){
+            that.boxToggle = that.defaultOpen;
+        }
+    },
     updated(){},
     destroyed(){},
     methods: {

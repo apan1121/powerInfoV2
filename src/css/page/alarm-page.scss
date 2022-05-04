@@ -20,6 +20,7 @@
                 max-height: $spacer * 30;
                 overflow: auto;
             }
+            background: rgba($gray-100, 0.3);
         }
         &.fullscreen{
             .card-body{

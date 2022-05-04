@@ -2,6 +2,12 @@
 .card{
     height: 100%;
     background: $white;
+    &.card-close{
+        .card-body{
+            max-height: 0px;
+            overflow: hidden;
+        }
+    }
     .card-header{
         display: flex;
         background-color: rgba(255, 255, 255, 0);
@@ -19,7 +25,9 @@
         }
     }
     .card-body{
+        transition: all 0.2s;
         padding: 0px;
+        overflow: hidden;
         // overflow: hidden;
         // display: flex;
         // align-items: center;

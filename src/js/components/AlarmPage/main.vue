@@ -9,10 +9,10 @@
         <div class="row">
             <template v-for="(AlarmInfo, AlarmInfoIndex) in AlarmRecord">
                 <div :key="AlarmInfo.time" class="col-12 mb-3">
-                    <alarm-record-box v-bind="AlarmInfo"></alarm-record-box>
+                    <alarm-record-box v-bind="AlarmInfo" :default-open="AlarmInfoIndex === 0"></alarm-record-box>
                 </div>
 
-                <template v-if="AlarmInfoIndex % 3 === 2">
+                <template v-if="AlarmInfoIndex % 5 === 4">
                     <div :key="`${AlarmInfo.time}_${AlarmInfoIndex}`" class="col-12 mb-3">
                         <box-ads-box></box-ads-box>
                     </div>
