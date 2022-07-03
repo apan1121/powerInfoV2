@@ -424,7 +424,7 @@ if (empty($data)) {
 
 
             /* 排除 風力 太陽能 抽蓄負載 */
-            if (!in_array($powerData['type'], ['wind', 'solar', 'pumping gen', 'co-gen', 'hydro', 'geothermal'])) {
+            if (!in_array($powerData['type'], ['wind', 'solar', 'pumping gen', 'pumping load', 'co-gen', 'hydro', 'geothermal'])) {
                 $newUsed = $powerData['used'];
                 $oldUsed = $pre_powerData['used'];
                 $capacity = $powerData['capacity'];
