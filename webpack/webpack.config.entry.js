@@ -128,7 +128,7 @@ if (1) {
     const CSS_FOLDER = {
         // layout: `${CSS_DIR}/layout`,
         page: `${CSS_DIR}/page`,
-        adminlte: `${CSS_DIR}/adminlte`,
+        // adminlte: `${CSS_DIR}/adminlte`,
         // vendor: `${CSS_DIR}/vendor`,
     };
 
