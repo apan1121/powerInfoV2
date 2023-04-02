@@ -27,10 +27,13 @@ $twOpenDataError = get("../log/tw_open_data_error.log");
 $dir = dirname(__FILE__)."/";
 
 $now = time();
+
+$SOURCE_URL = SOURCE_URL . "?v=".$now;
+
 $url = "https://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
 // $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 if (!empty($twOpenDataError)) {
-    $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+    $url = $SOURCE_URL;
 }
 $data = getUrl($url);
 if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) {
@@ -40,7 +43,7 @@ if (empty($data) || empty($data[""]) || ($now - strtotime($data[""])) >= 1200 ) 
         date('Y-m-d H:i:s'),
         ($now - strtotime($data[""] || '')),
     ]);
-    $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
+    $url = $SOURCE_URL;
     $data = getUrl($url);
 
     /* 如果 openDataError 為空，寫入錯誤時間 */
@@ -54,6 +57,8 @@ $format_type = "open_data";
 if (strpos($url, 'data.taipower.com.tw') !== false) {
     $format_type = "open_data";
 } elseif(strpos($url, 'www.taipower.com.tw') !== false) {
+    $format_type = "taipower";
+} else {
     $format_type = "taipower";
 }
 

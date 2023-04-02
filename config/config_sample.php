@@ -20,3 +20,6 @@ define('OWNER_MAIL', $OWNER_MAIL);
 
 $NOTICE_MAIL = [];
 define('NOTICE_MAIL', $NOTICE_MAIL);
+
+
+define('SOURCE_URL', '');
