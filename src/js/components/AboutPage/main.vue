@@ -204,6 +204,10 @@ export default {
                     title: '2021 年度資訊 7月 ～ 12 月',
                     link: 'https://github.com/apan1121/powerInfoV2/tree/power_log_2021/log/history',
                 },
+                {
+                    title: '2022 年度資訊',
+                    link: 'https://github.com/apan1121/powerInfoV2/tree/power_log_2022/log/history',
+                },
             ],
         };
     },
