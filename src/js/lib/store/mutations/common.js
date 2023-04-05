@@ -43,18 +43,27 @@ export default {
         state.RecordTime = data;
     },
     setUnits(state, data){
-        const { MappingPlantList } = state;
+        const { MappingPlantList, typeGroupList } = state;
         const { Units, lang } = data;
+
 
         const locations = {};
         const unitMapping = {};
-        for (const unitInfo of Units) {
-            let unitKey = [];
+        const typeGroupMapping = {};
+        for (const typeGroupKey in typeGroupList) {
+            typeGroupList[typeGroupKey].forEach((typeKey) => {
+                typeGroupMapping[typeKey] = typeGroupKey;
+            });
+        }
 
+        for (const unitInfo of Units) {
+            const typeGroup = typeGroupMapping[unitInfo.type] || '';
             unitInfo.orgType = unitInfo.type;
             unitInfo.orgStatus = unitInfo.status;
             unitInfo.type = lang.type[unitInfo.type];
             unitInfo.status = lang.status[unitInfo.status];
+            unitInfo.typeGroup = lang.typeGroup[typeGroup] || typeGroup;
+
             let plantName = unitInfo.mappingName[0];
             if (Array.isArray(plantName)) {
                 plantName = plantName.join('、');
@@ -79,7 +88,7 @@ export default {
 
             unitMapping[unitInfo.key] = unitInfo;
         }
-
+        console.log(unitMapping);
         state.Units = unitMapping;
     },
 

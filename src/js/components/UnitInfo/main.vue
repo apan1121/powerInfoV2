@@ -29,6 +29,16 @@
                     <div class="col-12 col-md-6 item">
                         <div class="row">
                             <div class="col-4 key">
+                                電廠名稱
+                            </div>
+                            <div class="col-8 value">
+                                {{ UnitInfo.plantFullName }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 item">
+                        <div class="row">
+                            <div class="col-4 key">
                                 發電類型
                             </div>
                             <div class="col-8 value">
@@ -39,13 +49,14 @@
                     <div class="col-12 col-md-6 item">
                         <div class="row">
                             <div class="col-4 key">
-                                電廠名稱
+                                能源類型
                             </div>
                             <div class="col-8 value">
-                                {{ UnitInfo.plantFullName }}
+                                {{ UnitInfo.typeGroup }}
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 col-md-6 item">
                         <div class="row">
                             <div class="col-4 key">
@@ -96,12 +107,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 item">
+                    <div class="col-12 col-md-6 item">
                         <div class="row">
-                            <div class="col-4 col-md-2 key">
+                            <div class="col-4 key">
                                 備註
                             </div>
-                            <div class="col-8 col-md-10 value">
+                            <div class="col-8 value">
                                 {{ UnitInfo.note }}
                             </div>
                         </div>

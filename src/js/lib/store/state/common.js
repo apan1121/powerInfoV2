@@ -29,6 +29,12 @@ export default {
             'other renewable energy': '其他再生能源',
         },
 
+        typeGroup: {
+            fossil: '化石能源',
+            renewable: '再生能源',
+            nuclear: '核能',
+        },
+
         status: {
             online: '商轉中',
             break: '故障機組',
@@ -85,6 +91,7 @@ export default {
         sortNames: {
             plantName: '電廠名稱',
             type: '發電類型',
+            typeGroup: '能源類型',
             status: '電廠狀態',
             name: '機組名稱',
             location: '所在縣市',
@@ -120,6 +127,26 @@ export default {
         'geothermal',
         'other renewable energy',
     ],
+
+    typeGroupList: {
+        fossil: [
+            'coal',
+            'oil',
+            'diesel',
+            'lng',
+            'co-gen',
+        ],
+        renewable: [
+            'solar',
+            'hydro',
+            'wind',
+            'pumping gen',
+            'pumping load',
+            'geothermal',
+            'other renewable energy',
+        ],
+        nuclear: ['nuclear'],
+    },
 
     showVal: 'used',
     sortGroup: [

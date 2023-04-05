@@ -316,7 +316,7 @@ export default {
                     }
 
                     const newUnitInfo = {};
-                    ['name', 'gov', 'type', 'orgType', 'orgStatus', 'location', 'plantName', 'plantFullName', 'used', 'capacity', 'key'].forEach((colKey) => {
+                    ['name', 'gov', 'type', 'typeGroup', 'orgType', 'orgStatus', 'location', 'plantName', 'plantFullName', 'used', 'capacity', 'key'].forEach((colKey) => {
                         newUnitInfo[colKey] = UnitInfo[colKey];
                     });
 

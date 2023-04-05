@@ -7,6 +7,7 @@ export default {
     PageSetting_mode_type: state => state.PageSetting_mode_type,
 
     lang: state => state.lang,
+    typeGroupList: state => state.typeGroupList,
 
     chooseTypes: state => state.chooseTypes,
 

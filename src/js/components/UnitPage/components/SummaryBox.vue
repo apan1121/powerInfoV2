@@ -224,7 +224,6 @@ export default {
                             break;
                     }
 
-
                     let SunburstKey = that.sortGroup.map((sortKey) => {
                         return UnitInfo[sortKey];
                     });
@@ -232,9 +231,11 @@ export default {
                     if (!tmpSunburstRecord[SunburstKey]) {
                         tmpSunburstRecord[SunburstKey] = 0;
                     }
-                    tmpSunburstRecord[SunburstKey] += UnitInfo[that.showVal];
+
+                    if (UnitInfo[that.showVal] > 0) {
+                        tmpSunburstRecord[SunburstKey] += UnitInfo[that.showVal];
+                    }
                 });
-                // console.log(tmpSunburstRecord);
 
                 that.TotalCapacity = TotalCapacity;
                 that.TotalUsed = TotalUsed;
@@ -243,10 +244,20 @@ export default {
                 that.UnitBreak = UnitBreak;
                 that.UnitLimit = UnitLimit;
 
-                const SunburstRecord = [];
+                let SunburstRecord = [];
                 for (const key  in tmpSunburstRecord) {
                     SunburstRecord.push([key, tmpSunburstRecord[key]]);
                 }
+
+                SunburstRecord = SunburstRecord.sort((a, b) => {
+                    if (a[1] < b[1]) {
+                        return 1;
+                    }
+                    if (a[1] === b[1]) {
+                        return 0;
+                    }
+                    return -1;
+                });
 
                 that.SunburstRecord = SunburstRecord;
 

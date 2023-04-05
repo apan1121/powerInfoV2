@@ -319,10 +319,14 @@ export default {
                         const positionY = this._chart.canvas.offsetTop;
                         const positionX = this._chart.canvas.offsetLeft;
 
+                        const tooltip_width = tooltipEl.clientWidth + 20;
+                        const doc_width = document.querySelector('body').clientWidth - 20;
+
                         // Display, position, and set styles for font
                         tooltipEl.style.position = 'absolute';
                         tooltipEl.style.opacity = 1;
-                        tooltipEl.style.left = `${positionX + tooltip.caretX - 100}px`;
+                        // tooltipEl.style.left = `${tooltip.caretX - tooltip_width}px`;
+                        tooltipEl.style.left = `${tooltip.caretX + (tooltip_width / 3)}px`;
                         tooltipEl.style.top = '50%';
                         tooltipEl.style.fontFamily = tooltip._bodyFontFamily;
                         tooltipEl.style.fontSize = `${tooltip.bodyFontSize}px`;
@@ -333,6 +337,13 @@ export default {
                         tooltipEl.style.padding = `${tooltip.yPadding}px ${tooltip.xPadding}px`;
                         tooltipEl.style.transform = 'translateY(-50%)';
                         tooltipEl.style.pointerEvents = 'none';
+
+
+                        if ($(tooltipEl).offset().left < 0) {
+                            tooltipEl.style.left = `${tooltip.caretX + (tooltip_width / 3)}px`;
+                        } if ($(tooltipEl).offset().left + $(tooltipEl).width() > doc_width) {
+                            tooltipEl.style.left = `${tooltip.caretX - tooltip_width}px`;
+                        }
                     };
 
 

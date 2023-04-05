@@ -36,7 +36,7 @@
 
         <div class="row">
             <div v-if="chooseTypeTotalTrend" :key="'range_total'" class="mb-3" :class="listColClass">
-                <chart-trend-box v-if="diffTrend"
+                <chart-trend-box v-if="chooseTypeTotalTrend"
                     :title="'區間總運轉'"
                     :records="chooseTypeTotalTrend"
                     :icon="`icon icon-power`"
@@ -45,6 +45,19 @@
                     :tooltip-used-percent="true"
                 ></chart-trend-box>
             </div>
+
+            <div v-if="chooseTypeGroupTotalTrend" :key="'range_type_group_total'" class="mb-3" :class="listColClass">
+                <chart-trend-box v-if="chooseTypeGroupTotalTrend"
+                    :title="'能源類型'"
+                    :tooltip-total="true"
+                    :tooltip-used-percent="false"
+                    :records="chooseTypeGroupTotalTrend"
+                    :icon="`icon icon-power`"
+                    :chart-type="'bar'"
+                    :stacked="true"
+                ></chart-trend-box>
+            </div>
+
 
             <template v-for="(trendInfo, typeIndex) in chooseTypeTrend">
                 <div :key="trendInfo.typeKey" class="mb-3" :class="listColClass">
@@ -111,6 +124,7 @@ export default {
             diffTrend: false,
             powerTypeTrend: false,
             maxUsedTrend: false,
+            chooseTypeGroupTotalTrend: false,
             chooseTypeTrend: false,
             chooseTypeTotalTrend: false,
 
@@ -134,6 +148,7 @@ export default {
             chooseTypes: 'chooseTypes',
             lang: 'lang',
             PageSetting_mode_type: 'PageSetting_mode_type',
+            typeGroupList: 'typeGroupList',
         }),
 
         normalHeight(){
@@ -451,6 +466,7 @@ export default {
             });
             that.chooseTypeTrend = false;
             that.chooseTypeTotalTrend = false;
+            that.chooseTypeGroupTotalTrend = false;
             const summaryInfoKeys = Object.keys(that.summaryInfo);
             // console.log('summaryInfoKeys', summaryInfoKeys);
             if (summaryInfoKeys.length > 0) {
@@ -461,9 +477,18 @@ export default {
                     const usedType = JSON.parse(JSON.stringify(that.lang.usedType));
                     const usedTypeKey = Object.keys(usedType);
 
+                    const typeGroup = JSON.parse(JSON.stringify(that.lang.typeGroup));
+                    const typeGroupNames = Object.values(typeGroup);
+                    const typeGroupList = JSON.parse(JSON.stringify(that.typeGroupList));
+                    const typeGroupListMapping = {};
+                    for (const typeGroupKey in typeGroupList) {
+                        typeGroupList[typeGroupKey].forEach((typeKey) => {
+                            typeGroupListMapping[typeKey] = typeGroup[typeGroupKey] || typeGroupKey;
+                        });
+                    }
+
                     const chooseTypeTotalTrend = {};
-
-
+                    const chooseTypeGroupTotalTrend = {};
 
                     const [startDateTime, endDateTime] = that.chooseRange;
 
@@ -471,6 +496,7 @@ export default {
 
                     chooseTypes.forEach((typeKey) => {
                         const record = {};
+                        const typeGroupName = typeGroupListMapping[typeKey];
 
                         for (let dateTimestamp = startDateTime; dateTimestamp <= endDateTime; dateTimestamp += 600000) {
                             const dateTime = moment(dateTimestamp).format('YYYY-MM-DD HH:mm');
@@ -485,9 +511,15 @@ export default {
                                 }
                             }
 
+                            if (!chooseTypeGroupTotalTrend[dayTime]) {
+                                chooseTypeGroupTotalTrend[dayTime] = {
+                                };
+                                for (const typeGroupName of typeGroupNames) {
+                                    chooseTypeGroupTotalTrend[dayTime][typeGroupName] = 0;
+                                }
+                            }
 
                             const info = {};
-
 
                             for (const tmpTypeKey of usedTypeKey) {
                                 const showName = usedType[tmpTypeKey];
@@ -500,6 +532,8 @@ export default {
                                     info[showName] = parseFloat(summaryInfo[dateTime][typeKey][infoKey]);
                                     chooseTypeTotalTrend[dayTime][showName] += info[showName];
                                 });
+
+                                chooseTypeGroupTotalTrend[dayTime][typeGroupName] += parseFloat(summaryInfo[dateTime][typeKey].used);
                             }
                             record[dayTime] = info;
                         }
@@ -515,11 +549,19 @@ export default {
                         }
                     }
 
+                    if (!!chooseTypeGroupTotalTrend && 1) {
+                        for (const dateTimeKey in chooseTypeGroupTotalTrend) {
+                            for (const typeGroupName of typeGroupNames) {
+                                chooseTypeGroupTotalTrend[dateTimeKey][typeGroupName] = parseFloat((chooseTypeGroupTotalTrend[dateTimeKey][typeGroupName] + 0).toFixed(2));
+                            }
+                        }
+                    }
 
+                    that.chooseTypeGroupTotalTrend = chooseTypeGroupTotalTrend;
                     that.chooseTypeTotalTrend = chooseTypeTotalTrend;
                     that.chooseTypeTrend = chooseTypeTrend;
                     popup.close();
-                }, 100);
+                }, 1000);
             }
         },
         openFilterBoxAct(val){
