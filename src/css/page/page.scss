@@ -10,6 +10,10 @@
     cursor: pointer;
 }
 
+.swal2-container {
+    z-index: 3000;
+}
+
 .container {
     max-width: calc(100% - 50px)!important;
 }
