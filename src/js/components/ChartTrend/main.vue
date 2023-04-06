@@ -246,7 +246,7 @@ export default {
                                 let [labelName, value] = body[0].split(': ');
                                 if (that.tooltipUsedPercent) {
                                     switch (labelName) {
-                                        case '可發電量':
+                                        case '裝置容量':
                                             cap += parseFloat(value);
                                             break;
                                         case '已發電量':

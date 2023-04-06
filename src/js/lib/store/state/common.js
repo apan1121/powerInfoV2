@@ -5,7 +5,7 @@ export default {
     lang: {
         summaryBox: {
             TotalUsed: '已發電量',
-            TotalCapacity: '可發電量',
+            TotalCapacity: '裝置容量',
             TotalPercent: '運轉率',
             UnitFixed: '待修機組',
             UnitLimit: '限轉機組',
@@ -104,7 +104,7 @@ export default {
         },
 
         usedType: {
-            cap: '可發電量',
+            cap: '裝置容量',
             used: '已發電量',
             fix: '待修機組',
             break: '故障機組',
