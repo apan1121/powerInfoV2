@@ -1,5 +1,6 @@
 @import '../common/_variable.scss';
 .card{
+    display: flex;
     height: 100%;
     background: $white;
     &.card-close{
@@ -12,6 +13,7 @@
         display: flex;
         background-color: rgba(255, 255, 255, 0);
         padding: $spacer * 0.5 $spacer * 0.75;
+        flex: none;
         .card-title{
             flex: 1;
             margin-bottom: 0px;
@@ -25,12 +27,17 @@
         }
     }
     .card-body{
+        flex: 1;
         transition: all 0.2s;
         padding: 0px;
         // overflow: hidden;
         // display: flex;
         // align-items: center;
         // justify-content: stretch;
+    }
+    .card-footer{
+        padding: $spacer / 4;
+        font-size: $spacer * 0.75;
     }
     &.fullscreen{
         position: fixed;
@@ -50,7 +57,7 @@
             }
         }
         .card-body{
-            height: calc(100% - 55.1px);
+            // height: calc(100% - 55.1px);
             overflow: auto;
         }
     }

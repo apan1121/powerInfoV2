@@ -68,7 +68,15 @@
                         :row-col="(PageSetting_mode_type === 'pc' && chooseListType === 'box') ? 2: 1"
                         :tooltip-total="false"
                         :tooltip-used-percent="true"
-                    ></chart-trend-box>
+                    >
+                        <template v-slot:footer>
+                            <div class="text-right">
+                                <strong>平均{{ lang.summaryBox.CapacityFactor }}</strong>
+                                : {{ trendInfo.avgCapacityFactor }}
+                                <small>%</small>
+                            </div>
+                        </template>
+                    </chart-trend-box>
                 </div>
                 <template v-if="typeIndex % 6 == 3">
                     <div :id="`Summary_Ads_${typeIndex}`"
@@ -537,7 +545,20 @@ export default {
                             }
                             record[dayTime] = info;
                         }
-                        chooseTypeTrend.push({ typeKey, record });
+
+                        let recordArr = Object.values(record);
+                        const {cap: capName, used: usedName} = usedType;
+                        recordArr = recordArr.filter((info) => {
+                            return info[capName] > 0;
+                        }).map((info) => {
+                            return info[usedName] / info[capName];
+                        });
+                        let avgCapacityFactor = 0;
+                        if (recordArr.length > 0) {
+                            avgCapacityFactor = recordArr.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / recordArr.length;
+                            avgCapacityFactor = parseFloat((avgCapacityFactor * 100).toFixed(2));
+                        }
+                        chooseTypeTrend.push({ typeKey, record, avgCapacityFactor });
                     });
 
                     if (!!chooseTypeTotalTrend && 1) {

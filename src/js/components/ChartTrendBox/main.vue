@@ -32,6 +32,9 @@
                     data-ad-slot="1897408904"></ins>
             </div>
         </template>
+        <template v-if="hasFooter" v-slot:footer>
+            <slot name="footer"></slot>
+        </template>
     </card-box>
 </template>
 <script>
@@ -89,6 +92,9 @@ export default {
         ...mapGetters([
             'adBlocked',
         ]),
+        hasFooter(){
+            return Object.keys(this.$slots).includes('footer');
+        },
     },
     watch: {
         fullscreenToggle(newVal){

@@ -85,6 +85,7 @@ export default {
         ...mapGetters({
             ChartColor: `${module_name}/ChartColor`,
             PageSetting_width: 'PageSetting_width',
+            lang: 'lang',
         }),
     },
     watch: {
@@ -286,6 +287,7 @@ export default {
                             }
 
                             if (that.tooltipUsedPercent) {
+                                const { CapacityFactor } = that.lang.summaryBox;
                                 total_value = 0;
                                 if (cap > 0) {
                                     total_value = (used / cap) * 100;
@@ -303,9 +305,9 @@ export default {
 
                                 const span = `<span class="chartjs-tooltip-key" style="${style}"></span>`;
                                 innerHtml += `
-                                <tr>
-                                    <td>${span}</td><td style="white-space:nowrap;">發電比</td><td style='text-align: right;white-space:nowrap;'>${total_value} <small>%</small></td>
-                                </tr>
+                                    <tr>
+                                        <td>${span}</td><td style="white-space:nowrap;">${CapacityFactor}</td><td style='text-align: right;white-space:nowrap;'>${total_value} <small>%</small></td>
+                                    </tr>
                                 `;
                             }
 

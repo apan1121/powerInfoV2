@@ -27,6 +27,9 @@
         <div class="card-body">
             <slot></slot>
         </div>
+        <div v-if="hasFooter" class="card-footer">
+            <slot name="footer"></slot>
+        </div>
     </div>
 </template>
 <script>
@@ -80,6 +83,9 @@ export default {
         },
         showFullscreenBtn(){
             return !!this.$listeners.fullscreen;
+        },
+        hasFooter(){
+            return Object.keys(this.$slots).includes('footer');
         },
     },
     watch: {
