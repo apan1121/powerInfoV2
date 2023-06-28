@@ -86,6 +86,7 @@ define("SUMMARY_DAYS", 15);
 
 $mappingPowerNameStorage = [
     "大潭CC" => ["大潭"],
+
     "澎湖尖山" => ["尖山"],
     "金門塔山" => ["塔山"],
     "馬祖珠山" => ["珠山","南竿","北竿"],
@@ -258,7 +259,7 @@ if (empty($data)) {
         /* 移除所有網頁標籤 */
         // echo $powerData["name"]."\n";
 
-        $tryMappingName = str_replace(["CC","Gas1","Gas2","Gas1&2","Gas3&4","&amp;","生水池","#1&#2", "&2"],"",$powerData["name"]);
+        $tryMappingName = str_replace(["CC","GT","Gas1","Gas2","Gas1&2","Gas3&4","&amp;","生水池","#1&#2", "&2"],"",$powerData["name"]);
 
 
         /* 從名字中取出可能的對應電廠 */
