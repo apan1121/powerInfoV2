@@ -141,6 +141,8 @@ $powerTypes = [
     "民營電廠-燃煤" => "ipp-coal",
     "民營電廠-燃氣" => "ipp-lng",
     "其它再生能源" => "other renewable energy",
+    "儲能" => "energy storage system",
+    "儲能負載" => "energy storage load",
     // "全部" => "all",
 ];
 
@@ -347,6 +349,10 @@ if (empty($data)) {
             $powerData["status"] = $tmp_status_key;
         }
 
+        // if (!isset($summaryInfo[$powerData["type"]])) {
+        //     print_r($powerData);
+        // }
+
         switch ($powerData["status"]) {
             case "fix":
                 $summaryInfo[$powerData["type"]]["fix"] += round($powerData["capacity"],4);
@@ -430,7 +436,7 @@ if (empty($data)) {
 
 
             /* 排除 風力 太陽能 抽蓄負載 */
-            if (!in_array($powerData['type'], ['wind', 'solar', 'pumping load', 'co-gen', 'hydro', 'geothermal'])) {
+            if (!in_array($powerData['type'], ['wind', 'solar', 'pumping load', 'energy storage system', 'energy storage load', 'co-gen', 'hydro', 'geothermal'])) {
                 $newUsed = $powerData['used'];
                 $oldUsed = $pre_powerData['used'];
                 $capacity = $powerData['capacity'];

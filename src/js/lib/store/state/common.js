@@ -28,6 +28,8 @@ export default {
             'pumping load': '抽蓄負載',
             geothermal: '地熱',
             'other renewable energy': '其他再生能源',
+            'energy storage system': '儲能',
+            'energy storage load': '儲能負載',
         },
 
         typeGroup: {
@@ -127,6 +129,8 @@ export default {
         'pumping load',
         'geothermal',
         'other renewable energy',
+        'energy storage system',
+        'energy storage load',
     ],
 
     typeGroupList: {
@@ -145,6 +149,8 @@ export default {
             'pumping load',
             'geothermal',
             'other renewable energy',
+            'energy storage system',
+            'energy storage load',
         ],
         nuclear: ['nuclear'],
     },
