@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?odkko2');
+  src:  url('fonts/icomoon.eot?odkko2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?odkko2') format('truetype'),
+    url('fonts/icomoon.woff?odkko2') format('woff'),
+    url('fonts/icomoon.svg?odkko2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-energy_storage_load:before {
+  content: "\e916";
+}
+.icon-energy_storage_system:before {
+  content: "\e917";
+}
+.icon-alarm-notice:before {
+  content: "\e914";
+}
+.icon-alarm:before {
+  content: "\e915";
+}
+.icon-other_renewable_energy:before {
+  content: "\e913";
+}
+.icon-geothermal:before {
+  content: "\e90d";
+}
+.icon-power:before {
+  content: "\e90b";
+}
+.icon-machine:before {
+  content: "\e90c";
+}
+.icon-pumping_load:before {
+  content: "\e90a";
+}
+.icon-solar:before {
+  content: "\e900";
+}
+.icon-pumping_gen:before {
+  content: "\e901";
+}
+.icon-wind:before {
+  content: "\e902";
+}
+.icon-hydro:before {
+  content: "\e903";
+}
+.icon-diesel:before {
+  content: "\e904";
+}
+.icon-oil:before {
+  content: "\e905";
+}
+.icon-co_gen:before {
+  content: "\e906";
+}
+.icon-lng:before {
+  content: "\e907";
+}
+.icon-coal:before {
+  content: "\e908";
+}
+.icon-nuclear:before {
+  content: "\e909";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-download:before {
+  content: "\e912";
+}
+.icon-amount:before {
+  content: "\e911";
+}
+.icon-about:before {
+  content: "\e910";
+}
+.icon-electricity-pole:before {
+  content: "\e90e";
+}
+.icon-chart:before {
+  content: "\e90f";
+}
