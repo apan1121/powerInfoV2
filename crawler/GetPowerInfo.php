@@ -30,7 +30,7 @@ $now = time();
 
 $SOURCE_URL = SOURCE_URL . "?v=".$now;
 
-$url = "https://data.taipower.com.tw/opendata01/apply/file/d006001/001.txt";
+$url = "https://service.taipower.com.tw/data/opendata/apply/file/d006001/001.json";
 // $url = "https://www.taipower.com.tw/d006/loadGraph/loadGraph/data/genary.json";
 if (!empty($twOpenDataError)) {
     $url = $SOURCE_URL;
