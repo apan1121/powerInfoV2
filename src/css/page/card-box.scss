@@ -1,4 +1,5 @@
-@import '../common/_variable.scss';
+@use 'sass:math';
+@use '../common/_variable.scss' as *;
 .card{
     display: flex;
     height: 100%;
@@ -23,7 +24,7 @@
         .tool-button{
             flex: none;
             cursor: pointer;
-            padding: 0px $spacer / 4;
+            padding: 0px math.div($spacer, 4);
         }
     }
     .card-body{
@@ -36,7 +37,7 @@
         // justify-content: stretch;
     }
     .card-footer{
-        padding: $spacer / 4;
+        padding: math.div($spacer, 4);
         font-size: $spacer * 0.75;
     }
     &.fullscreen{

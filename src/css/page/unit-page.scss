@@ -1,4 +1,5 @@
-@import '../common/_variable.scss';
+@use 'sass:math';
+@use '../common/_variable.scss' as *;
 
 .tw-power-info-page{
     .unit-page{
@@ -9,17 +10,17 @@
                 overflow: hidden;
                 align-items: stretch;
                 border: 1px solid $gray-300;
-                border-radius: $spacer / 4;
+                border-radius: math.div($spacer, 4);
                 background: $blue-100;
                 cursor: pointer;
                 // box-shadow:  0px 0px 5px $gray-500;
                 .news-ticker-title{
                     flex: none;
                     padding: $spacer * 0.5 $spacer * 0.75;
-                    border-radius: $spacer / 4;
+                    border-radius: math.div($spacer, 4);
                     background: $red-800;
                     color: $white;
-                    letter-spacing: $spacer / 4;
+                    letter-spacing: math.div($spacer, 4);
                     font-weight: 900;
                 }
                 .news-ticker-content{
@@ -37,22 +38,22 @@
                         white-space: nowrap;
                         top: 0px;
                         .is-new{
-                            padding-right: $spacer / 4;
+                            padding-right: math.div($spacer, 4);
                             color: $red-500;
                             font-weight: 900;
                         }
                         .record-time{
-                            padding-right: $spacer / 4;
+                            padding-right: math.div($spacer, 4);
                             font-weight: 600;
                             color: $gray-700;
                         }
                         .unit-key{
-                            padding-right: $spacer / 4;
+                            padding-right: math.div($spacer, 4);
                             font-weight: 600;
                             color: $green-600;
                         }
                         .diff-type{
-                            padding-right: $spacer / 4;
+                            padding-right: math.div($spacer, 4);
                             font-weight: 600;
                             color: $orange-800;
                         }
@@ -93,7 +94,7 @@
                 // justify-content: center;
                 align-items: center;
                 .filter-info{
-                    padding: 0px $spacer / 2;
+                    padding: 0px math.div($spacer, 2);
                     font-size: $spacer * 0.75;
                 }
             }
@@ -105,8 +106,8 @@
             .summary-info-area{
                 .summary-info-box{
                     margin-bottom: $spacer;
-                    padding: $spacer / 2 $spacer;
-                    border-radius: $spacer / 4;
+                    padding: math.div($spacer, 2) $spacer;
+                    border-radius: math.div($spacer, 4);
                     background: $gray-100;
                     box-shadow:  0px 0px 5px $gray-500;
                     .summary-info-title{
@@ -136,7 +137,7 @@
                     #sunburst-main{
                         min-height: 300px;
                         .sunburst-breadcrumbs{
-                            margin-bottom: $spacer / 2;
+                            margin-bottom: math.div($spacer, 2);
                         }
                     }
                 }
@@ -147,14 +148,14 @@
             position: relative;
             // padding: $spacer;
             // padding-bottom: $spacer * 1.5;
-            border-radius: $spacer / 4;
+            border-radius: math.div($spacer, 4);
             box-shadow:  0px 0px 5px $gray-500;
             .unit-group-header{
                 position: relative;
                 position: absolute;
                 top: $spacer * -1.75;
                 left: 0px;
-                padding: $spacer / 4 $spacer  * 2;
+                padding: math.div($spacer, 4) $spacer  * 2;
                 border-top-left-radius: 4px;
                 border-top-right-radius: 4px;
                 background: $white;
@@ -187,9 +188,9 @@
                     }
                     .unit-group-label{
                         display: inline-block;
-                        margin-bottom: $spacer / 4;
-                        padding: $spacer / 4 $spacer / 2;
-                        border-radius: $spacer / 4;
+                        margin-bottom: math.div($spacer, 4);
+                        padding: math.div($spacer, 4) math.div($spacer, 2);
+                        border-radius: math.div($spacer, 4);
                         &[rel="fix"]{
                             background: $red-500;
                             color: $white;
@@ -203,7 +204,7 @@
                             color: $white;
                         }
                         &:not(:first-child) {
-                            margin-left: $spacer / 4;
+                            margin-left: math.div($spacer, 4);
                         }
                     }
                 }
@@ -218,7 +219,7 @@
 
         .label{
             display: inline;
-            padding: $spacer / 4 $spacer / 2;
+            padding: math.div($spacer, 4) math.div($spacer, 2);
             border-radius: .25em;
             color: $white;
             vertical-align: baseline;

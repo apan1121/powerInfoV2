@@ -1,4 +1,5 @@
-@import '../common/_variable.scss';
+@use 'sass:math';
+@use '../common/_variable.scss' as *;
 
 .about-page{
     max-width: 1024px;
@@ -10,9 +11,9 @@
 
     .about-area{
         padding: $spacer;
-        margin: $spacer / 4;
+        margin: math.div($spacer, 4);
         border: 1px solid $gray-600;
-        border-radius: $spacer / 2;
+        border-radius: math.div($spacer, 2);
         background: rgba($gray-100, 0.3);
         .donate-image{
             overflow: hidden;
@@ -62,7 +63,7 @@
         display: flex;
         justify-content: stretch;
         align-items: center;
-        padding: $spacer / 2;
+        padding: math.div($spacer, 2);
         color: $gray-800;
         .soft-link-img{
             flex: none;
@@ -76,7 +77,7 @@
         }
         .soft-link-title{
             flex: 1;
-            padding-left: $spacer / 2;
+            padding-left: math.div($spacer, 2);
             font-size: $spacer;
         }
     }
@@ -85,7 +86,7 @@
         display: flex;
         justify-content: stretch;
         align-items: center;
-        padding: $spacer / 2;
+        padding: math.div($spacer, 2);
         color: $gray-800;
         .avater{
             flex: none;
@@ -99,9 +100,9 @@
         }
         .author-info{
             flex: 1;
-            padding-left: $spacer / 2;
+            padding-left: math.div($spacer, 2);
             .author-title{
-                margin-bottom: $spacer / 2;
+                margin-bottom: math.div($spacer, 2);
                 .name{
                     font-size: $spacer * 1.25;
                     font-weight: 900;

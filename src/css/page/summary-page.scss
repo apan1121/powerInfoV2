@@ -1,4 +1,4 @@
-@import '../common/_variable.scss';
+@use '../common/_variable.scss' as *;
 
 .summary-page{
     .summary-filter{

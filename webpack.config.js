@@ -153,7 +153,12 @@ let cssConfig = {
                         },
                     },
                     'postcss-loader',
-                    'sass-loader',
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            implementation: require('sass'),
+                        },
+                    },
                 ],
             },
         ],

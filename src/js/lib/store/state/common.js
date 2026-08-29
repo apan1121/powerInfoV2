@@ -17,6 +17,7 @@ export default {
             nuclear: '核能',
             coal: '燃煤',
             oil: '燃油',
+            'fuel oil': '燃料油',
             diesel: '輕油',
             lng: '天然氣',
             'co-gen': '汽電共生',
@@ -119,6 +120,7 @@ export default {
         'nuclear',
         'coal',
         'oil',
+        'fuel oil',
         'diesel',
         'lng',
         'co-gen',
@@ -137,6 +139,7 @@ export default {
         fossil: [
             'coal',
             'oil',
+            'fuel oil',
             'diesel',
             'lng',
             'co-gen',

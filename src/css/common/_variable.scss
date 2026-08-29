@@ -1,6 +1,11 @@
+@use "sass:math";
 
 // Base Value
 $font-size-default: 16px !default;
+
+@function rem($value, $base: $font-size-default) {
+    @return math.div($value, $base) * 1rem;
+}
 
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Sans TC", "Noto Serif TC" !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
@@ -34,7 +39,7 @@ $footnote-font-size: rem(12px) !default;
 
 $spacer: 16px;
 
-$pipe-border: $spacer / 2;
+$pipe-border: math.div($spacer, 2);
 
 
 

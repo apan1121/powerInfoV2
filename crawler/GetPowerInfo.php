@@ -131,6 +131,8 @@ $powerTypes = [
     "天然氣" => "lng",
     "燃氣" => "lng",
     "燃油" => "oil",
+    "燃料油" => "fuel oil",
+    "燃料油(Fuel Oil)" => "fuel oil",
     "輕油" => "diesel",
     "水力" => "hydro",
     "風力" => "wind",
@@ -295,10 +297,11 @@ if (empty($data)) {
 
         /* 類型正規化成英文 */
         $powerData["type"] = strip_tags($powerData["type"]);
-        if (preg_match("/\((?P<type>[a-zA-Z-\s]{1,})\)/", $powerData["type"], $match)) {
+        $typeNameOnly = trim(preg_replace("/\(.*\)/", "", $powerData["type"]));
+        if (isset($powerTypes[$typeNameOnly])) {
+            $powerData["type"] = strtolower($powerTypes[$typeNameOnly]);
+        } else if (preg_match("/\((?P<type>[a-zA-Z-\s]{1,})\)/", $powerData["type"], $match)) {
             $powerData["type"] = strtolower($match["type"]);
-        } else if (isset($powerTypes[$powerData["type"]])){
-            $powerData["type"] = strtolower($powerTypes[$powerData["type"]]);
         }
 
 
@@ -778,7 +781,7 @@ function sendNoticeRecordMail($noticeRecord, $recipient){
         'note' => '備註',
     ];
 
-    if (!empty($noticeRecord)) {
+    if (!empty($noticeRecord) && !empty($recipient)) {
         /**
             Array
             (

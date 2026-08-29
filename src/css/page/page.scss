@@ -1,4 +1,5 @@
-@import '../common/_variable.scss';
+@use 'sass:math';
+@use '../common/_variable.scss' as *;
 
 .imgLiquidFill{
     img {
@@ -34,10 +35,10 @@ body {
 
 .chart-trend{
     position: relative;
-    padding: $spacer / 2;
+    padding: math.div($spacer, 2);
     .trend-download-btn{
         position: absolute;
-        top: $spacer / 2;
+        top: math.div($spacer, 2);
         right: $spacer;
         font-size: $spacer;
         cursor: pointer;
@@ -93,20 +94,20 @@ body {
                     flex-direction: row!important;
 
                     .nav-item{
-                        padding-right: $spacer / 2;
-                        padding-left: $spacer / 2;
+                        padding-right: math.div($spacer, 2);
+                        padding-left: math.div($spacer, 2);
                         a {
                             display: flex;
                             align-items: center;
                             .icon {
-                                margin-right: $spacer / 4;
+                                margin-right: math.div($spacer, 4);
                                 font-size: $spacer * 1.25;
                             }
                         }
                         &.active{
                             margin-bottom: -$spacer * 0.75;
-                            border-top-left-radius: $spacer / 4;
-                            border-top-right-radius: $spacer / 4;
+                            border-top-left-radius: math.div($spacer, 4);
+                            border-top-right-radius: math.div($spacer, 4);
                             background: white;
                             a {
                                 color: #343a40;
@@ -185,7 +186,7 @@ body {
                     &.pipe-top{
                         top: 0px;
                         z-index: 3;
-                        height: calc(50% - #{$spacer * 2} + #{$spacer / 2});
+                        height: calc(50% - #{$spacer * 2} + #{math.div($spacer, 2)});
                         border-bottom-right-radius: $pipe-border;
                         border-bottom-left-radius: $pipe-border;
                     }
@@ -291,14 +292,14 @@ body {
             padding: $spacer * 0.75;
             max-width: 200px;
             width: 100%;
-            border-radius: $spacer / 2;
+            border-radius: math.div($spacer, 2);
             box-shadow:  0px 0px 5px $gray-500;
             text-align: center;
 
             .unit-info-btn{
                 position: absolute;
-                top: $spacer / 4;
-                right: $spacer / 2;
+                top: math.div($spacer, 4);
+                right: math.div($spacer, 2);
                 z-index: 1;
                 display: inline-block;
                 color: $gray-600;
@@ -310,7 +311,7 @@ body {
 
             .unit-progress-group-v2{
                 position: relative;
-                @include aspect-ratio(percentage(1));
+                @include aspect-ratio(math.percentage(1));
                 .circle-progress{
                     position: absolute;
                     width: 100%;
@@ -333,7 +334,7 @@ body {
                     font-size: $spacer;
                     transform: translate(-50%, -50%);
                     small{
-                        padding-left: $spacer / 6;
+                        padding-left: math.div($spacer, 6);
                         font-size: 40%;
                         transform: scale(0.7);
                     }
@@ -371,7 +372,7 @@ body {
                     font-size: $spacer;
                     transform: translate(-50%, -50%);
                     small{
-                        padding-left: $spacer / 6;
+                        padding-left: math.div($spacer, 6);
                         font-size: 40%;
                         transform: scale(0.7);
                     }
@@ -464,8 +465,8 @@ body {
                 // border: 1px solid $gray-500;
                 width: 25px;
                 height: 20px;
-                border-bottom-right-radius: $spacer / 4;
-                border-bottom-left-radius: $spacer / 4;
+                border-bottom-right-radius: math.div($spacer, 4);
+                border-bottom-left-radius: math.div($spacer, 4);
                 background: $white;
                 box-shadow:  0px 0px 2px $gray-500;
                 transition: top 0.5s;
@@ -478,8 +479,8 @@ body {
                         left: 50%!important;
                         width: 15px;
                         height: 8px;
-                        border-top-left-radius: $spacer / 8;
-                        border-top-right-radius: $spacer / 8;
+                        border-top-left-radius: math.div($spacer, 8);
+                        border-top-right-radius: math.div($spacer, 8);
                         background: $gray-300;
                         content: '';
                         transform: translateX(-50%);
@@ -543,11 +544,11 @@ body {
 #plant-info-box{
     .plant-photo{
         height: $spacer * 18;
-        border-radius: $spacer / 4;
+        border-radius: math.div($spacer, 4);
         background-color: $gray-400;
         img {
             width: 100%;
-            border-radius: $spacer /4;
+            border-radius: math.div($spacer, 4);
         }
     }
     .plant-base-content{
@@ -559,9 +560,9 @@ body {
             font-size: $spacer * 0.875;
             .unit-group-label{
                 display: inline-block;
-                margin-bottom: $spacer / 4;
-                padding: $spacer / 4 $spacer / 2;
-                border-radius: $spacer / 4;
+                margin-bottom: math.div($spacer, 4);
+                padding: math.div($spacer, 4) math.div($spacer, 2);
+                border-radius: math.div($spacer, 4);
                 &[rel="fix"]{
                     background: $red-500;
                     color: $white;
@@ -575,7 +576,7 @@ body {
                     color: $white;
                 }
                 &:not(:first-child) {
-                    margin-left: $spacer / 4;
+                    margin-left: math.div($spacer, 4);
                 }
             }
         }
@@ -602,7 +603,7 @@ body {
                     font-size: $spacer * 0.75;
                     .nav-item{
                         .nav-link{
-                            padding: $spacer / 4 $spacer / 2;
+                            padding: math.div($spacer, 4) math.div($spacer, 2);
                         }
                     }
                 }
@@ -615,7 +616,7 @@ body {
 
 
 .table-base-info{
-    padding: $spacer / 2 $spacer;
+    padding: math.div($spacer, 2) $spacer;
     font-size: $spacer * 0.75;
     .item{
         .key, .value{
